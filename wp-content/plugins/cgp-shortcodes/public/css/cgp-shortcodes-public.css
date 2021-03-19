@@ -1,0 +1,81 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#cgp-shortcodes-search-pills a {
+  text-decoration: none;
+  user-select: none;
+  font-size: large;
+  z-index: 1;
+}
+
+#cgp-shortcodes-search-pills {
+  user-select: none;
+}
+
+.form-control.cgp-shortcodes-form-control {
+  text-decoration: none;
+  max-width: 100%;
+  background-color: white;
+  height: 3rem;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.cgp-shortcodes-search-btn {
+  background-color: #6ec1e4;
+  text-decoration: none;
+  height: 3rem;
+  font-weight: 700;
+  border: none;
+}
+
+.cgp-shortcodes-search-btn:hover {
+  background-color: #93E9EF;
+}
+
+.card {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+}
+
+.btn-circle.btn-md {
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.text-container {
+  overflow: hidden;
+}
+
+.truncate-text {
+  position: relative;
+  max-height: 4.6em;
+  /* exactly three lines */
+}
+
+.truncate-text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 1.2em;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+}
+
+@media only screen and (max-width: 456px) {
+  .paging-big {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 457px) {
+  .paging-small {
+    display: none;
+  }
+}

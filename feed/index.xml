@@ -1,0 +1,2840 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Canadian Geospatial Platform</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Mon, 08 Feb 2021 21:14:42 +0000</lastBuildDate>
+	<language>en-CA</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2020/09/icon-GEO-150x150.png</url>
+	<title>Canadian Geospatial Platform</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Canada Base Map Transportation (CBMT)</title>
+		<link>/canada-base-map-transportation-cbmt/</link>
+					<comments>/canada-base-map-transportation-cbmt/#respond</comments>
+		
+		<dc:creator><![CDATA[Yanina Tuyman]]></dc:creator>
+		<pubDate>Wed, 16 Dec 2020 17:22:55 +0000</pubDate>
+				<category><![CDATA[Non-Foundational Layers]]></category>
+		<guid isPermaLink="false">http://wp-01-1130072660.ca-central-1.elb.amazonaws.com/?p=10861</guid>
+
+					<description><![CDATA[Current transportation networks across Canada.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="10861" class="elementor elementor-10861" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-5a87781 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5a87781" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e71549a" data-id="e71549a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-13704f5 elementor-widget elementor-widget-text-editor" data-id="13704f5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>This web mapping service provides spatial reference context with an emphasis on transportation networks. It is designed especially for use as a background map in a web mapping application or geographic information system (GIS).</p><p>The CBMT is available as a dynamic service(WMS) or a tiled service (ESRI REST and WMTS).</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-11b2f70 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="11b2f70" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-88b3faf" data-id="88b3faf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-47e983b elementor-widget elementor-widget-text-editor" data-id="47e983b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Time Period </strong></span><br />From: 2012-11<br />To: </p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b27b7cf" data-id="b27b7cf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d6b1e24 elementor-widget elementor-widget-text-editor" data-id="d6b1e24" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Geographic Extent</strong></span><br />SW: -140 41<br />NE: -52 83</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-f3450c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f3450c2" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-122bd81" data-id="122bd81" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2c81eb9 elementor-widget elementor-widget-heading" data-id="2c81eb9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Geographic Information</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-70f245c elementor-widget elementor-widget-heading" data-id="70f245c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Map Viewer</h3>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-598ef1b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="598ef1b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d14342c" data-id="d14342c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a8ff0a4 elementor-widget elementor-widget-text-editor" data-id="a8ff0a4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"><b>Data Contact</b></h4></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-cfbe829 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cfbe829" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-adb7769" data-id="adb7769" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-9913edf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9913edf" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6f9978b" data-id="6f9978b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-156957c elementor-widget elementor-widget-text-editor" data-id="156957c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Organization:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a42dfbb" data-id="a42dfbb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-678ba7a elementor-widget elementor-widget-text-editor" data-id="678ba7a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-79dec57 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="79dec57" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f352a5d" data-id="f352a5d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f6f034f elementor-widget elementor-widget-text-editor" data-id="f6f034f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Phone:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e0d7ffc" data-id="e0d7ffc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4a9f84b elementor-widget elementor-widget-text-editor" data-id="4a9f84b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>1 (800) 661-2638</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ce17af9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ce17af9" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bd83012" data-id="bd83012" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4255806 elementor-widget elementor-widget-text-editor" data-id="4255806" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Email:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cfbeca6" data-id="cfbeca6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1c35072 elementor-widget elementor-widget-text-editor" data-id="1c35072" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p><a href="mailto:geoinfo@canada.ca">geoinfo@canada.ca </a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8731185 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8731185" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-237dbdb" data-id="237dbdb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b627122 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--shape-rounded elementor-share-buttons--align-center elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons" data-id="b627122" data-element_type="widget" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-grid">
+							<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_email">
+													<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on email</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_facebook">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on facebook</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_twitter">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on twitter</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_linkedin">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on linkedin</span>
+							</span>
+																	</div>
+				</div>
+						</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/canada-base-map-transportation-cbmt/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Canada &#8211; Gravity data compilation</title>
+		<link>/canada-gravity-data-compilation/</link>
+					<comments>/canada-gravity-data-compilation/#respond</comments>
+		
+		<dc:creator><![CDATA[Yanina Tuyman]]></dc:creator>
+		<pubDate>Wed, 16 Dec 2020 17:05:40 +0000</pubDate>
+				<category><![CDATA[Non-Foundational Layers]]></category>
+		<guid isPermaLink="false">http://wp-01-1130072660.ca-central-1.elb.amazonaws.com/?p=10857</guid>
+
+					<description><![CDATA[The information collected via surveys, using relative gravimeters, that measure the gravitational difference between two locations.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="10857" class="elementor elementor-10857" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-5a87781 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5a87781" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e71549a" data-id="e71549a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-13704f5 elementor-widget elementor-widget-text-editor" data-id="13704f5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The data used in this compilation come from the Canadian Gravity Database (CGDB), which is managed by the Canadian Geodetic Survey (CGS), Surveyor General Branch. CGDB includes more than 755 000 observations, including some 232 000 observations on land. The distribution of the land data represents an average of one gravity point per 40 km². The gravity maps, which are gridded to a 2-km interval with a blanking radius of 20 km, currently include data acquired between 1944 and 2015. CGS and partners continue to supplement the CGDB each year. The surveys are conducted using relative gravimeters that measure the gravity difference between two locations.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-11b2f70 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="11b2f70" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-88b3faf" data-id="88b3faf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-47e983b elementor-widget elementor-widget-text-editor" data-id="47e983b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Time Period </strong></span><br />From: 1944-12-31<br />To: 2017-09-27</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b27b7cf" data-id="b27b7cf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d6b1e24 elementor-widget elementor-widget-text-editor" data-id="d6b1e24" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Geographic Extent</strong></span><br />SW: -141 35<br />NE: -40 90</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2475815 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2475815" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1f1d68c" data-id="1f1d68c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-431422f elementor-widget elementor-widget-toggle" data-id="431422f" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-toggle" role="tablist">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-7031" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-7031">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-chevron-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Read more</a>
+					</div>
+					<div id="elementor-tab-content-7031" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-7031"><p>On the landmass, gravity has been measured primarily using static gravimeters. Although measurements at some offshore locations have been collected using static gravimeters on the ocean floor, most are acquired using dynamic gravimeters aboard moving vessels. The relative nature of the gravimeters require that surveys be tied to base (control) stations with known absolute gravity. The base stations are part of the Canadian Gravity Standardization Network (CGSN), which is tied to the International Gravity Standardization Network 1971 (IGSN71). Today, the traditional base stations are being replaced by new base stations that are measured with an absolute gravimeter having an accuracy of 2µGal (2&#215;10-8 m/s²). All relative gravity measurements are integrated into the IGSN71 datum to create a coherent dataset at the global scale. Normal (theoretical) gravity is calculated using the Geodetic Reference System 1980 (GRS80; https://doi.org/10.1007%2FS001900050278). Bouguer anomalies, which include reductions of the elevation and topographical mass to sea level, are calculated using a vertical gravity gradient of ~0.3086 mGal/m (change slightly with latitude and elevation) and a crustal density of 2670 kg/m³.</p></div>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-f3450c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f3450c2" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-122bd81" data-id="122bd81" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2c81eb9 elementor-widget elementor-widget-heading" data-id="2c81eb9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Geographic Information</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-70f245c elementor-widget elementor-widget-heading" data-id="70f245c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Map Viewer</h3>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-598ef1b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="598ef1b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d14342c" data-id="d14342c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a8ff0a4 elementor-widget elementor-widget-text-editor" data-id="a8ff0a4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"><b>Data Contact</b></h4></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-cfbe829 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cfbe829" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-adb7769" data-id="adb7769" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-9913edf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9913edf" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6f9978b" data-id="6f9978b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-156957c elementor-widget elementor-widget-text-editor" data-id="156957c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Organization:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a42dfbb" data-id="a42dfbb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-678ba7a elementor-widget elementor-widget-text-editor" data-id="678ba7a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Government of Canada; Natural Resources Canada; Geological Survey of Canada &#8211; GSC Central Canada</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-79dec57 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="79dec57" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f352a5d" data-id="f352a5d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f6f034f elementor-widget elementor-widget-text-editor" data-id="f6f034f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Contact:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e0d7ffc" data-id="e0d7ffc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4a9f84b elementor-widget elementor-widget-text-editor" data-id="4a9f84b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Geophysics Data Center</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-5115075 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5115075" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b7559ca" data-id="b7559ca" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c0f5864 elementor-widget elementor-widget-text-editor" data-id="c0f5864" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Phone:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1f9bb2d" data-id="1f9bb2d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6a34db6 elementor-widget elementor-widget-text-editor" data-id="6a34db6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>1 (613) 995-5326</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-224d6ac elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="224d6ac" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b8a0d77" data-id="b8a0d77" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b4390e1 elementor-widget elementor-widget-text-editor" data-id="b4390e1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Email:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-dab17da" data-id="dab17da" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-13d8f0f elementor-widget elementor-widget-text-editor" data-id="13d8f0f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p><a href="mailto:nrcan.infogdc-infocdg.rncan@canada.ca">nrcan.infogdc-infocdg.rncan@canada.ca</a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ce17af9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ce17af9" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bd83012" data-id="bd83012" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4255806 elementor-widget elementor-widget-text-editor" data-id="4255806" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Address:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cfbeca6" data-id="cfbeca6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1c35072 elementor-widget elementor-widget-text-editor" data-id="1c35072" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>601 Booth Street, Ottawa, Ontario, K1A 0E9</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8731185 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8731185" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-237dbdb" data-id="237dbdb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b627122 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--shape-rounded elementor-share-buttons--align-center elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons" data-id="b627122" data-element_type="widget" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-grid">
+							<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_email">
+													<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on email</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_facebook">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on facebook</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_twitter">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on twitter</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_linkedin">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on linkedin</span>
+							</span>
+																	</div>
+				</div>
+						</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/canada-gravity-data-compilation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Biomass Inventory Mapping and Analysis Tool – Business Data</title>
+		<link>/bimat-business-data/</link>
+					<comments>/bimat-business-data/#respond</comments>
+		
+		<dc:creator><![CDATA[Yanina Tuyman]]></dc:creator>
+		<pubDate>Wed, 16 Dec 2020 16:54:16 +0000</pubDate>
+				<category><![CDATA[Non-Foundational Layers]]></category>
+		<guid isPermaLink="false">http://wp-01-1130072660.ca-central-1.elb.amazonaws.com/?p=10852</guid>
+
+					<description><![CDATA[Biomass Inventory Mapping and Analysis Tool (BIMAT) provides the yield and production residues from the agricultural and forestry industry, agricultural crops, and municipal solid waste, across Canada.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="10852" class="elementor elementor-10852" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-5a87781 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5a87781" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e71549a" data-id="e71549a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-13704f5 elementor-widget elementor-widget-text-editor" data-id="13704f5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>“Biomass Inventory Mapping and Analysis Tool – Business Data” provides a number of datasets related to the yield and production of residues from the agricultural and forestry industry, agricultural crops, and municipal solid wastes across Canada. The datasets contain agricultural residue production information (i.e., straw or stover) for barley, wheat, flax, oats and corn, and crop production information for barley, wheat, flax, oats, corn, canola and soybean. They also include information about amounts of straw required for cattle bedding and feeding, the type of tillage used in an area, and the amount of residue needed for soil conservation purposes.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-11b2f70 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="11b2f70" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-88b3faf" data-id="88b3faf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-47e983b elementor-widget elementor-widget-text-editor" data-id="47e983b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Time Period </strong></span><br />From: 2013-04-21<br />To: </p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b27b7cf" data-id="b27b7cf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d6b1e24 elementor-widget elementor-widget-text-editor" data-id="d6b1e24" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Geographic Extent</strong></span><br />SW: -132 36<br />NE: -52 90</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2475815 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2475815" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1f1d68c" data-id="1f1d68c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-431422f elementor-widget elementor-widget-toggle" data-id="431422f" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-toggle" role="tablist">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-7031" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-7031">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-chevron-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Read more</a>
+					</div>
+					<div id="elementor-tab-content-7031" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-7031"><p>Datasets in the series provide the yield, production and other information for the median year and 1-in-10 year and 1-in-20 year lows. The forestry inventory dataset provides information about the location and quantity of residues from the forestry industry, as well as urban wood waste and potential sites and productivity of plantations of fast-growing trees that are grown as feedstock. Forestry residues include material left at the roadside after harvesting and excess and waste materials from mills. The municipal solid waste inventory dataset provides information about the approximate location and quantity of different types of municipal solid wastes, such as organics (including food and yard), paper and total. A transportation network dataset and datasets that are used to calculate cost to harvest and transport biomass are also included in this series.</p></div>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-f3450c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f3450c2" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-122bd81" data-id="122bd81" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2c81eb9 elementor-widget elementor-widget-heading" data-id="2c81eb9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Geographic Information</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-70f245c elementor-widget elementor-widget-heading" data-id="70f245c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Map Viewer</h3>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-598ef1b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="598ef1b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d14342c" data-id="d14342c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a8ff0a4 elementor-widget elementor-widget-text-editor" data-id="a8ff0a4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"><b>Data Contact</b></h4></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-cfbe829 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cfbe829" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-adb7769" data-id="adb7769" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-9913edf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9913edf" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6f9978b" data-id="6f9978b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-156957c elementor-widget elementor-widget-text-editor" data-id="156957c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Organization:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a42dfbb" data-id="a42dfbb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-678ba7a elementor-widget elementor-widget-text-editor" data-id="678ba7a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Government of Canada; Agriculture and Agri-Food Canada; Science and Technology Branch</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ce17af9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ce17af9" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bd83012" data-id="bd83012" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4255806 elementor-widget elementor-widget-text-editor" data-id="4255806" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Email:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cfbeca6" data-id="cfbeca6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1c35072 elementor-widget elementor-widget-text-editor" data-id="1c35072" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p><a href="mailto:agri-geomatics-agrog@agr.gc.ca">agri-geomatics-agrog@agr.gc.ca</a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8731185 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8731185" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-237dbdb" data-id="237dbdb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b627122 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--shape-rounded elementor-share-buttons--align-center elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons" data-id="b627122" data-element_type="widget" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-grid">
+							<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_email">
+													<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on email</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_facebook">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on facebook</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_twitter">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on twitter</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_linkedin">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on linkedin</span>
+							</span>
+																	</div>
+				</div>
+						</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/bimat-business-data/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Air pollutant emissions – Total particulate matter emissions by facility, Canada</title>
+		<link>/air-pollutant-emissions-total-particulate-matter-emissions-by-facility-canada/</link>
+					<comments>/air-pollutant-emissions-total-particulate-matter-emissions-by-facility-canada/#respond</comments>
+		
+		<dc:creator><![CDATA[Yanina Tuyman]]></dc:creator>
+		<pubDate>Wed, 16 Dec 2020 16:43:33 +0000</pubDate>
+				<category><![CDATA[Non-Foundational Layers]]></category>
+		<guid isPermaLink="false">http://wp-01-1130072660.ca-central-1.elb.amazonaws.com/?p=10843</guid>
+
+					<description><![CDATA[The air pollutant emissions indicators for 6 key air pollutants: sulphur oxides, nitrogen oxides, volatile organic compounds, ammonia, carbon monoxide and fine particulate matter.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="10843" class="elementor elementor-10843" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-5a87781 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5a87781" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e71549a" data-id="e71549a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-13704f5 elementor-widget elementor-widget-text-editor" data-id="13704f5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The Canadian Environmental Sustainability Indicators (CESI) program provides data and information to track Canada&#8217;s performance on key environmental sustainability issues. The Air pollutant emissions indicators track emissions from human activities of 6 key air pollutants: sulphur oxides, nitrogen oxides, volatile organic compounds, ammonia, carbon monoxide and fine particulate matter. Black carbon, which is a component of fine particulate matter, is also reported.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-11b2f70 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="11b2f70" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-88b3faf" data-id="88b3faf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-47e983b elementor-widget elementor-widget-text-editor" data-id="47e983b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Time Period </strong></span><br />From: 2017-01-01<br />To: 2017-12-31</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b27b7cf" data-id="b27b7cf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d6b1e24 elementor-widget elementor-widget-text-editor" data-id="d6b1e24" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Geographic Extent</strong></span><br />SW: -141 41.68<br />NE: -52.62 83.11</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2475815 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2475815" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1f1d68c" data-id="1f1d68c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-431422f elementor-widget elementor-widget-toggle" data-id="431422f" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-toggle" role="tablist">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-7031" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-7031">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-chevron-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Read more</a>
+					</div>
+					<div id="elementor-tab-content-7031" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-7031"><p>Sectoral indicators on air pollutant emissions from transportation, off-road vehicles and mobile equipment, electric utilities and the oil and gas industry provide additional analysis on the largest sources of Canada&#8217;s air pollutant emissions. For each air pollutant, the indicators are provided at the national and provincial/territorial levels. They also identify the major sources of emissions and provide links to detailed information on air pollutant emissions from facilities. The Air pollutant emissions indicators are intended to inform Canadians and decision makers about progress made towards reducing emissions from human-related sources of air pollutants and about the effectiveness of emission reduction measures implemented to improve ambient air quality in Canada. Information is provided to Canadians in a number of formats including: static and interactive maps, charts and graphs, HTML and CSV data tables and downloadable reports. See the supplementary documentation for data sources and details on how those data were collected and how the indicator was calculated.</p></div>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-f3450c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f3450c2" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-122bd81" data-id="122bd81" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2c81eb9 elementor-widget elementor-widget-heading" data-id="2c81eb9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Geographic Information</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-70f245c elementor-widget elementor-widget-heading" data-id="70f245c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Map Viewer</h3>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-598ef1b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="598ef1b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d14342c" data-id="d14342c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a8ff0a4 elementor-widget elementor-widget-text-editor" data-id="a8ff0a4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"><b>Data Contact</b></h4></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-cfbe829 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cfbe829" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-adb7769" data-id="adb7769" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-9913edf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9913edf" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6f9978b" data-id="6f9978b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-156957c elementor-widget elementor-widget-text-editor" data-id="156957c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Organization:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a42dfbb" data-id="a42dfbb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-678ba7a elementor-widget elementor-widget-text-editor" data-id="678ba7a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Government of Canada; Environment and Climate Change Canada</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-79dec57 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="79dec57" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f352a5d" data-id="f352a5d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f6f034f elementor-widget elementor-widget-text-editor" data-id="f6f034f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Contact:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e0d7ffc" data-id="e0d7ffc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4a9f84b elementor-widget elementor-widget-text-editor" data-id="4a9f84b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Nathalie Trudeau</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ce17af9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ce17af9" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bd83012" data-id="bd83012" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4255806 elementor-widget elementor-widget-text-editor" data-id="4255806" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Email:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cfbeca6" data-id="cfbeca6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1c35072 elementor-widget elementor-widget-text-editor" data-id="1c35072" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p><a href="mailto:Nathalie.Trudeau@ec.gc.ca">Nathalie.Trudeau@ec.gc.ca</a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8731185 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8731185" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-237dbdb" data-id="237dbdb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b627122 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--shape-rounded elementor-share-buttons--align-center elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons" data-id="b627122" data-element_type="widget" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-grid">
+							<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_email">
+													<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on email</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_facebook">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on facebook</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_twitter">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on twitter</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_linkedin">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on linkedin</span>
+							</span>
+																	</div>
+				</div>
+						</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/air-pollutant-emissions-total-particulate-matter-emissions-by-facility-canada/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Canada&#8217;s National Forest Inventory (NFI) &#8211; Forest Composition across Canada</title>
+		<link>/canadas-national-forest-inventory-nfi/</link>
+					<comments>/canadas-national-forest-inventory-nfi/#respond</comments>
+		
+		<dc:creator><![CDATA[Yanina Tuyman]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2020 14:28:05 +0000</pubDate>
+				<category><![CDATA[Foundational Layers]]></category>
+		<category><![CDATA[Department]]></category>
+		<category><![CDATA[environment]]></category>
+		<category><![CDATA[Forest Inventory]]></category>
+		<category><![CDATA[Foundational Layer Theme]]></category>
+		<category><![CDATA[ISO Topic Theme]]></category>
+		<category><![CDATA[LAND]]></category>
+		<category><![CDATA[Land Cover]]></category>
+		<category><![CDATA[Land Use]]></category>
+		<category><![CDATA[NRCan]]></category>
+		<category><![CDATA[Reporting Theme]]></category>
+		<category><![CDATA[UNGGIM Theme]]></category>
+		<guid isPermaLink="false">http://wp-01-1130072660.ca-central-1.elb.amazonaws.com/?p=4409</guid>
+
+					<description><![CDATA[Canada’s National Forest Inventory (NFI) sampling program supports reporting on forests at the national scale, as well as supporting strategic analyses of regional policy and management issues through continuous development of maps of forest attributes. Overall, these new products provide unique baseline information for strategic-level analyses of forest: nfi.nfis.org. Time Period From: 2001To: 2006 Geographic [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="4409" class="elementor elementor-4409" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-5a87781 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5a87781" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e71549a" data-id="e71549a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-13704f5 elementor-widget elementor-widget-text-editor" data-id="13704f5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Canada’s National Forest Inventory (NFI) sampling program supports reporting on forests at the national scale, as well as supporting strategic analyses of regional policy and management issues through continuous development of maps of forest attributes. Overall, these new products provide unique baseline information for strategic-level analyses of forest: <a href="https://nfi.nfis.org/en/">nfi.nfis.org.</a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-11b2f70 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="11b2f70" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-88b3faf" data-id="88b3faf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-47e983b elementor-widget elementor-widget-text-editor" data-id="47e983b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Time Period </strong></span><br />From: 2001<br />To: 2006</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b27b7cf" data-id="b27b7cf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d6b1e24 elementor-widget elementor-widget-text-editor" data-id="d6b1e24" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Geographic Extent</strong></span><br />SW: -141 41.68<br />NE: -52.62 83.11</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2475815 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2475815" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1f1d68c" data-id="1f1d68c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-431422f elementor-widget elementor-widget-toggle" data-id="431422f" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-toggle" role="tablist">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-7031" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-7031">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-chevron-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Read more</a>
+					</div>
+					<div id="elementor-tab-content-7031" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-7031"><p>The maps have been produced covering 4.03 × 106 km2 of inventoried forest area for the 2001 base year using standardised observations from the NFI photo plots (PP) as reference data. The k nearest neighbours (kNN) method was used with 26 geospatial data layers including MODIS spectral data and climatic and topographic variables to produce maps of 127 forest attributes at a 250 × 250 m resolution.</p><p>The stand-level attributes include land cover, structure, and tree species relative abundance. In this article, we report only on total live aboveground tree biomass, with all other attributes covered in the supplementary data (<a href="http://nrcresearchpress.com/">nrcresearchpress.com</a>). In general, deviations in predicted pixel-level values from those in a PP validation set are greater in mountainous regions and in areas with either low biomass or sparse PP sampling. Predicted pixel-level values are overestimated at small observed values and underestimated at large ones. Accuracy measures are improved through the spatial aggregation of pixels to 1 km2 and beyond. </p></div>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9b77f4a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9b77f4a" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1da1b5c" data-id="1da1b5c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-bb8bc11 elementor-widget elementor-widget-heading" data-id="bb8bc11" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Geographic Information</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6cb36b3 elementor-widget elementor-widget-html" data-id="6cb36b3" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width,initial-scale=1" name="viewport" />
+        <title>kNN Dominant Genus 250 meter</title>
+
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .llwb-map {
+                height: 500px;
+                width: 100%;
+                border: 1px solid black;
+            }
+        </style>
+
+        <link rel="stylesheet" href="https://jolevesq.github.io/leaflet-web-presence/leaflet-web-presence.css ">
+    </head>
+
+    <body>
+        <div>kNN Dominant Genus 250 meter</div>
+        <div id="mapLCC" class="llwb-map" data-leaflet="{ 'projection': 3978, 'zoomLevel': 4, 'center': [60,-100], 'language': 'en-CA',
+            'layers':[
+                { 'url': 'http://nfi.nfis.org/mapserver/cgi-bin/nfis-kNN.cgi?', 'type': 'ogcWMS', 'entries': 'kNN_DominantGenus_250m'}
+           ]}">
+        </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://jolevesq.github.io/leaflet-web-presence/leaflet-web-presence.js"></script>
+</html>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-598ef1b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="598ef1b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d14342c" data-id="d14342c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a8ff0a4 elementor-widget elementor-widget-text-editor" data-id="a8ff0a4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"><b>Data Contact</b></h4></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-cfbe829 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cfbe829" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-adb7769" data-id="adb7769" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-9913edf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9913edf" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6f9978b" data-id="6f9978b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-156957c elementor-widget elementor-widget-text-editor" data-id="156957c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Organization:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a42dfbb" data-id="a42dfbb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-678ba7a elementor-widget elementor-widget-text-editor" data-id="678ba7a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Government of Canada; Natural Resources Canada; Canadian Forest Service (CFS)</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-79dec57 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="79dec57" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f352a5d" data-id="f352a5d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f6f034f elementor-widget elementor-widget-text-editor" data-id="f6f034f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Contact:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e0d7ffc" data-id="e0d7ffc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4a9f84b elementor-widget elementor-widget-text-editor" data-id="4a9f84b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Pierre Bernier</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ce17af9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ce17af9" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bd83012" data-id="bd83012" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4255806 elementor-widget elementor-widget-text-editor" data-id="4255806" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Email:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cfbeca6" data-id="cfbeca6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1c35072 elementor-widget elementor-widget-text-editor" data-id="1c35072" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p><a href="mailto:pierre.bernier2@canada.ca">pierre.bernier2@canada.ca</a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-3437a73 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3437a73" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1e1352c" data-id="1e1352c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-cfbf77c elementor-widget elementor-widget-text-editor" data-id="cfbf77c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b><strong>Address</strong>:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-349001c" data-id="349001c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d4edf65 elementor-widget elementor-widget-text-editor" data-id="d4edf65" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>1055 Du P.E.P.S., P.O. Box 10380, Stn. Sainte-Foy, Québec, QC, Canada, G1V 4C7</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8731185 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8731185" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-237dbdb" data-id="237dbdb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b627122 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--shape-rounded elementor-share-buttons--align-center elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons" data-id="b627122" data-element_type="widget" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-grid">
+							<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_email">
+													<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on email</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_facebook">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on facebook</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_twitter">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on twitter</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_linkedin">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on linkedin</span>
+							</span>
+																	</div>
+				</div>
+						</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ee1010f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ee1010f" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6114007" data-id="6114007" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-67328bd elementor-widget elementor-widget-global elementor-global-10648 elementor-widget-text-editor" data-id="67328bd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;">This dataset has been confirmed to be foundationally important to Canada and Canadians.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/canadas-national-forest-inventory-nfi/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Major Projects Inventory</title>
+		<link>/major-projects-inventory/</link>
+					<comments>/major-projects-inventory/#respond</comments>
+		
+		<dc:creator><![CDATA[cgpadmin]]></dc:creator>
+		<pubDate>Wed, 25 Mar 2020 19:54:20 +0000</pubDate>
+				<category><![CDATA[Foundational Layers]]></category>
+		<category><![CDATA[Department]]></category>
+		<category><![CDATA[economy]]></category>
+		<category><![CDATA[Energy and Physical Infrastructure]]></category>
+		<category><![CDATA[Foundational Layer Theme]]></category>
+		<category><![CDATA[ISO Topic Theme]]></category>
+		<category><![CDATA[LAND]]></category>
+		<category><![CDATA[Major projects inventory]]></category>
+		<category><![CDATA[NRCan]]></category>
+		<category><![CDATA[Reporting Theme]]></category>
+		<category><![CDATA[UNGGIM Theme]]></category>
+		<guid isPermaLink="false">http://wp-01-1130072660.ca-central-1.elb.amazonaws.com/?p=2214</guid>
+
+					<description><![CDATA[The major projects inventory provides a snapshot of major natural resource projects currently under construction or for which construction is planned to be initiated in the next 10 years. The inventory includes major projects that increase, extend or improve natural resource production in Canada, including new extraction projects, infrastructure projects and major processing facilities. Large [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2214" class="elementor elementor-2214" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-1c16da7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1c16da7" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c34022f" data-id="c34022f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c1878a3 elementor-widget elementor-widget-text-editor" data-id="c1878a3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The major projects inventory provides a snapshot of major natural resource projects currently under construction or for which construction is planned to be initiated in the next 10 years. The inventory includes major projects that increase, extend or improve natural resource production in Canada, including new extraction projects, infrastructure projects and major processing facilities. Large expansion projects are also included in the inventory.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-e27dfb2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e27dfb2" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f9675a4" data-id="f9675a4" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-43c5c6b elementor-widget elementor-widget-text-editor" data-id="43c5c6b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Time Period </strong></span><br />From: 2019<br />To: </p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b1f0c81" data-id="b1f0c81" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-659a692 elementor-widget elementor-widget-text-editor" data-id="659a692" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Geographic Extent</strong></span><br />SW: -141 41.68<br />NE: -52.64 83.34</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-97e2ec1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="97e2ec1" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d312d97" data-id="d312d97" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c5a70d0 elementor-widget elementor-widget-toggle" data-id="c5a70d0" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-toggle" role="tablist">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-2071" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-2071">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-chevron-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Read more</a>
+					</div>
+					<div id="elementor-tab-content-2071" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2071"><p>Projects are represented either by points or lines. The user must consult both point and line geometries to have the complete projects inventory.</p><p>DISCLAIMER: Data is sourced from federal, provincial, and territorial databases, publicly accessible websites, and other sources, including CANOILS. Data and maps are for illustrative purposes only. Users understand that, although all efforts have been made to accurately and exhaustively compile, locate and classify projects, the authors do not guarantee the accuracy and/or the comprehensiveness of the data and assume no responsibility for errors or omissions. The routes of the proposed transmission lines and pipelines are approximations, often using only start and end points. In support of this initiative, proponents and partners are encouraged to contact Natural Resources Canada should they identify any significant errors or omissions.</p></div>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-36121d34 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="36121d34" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-24d0276" data-id="24d0276" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-59a7f875 elementor-widget elementor-widget-heading" data-id="59a7f875" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Geographic Information</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-78d5fc61 elementor-widget elementor-widget-html" data-id="78d5fc61" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width,initial-scale=1" name="viewport" />
+        <title>Major Projects Inventory</title>
+
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .llwb-map {
+                height: 500px;
+                width: 100%;
+                border: 1px solid black;
+            }
+        </style>
+
+        <link rel="stylesheet" href="https://jolevesq.github.io/leaflet-web-presence/leaflet-web-presence.css ">
+    </head>
+
+    <body>
+        <div>Major Projects Inventory</div>
+        <div id="mapLCC" class="llwb-map" data-leaflet="{ 'projection': 3978, 'zoomLevel': 4, 'center': [60,-100], 'language': 'en-CA',
+            'layers':[
+                { 'url': 'http://webservices.maps.canada.ca/arcgis/services/NRCan/major_projects_inventory_en/MapServer/WmsServer', 'type': 'ogcWMS', 'entries': '0'},
+				{ 'url': 'http://webservices.maps.canada.ca/arcgis/services/NRCan/major_projects_inventory_en/MapServer/WmsServer', 'type': 'ogcWMS', 'entries': '1'}
+           ]}">
+        </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://jolevesq.github.io/leaflet-web-presence/leaflet-web-presence.js"></script>
+</html>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8e82676 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8e82676" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e98448d" data-id="e98448d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-bc3ea9b elementor-widget elementor-widget-text-editor" data-id="bc3ea9b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"><b>Data Contact</b></h4></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b12d94e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b12d94e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7d4e79e3" data-id="7d4e79e3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-66e88b6a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="66e88b6a" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3b9539b2" data-id="3b9539b2" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5a1cf987 elementor-widget elementor-widget-text-editor" data-id="5a1cf987" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Organization:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7e86b9f1" data-id="7e86b9f1" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-54d80485 elementor-widget elementor-widget-text-editor" data-id="54d80485" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Government of Canada; Natural Resources Canada ; Strategic Policy and Results</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-27fa8962 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="27fa8962" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4aafa2bb" data-id="4aafa2bb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5c0aedf1 elementor-widget elementor-widget-text-editor" data-id="5c0aedf1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Contact Person:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-48b602db" data-id="48b602db" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-63d44c11 elementor-widget elementor-widget-text-editor" data-id="63d44c11" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Torben Jensen</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-1b0d9cda elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1b0d9cda" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-57e38337" data-id="57e38337" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-25aff0eb elementor-widget elementor-widget-text-editor" data-id="25aff0eb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Email:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-60611cd6" data-id="60611cd6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6aa9c9d1 elementor-widget elementor-widget-text-editor" data-id="6aa9c9d1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p><a href="mailto:Torben.Jensen@canada.ca">Torben.Jensen@canada.ca</a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b428b9b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b428b9b" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fbeb6da" data-id="fbeb6da" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-811fff9 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--shape-rounded elementor-share-buttons--align-center elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons" data-id="811fff9" data-element_type="widget" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-grid">
+							<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_email">
+													<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on email</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_facebook">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on facebook</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_twitter">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on twitter</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_linkedin">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on linkedin</span>
+							</span>
+																	</div>
+				</div>
+						</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-55b9039 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="55b9039" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eaaf174" data-id="eaaf174" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-e91572a elementor-widget elementor-widget-global elementor-global-10648 elementor-widget-text-editor" data-id="e91572a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;">This dataset has been confirmed to be foundationally important to Canada and Canadians.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/major-projects-inventory/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>River Ice State in Canada &#8211; Cartographic Product Collection</title>
+		<link>/river-ice-state-in-canada-cartographic-product-collection/</link>
+					<comments>/river-ice-state-in-canada-cartographic-product-collection/#respond</comments>
+		
+		<dc:creator><![CDATA[cgpadmin]]></dc:creator>
+		<pubDate>Wed, 25 Mar 2020 19:47:05 +0000</pubDate>
+				<category><![CDATA[Foundational Layers]]></category>
+		<category><![CDATA[boundaries]]></category>
+		<category><![CDATA[Department]]></category>
+		<category><![CDATA[Foundational Layer Theme]]></category>
+		<category><![CDATA[Ice Jams]]></category>
+		<category><![CDATA[Inland Waters]]></category>
+		<category><![CDATA[ISO Topic Theme]]></category>
+		<category><![CDATA[NRCan]]></category>
+		<category><![CDATA[Reporting Theme]]></category>
+		<category><![CDATA[UNGGIM Theme]]></category>
+		<category><![CDATA[water]]></category>
+		<guid isPermaLink="false">http://wp-01-1130072660.ca-central-1.elb.amazonaws.com/?p=2208</guid>
+
+					<description><![CDATA[Collection of monitoring products of river ice roughness from current and past winter seasons throughout Canada as monitored by Natural Resources Canada using satellite imagery. This collection of cartographic products regroups river ice state monitoring products and their associated footprints. Three visualization timeframes are available: Active Monitoring of River Ice in Canada View Map 2. [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2208" class="elementor elementor-2208" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-44be1ef elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="44be1ef" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8ab77ee" data-id="8ab77ee" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-fdf9526 elementor-widget elementor-widget-text-editor" data-id="fdf9526" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Collection of monitoring products of river ice roughness from current and past winter seasons throughout Canada as monitored by Natural Resources Canada using satellite imagery.</p><p>This collection of cartographic products regroups river ice state monitoring products and their associated footprints. Three visualization timeframes are available:</p></div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-7654060 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7654060" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c046be9" data-id="c046be9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-0db7217 elementor-widget elementor-widget-text-editor" data-id="0db7217" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><ol><li>Active Monitoring of River Ice in Canada</li></ol></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c7db361" data-id="c7db361" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-e935004 elementor-widget elementor-widget-button" data-id="e935004" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">View Map</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-c4937bd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c4937bd" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5713b6f" data-id="5713b6f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a3178e6 elementor-widget elementor-widget-text-editor" data-id="a3178e6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>2. River Ice in Canada – Current Year</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1161cdc" data-id="1161cdc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-fb1d8ba elementor-widget elementor-widget-button" data-id="fb1d8ba" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">View Map</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-2a5a662 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2a5a662" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-56f98d0" data-id="56f98d0" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1eaf00c elementor-widget elementor-widget-text-editor" data-id="1eaf00c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>3. River Ice in Canada – Archive</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8532ed9" data-id="8532ed9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-dcfb408 elementor-widget elementor-widget-button" data-id="dcfb408" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">View Map</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-69e295b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="69e295b" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-30eea26" data-id="30eea26" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a166e3f elementor-widget elementor-widget-text-editor" data-id="a166e3f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Time Period </strong></span><br />From: 2011-04-04<br />To: </p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3afff95" data-id="3afff95" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-78ae79c elementor-widget elementor-widget-text-editor" data-id="78ae79c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Geographic Extent</strong></span><br />SW: -141 41.68<br />NE: -52.62 83.11</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-633ba33d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="633ba33d" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d5f13c" data-id="2d5f13c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-480d5f7c elementor-widget elementor-widget-heading" data-id="480d5f7c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Geographic Information</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-64080e06 elementor-widget elementor-widget-html" data-id="64080e06" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width,initial-scale=1" name="viewport" />
+        <title>River Ice In Canada - Active - Footprints</title>
+
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .llwb-map {
+                height: 500px;
+                width: 100%;
+                border: 1px solid black;
+            }
+        </style>
+
+        <link rel="stylesheet" href="https://jolevesq.github.io/leaflet-web-presence/leaflet-web-presence.css ">
+    </head>
+
+    <body>
+        <div>River Ice In Canada - Active - Footprints</div>
+        <div id="mapLCC" class="llwb-map" data-leaflet="{ 'projection': 3978, 'zoomLevel': 4, 'center': [60,-100], 'language': 'en-CA',
+            'layers':[
+                { 'url': 'https://egs.services.geo.ca/hosted/services/EGS_SGU/EGS_RiverIce_Product_Active_FP_en/MapServer/WMSServer', 'type': 'ogcWMS', 'entries': '0'}
+           ]}">
+        </div>
+          <div>River Ice In Canada - Current Year - Footprints</div>
+        <div id="mapLCC_1" class="llwb-map" data-leaflet="{ 'projection': 3978, 'zoomLevel': 4, 'center': [60,-100], 'language': 'en-CA',
+            'layers':[
+                { 'url': 'https://egs.services.geo.ca/hosted/services/EGS_SGU/EGS_RiverIce_Product_Current_FP_en/MapServer/WMSServer', 'type': 'ogcWMS', 'entries': '1'}
+           ]}">
+        </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://jolevesq.github.io/leaflet-web-presence/leaflet-web-presence.js"></script>
+</html>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5def800 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5def800" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2df66fc" data-id="2df66fc" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-56d29a4 elementor-widget elementor-widget-text-editor" data-id="56d29a4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"><b>Data Contact</b></h4></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-e41e095 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e41e095" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e5d56c3" data-id="e5d56c3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-d28189a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d28189a" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1651c24" data-id="1651c24" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2ae5a3d elementor-widget elementor-widget-text-editor" data-id="2ae5a3d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Organization:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3311ce1" data-id="3311ce1" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1a152e0 elementor-widget elementor-widget-text-editor" data-id="1a152e0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Government of Canada; Natural Resources Canada</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-b84fcad elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b84fcad" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-01edec9" data-id="01edec9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1445855 elementor-widget elementor-widget-text-editor" data-id="1445855" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Email:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-67f718e" data-id="67f718e" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-218bdca elementor-widget elementor-widget-text-editor" data-id="218bdca" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p><a href="mailto:nrcan.egs-sgu.rncan@canada.ca">nrcan.egs-sgu.rncan@canada.ca</a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-65d9948 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="65d9948" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5d87d9c" data-id="5d87d9c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a790833 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--shape-rounded elementor-share-buttons--align-center elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons" data-id="a790833" data-element_type="widget" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-grid">
+							<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_email">
+													<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on email</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_facebook">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on facebook</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_twitter">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on twitter</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_linkedin">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on linkedin</span>
+							</span>
+																	</div>
+				</div>
+						</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-574667a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="574667a" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5226064" data-id="5226064" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b9464d7 elementor-widget elementor-widget-global elementor-global-10648 elementor-widget-text-editor" data-id="b9464d7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;">This dataset has been confirmed to be foundationally important to Canada and Canadians.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/river-ice-state-in-canada-cartographic-product-collection/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>National Hydro Network &#8211; NHN &#8211; GeoBase Series</title>
+		<link>/national-hydro-network-nhn-geobase-series/</link>
+					<comments>/national-hydro-network-nhn-geobase-series/#respond</comments>
+		
+		<dc:creator><![CDATA[cgpadmin]]></dc:creator>
+		<pubDate>Wed, 25 Mar 2020 19:44:00 +0000</pubDate>
+				<category><![CDATA[Foundational Layers]]></category>
+		<category><![CDATA[Administration]]></category>
+		<category><![CDATA[Department]]></category>
+		<category><![CDATA[Foundational Layer Theme]]></category>
+		<category><![CDATA[Hydrographic network]]></category>
+		<category><![CDATA[Inland Waters]]></category>
+		<category><![CDATA[ISO Topic Theme]]></category>
+		<category><![CDATA[NRCan]]></category>
+		<category><![CDATA[Reporting Theme]]></category>
+		<category><![CDATA[UNGGIM Theme]]></category>
+		<category><![CDATA[water]]></category>
+		<guid isPermaLink="false">http://wp-01-1130072660.ca-central-1.elb.amazonaws.com/?p=2204</guid>
+
+					<description><![CDATA[The National Hydro Network (NHN) focuses on providing a quality geometric description and a set of basic attributes describing Canada’s inland surface waters. The best available federal and provincial data are used for its production, which is done jointly by federal, and interested provincial and territorial partners. The data has a great potential for analysis, [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2204" class="elementor elementor-2204" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-1c16da7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1c16da7" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c34022f" data-id="c34022f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c1878a3 elementor-widget elementor-widget-text-editor" data-id="c1878a3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The National Hydro Network (NHN) focuses on providing a quality geometric description and a set of basic attributes describing Canada’s inland surface waters. The best available federal and provincial data are used for its production, which is done jointly by federal, and interested provincial and territorial partners. The data has a great potential for analysis, cartographic representation and display, and serves as base data in many applications.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b3cb028 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b3cb028" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1c9ca24" data-id="1c9ca24" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-8555845 elementor-widget elementor-widget-text-editor" data-id="8555845" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Time Period </strong></span><br />From: 1944<br />To: </p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0e6a272" data-id="0e6a272" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-0e88e50 elementor-widget elementor-widget-text-editor" data-id="0e88e50" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Geographic Extent</strong></span><br />SW: -141 42<br />NE: -43 84</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7be845b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7be845b" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d4097f" data-id="2d4097f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-8fdd25b elementor-widget elementor-widget-toggle" data-id="8fdd25b" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-toggle" role="tablist">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1501" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-1501">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-chevron-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Read more</a>
+					</div>
+					<div id="elementor-tab-content-1501" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1501"><p>The NHN is created from existing data at the 1:50 000 scale or better. It provides geospatial digital data compliant with the NHN Standard such as lakes, reservoirs, watercourses (rivers and streams), canals, islands, drainage linear network, toponyms or geographical names, constructions and obstacles related to surface waters, etc. The NHN Work Unit Limits were created based on Water Survey of Canada Sub-Sub-Drainage Area.</p></div>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2beff406 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2beff406" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6033a008" data-id="6033a008" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-16ef74a5 elementor-widget elementor-widget-heading" data-id="16ef74a5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Geographic Information</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4e00c8e4 elementor-widget elementor-widget-html" data-id="4e00c8e4" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width,initial-scale=1" name="viewport" />
+        <title>National Hydro Network - NHN - GeoBase Series</title>
+
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .llwb-map {
+                height: 500px;
+                width: 100%;
+                border: 1px solid black;
+            }
+        </style>
+
+        <link rel="stylesheet" href="https://jolevesq.github.io/leaflet-web-presence/leaflet-web-presence.css ">
+    </head>
+
+    <body>
+        <div>National Hydro Network - NHN - GeoBase Series</div>
+        <div id="mapLCC" class="llwb-map" data-leaflet="{ 'projection': 3978, 'zoomLevel': 4, 'center': [60,-100], 'language': 'en-CA',
+            'layers':[
+                { 'url': 'https://maps.geogratis.gc.ca/wms/hydro_network_en?', 'type': 'ogcWMS', 'entries': 'nhn:nhn'}
+           ]}">
+        </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://jolevesq.github.io/leaflet-web-presence/leaflet-web-presence.js"></script>
+</html>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-28817bd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="28817bd" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aaeaeb7" data-id="aaeaeb7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-799ac3f elementor-widget elementor-widget-text-editor" data-id="799ac3f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"><b>Data Contact</b></h4></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-e4768b2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e4768b2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-91c7c2f" data-id="91c7c2f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-a5b14fa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a5b14fa" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-364f740" data-id="364f740" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c44196a elementor-widget elementor-widget-text-editor" data-id="c44196a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Organization:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-213249a" data-id="213249a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d1993c6 elementor-widget elementor-widget-text-editor" data-id="d1993c6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector; Canada Centre for Mapping and Earth Observation</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-6a4d182 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6a4d182" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-526103c" data-id="526103c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-91c4615 elementor-widget elementor-widget-text-editor" data-id="91c4615" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Email:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ec87305" data-id="ec87305" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-940939d elementor-widget elementor-widget-text-editor" data-id="940939d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p><a href="mailto:geoinfo@canada.ca">geoinfo@canada.ca</a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8ab99e1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8ab99e1" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bf851cb" data-id="bf851cb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-10892e4 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--shape-rounded elementor-share-buttons--align-center elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons" data-id="10892e4" data-element_type="widget" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-grid">
+							<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_email">
+													<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on email</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_facebook">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on facebook</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_twitter">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on twitter</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_linkedin">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on linkedin</span>
+							</span>
+																	</div>
+				</div>
+						</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9ca5898 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9ca5898" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-328613c" data-id="328613c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c06c62d elementor-widget elementor-widget-global elementor-global-10648 elementor-widget-text-editor" data-id="c06c62d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;">This dataset has been confirmed to be foundationally important to Canada and Canadians.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/national-hydro-network-nhn-geobase-series/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Soil Landscapes of Canada Version 3.2</title>
+		<link>/soil-landscapes-of-canada-version-3-2/</link>
+					<comments>/soil-landscapes-of-canada-version-3-2/#respond</comments>
+		
+		<dc:creator><![CDATA[cgpadmin]]></dc:creator>
+		<pubDate>Wed, 25 Mar 2020 19:40:46 +0000</pubDate>
+				<category><![CDATA[Foundational Layers]]></category>
+		<category><![CDATA[AAFC]]></category>
+		<category><![CDATA[Department]]></category>
+		<category><![CDATA[Foundational Layer Theme]]></category>
+		<category><![CDATA[Geology and Soils]]></category>
+		<category><![CDATA[Geoscientific Information]]></category>
+		<category><![CDATA[ISO Topic Theme]]></category>
+		<category><![CDATA[LAND]]></category>
+		<category><![CDATA[Reporting Theme]]></category>
+		<category><![CDATA[Soil survey]]></category>
+		<category><![CDATA[UNGGIM Theme]]></category>
+		<guid isPermaLink="false">http://wp-01-1130072660.ca-central-1.elb.amazonaws.com/?p=2200</guid>
+
+					<description><![CDATA[The “Soil Landscapes of Canada (SLC) Version 3.2” dataset series provides a set of geo-referenced soil areas, linked to a series of attribute data, which together describe the spatial distribution of soil and associated landscapes of the agricultural areas of Canada Time Period From: 2013-01-01To:  Geographic ExtentSW: -132 36NE: -52 90 Read more The soil [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2200" class="elementor elementor-2200" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-1c16da7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1c16da7" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c34022f" data-id="c34022f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-c1878a3 elementor-widget elementor-widget-text-editor" data-id="c1878a3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The “Soil Landscapes of Canada (SLC) Version 3.2” dataset series provides a set of geo-referenced soil areas, linked to a series of attribute data, which together describe the spatial distribution of soil and associated landscapes of the agricultural areas of Canada</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8adfe84 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8adfe84" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2b3760b" data-id="2b3760b" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-fe0100b elementor-widget elementor-widget-text-editor" data-id="fe0100b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Time Period </strong></span><br />From: 2013-01-01<br />To: </p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c998a63" data-id="c998a63" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ffc6439 elementor-widget elementor-widget-text-editor" data-id="ffc6439" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span class="bold"><strong>Geographic Extent</strong></span><br />SW: -132 36<br />NE: -52 90</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-813dee7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="813dee7" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f2787e6" data-id="f2787e6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-acb2c5b elementor-widget elementor-widget-toggle" data-id="acb2c5b" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-toggle" role="tablist">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-1811" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-1811">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-chevron-down"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-chevron-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Read more</a>
+					</div>
+					<div id="elementor-tab-content-1811" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1811"><p>The soil areas (polygons) are linked to attribute data found in the associated Component Table (CMP), Component Rating Table (CRT), Soil Names Table (SNT), Soil Layer Table (SLT), Landscape Segmentation Table (LST), Landform Extent Table (LET), Landform Definition Table and Ecological Framework Table (EFT). However, some provinces (Alberta, Nova Scotia, and Prince Edward Island) contain CMP, SNT and SLT data for the entire province (that is, beyond the agricultural areas). This version is complemented by the previous SLC version 2.2, which covers the entire country.</p></div>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-26451d57 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="26451d57" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5f0a6446" data-id="5f0a6446" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7920c001 elementor-widget elementor-widget-heading" data-id="7920c001" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Geographic Information</h3>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-de1334c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="de1334c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d641e05" data-id="d641e05" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-367ebc7 elementor-widget elementor-widget-text-editor" data-id="367ebc7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h4 style="text-align: center;"><b>Data Contact</b></h4></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-06a9227 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="06a9227" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a57ad9a" data-id="a57ad9a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-a210400 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a210400" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-65a2a4c" data-id="65a2a4c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-bdd706f elementor-widget elementor-widget-text-editor" data-id="bdd706f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Organization:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bd1958c" data-id="bd1958c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f645bfe elementor-widget elementor-widget-text-editor" data-id="f645bfe" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div class="resolved" style="all: initial;" data-reactroot=""> </div></div><p>Government of Canada; Agriculture and Agri-Food Canada; Science and Technology Branch</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-aad7272 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="aad7272" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4ce5539" data-id="4ce5539" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-27e20f8 elementor-widget elementor-widget-text-editor" data-id="27e20f8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><div style="position: fixed; z-index: 1499; width: 0px; height: 0px;"><div style="all: initial;" data-reactroot=""> </div></div><p><b>Email:</b></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ed53470" data-id="ed53470" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-838d189 elementor-widget elementor-widget-text-editor" data-id="838d189" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><a href="mailto:infocansis@agr.gc.ca">infocansis@agr.gc.ca</a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-68b745c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="68b745c" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d612cf0" data-id="d612cf0" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2efae92 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--shape-rounded elementor-share-buttons--align-center elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons" data-id="2efae92" data-element_type="widget" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-grid">
+							<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_email">
+													<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on email</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_facebook">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on facebook</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_twitter">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on twitter</span>
+							</span>
+																	</div>
+				</div>
+								<div class="elementor-grid-item">
+					<div class="elementor-share-btn elementor-share-btn_linkedin">
+													<span class="elementor-share-btn__icon">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+								<span class="elementor-screen-only">Share on linkedin</span>
+							</span>
+																	</div>
+				</div>
+						</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-bad649e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bad649e" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f4a84e5" data-id="f4a84e5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-888d698 elementor-widget elementor-widget-global elementor-global-10648 elementor-widget-text-editor" data-id="888d698" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;">This dataset has been confirmed to be foundationally important to Canada and Canadians.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/soil-landscapes-of-canada-version-3-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
