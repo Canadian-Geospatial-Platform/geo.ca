@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: River Ice State in Canada &#8211; Cartographic Product Collection	</title>
-	<atom:link href="/river-ice-state-in-canada-cartographic-product-collection/feed/" rel="self" type="application/rss+xml" />
-	<link>/river-ice-state-in-canada-cartographic-product-collection/</link>
+	<atom:link href="https://stage.geo.ca/river-ice-state-in-canada-cartographic-product-collection/feed/" rel="self" type="application/rss+xml" />
+	<link>https://stage.geo.ca/river-ice-state-in-canada-cartographic-product-collection/</link>
 	<description></description>
-	<lastBuildDate>Thu, 28 Jan 2021 17:32:55 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 10 Mar 2021 12:47:06 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
 </channel>
 </rss>

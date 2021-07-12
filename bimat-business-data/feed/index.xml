@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Biomass Inventory Mapping and Analysis Tool – Business Data	</title>
-	<atom:link href="/bimat-business-data/feed/" rel="self" type="application/rss+xml" />
-	<link>/bimat-business-data/</link>
+	<atom:link href="https://stage.geo.ca/bimat-business-data/feed/" rel="self" type="application/rss+xml" />
+	<link>https://stage.geo.ca/bimat-business-data/</link>
 	<description></description>
 	<lastBuildDate>Mon, 08 Feb 2021 21:12:47 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
 </channel>
 </rss>

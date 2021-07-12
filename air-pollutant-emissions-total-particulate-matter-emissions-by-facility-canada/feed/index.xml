@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Air pollutant emissions – Total particulate matter emissions by facility, Canada	</title>
-	<atom:link href="/air-pollutant-emissions-total-particulate-matter-emissions-by-facility-canada/feed/" rel="self" type="application/rss+xml" />
-	<link>/air-pollutant-emissions-total-particulate-matter-emissions-by-facility-canada/</link>
+	<atom:link href="https://stage.geo.ca/air-pollutant-emissions-total-particulate-matter-emissions-by-facility-canada/feed/" rel="self" type="application/rss+xml" />
+	<link>https://stage.geo.ca/air-pollutant-emissions-total-particulate-matter-emissions-by-facility-canada/</link>
 	<description></description>
 	<lastBuildDate>Mon, 08 Feb 2021 21:10:13 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
 </channel>
 </rss>

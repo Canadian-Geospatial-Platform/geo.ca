@@ -36,9 +36,7 @@
                             $('.aux-cart-contents').find('span').text(response.data.count);
                         }
                         $(".aux-cart-subtotal").each(function() {
-                            $(this).find('.woocommerce-Price-amount').contents().filter(function(){
-                                return this.nodeType == 3;
-                            })[0].nodeValue = response.data.total;
+							$(this).find('.woocommerce-Price-amount').html(response.data.total);
                         });
                         $cartBoxEl.removeClass('aux-cart-remove-in-progress');
                     } else {
@@ -55,8 +53,12 @@
         $(document).on( 'click', '.aux-ajax-add-to-cart', function(e) {
             var productType  = $(this).data("product-type");
 
-            if ( productType !== 'simple' || typeof auxin_cart_options === 'undefined' ) {
+            if ( productType !== 'simple' ) {
                 return;
+            }
+
+            if ( typeof auxin_cart_options === 'undefined' ) {
+                auxin_cart_options = '';
             }
 
             e.preventDefault();

@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments on: Major Projects Inventory	</title>
-	<atom:link href="/major-projects-inventory/feed/" rel="self" type="application/rss+xml" />
-	<link>/major-projects-inventory/</link>
+	<atom:link href="https://stage.geo.ca/major-projects-inventory/feed/" rel="self" type="application/rss+xml" />
+	<link>https://stage.geo.ca/major-projects-inventory/</link>
 	<description></description>
-	<lastBuildDate>Thu, 28 Jan 2021 17:31:34 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 12 Mar 2021 18:57:04 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
 </channel>
 </rss>

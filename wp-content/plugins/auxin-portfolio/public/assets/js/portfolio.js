@@ -1,4 +1,4 @@
-/*! 2.0.1
+/*! 2.1.4
  *  All required plugins 
  *  http://averta.net/phlox/
  */
