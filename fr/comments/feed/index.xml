@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments for Plateforme Géospatiale Canadienne	</title>
-	<atom:link href="https://stage.geo.ca/fr/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://stage.geo.ca/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
 	<description></description>
-	<lastBuildDate>Mon, 20 Sep 2021 12:52:52 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 13 Oct 2021 15:07:22 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.3</generator>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
 </channel>
 </rss>

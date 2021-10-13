@@ -19,12 +19,12 @@ display: block;
 }
 @font-face {
  font-family: 'themes';
-  src: url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-892b009c.zip/fontello-892b009c/font/themes.eot?1012154149');
-  src: url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-892b009c.zip/fontello-892b009c/font/themes.eot?1012154149#iefix') format('embedded-opentype'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-892b009c.zip/fontello-892b009c/font/themes.woff2?1012154149') format('woff2'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-892b009c.zip/fontello-892b009c/font/themes.woff?1012154149') format('woff'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-892b009c.zip/fontello-892b009c/font/themes.ttf?1012154149') format('truetype'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-892b009c.zip/fontello-892b009c/font/themes.svg?1012154149#themes') format('svg');
+  src: url('./fontello-892b009c.zip/fontello-892b009c/font/themes.eot?335476699');
+  src: url('./fontello-892b009c.zip/fontello-892b009c/font/themes.eot?335476699#iefix') format('embedded-opentype'),
+       url('./fontello-892b009c.zip/fontello-892b009c/font/themes.woff2?335476699') format('woff2'),
+       url('./fontello-892b009c.zip/fontello-892b009c/font/themes.woff?335476699') format('woff'),
+       url('./fontello-892b009c.zip/fontello-892b009c/font/themes.ttf?335476699') format('truetype'),
+       url('./fontello-892b009c.zip/fontello-892b009c/font/themes.svg?335476699#themes') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -41,12 +41,12 @@ display: block;
 
 @font-face {
  font-family: 'themesicons';
-  src: url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.eot?287370789');
-  src: url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.eot?287370789#iefix') format('embedded-opentype'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.woff2?287370789') format('woff2'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.woff?287370789') format('woff'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.ttf?287370789') format('truetype'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.svg?287370789#themesicons') format('svg');
+  src: url('./fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.eot?10055287');
+  src: url('./fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.eot?10055287#iefix') format('embedded-opentype'),
+       url('./fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.woff2?10055287') format('woff2'),
+       url('./fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.woff?10055287') format('woff'),
+       url('./fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.ttf?10055287') format('truetype'),
+       url('./fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.svg?10055287#themesicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -63,12 +63,12 @@ display: block;
 
 @font-face {
  font-family: 'frenchicons';
-  src: url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.eot?1645703190');
-  src: url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.eot?1645703190#iefix') format('embedded-opentype'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.woff2?1645703190') format('woff2'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.woff?1645703190') format('woff'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.ttf?1645703190') format('truetype'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.svg?1645703190#frenchicons') format('svg');
+  src: url('./fontello-19b03013.zip/fontello-19b03013/font/frenchicons.eot?1285075720');
+  src: url('./fontello-19b03013.zip/fontello-19b03013/font/frenchicons.eot?1285075720#iefix') format('embedded-opentype'),
+       url('./fontello-19b03013.zip/fontello-19b03013/font/frenchicons.woff2?1285075720') format('woff2'),
+       url('./fontello-19b03013.zip/fontello-19b03013/font/frenchicons.woff?1285075720') format('woff'),
+       url('./fontello-19b03013.zip/fontello-19b03013/font/frenchicons.ttf?1285075720') format('truetype'),
+       url('./fontello-19b03013.zip/fontello-19b03013/font/frenchicons.svg?1285075720#frenchicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -85,12 +85,12 @@ display: block;
 
 @font-face {
  font-family: 'urg';
-  src: url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.eot?587848839');
-  src: url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.eot?587848839#iefix') format('embedded-opentype'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.woff2?587848839') format('woff2'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.woff?587848839') format('woff'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.ttf?587848839') format('truetype'),
-       url('https://stage.geo.ca/wp-content/uploads/elementor_icons_files/fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.svg?587848839#urg') format('svg');
+  src: url('./fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.eot?388072484');
+  src: url('./fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.eot?388072484#iefix') format('embedded-opentype'),
+       url('./fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.woff2?388072484') format('woff2'),
+       url('./fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.woff?388072484') format('woff'),
+       url('./fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.ttf?388072484') format('truetype'),
+       url('./fontello-4d75bd09.zip/fontello-4d75bd09/font/urg.svg?388072484#urg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
