@@ -1,2 +1,0 @@
-function cgpFixThemeIcons(){var e=window.location.pathname;document.querySelectorAll(".cgp-col-page-hero-banner-themes .elementor-icon").forEach((t=>{t.addEventListener("focus",(()=>t.closest(".elementor-widget-container").classList.toggle("focus-dotted"))),t.addEventListener("blur",(()=>t.closest(".elementor-widget-container").classList.toggle("focus-dotted"))),t.href.includes(e)&&t.closest(".elementor-widget-container").classList.add("focus")}))}cgpFixThemeIcons();
-//# sourceMappingURL=cgp-global-min.js.map
