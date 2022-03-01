@@ -288,31 +288,21 @@
         ],
 		"layers": [
 			{
-				"id": "First Nations Location",
-				"name": "First Nations Location",
+				"id": "population_ecumene_CD2016",
+				"name": "2016 population ecumene by census division",
 				"layerType": "esriFeature",
-				"url": "https://data.aadnc-aandc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Premiere_Nation_First_Nation/MapServer/0",
+				"url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/cd_population_ecumene_2016_en/MapServer/0",
 				"state": {
 					"opacity": 1,
 					"visibility": true
 				}
 			},{
-				"id": "Inuit Communities Location",
-				"name": "Inuit Communities Location",
+				"id": "Ratio_new_immigrant_arrivals_to_Older_CD2016",
+				"name": "Ratio of new immigrant arrivals (2001 – 2016) to older immigrant arrivals (before 2001) by census division, 2016",
 				"layerType": "esriFeature",
-				"url": "https://data.aadnc-aandc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Communaute_inuite_Inuit_Community/MapServer/0",
+				"url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/cd_socioeconomic_variables_2016_en/MapServer/5",
 				"state": {
 					"opacity": 1,
-					"visibility": true
-				}
-			},{
-				"id": "(%) mother tongue by CD",
-				"name": "Majority (%) mother tongue population by census division, 2016",
-				"layerType": "esriFeature",
-				"nameField": "PLURALITY_EN",
-				"url": "https://webservices.maps.canada.ca/arcgis/rest/services/StatCan/cd_majority_mother_tongue_2016_en/MapServer/0",
-				"state": {
-					"opacity": 0.5,
 					"visibility": true
 				}
 			}
@@ -324,13 +314,13 @@
 				"expanded": true,
 				"children": [{
                         "infoType": "text",
-                        "content": "<h2>Majority (%) Mother Tongue Population by Census Division</h2>"
-                    },{
-						"layerId": "(%) mother tongue by CD"
-					},{
-						"layerId": "First Nations Location"
-					},{
-						"layerId": "Inuit Communities Location"
+                        "content": "<h2>Ratio of new immigrant arrivals (2001 – 2016) to older immigrant arrivals (before 2001) by census division, 2016</h2>"
+                    },
+					{
+						"layerId": "population_ecumene_CD2016"
+					},
+					{
+						"layerId": "Ratio_new_immigrant_arrivals_to_Older_CD2016"
 					}
 				]
 			}
@@ -378,6 +368,9 @@
         "widgetsWidget": "",
         "help": {
             "folderName": "default"
+        },
+        "about": {
+            "aboutChoice": "string"
         }
     },
     "services": {
@@ -404,12 +397,12 @@
             "title": {
                 "isSelected": true,
                 "isSelectable": true,
-                "value": "Majority (%) Mother Tongue Population by Census Division"
+                "value": "Ratio of new immigrant arrivals (2001 – 2016) to older immigrant arrivals (before 2001) by census division, 2016"
             },
             "footnote": {
                 "isSelected": true,
                 "isSelectable": false,
-                "value": "© Her Majesty the Queen in Right of Canada, represented by the Minister of Natural Resources, 2020"
+                "value": "© Her Majesty the Queen in Right of Canada, represented by the Minister of Natural Resources"
             },
             "map": {
                 "isSelected": true,
@@ -448,4 +441,3 @@
         }
     }
 }
-
