@@ -10,10 +10,11 @@
 .elementor-11118 .elementor-element.elementor-element-3d73945 a:hover {
     text-decoration: underline;
 }
-
+ 
 .elementor-11118 .elementor-element.elementor-element-3d73945 li:not(:first-of-type)::before {
     background-color: transparent !important;
-    content: "\2022";
+    content: "\2022"; 
+    
     display: inline-block;
     margin-right: 20px;
     display: inline;
