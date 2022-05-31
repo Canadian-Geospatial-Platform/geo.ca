@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1" name="viewport" />
-    <title>Limites de section de vote – Canada 2019 - Plateforme Géospatiale Canadienne</title>
+    <title>Maximum Temperature - Canadian Geospacial Platform (CGP) viewer</title>
     <link rel="stylesheet" href="https://viewer-visualiseur.services.geo.ca/apps/RAMP/fgpv/fgpv-3.3.5/rv-styles.css" />
+    <link rel="stylesheet" href="https://viewer-visualiseur.services.geo.ca/apps/RAMP/contributed-plugins/range-slider/range-slider.css" />
     <style>
       body {
         display: flex;
@@ -17,12 +18,14 @@
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Object.entries,Object.values,Array.prototype.find,Array.prototype.findIndex,Array.prototype.values,Array.prototype.includes,HTMLCanvasElement.prototype.toBlob,String.prototype.repeat,String.prototype.codePointAt,String.fromCodePoint,NodeList.prototype.@@iterator,Promise,Promise.prototype.finally"></script>
   </head>
   <body>
-    <div id="cgpmap_fr" is="rv-map" class="myMap" data-rv-config="AdministrationMap_FR.json" rv-plugins="" rv-langs='["fr-CA"]'>
+    <div id="cgpmap_en" is="rv-map" class="myMap" data-rv-config="Environment1Map_EN.json" rv-plugins="rangeSlider" rv-langs='["en-CA"]'>
       <noscript>
-        <p>Cette carte interactive nécessite JavaScript. Pour voir ce contenu, s'il vous plaît, activer JavaScript dans votre navigateur ou télécharger un navigateur qui le prend en charge.</p>
-      </noscript>
+        <p>This interactive map requires JavaScript. To view this content please enable JavaScript in your browser or download a browser that supports it.</p>
+        <p></p
+      ></noscript>
     </div>
     <script src="https://viewer-visualiseur.services.geo.ca/apps/RAMP/fgpv/fgpv-3.3.5/legacy-api.js"></script>
     <script src="https://viewer-visualiseur.services.geo.ca/apps/RAMP/fgpv/fgpv-3.3.5/rv-main.js"></script>
+    <script src="https://viewer-visualiseur.services.geo.ca/apps/RAMP/contributed-plugins/range-slider/range-slider.js"></script>
   </body>
 </html>
