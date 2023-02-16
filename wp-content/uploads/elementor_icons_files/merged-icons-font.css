@@ -1,0 +1,62 @@
+i.eci { 
+display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+     }
+     .select2-container i.eci,
+     .elementor-icon-list-icon i.eci {
+       display: inline-block;
+     }
+     .elementor-icons-manager__tab__item__icon.eci {
+    font-size: 28px;
+}
+.elementor-icons-manager__tab-link i.eci {
+    display: inline-block;
+    font-size: 18px;
+}
+
+@font-face {
+ font-family: 'themesicons';
+  src: url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.eot?10055287');
+  src: url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.eot?10055287#iefix') format('embedded-opentype'),
+       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.woff2?10055287') format('woff2'),
+       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.woff?10055287') format('woff'),
+       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.ttf?10055287') format('truetype'),
+       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.svg?10055287#themesicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.eci.themesicons-administration::before { content: '\e800'; font-family: 'themesicons'; }
+.eci.themesicons-economy::before { content: '\e801'; font-family: 'themesicons'; }
+.eci.themesicons-emergency::before { content: '\e802'; font-family: 'themesicons'; }
+.eci.themesicons-environment::before { content: '\e803'; font-family: 'themesicons'; }
+.eci.themesicons-imagery::before { content: '\e804'; font-family: 'themesicons'; }
+.eci.themesicons-infrastructure::before { content: '\e805'; font-family: 'themesicons'; }
+.eci.themesicons-legal::before { content: '\e806'; font-family: 'themesicons'; }
+.eci.themesicons-science::before { content: '\e807'; font-family: 'themesicons'; }
+.eci.themesicons-society::before { content: '\e808'; font-family: 'themesicons'; }
+
+
+@font-face {
+ font-family: 'frenchicons';
+  src: url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.eot?1285075720');
+  src: url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.eot?1285075720#iefix') format('embedded-opentype'),
+       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.woff2?1285075720') format('woff2'),
+       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.woff?1285075720') format('woff'),
+       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.ttf?1285075720') format('truetype'),
+       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.svg?1285075720#frenchicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.eci.frenchicons-administration::before { content: '\e800'; font-family: 'frenchicons'; }
+.eci.frenchicons-infrastructure::before { content: '\e805'; font-family: 'frenchicons'; }
+.eci.frenchicons-science::before { content: '\e807'; font-family: 'frenchicons'; }
+.eci.frenchicons-économie::before { content: '\e809'; font-family: 'frenchicons'; }
+.eci.frenchicons-environnement::before { content: '\e80a'; font-family: 'frenchicons'; }
+.eci.frenchicons-imagerie::before { content: '\e80b'; font-family: 'frenchicons'; }
+.eci.frenchicons-société::before { content: '\e80d'; font-family: 'frenchicons'; }
+.eci.frenchicons-urgence::before { content: '\e80e'; font-family: 'frenchicons'; }
+.eci.frenchicons-juridiques::before { content: '\e80f'; font-family: 'frenchicons'; }
