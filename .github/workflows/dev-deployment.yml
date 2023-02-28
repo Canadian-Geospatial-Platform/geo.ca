@@ -16,7 +16,7 @@ jobs:
     #- name: Find and Replace
     #  uses: jacobtomlinson/gha-find-replace@v3
     #  with:
-    #    find: "https://wordpress.dev.geo.ca/wordpress/"
+    #    find: ""
     #    replace: "https://dev.geo.ca/"
     #    regex: true
     
@@ -24,8 +24,8 @@ jobs:
       id: URL
       uses: ashley-taylor/regex-property-action@v1.3
       with:
-        value: "https://wordpress.dev.geo.ca/wordpress/"
-        regex: "https://dev.geo.ca/"
+        value: "https://dev.geo.ca/"
+        regex: "https://wordpress.dev.geo.ca/wordpress/"
         flags: "g" # Optional, defaults to "g"
         replacement: "universe"
 
