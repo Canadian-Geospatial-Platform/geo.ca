@@ -9,19 +9,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    permissions:
+    permissions: write-all
       # Give the default GITHUB_TOKEN write permission to commit and push the
       # added or changed files to the repository.
-      actions: write
-      checks: write
-      contents: write
-      deployments: write
-      id-token: write
-      packages: write
-      pages: write
-      pull-requests: write
-      repository-projects: write
-      statuses: write
 
     steps:
     - name: Initiate
@@ -41,3 +31,5 @@ jobs:
       with:
         commit_message: Automated Commit
         branch: dev 
+      env:
+          GITHUB_TOKEN: ${{ github.token }}
