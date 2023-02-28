@@ -32,4 +32,4 @@ jobs:
         commit_message: Automated Commit
         branch: dev 
       env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
