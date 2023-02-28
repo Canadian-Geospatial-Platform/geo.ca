@@ -16,10 +16,16 @@ jobs:
     - name: Find and Replace
       uses: jacobtomlinson/gha-find-replace@v3
       with:
-        find: "UTF-8"
+        find: "https://wordpress.dev.geo.ca/wordpress/"
         replace: "https://dev.geo.ca/"
         regex: true
         
+    - name: Commit files
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git commit -a -m "Change URLs for Dev"
+    
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
