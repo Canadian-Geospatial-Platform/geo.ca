@@ -4,6 +4,12 @@ on:
   push:
     branches: [ dev ]
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  repository-projects: write
+
 jobs:
   build:
 
