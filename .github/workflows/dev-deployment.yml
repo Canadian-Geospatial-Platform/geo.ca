@@ -30,7 +30,7 @@ jobs:
         replacement: "universe"
 
     - name: Print Result
-      run: echo "${{ steps.hello.outputs.value }}"
+      run: echo "${{ steps.URL.outputs.value }}"
         
     - name: Push changes
       uses: ad-m/github-push-action@master
