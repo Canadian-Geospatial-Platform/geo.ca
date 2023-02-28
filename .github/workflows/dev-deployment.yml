@@ -13,12 +13,24 @@ jobs:
     - name: Initiate
       uses: actions/checkout@v3
     
-    - name: Find and Replace
-      uses: jacobtomlinson/gha-find-replace@v3
+    #- name: Find and Replace
+    #  uses: jacobtomlinson/gha-find-replace@v3
+    #  with:
+    #    find: "https://wordpress.dev.geo.ca/wordpress/"
+    #    replace: "https://dev.geo.ca/"
+    #    regex: true
+    
+    - name: Find & Replace
+      id: URL
+      uses: ashley-taylor/regex-property-action@v1.3
       with:
-        find: /https://wordpress.dev.geo.ca/wordpress//g
-        replace: "https://dev.geo.ca/"
-        regex: true
+        value: "https://wordpress.dev.geo.ca/wordpress/"
+        regex: "https://dev.geo.ca/"
+        flags: "g" # Optional, defaults to "g"
+        replacement: "universe"
+
+    - name: Print Result
+      run: echo "${{ steps.hello.outputs.value }}"
         
     - name: Push changes
       uses: ad-m/github-push-action@master
