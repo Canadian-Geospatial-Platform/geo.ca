@@ -17,6 +17,8 @@ jobs:
     steps:
     - name: Initiate
       uses: actions/checkout@v3
+      with:
+        ref: ${{ github.head_ref }}
     
     - name: Find and Replace
       uses: jacobtomlinson/gha-find-replace@v3
