@@ -9,10 +9,12 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
     steps:
-    - env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
     - name: Initiate
       uses: actions/checkout@v3
     
@@ -22,15 +24,9 @@ jobs:
         find: "https://wordpress.dev.geo.ca/wordpress/"
         replace: "https://dev.geo.ca/"
         regex: true
-        
-    - name: Commit files
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git commit -a -m "Change URLs for Dev"
     
     - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: dev
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automated Commit
+          branch: dev
