@@ -1,0 +1,38 @@
+name: Find and Replace Deployment
+
+on:
+  push:
+    branches: [ dev ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Initiate - Dev
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.PAT }}
+        ref: ${{ github.head_ref }}
+    
+    - name: Find and Replace - Dev
+      uses: jacobtomlinson/gha-find-replace@v3
+      with:
+        find: "https://wordpress.dev.geo.ca/wordpress/"
+        replace: "https://dev.geo.ca/"
+        regex: true
+    
+    - name: Push changes - Dev
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Automated Commit
+        push_options: --force
+        branch: dev
+    
+    - name: Push changes - Init Stage
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Automated Commit
+        push_options: --force
+        branch: stage

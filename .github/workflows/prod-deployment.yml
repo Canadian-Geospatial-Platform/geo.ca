@@ -1,0 +1,31 @@
+name: Find and Replace Deployment
+
+on:
+  push:
+    branches: [ prod ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Initiate - Prod
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.PAT }}
+        ref: ${{ github.head_ref }}
+    
+    - name: Find and Replace - Prod
+      uses: jacobtomlinson/gha-find-replace@v3
+      with:
+        find: "https://stage.geo.ca/"
+        replace: "https://geo.ca/"
+        regex: true
+    
+    - name: Push changes - Stage
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Automated Commit
+        push_options: --force
+        branch: prod
