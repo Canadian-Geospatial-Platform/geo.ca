@@ -20,7 +20,7 @@ jobs:
       uses: jacobtomlinson/gha-find-replace@v3
       with:
         find: "https://wordpress.dev.geo.ca/wordpress/"
-        replace: "https://wordpress.dev.geo.ca/wordpress/"
+        replace: "https://dev.geo.ca/"
         regex: true
     
     - name: Push changes - Dev
@@ -28,7 +28,7 @@ jobs:
       with:
         commit_message: Automated Commit
         push_options: --force
-        branch: dev
+        branch: dev 
     
     - name: Push changes - Init Stage
       uses: stefanzweifel/git-auto-commit-action@v4
