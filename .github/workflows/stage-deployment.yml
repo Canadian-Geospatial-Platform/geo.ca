@@ -19,7 +19,7 @@ jobs:
     - name: Find and Replace - Stage
       uses: jacobtomlinson/gha-find-replace@v3
       with:
-        find: "https://dev.geo.ca/"
+        find: "https://wordpress.dev.geo.ca/wordpress/"
         replace: "https://stage.geo.ca/"
         regex: true
     
