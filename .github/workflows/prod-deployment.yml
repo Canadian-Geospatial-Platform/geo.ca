@@ -1,4 +1,4 @@
-name: Find and Replace Deployment
+name: Find and Replace Prod Deployment
 
 on:
   push:
