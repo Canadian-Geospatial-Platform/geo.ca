@@ -19,7 +19,7 @@ jobs:
     - name: Find and Replace - Dev
       uses: jacobtomlinson/gha-find-replace@v3
       with:
-        find: "https://wordpress.dev.geo.ca/wordpress/"
+        find: "https://dev.geo.ca/"
         replace: "https://dev.geo.ca/"
         regex: true
         exclude: ".github"
