@@ -22,7 +22,7 @@ jobs:
         find: "https://dev.geo.ca/"
         replace: "https://stage.geo.ca/"
         regex: true
-        exclude: ".github"
+        exclude: "**/*.yml"
     
     - name: Push changes - Stage
       uses: stefanzweifel/git-auto-commit-action@v4
