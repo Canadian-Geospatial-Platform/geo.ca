@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://wordpress.dev.geo.ca/wordpress/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://dev.geo.ca/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://wordpress.dev.geo.ca/wordpress/page-sitemap.xml</loc>
+		<loc>https://dev.geo.ca/page-sitemap.xml</loc>
 		<lastmod>2023-02-15T22:28:34+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://wordpress.dev.geo.ca/wordpress/viewer-sitemap.xml</loc>
+		<loc>https://dev.geo.ca/viewer-sitemap.xml</loc>
 		<lastmod>2022-11-09T22:11:03+00:00</lastmod>
 	</sitemap>
 </sitemapindex>
