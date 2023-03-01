@@ -4,10 +4,6 @@ on:
   push:
     branches: [ dev ]
 
-permissions:
-  contents: write
-  packages: write
-
 jobs:
   build:
 
