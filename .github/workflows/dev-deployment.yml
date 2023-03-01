@@ -4,12 +4,6 @@ on:
   push:
     branches: [ dev ]
 
-permissions:
-  contents: write
-  pull-requests: write
-  issues: write
-  repository-projects: write
-
 jobs:
   build:
 
@@ -19,8 +13,8 @@ jobs:
     - name: Initiate
       uses: actions/checkout@v3
       with:
-        ref: ${{ github.head_ref }}
         token: ${{ secrets.PAT }}
+        ref: ${{ github.head_ref }}
     
     - name: Find and Replace
       uses: jacobtomlinson/gha-find-replace@v3
