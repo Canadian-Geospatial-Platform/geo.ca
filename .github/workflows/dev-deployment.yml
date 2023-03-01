@@ -34,7 +34,7 @@ jobs:
     - name: Push changes - Stage
       uses: github-actions-x/commit@v2.6
       with:
-        token: ${{ secrets.PAT }}
+        github-token: ${{ secrets.PAT }}
         push-branch: 'stage'
         commit-message: 'Automated Commit - Stage'
         force-add: 'true'
