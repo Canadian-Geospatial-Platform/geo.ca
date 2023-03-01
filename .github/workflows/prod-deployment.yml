@@ -29,4 +29,7 @@ jobs:
       with:
         commit_message: Automated Commit - Prod
         push_options: --force
-        branch: prod 
+        branch: prod
+        skip_fetch: true
+        skip_checkout: true
+        disable_globbing: true

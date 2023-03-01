@@ -29,7 +29,8 @@ jobs:
       with:
         commit_message: Automated Commit - Dev
         push_options: --force
-        branch: dev 
+        branch: dev
+        disable_globbing: true 
     
     - name: Push changes - Init Stage
       uses: stefanzweifel/git-auto-commit-action@v4
@@ -39,3 +40,4 @@ jobs:
         branch: stage
         skip_fetch: true
         skip_checkout: true
+        disable_globbing: true
