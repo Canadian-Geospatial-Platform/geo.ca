@@ -22,6 +22,7 @@ jobs:
         find: "https://wordpress.dev.geo.ca/wordpress/"
         replace: "https://dev.geo.ca/"
         regex: true
+        exclude: ".git/**"
     
     - name: Push changes - Dev
       uses: stefanzweifel/git-auto-commit-action@v4
