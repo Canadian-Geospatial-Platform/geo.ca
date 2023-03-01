@@ -30,7 +30,12 @@ jobs:
         commit_message: Automated Commit - Dev
         push_options: --force
         branch: dev 
-
-    - name: Push changes - Stage
-        run: |
-          git push origin -f dev:stage
+    
+    - name: Push changes - Init Stage
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Automated Commit - Init Stage
+        push_options: --force
+        branch: stage
+        skip_fetch: true
+        skip_checkout: true
