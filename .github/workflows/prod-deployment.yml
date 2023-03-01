@@ -26,6 +26,6 @@ jobs:
     - name: Push changes - Prod
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Automated Commit
+        commit_message: Automated Commit - Prod
         push_options: --force
         branch: prod 

@@ -26,13 +26,13 @@ jobs:
     - name: Push changes - Stage
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Automated Commit
+        commit_message: Automated Commit - Stage
         push_options: --force
         branch: stage 
     
     - name: Push changes - Init Prod
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Automated Commit
+        commit_message: Automated Commit - Init Prod
         push_options: --force
         branch: prod
