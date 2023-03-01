@@ -1,0 +1,30 @@
+name: Find and Replace
+
+on:
+  push:
+    branches: [ stage ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Initiate
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.PAT }}
+        ref: ${{ github.head_ref }}
+    
+    - name: Find and Replace - Stage
+      uses: jacobtomlinson/gha-find-replace@v3
+      with:
+        find: "https://dev.geo.ca/"
+        replace: "https://stage.geo.ca/"
+        regex: true
+    
+    - name: Push changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Automated Commit
+        branch: dev 
