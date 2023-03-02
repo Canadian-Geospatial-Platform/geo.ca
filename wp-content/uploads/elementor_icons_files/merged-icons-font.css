@@ -20,12 +20,12 @@ display: block;
 
 @font-face {
  font-family: 'themesicons';
-  src: url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.eot?10055287');
-  src: url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.eot?10055287#iefix') format('embedded-opentype'),
-       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.woff2?10055287') format('woff2'),
-       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.woff?10055287') format('woff'),
-       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.ttf?10055287') format('truetype'),
-       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.svg?10055287#themesicons') format('svg');
+  src: url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.eot?10055287');
+  src: url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.eot?10055287#iefix') format('embedded-opentype'),
+       url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.woff2?10055287') format('woff2'),
+       url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.woff?10055287') format('woff'),
+       url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.ttf?10055287') format('truetype'),
+       url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-1def8bd3.zip/fontello-1def8bd3/font/themesicons.svg?10055287#themesicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -42,12 +42,12 @@ display: block;
 
 @font-face {
  font-family: 'frenchicons';
-  src: url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.eot?1285075720');
-  src: url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.eot?1285075720#iefix') format('embedded-opentype'),
-       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.woff2?1285075720') format('woff2'),
-       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.woff?1285075720') format('woff'),
-       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.ttf?1285075720') format('truetype'),
-       url('https://dev.geo.ca/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.svg?1285075720#frenchicons') format('svg');
+  src: url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.eot?1285075720');
+  src: url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.eot?1285075720#iefix') format('embedded-opentype'),
+       url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.woff2?1285075720') format('woff2'),
+       url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.woff?1285075720') format('woff'),
+       url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.ttf?1285075720') format('truetype'),
+       url('https://wordpress.dev.geo.ca/wordpress/wp-content/uploads/elementor_icons_files/fontello-19b03013.zip/fontello-19b03013/font/frenchicons.svg?1285075720#frenchicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
