@@ -30,15 +30,7 @@ jobs:
         commit_message: Automated Commit - Stage
         push_options: --force
         branch: stage
-        disable_globbing: true
     
     - name: Push changes - Init Prod
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: Automated Commit - Init Prod
-        skip_fetch: true
-        skip_checkout: true
-        disable_globbing: true
-        push_options: --force
-        branch: prod
+      run: git push origin -f stage:prod
  

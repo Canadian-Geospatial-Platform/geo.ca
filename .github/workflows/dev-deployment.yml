@@ -30,7 +30,6 @@ jobs:
         commit_message: Automated Commit - Dev
         push_options: --force
         branch: dev
-        disable_globbing: true 
     
     - name: Push changes - Init Stage
       run: git push origin -f dev:stage
