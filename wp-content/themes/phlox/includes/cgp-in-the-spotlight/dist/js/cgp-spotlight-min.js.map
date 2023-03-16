@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/js/cgp-spotlight.js"],"names":["reqListener","console","log","this","responseText","oReq","XMLHttpRequest","addEventListener","open","send"],"mappings":"AAEA,SAASA,cACPC,QAAQC,IAAIC,KAAKC,cAHnBH,QAAQC,IAAI,cAMZ,MAAMG,KAAO,IAAIC,eACjBD,KAAKE,iBAAiB,OAAQP,aAC9BK,KAAKG,KAAK,MAAO,6CACjBH,KAAKI"}
