@@ -1,0 +1,72 @@
+body {
+	color: $color-body-text;
+	font-family: $font-family-open-sans;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.625;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+	line-height: 1.2;
+	margin: 0 0 20px;
+}
+
+h1, .h1 {
+	font-size: 50px;
+}
+
+h2, .h2 {
+	font-size: 36px;
+}
+
+h3, .h3 {
+	font-size: 28px;
+}
+
+h4, .h4 {
+	font-size: 22px;
+}
+
+h5, .h5 {
+	font-size: 20px;
+}
+
+h6, .h6 {
+	font-size: 18px;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	// color: inherit;
+}
+
+a {
+	color: $color-purple;
+	text-decoration: none;
+
+	&:hover {
+		color: #353b6e;
+		text-decoration: underline;
+	}
+}
+
+p {
+	margin: 0 0 20px;
+}
+
+ul, ol {
+	margin: 0 0 20px;
+}

@@ -1,0 +1,385 @@
+/*
+Copyright © 2013 Adobe Systems Incorporated.
+Licensed under the Apache License, Version 2.0 (the “License”);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an “AS IS” BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+/** SASS Varibales **/
+
+$color__menu-light: #fff;
+$color__menu-bg-color: $color__menu-light;
+$color__menu-color: #2b3035;
+$color__menu-logo-color-blue: #515aa9;
+$color__menu-parent-hover-bg-color: #f9f9f9;
+// $color__menu-link-color: #169548;
+$color__menu-link-color: #0f7d21; // Darkest green found in logo
+$color__menu-sub-link-color: #54595f;
+$color__menu-header-border-color: #e9e9e9;
+$size__menu-height: 100px;
+
+$breakpoint__menu-small: 959px;
+
+/** CGP Styles **/
+
+.cgp-mega-menu-wrap {
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style: none;
+			margin: 0;
+
+			.fas {
+				margin-left: 0.25em;
+			}
+
+			a {
+				text-decoration: none;
+			}
+		}
+
+
+	}
+
+	.cgp-mega-menu-mobile-logo {
+		align-items: center;
+		display: none;
+		justify-content: left;
+		width: 70%;
+
+		img {
+			display: block;
+			max-width: 200px;
+		}
+	}
+
+	.cgp-mega-menu-toggle {
+
+
+		background: $color__menu-bg-color !important;
+		border: 0;
+		color: $color__menu-color !important;
+		display: none;
+		font-size: 40px;
+		line-height: 40px;
+		height: 40px;
+		margin: -20px 0 0;
+		padding: 0;
+		position: absolute;
+			right: 20px;
+			top: 50%;
+		width: 40px;
+		z-index: 1;
+
+
+		&:hover {
+			background: $color__menu-bg-color !important;
+			color: $color__menu-color !important;
+		}
+	}
+
+	.cgp-mega-menu {
+		background-color: $color__menu-bg-color;
+		color: $color__menu-link-color;
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 1em;
+		font-weight: 600;
+		margin: 0;
+		padding: 0;
+		position: relative;
+
+		> .menu-item {
+			> a {
+				display: block;
+				color: $color__menu-link-color;
+				text-transform: uppercase;
+				&:hover,
+				&:focus {
+					background-color: $color__menu-parent-hover-bg-color;
+					text-decoration: underline;
+				}
+			}
+		}
+		.sub-menu-item {
+			font-weight: 400;
+			a {
+				color: $color__menu-sub-link-color;
+				display: block;
+				&:hover,
+				&:focus {
+					text-decoration: underline;
+				}
+			}
+		}
+		.cgp-mega-menu-heading.sub-menu-item {
+			> h2 {
+				color: $color__menu-color;
+				font-weight: 400;
+				margin: 0;
+				padding: 0 0 10px 0;
+				a {
+					padding: 0;
+				}
+			}
+		}
+		.cgp-mega-menu-item-spacer {
+			margin-top: 20px;
+		}
+	}
+
+	@media screen and (max-width: $breakpoint__menu-small) {
+		.cgp-mega-menu-mobile-logo {
+			display: flex;
+		}
+		.cgp-mega-menu-toggle {
+			display: block;
+			& ~ .cgp-mega-menu {
+				height: 0;
+			}
+			& ~ .cgp-mega-menu > .menu-item {
+				height: 0;
+				overflow: hidden;
+				visibility: collapse;
+			}
+			&[aria-expanded='true'] ~ .cgp-mega-menu {
+				height: auto;
+				z-index: 2;
+				margin-top: 20px;
+			}
+
+			&[aria-expanded='true'] ~ .cgp-mega-menu > .menu-item {
+				height: auto;
+				overflow: visible;
+				visibility: visible;
+			}
+			&[aria-expanded='true'] {
+				.fa-bars::before {
+					content: '\f00d';
+				}
+			}
+		}
+
+		.cgp-mega-menu {
+			> .menu-item {
+				border-bottom: 1px solid $color__menu-header-border-color;
+				a {
+					padding: 20px;
+				}
+			}
+			.cgp-mega-menu-home {
+				.cgp-mega-menu-has-logo {
+					display: none;
+					&:hover {
+						background: transparent;
+					}
+				}
+			}
+			.sub-menu-panel {
+				visibility: hidden;
+				top: -9999em;
+				max-height: 0px;
+				overflow: hidden;
+				opacity: 0;
+				transition: opacity 250ms ease 250ms, max-height 500ms ease, visibility 0s linear 500ms, top 0s linear 500ms;
+				&.open {
+					visibility: visible;
+					opacity: 1;
+					z-index: 1001;
+					max-height: none;
+					transition: opacity 250ms ease, max-height 500ms ease, visibility 0s linear 0s, top 0s linear 0s;
+				}
+				.sub-menu-group {
+					border-top: 1px solid $color__menu-header-border-color;
+
+					.sub-menu-item {
+						border-bottom: 1px solid $color__menu-header-border-color;
+						&:last-child {
+							border-bottom: none;
+						}
+						a {
+							&.cgp-menu-tooltip {
+								.fas {
+									display: none;
+								}
+							}
+						}
+						.sub-menu-group {
+							.sub-menu-item {
+								a {
+									padding-left: 40px;
+								}
+							}
+						}
+					}
+					.cgp-mega-menu-heading.sub-menu-item {
+						> h2 {
+							font-size: 1em;
+							padding: 20px;
+							a {
+								padding: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media screen and (min-width: $breakpoint__menu-small + 1px) {
+		position: relative;
+		z-index: 999;
+
+		// Top level nav
+		.cgp-mega-menu {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			height: $size__menu-height;
+
+			// List items and links
+			> .menu-item {
+				flex: 0 0 auto;
+				align-self: center;
+				height: $size__menu-height;
+				line-height: $size__menu-height;
+				> a {
+					height: $size__menu-height;
+					padding: 0 20px;
+				}
+			}
+			// Home / Logo
+			.cgp-mega-menu-home {
+				margin-right: auto;
+
+				.cgp-mega-menu-has-logo {
+					align-items: center;
+					display: flex;
+					justify-content: center;
+					padding: 0;
+
+					img {
+						display: block;
+						max-width: 200px;
+					}
+
+					&:hover {
+						background: transparent;
+					}
+				}
+			}
+		}
+
+		// Mega Menu Panel - General Styles
+		.sub-menu-panel {
+			visibility: hidden;
+			transition: opacity 250ms ease 250ms, max-height 250ms ease, visibility 0s linear 250ms, top 0s linear 250ms;
+			width: 100%;
+			max-width: 1230px;
+			position: absolute;
+			left: 0;
+			top: 90px;
+			background-color: $color__menu-parent-hover-bg-color;
+			padding: 10px;
+			&.open {
+				visibility: visible;
+				z-index: 1000;
+			}
+		}
+
+		// Mega Menu Panel List - General Styles
+		.sub-menu-group {
+			padding: 10px 0;
+			.sub-menu-item {
+				height: auto;
+				line-height: 1.2em;
+				a {
+					padding: 5px 0;
+				}
+			}
+		}
+
+		// Tooltip
+		.sub-menu-group {
+			.sub-menu-item {
+				a {
+					&.cgp-menu-tooltip {
+						position: relative;
+						&[aria-label]:after {
+							border-radius: 10px;
+							opacity: 0;
+							content: attr(aria-label);
+							font-size: 12px;
+							font-weight: 400;
+							padding: 10px;
+							position: absolute;
+							left: 40%;
+							top: 0;
+							z-index: 20;
+							background: rgba(0, 0, 0, 0.75);
+							color: $color__menu-light;
+							width: 200px;
+							transition: opacity 0.25s;
+							pointer-events: none;
+						}
+						&[aria-label]:hover:after {
+							opacity: 1;
+							transition-delay: 0.5s;
+						}
+						.fas {
+							color: $color__menu-logo-color-blue;
+						}
+					}
+				}
+			}
+		}
+
+		// Panel Layout: Columns - Menu Item contains the "cgp-menu-cols" class
+		.cgp-menu-cols {
+			.sub-menu-group {
+				display: flex;
+				flex-direction: row;
+				.sub-menu-item {
+					&.cgp-mega-menu-heading {
+						flex: 1 0 auto;
+						padding: 20px 20px 0 20px;
+						> h2 {
+							border-bottom: 1px solid $color__menu-header-border-color;
+							font-size: 1.125em;
+							text-transform: uppercase;
+							a {
+								padding: 0;
+							}
+						}
+					}
+					.sub-menu-group {
+						flex-direction: column;
+					}
+				}
+			}
+		}
+
+		// Panel Layout: Row - Menu Item contains the "cgp-menu-row" class
+		.cgp-menu-row {
+			.sub-menu-group {
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-end;
+				align-items: center;
+				padding: 20px;
+				.sub-menu-item {
+					margin-right: 20px;
+				}
+			}
+		}
+	}
+}

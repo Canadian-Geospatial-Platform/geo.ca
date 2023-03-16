@@ -1,0 +1,2 @@
+jQuery&&function(e){"use strict";e(document).ready((function(){e(".cgp-mega-menu-wrap").accessibleMegaMenu({uuidPrefix:"accessible-megamenu",menuClass:"nav-menu",topNavItemClass:"menu-item",panelClass:"sub-menu-panel",panelGroupClass:"sub-menu-group",hoverClass:"hover",focusClass:"focus",openClass:"open",toggleButtonClass:"cgp-mega-menu-toggle"}),setTimeout((function(){e("body").removeClass("init")}),500)}))}(jQuery);
+//# sourceMappingURL=main-min.js.map

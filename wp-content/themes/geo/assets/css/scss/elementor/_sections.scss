@@ -1,0 +1,26 @@
+@media( max-width: 1279px ) {
+	.elementor-inner .elementor-top-section.elementor-section-boxed > .elementor-container {
+		max-width: 960px;
+	}
+}
+
+@media( max-width: 1024px ) {
+    .elementor-inner .elementor-top-section.elementor-section-boxed > .elementor-container {
+        max-width: 720px;
+    }
+}
+
+@media( max-width: 768px ) {
+	.elementor-inner .elementor-top-section.elementor-section-boxed > .elementor-container {
+		padding: 0 20px;
+	}
+}
+
+
+// Default to full background cover for sections
+.elementor-section,
+.elementor-column-wrap {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

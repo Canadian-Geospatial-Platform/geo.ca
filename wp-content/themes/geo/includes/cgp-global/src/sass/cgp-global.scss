@@ -1,0 +1,373 @@
+// Global Link pseudo classes
+
+body {
+	a {
+		&:link,
+		&:visited {
+			text-decoration: underline;
+		}
+		&:hover,
+		&:focus,
+		&:active {
+			color: #353b6e;
+			text-decoration: underline;
+		}
+	}
+}
+
+// Global Ultilities
+
+.cgp-inv {
+	// Make text non-visible on screen, but available to sreenreaders
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	margin: 0;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+}
+
+.cgp-view-map-gallery-link {
+	a {
+		&:link,
+		&:visited {
+			text-decoration: none;
+		}
+		&:hover,
+		&:focus,
+		&:active {
+			text-decoration: underline;
+		}
+	}
+}
+
+// Page Hero Banner
+body {
+	.cgp-sec-page-hero-banner {
+		.cgp-col-page-hero-banner-main {
+			// background-color: rgba(0, 0, 0, 0.2);
+			@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+				backdrop-filter: blur(20px);
+				background-color: rgba(0, 0, 0, 0);
+			}
+		}
+		// Theme Icons
+		.cgp-col-page-hero-banner-themes {
+			background-color: rgba(0, 0, 0, 0.2);
+
+			@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+				backdrop-filter: blur(20px);
+				background-color: rgba(0, 0, 0, 0);
+			}
+
+			.cgp-elementor-widget-icons {
+
+				.elementor-widget-icon {
+					margin-bottom: 0;
+				}
+
+				.elementor-icon {
+					// <a> element
+					display: block;
+					padding: 18px;
+
+					&:link,
+					&:visited {
+						background-color: transparent;
+						border: 1px solid transparent;
+					}
+
+					&:hover {
+						background-color: #ffffff1a;
+						border: 1px solid #fff !important;
+					}
+
+					&:focus,
+					&:active {
+						background-color: #ffffff1a !important;
+						border: 1px solid #ffffff4f !important;
+					}
+
+					&.current-page {
+						background-color: #ffffff1a !important;
+						border: 1px solid #ffffff4f !important;
+					}
+
+					.eci {
+						color: #fff;
+						font-size: 76px;
+						line-height: 1;
+						width: auto !important;
+					}
+					// Icons should be remade to align with one another. They don't so we use padding to align text to the bottom
+					.themesicons-economy,
+					.themesicons-emergency {
+						padding-top: 3px;
+					}
+					.themesicons-imagery {
+						padding-top: 3px;
+					}
+					.themesicons-legal,
+					.themesicons-society {
+						padding-top: 3px;
+					}
+					.frenchicons-urgence {
+						padding-top: 3px;
+					}
+					.frenchicons-imagerie {
+						padding-top: 3px;
+					}
+					.frenchicons-juridiques {
+						padding-top: 3px;
+					}
+				}
+			}
+		}
+
+		@media screen and (min-width: 960px) {
+			.cgp-col-page-hero-banner-main {
+				.elementor-widget-wrap {
+					flex-direction: column;
+				}
+				.cgp-el-page-hero-banner-search {
+					margin-top: auto;
+					.cgp-custom-api-search {
+						bottom: 18px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Apply the 'cgp-default-card' class to an Elementor Section //
+.cgp-default-card .elementor-column-wrap {
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+	color: #2b3035;
+
+	.elementor-widget-wrap {
+		flex-direction: column;
+
+		.elementor-widget {
+			margin-bottom: 10px !important;
+			a {
+				color: #515aa9;
+			}
+			a:hover,
+			a:focus {
+				color: #353b6e;
+				.elementor-icon-list-text {
+					text-decoration: underline;
+				}
+			}
+			&.elementor-widget-image {
+				a {
+					img {
+						transition: all 400ms linear;
+					}
+					&:hover,
+					&:focus {
+						img {
+							box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+						}
+					}
+				}
+			}
+			&.elementor-widget-heading {
+				.elementor-heading-title {
+					font-family: 'Open Sans', Noto Sans;
+					font-size: 1.375em;
+					font-weight: 600;
+					line-height: 1.2em;
+					// margin-bottom: 1em;
+
+					a {
+						text-decoration: none;
+						&:hover,
+						&:focus {
+							color: #2b3035;
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+
+			&.elementor-widget-text-editor {
+				font-size: 15px;
+			}
+			&.elementor-widget-html {
+				.cgp-iframe-wrap,
+				.cgp-leaflet-wrap,
+				.cgp-geoview-wrap {
+					position: relative;
+					padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+					height: 0;
+					overflow: hidden;
+					.cgp-iframe,
+					.cgp-leaflet,
+					.cgp-geoview {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+
+			&.cgp-flex-bottom {
+				margin-top: auto;
+			}
+
+			.cgp-more-link {
+				color: #515aa9;
+				text-decoration: none;
+				text-transform: uppercase;
+				&:hover,
+				&:focus {
+					color: #353b6e;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+// Remove box shadow from CTA (Call To Action) Section at bottom of page
+.cgp-remove-shadow .cgp-default-card .elementor-column-wrap {
+	box-shadow: none;
+}
+
+
+.cgp-sec-getting-started {
+	.cgp-default-card {
+		.elementor-widget-wrap {
+			.elementor-widget {
+				&.elementor-widget-heading {
+					h3.elementor-heading-title {
+						font-size: 2em;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Sometimes Elementor makes it difficult to style certain elements. Use CSS classes within Elementor modules to override default styles
+
+body {
+	.cpg-no-margin {
+		margin: 0;
+	}
+	.cgp-list-cols-2 ol,
+	.cgp-list-cols-2 ul {
+		list-style-position: outside;
+
+		@media screen and (min-width: 960px) {
+			column-count: 2;
+			column-gap: 50px;
+		}
+	}
+
+	.elementor-widget-text-editor {
+		.cgp-more-link {
+			color: #515aa9;
+			text-decoration: none;
+			text-transform: uppercase;
+			&:hover,
+			&:focus {
+				color: #353b6e;
+				text-decoration: underline;
+			}
+			&.cgp-more-link-green {
+				color: #169548;
+				&:hover,
+				&:focus {
+					color: #353b6e;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+// Remove bottom margin. For pages with a CTA stacked immediately above the footer
+// Add "remove-bottom-margin" class to the page's body element
+.remove-bottom-margin .hentry .entry-main,
+.remove-bottom-margin .hentry .entry-content {
+	margin-bottom: 0;
+}
+.remove-bottom-margin footer {
+	margin-top: 0 !important;
+}
+
+// Prevent title from appearing when hovering over images
+img {
+	pointer-events: none;
+}
+
+// In page navigation
+.cgp-section-nav {
+	border-bottom: 1px solid #dedede;
+	ul {
+		display: flex;
+		font-size: 1.5em;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			margin-right: 1em;
+		}
+	}
+}
+
+// Leaftlet Map Styling
+.cgp-geoview-map,
+.cgp-leaflet-map {
+	.llwp-map {
+		display: flex;
+		flex-direction: column;
+		position: absolute !important;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		border: none;
+
+		.leaflet-bottom.leaflet-left {
+			background-color: rgba(255, 255, 255, 0.75);
+			margin-left: 0;
+			width: 100%;
+		}
+
+		a.button > *,
+		button > *,
+		input[type="button"] > * {
+		    position: static;
+		}
+
+	}
+	// Reset applied global theme styles
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+	// GeoViewer Leaflet map - hide controls
+	.leaflet-bottom.leaflet-right {
+		display: none;
+	}
+	.leaflet-bottom.leaflet-left {
+		display: none;
+	}
+}
+
+.cgp-geoview-wrap,
+.cgp-leaflet-wrap {
+
+	.leaflet-control-zoom {
+		display: none;
+	}
+
+	.leaflet-control-attribution {
+		display: none;
+	}
+}

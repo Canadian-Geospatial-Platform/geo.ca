@@ -1,0 +1,16 @@
+#breadcrumbs {
+	color: #fff;
+	font-family: $font-family-noto-sans;
+	font-size: 16px;
+	font-weight: 500;
+
+	a {
+		color: #fff;
+		font-size: 16px;
+		text-decoration: underline;
+	}
+
+	.separator {
+		margin: 0 10px;
+	}
+}
