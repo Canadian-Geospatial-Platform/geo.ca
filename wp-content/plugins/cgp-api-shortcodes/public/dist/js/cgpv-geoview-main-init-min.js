@@ -1,0 +1,1 @@
+cgpv.init(function(){console.log("api is ready")});
