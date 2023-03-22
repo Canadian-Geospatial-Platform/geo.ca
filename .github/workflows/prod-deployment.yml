@@ -37,4 +37,4 @@ jobs:
       with:
         commit_message: Automated Commit - Prod
         push_options: --force
-        branch: prod
+        branch: prod 
