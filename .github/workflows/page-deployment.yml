@@ -1,0 +1,40 @@
+name: Find and Replace Stage Deployment
+
+on:
+  push:
+    branches: [ dev ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Initiate - Stage
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.PAT }}
+        ref: stage
+    
+    - name: Find and Replace - Stage
+      uses: jacobtomlinson/gha-find-replace@v3
+      with:
+        find: "https://wordpress.dev.geo.ca/wordpress/"
+        replace: https://canadian-geospatial-platform.github.io/geo.ca/
+        regex: true
+        exclude: "**/*.yml"
+
+    - name: Find and Replace - Geocore - Stage
+      uses: jacobtomlinson/gha-find-replace@v3
+      with:
+        find: "https://geocore-dev.api.geo.ca/"
+        replace: "https://geocore.api.geo.ca/"
+        regex: true
+        exclude: "**/*.yml"
+    
+    - name: Push changes - Page
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Automated Commit - Page
+        push_options: --force
+        branch: page
