@@ -2,7 +2,7 @@ name: Find and Replace Page Deployment
 
 on:
   push:
-    branches: [ stage ]
+    branches: [ page ]
 
 jobs:
   build:
@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Initiate - Stage
+    - name: Initiate - Page
       uses: actions/checkout@v3
       with:
         token: ${{ secrets.PAT }}
-        ref: stage
+        ref: page
     
-    - name: Find and Replace - Stage
+    - name: Find and Replace - Page
       uses: jacobtomlinson/gha-find-replace@v3
       with:
         find: "https://dev.geo.ca/"
@@ -24,7 +24,7 @@ jobs:
         regex: true
         exclude: "**/*.yml"
 
-    - name: Find and Replace - Geocore - Stage
+    - name: Find and Replace - Geocore - Page
       uses: jacobtomlinson/gha-find-replace@v3
       with:
         find: "https://geocore-dev.api.geo.ca/"

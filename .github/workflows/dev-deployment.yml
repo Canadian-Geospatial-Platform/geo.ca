@@ -33,3 +33,6 @@ jobs:
     
     - name: Push changes - Init Stage
       run: git push origin -f dev:stage
+
+    - name: Push changes - Init Page
+      run: git push origin -f dev:page
