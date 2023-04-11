@@ -787,7 +787,7 @@
 		"title": "",
 		"widgetsWidget": "",
 		"help": {
-			"folderName": "default"
+			"folderName": "../../../../wp-content/Viewer/help/default"
 		},
 		"about": {
 			"aboutChoice": "folder"

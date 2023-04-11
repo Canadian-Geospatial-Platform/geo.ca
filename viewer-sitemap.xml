@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://dev.geo.ca/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-ACTIVE-FLOOD-iframe-map-en.html</loc>
-		<lastmod>2023-02-28T14:55:04+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-ADMINISTRATION-iframe-map-en.html</loc>
 		<lastmod>2023-02-22T15:19:26+00:00</lastmod>
 	</url>
@@ -35,10 +31,6 @@
 	<url>
 		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-ENVIRONMENT1-iframe-map-en.html</loc>
 		<lastmod>2023-02-22T15:19:26+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-HISTORIC-FLOOD-iframe-map-en.html</loc>
-		<lastmod>2023-02-22T15:33:48+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-IMAGERY-iframe-map-en.html</loc>
