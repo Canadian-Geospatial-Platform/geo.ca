@@ -583,7 +583,7 @@
         },
         "restrictNavigation": false,
         "help": {
-            "folderName": "../../../../wp-content/Viewer/help/default"
+            "folderName": "../../../wp-content/Viewer/help/default"
         },
         "legend": {
             "reorderable": true,
