@@ -1360,13 +1360,8 @@
 		},
 		"logoUrl": "",
 		"navBar": {
-			"extra": [
-				"help",
-				"geoLocator",
-				"home",
-				"fullscreen"
-			],
-			"zoom": "buttons"
+			"zoom": "buttons",
+			"extra": ["fullscreen", "geoLocator", "home", "help"]
 		},
 		"restrictNavigation": false,
 		"sideMenu": {

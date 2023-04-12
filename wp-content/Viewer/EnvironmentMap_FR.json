@@ -1357,12 +1357,7 @@
 		},
 		"navBar": {
 			"zoom": "buttons",
-			"extra": [
-				"help",
-				"geoLocator",
-				"home",
-				"fullscreen"
-			]
+			"extra": ["fullscreen", "geoLocator", "home", "help"]
 		},
 		"restrictNavigation": false,
 		"legend": {
