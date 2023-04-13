@@ -364,63 +364,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/</loc>
-		<lastmod>2023-04-03T18:50:17+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/elevation-768x432.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/lidar-houses-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/</loc>
-		<lastmod>2023-04-04T15:05:20+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/elevation-768x432.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/lidar-houses-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/flood-mapping/</loc>
-		<lastmod>2023-04-04T18:47:03+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/04/shutterstock_747320902-1600-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/flood-mapping/government-canada/</loc>
 		<lastmod>2023-04-04T18:48:30+00:00</lastmod>
 		<image:image>
@@ -440,25 +383,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/</loc>
-		<lastmod>2023-04-04T18:51:44+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/04/shutterstock_747320902-1600-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -787,8 +711,43 @@
 		<lastmod>2023-04-06T20:06:41+00:00</lastmod>
 	</url>
 	<url>
+		<loc>https://dev.geo.ca/flood-mapping/</loc>
+		<lastmod>2023-04-13T12:58:52+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/04/shutterstock_747320902-1600-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/cartographie-inondations/savoir-plus/</loc>
+		<lastmod>2023-04-13T14:06:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/tom-carnegie-7k294YFeVbI-700-unsplash.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/book-transparent-175.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://dev.geo.ca/fr/cartographie-inondations/gouvernement-canada/</loc>
-		<lastmod>2023-04-11T14:21:42+00:00</lastmod>
+		<lastmod>2023-04-13T14:10:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/aurora-borealis-768x432.jpg</image:loc>
 		</image:image>
@@ -809,50 +768,91 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/savoir-plus/</loc>
-		<lastmod>2023-04-11T15:10:35+00:00</lastmod>
+		<loc>https://dev.geo.ca/fr/cartographie-inondations/</loc>
+		<lastmod>2023-04-13T14:21:29+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/tom-carnegie-7k294YFeVbI-700-unsplash.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/book-transparent-175.png</image:loc>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/04/shutterstock_747320902-1600-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
 		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/evenements-historiques-inondations/</loc>
+		<lastmod>2023-04-13T19:15:01+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/polygon.png</image:loc>
+		</image:image>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/historical-flood-events/</loc>
-		<lastmod>2023-04-11T17:20:26+00:00</lastmod>
+		<lastmod>2023-04-13T19:16:38+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/polygon.png</image:loc>
 		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/evenements-inondations-historiques/</loc>
-		<lastmod>2023-04-11T17:31:41+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/polygon.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/inondations-actives-canada/</loc>
-		<lastmod>2023-04-11T17:35:14+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/indice-vulnerabilite-inondations/</loc>
-		<lastmod>2023-04-11T17:36:57+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/active-floods-canada/</loc>
-		<lastmod>2023-04-11T17:39:04+00:00</lastmod>
+		<lastmod>2023-04-13T19:27:57+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/flood-susceptibility-index/</loc>
-		<lastmod>2023-04-11T17:40:41+00:00</lastmod>
+		<lastmod>2023-04-13T19:29:12+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/active-floods-canada/</loc>
+		<lastmod>2023-04-13T19:30:39+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/inondations-actives-canada/</loc>
+		<lastmod>2023-04-13T19:31:50+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/</loc>
+		<lastmod>2023-04-13T19:39:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/elevation-768x432.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/lidar-houses-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/</loc>
+		<lastmod>2023-04-13T19:43:20+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/elevation-768x432.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/lidar-houses-768x432.jpg</image:loc>
+		</image:image>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->
