@@ -3,6 +3,8 @@ name: Find and Replace Page Deployment
 on:
   push:
     branches: [ page ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   build:
@@ -15,30 +17,12 @@ jobs:
       with:
         token: ${{ secrets.PAT }}
         ref: page
-    
+
     - name: Find and Replace - Page
-      uses: jacobtomlinson/gha-find-replace@v3
-      with:
-        find: "https://dev.geo.ca/"
-        replace: https://canadian-geospatial-platform.github.io/geo.ca/
-        regex: true
-        exclude: "**/*.yml"
-
-    - name: Find and Replace - Geocore - Page
-      uses: jacobtomlinson/gha-find-replace@v3
-      with:
-        find: "https://geocore-dev.api.geo.ca/"
-        replace: "https://geocore.api.geo.ca/"
-        regex: true
-        exclude: "**/*.yml"
-
-    - name: Find and Replace - Geocore - Page
-      uses: jacobtomlinson/gha-find-replace@v3
-      with:
-        find: "https://app-dev.geo.ca/"
-        replace: "https://app.geo.ca/"
-        regex: true
-        exclude: "**/*.yml"
+      run: |
+        find -not -path './.git*' -type f -exec sed -i 's/app-dev.geo.ca/app.geo.ca/g' {} \;
+        find -not -path './.git*' -type f -exec sed -i 's/dev.geo.ca/canadian-geospatial-platform.github.io\/geo.ca/g' {} \;
+        find -not -path './.git*' -type f -exec sed -i 's/geocore-dev.api.geo.ca/geocore.api.geo.ca/g' {} \;
     
     - name: Push changes - Page
       uses: stefanzweifel/git-auto-commit-action@v4

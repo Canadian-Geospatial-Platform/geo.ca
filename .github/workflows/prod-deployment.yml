@@ -3,6 +3,8 @@ name: Find and Replace Prod Deployment
 on:
   push:
     branches: [ prod ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   build:
@@ -17,20 +19,10 @@ jobs:
         ref: prod
     
     - name: Find and Replace - Prod
-      uses: jacobtomlinson/gha-find-replace@v3
-      with:
-        find: "https://stage.geo.ca/"
-        replace: "https://geo.ca/"
-        regex: true
-        exclude: "**/*.yml"
-
-    - name: Find and Replace - Geocore - Prod
-      uses: jacobtomlinson/gha-find-replace@v3
-      with:
-        find: "https://geocore-stage.api.geo.ca/"
-        replace: "https://geocore.api.geo.ca/"
-        regex: true
-        exclude: "**/*.yml"
+      run: |
+        find -not -path './.git*' -type f -exec sed -i 's/app-stage.geo.ca/app.geo.ca/g' {} \;
+        find -not -path './.git*' -type f -exec sed -i 's/stage.geo.ca/geo.ca/g' {} \;
+        find -not -path './.git*' -type f -exec sed -i 's/geocore-stage.api.geo.ca/geocore.api.geo.ca/g' {} \;
     
     - name: Push changes - Prod
       uses: stefanzweifel/git-auto-commit-action@v4

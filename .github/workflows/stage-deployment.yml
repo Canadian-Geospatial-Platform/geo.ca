@@ -3,6 +3,8 @@ name: Find and Replace Stage Deployment
 on:
   push:
     branches: [ stage ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   build:
@@ -15,22 +17,12 @@ jobs:
       with:
         token: ${{ secrets.PAT }}
         ref: stage
-    
+   
     - name: Find and Replace - Stage
-      uses: jacobtomlinson/gha-find-replace@v3
-      with:
-        find: "https://dev.geo.ca/"
-        replace: "https://stage.geo.ca/"
-        regex: true
-        exclude: "**/*.yml"
-
-    - name: Find and Replace - Geocore - Stage
-      uses: jacobtomlinson/gha-find-replace@v3
-      with:
-        find: "https://geocore-dev.api.geo.ca/"
-        replace: "https://geocore-stage.api.geo.ca/"
-        regex: true
-        exclude: "**/*.yml"
+      run: |
+        find -not -path './.git*' -type f -exec sed -i 's/app-dev.geo.ca/app-stage.geo.ca/g' {} \;
+        find -not -path './.git*' -type f -exec sed -i 's/dev.geo.ca/stage.geo.ca/g' {} \;
+        find -not -path './.git*' -type f -exec sed -i 's/geocore-dev.api.geo.ca/geocore-stage.api.geo.ca/g' {} \;
     
     - name: Push changes - Stage
       uses: stefanzweifel/git-auto-commit-action@v4
