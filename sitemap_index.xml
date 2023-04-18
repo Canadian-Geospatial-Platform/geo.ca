@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://dev.geo.ca/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://stage.geo.ca/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://dev.geo.ca/page-sitemap.xml</loc>
+		<loc>https://stage.geo.ca/page-sitemap.xml</loc>
 		<lastmod>2023-04-13T19:43:20+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://dev.geo.ca/viewer-sitemap.xml</loc>
+		<loc>https://stage.geo.ca/viewer-sitemap.xml</loc>
 		<lastmod>2023-02-28T14:55:04+00:00</lastmod>
 	</sitemap>
 </sitemapindex>
