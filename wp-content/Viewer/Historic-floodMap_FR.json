@@ -622,7 +622,7 @@
                 },
                 "layerEntries": [
                     {
-                        "outfields": "*",
+                        "outfields": "",
                         "stateOnly": false,
                         "table": {
                             "title": "",
@@ -633,16 +633,7 @@
                             "filterByExtent": false,
                             "searchStrictMatch": false,
                             "printEnabled": false,
-                            "columns": [
-                                {
-                                    "visible": true,
-                                    "searchable": true,
-                                    "filter": {
-                                        "value": "",
-                                        "static": false
-                                    }
-                                }
-                            ]
+                            "columns": []
                         },
                         "controls": [
                             "opacity",
