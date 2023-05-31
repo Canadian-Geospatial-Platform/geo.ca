@@ -30,94 +30,21 @@
 
 
 <link rel="stylesheet" id="cgp-api-hero-banner-data-count-css" href="https://dev.geo.ca/wp-content/plugins/cgp-api-shortcodes/public/dist/css/cgp-api-hero-banner-data-count.css?ver=1.0" media="all">
-<link rel="stylesheet" id="csbwf_sidebar_style-css" href="https://dev.geo.ca/wp-content/plugins/custom-share-buttons-with-floating-sidebar/css/csbwfs.css?ver=6.2.2" media="all">
 <link rel="stylesheet" id="elementor-frontend-css" href="https://dev.geo.ca/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.12.1" media="all">
 <link rel="stylesheet" id="elementor-pro-css" href="https://dev.geo.ca/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.10.2" media="all">
-<link rel="stylesheet" id="geo-css" href="https://dev.geo.ca/wp-content/themes/geo/assets/css/style.min.css?ver=1681755108" media="all">
+<link rel="stylesheet" id="geo-css" href="https://dev.geo.ca/wp-content/themes/geo/assets/css/style.min.css?ver=1685563780" media="all">
 <link rel="stylesheet" id="cgp-video-css" href="https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/dist/css/cgp-video.css?ver=1.0.0" media="all">
 <link rel="stylesheet" id="elementor-icons-css" href="https://dev.geo.ca/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.18.0" media="all">
 <link rel="stylesheet" id="swiper-css" href="https://dev.geo.ca/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6" media="all">
 <link rel="stylesheet" id="elementor-post-336-css" href="https://dev.geo.ca/wp-content/uploads/elementor/css/post-336.css?ver=1683222892" media="all">
 <link rel="stylesheet" id="elementor-post-15464-css" href="https://dev.geo.ca/wp-content/uploads/elementor/css/post-15464.css?ver=1683914463" media="all">
 <link rel="stylesheet" id="elementor-post-176-css" href="https://dev.geo.ca/wp-content/uploads/elementor/css/post-176.css?ver=1683222912" media="all">
-<link rel="stylesheet" id="elementor-post-11118-css" href="https://dev.geo.ca/wp-content/uploads/elementor/css/post-11118.css?ver=1683222912" media="all">
+<link rel="stylesheet" id="elementor-post-11118-css" href="https://dev.geo.ca/wp-content/uploads/elementor/css/post-11118.css?ver=1685564200" media="all">
 <link rel="stylesheet" id="eael-general-css" href="https://dev.geo.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.7.2" media="all">
 <link rel="stylesheet" id="eci-icon-fonts-css" href="https://dev.geo.ca/wp-content/uploads/elementor_icons_files/merged-icons-font.css?ver=1632857537" media="all">
 <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNoto+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.2.2" media="all">
-<link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://dev.geo.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
-<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://dev.geo.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <script src="https://dev.geo.ca/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js"></script>
-<script id="jquery-core-js-after">
-
-	  var windWidth=jQuery( window ).width();
-	  //alert(windWidth);
-	  var animateWidth;
-	  var defaultAnimateWidth;	jQuery(document).ready(function() { 
-	animateWidth="55";
-    defaultAnimateWidth= animateWidth-10;
-	animateHeight="49";
-	defaultAnimateHeight= animateHeight-2;jQuery("div.csbwfsbtns a").hover(function(){
-  jQuery(this).animate({width:animateWidth});
-  },function(){
-    jQuery(this).stop( true, true ).animate({width:defaultAnimateWidth});
-  });jQuery("div.csbwfs-show").hide();
-  jQuery("div.csbwfs-show a").click(function(){
-    jQuery("div#csbwfs-social-inner").show(500);
-     jQuery("div.csbwfs-show").hide(500);
-    jQuery("div.csbwfs-hide").show(500);
-    csbwfsSetCookie("csbwfs_show_hide_status","active","1");
-  });
-  
-  jQuery("div.csbwfs-hide a").click(function(){
-     jQuery("div.csbwfs-show").show(500);
-      jQuery("div.csbwfs-hide").hide(500);
-     jQuery("div#csbwfs-social-inner").hide(500);
-     csbwfsSetCookie("csbwfs_show_hide_status","in_active","1");
-  });var button_status=csbwfsGetCookie("csbwfs_show_hide_status");
-    if (button_status =="in_active") {
-      jQuery("div.csbwfs-show").show();
-      jQuery("div.csbwfs-hide").hide();
-     jQuery("div#csbwfs-social-inner").hide();
-    } else {
-      jQuery("div#csbwfs-social-inner").show();
-     jQuery("div.csbwfs-show").hide();
-    jQuery("div.csbwfs-hide").show();
-    }});
- csbwfsCheckCookie();function csbwfsSetCookie(cname,cvalue,exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires=" + d.toGMTString();
-    document.cookie = cname+"="+cvalue+"; "+expires;
-}
-
-function csbwfsGetCookie(cname) {
-    var name = cname + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0; i<ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0)==' ') c = c.substring(1);
-        if (c.indexOf(name) != -1) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
-}
-
-function csbwfsCheckCookie() {
-	var hideshowhide = ""
-    var button_status=csbwfsGetCookie("csbwfs_show_hide_status");
-    if (button_status != "") {
-        
-    } else {
-        csbwfsSetCookie("csbwfs_show_hide_status", "active",1);
-    }
-    if(hideshowhide=="yes")
-    {
-    csbwfsSetCookie("csbwfs_show_hide_status", "active",0);
-    }
-}
-</script>
 <script src="https://dev.geo.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js"></script>
 <script id="jquery-js-after">jQuery.event.special.touchstart = {
 		setup: function( _, ns, handle ) {
@@ -186,7 +113,7 @@ function csbwfsCheckCookie() {
 <a href="?discover">Discover <i class="fas fa-angle-down" aria-hidden="true"></i></a>
 <div class="sub-menu-panel"><ul class="sub-menu-group">
 <li class="cgp-mega-menu-heading sub-menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-<h2 class="menu-heading">By Theme</h2>
+<div class="menu-heading">By Theme</div>
 	<ul class="sub-menu-group">
 <li class="sub-menu-item menu-item-type-post_type menu-item-object-page"><a href="https://dev.geo.ca/administration/">Administration</a></li>
 <li class="sub-menu-item menu-item-type-post_type menu-item-object-page"><a href="https://dev.geo.ca/economy/">Economy</a></li>
@@ -202,7 +129,7 @@ function csbwfsCheckCookie() {
 	</ul>
 </li>
 <li class="cgp-mega-menu-heading sub-menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-<h2 class="menu-heading">By Content Type</h2>
+<div class="menu-heading">By Content Type</div>
 	<ul class="sub-menu-group">
 <li class="sub-menu-item menu-item-type-custom menu-item-object-custom"><a href="https://app-dev.geo.ca/?type=api" class="cgp-menu-tooltip" aria-label="Discover and leverage useful APIs for requesting specific data and information.">API<i class="fas fa-info-circle" aria-hidden="true"></i></a></li>
 <li class="sub-menu-item menu-item-type-custom menu-item-object-custom"><a href="https://app-dev.geo.ca/?type=application" class="cgp-menu-tooltip" aria-label="Discover our collection of pre-built applications that leverage existing APIs, datasets, collections, and web services.">Application<i class="fas fa-info-circle" aria-hidden="true"></i></a></li>
@@ -214,7 +141,7 @@ function csbwfsCheckCookie() {
 	</ul>
 </li>
 <li class="cgp-mega-menu-heading sub-menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children">
-<h2 class="menu-heading">By Organization</h2>
+<div class="menu-heading">By Organization</div>
 	<ul class="sub-menu-group">
 <li class="sub-menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15464 current_page_item"><a href="https://dev.geo.ca/government-of-canada/">Government of Canada</a></li>
 <li class="sub-menu-item menu-item-type-post_type menu-item-object-page"><a href="https://dev.geo.ca/provinces-and-territories/">Provinces and Territories</a></li>
@@ -614,43 +541,162 @@ function csbwfsCheckCookie() {
 							</div>
 		
 		<div data-elementor-type="footer" data-elementor-id="11118" class="elementor elementor-11118 elementor-location-footer">
-								<footer class="elementor-section elementor-top-section elementor-element elementor-element-fd2e384 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fd2e384" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-4d513906 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4d513906" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a006f39" data-id="a006f39" data-element_type="column">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-74c7011" data-id="74c7011" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-3d73945 elementor-nav-menu__align-center elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="3d73945" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+								<div class="elementor-element elementor-element-4699df70 elementor-widget elementor-widget-text-editor" data-id="4699df70" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-			<link rel="stylesheet" href="https://dev.geo.ca/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css">			<nav migration_allowed="1" migrated="0" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
-				<ul id="menu-1-3d73945" class="elementor-nav-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17889"><a href="https://dev.geo.ca/about-us/" class="elementor-item">About Us</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21417"><a href="https://dev.geo.ca/contact/" class="elementor-item">Contact Us</a></li>
-</ul>			</nav>
-						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-				<ul id="menu-2-3d73945" class="elementor-nav-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17889"><a href="https://dev.geo.ca/about-us/" class="elementor-item" tabindex="-1">About Us</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21417"><a href="https://dev.geo.ca/contact/" class="elementor-item" tabindex="-1">Contact Us</a></li>
-</ul>			</nav>
+							Date modified: 2023-04-06						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4d49ae06" data-id="4d49ae06" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3af45714 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="3af45714" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Share this page: </p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-60019517 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--shape-circle elementor-share-buttons--align-right elementor-widget__width-auto elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons" data-id="60019517" data-element_type="widget" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://dev.geo.ca/wp-content/plugins/elementor-pro/assets/css/widget-share-buttons.min.css">		<div class="elementor-grid">
+								<div class="elementor-grid-item">
+						<div class="elementor-share-btn elementor-share-btn_facebook" role="button" tabindex="0" aria-label="Share on facebook">
+															<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook-f" aria-hidden="true"></i>							</span>
+																				</div>
+					</div>
+									<div class="elementor-grid-item">
+						<div class="elementor-share-btn elementor-share-btn_twitter" role="button" tabindex="0" aria-label="Share on twitter">
+															<span class="elementor-share-btn__icon">
+								<i class="fab fa-twitter" aria-hidden="true"></i>							</span>
+																				</div>
+					</div>
+									<div class="elementor-grid-item">
+						<div class="elementor-share-btn elementor-share-btn_linkedin" role="button" tabindex="0" aria-label="Share on linkedin">
+															<span class="elementor-share-btn__icon">
+								<i class="fab fa-linkedin-in" aria-hidden="true"></i>							</span>
+																				</div>
+					</div>
+									<div class="elementor-grid-item">
+						<div class="elementor-share-btn elementor-share-btn_email" role="button" tabindex="0" aria-label="Share on email">
+															<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope" aria-hidden="true"></i>							</span>
+																				</div>
+					</div>
+						</div>
 				</div>
 				</div>
 					</div>
 		</div>
 							</div>
-		</footer>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-131ad95 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="131ad95" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9cbf46a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9cbf46a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-5a7413e" data-id="5a7413e" data-element_type="column">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5c8589c7" data-id="5c8589c7" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-5b05aa2 elementor-widget elementor-widget-text-editor" data-id="5b05aa2" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-element elementor-element-652374 elementor-widget elementor-widget-heading" data-id="652374" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-							<p>Powered by GEO.CA, copyright © 2023</p>						</div>
+			<h3 class="elementor-heading-title elementor-size-default">Learn</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1fd23eb6 elementor-widget elementor-widget-wp-widget-nav_menu" data-id="1fd23eb6" data-element_type="widget" data-widget_type="wp-widget-nav_menu.default">
+				<div class="elementor-widget-container">
+			<div class="menu-footer-learn-menu-en-container"><ul id="menu-footer-learn-menu-en" class="menu">
+<li id="menu-item-38253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38253"><a href="https://dev.geo.ca/about-us/">About Us</a></li>
+<li id="menu-item-38260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38260"><a href="https://dev.geo.ca/getting-started/">Getting Started</a></li>
+<li id="menu-item-38254" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38254"><a href="https://dev.geo.ca/behind-the-scenes/">Behind the Scenes</a></li>
+<li id="menu-item-38255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38255"><a href="https://dev.geo.ca/communities/">Communities</a></li>
+<li id="menu-item-38256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38256"><a href="https://dev.geo.ca/contributors/">Contributors</a></li>
+<li id="menu-item-38257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38257"><a href="https://dev.geo.ca/discover-value-geo/">Discover the Value of GEO</a></li>
+<li id="menu-item-38258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38258"><a href="https://dev.geo.ca/flood-mapping/">Flood Mapping</a></li>
+<li id="menu-item-38259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38259"><a href="https://dev.geo.ca/geo-in-the-news/">GEO in the News</a></li>
+<li id="menu-item-38261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38261"><a href="https://dev.geo.ca/map-gallery/">Map Gallery</a></li>
+</ul></div>		</div>
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-e057181" data-id="e057181" data-element_type="column">
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-99c9029" data-id="99c9029" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-22b1395 elementor-widget elementor-widget-text-editor" data-id="22b1395" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-element elementor-element-325a9802 elementor-widget elementor-widget-heading" data-id="325a9802" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-							<p><a href="https://dev.geo.ca/terms-and-conditions/">Terms and Conditions</a></p>						</div>
+			<h3 class="elementor-heading-title elementor-size-default">Discover By Theme</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-11f11cf elementor-widget elementor-widget-wp-widget-nav_menu" data-id="11f11cf" data-element_type="widget" data-widget_type="wp-widget-nav_menu.default">
+				<div class="elementor-widget-container">
+			<div class="menu-footer-themes-menu-en-container"><ul id="menu-footer-themes-menu-en" class="menu">
+<li id="menu-item-38241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38241"><a href="https://dev.geo.ca/administration/">Administration</a></li>
+<li id="menu-item-38231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38231"><a href="https://dev.geo.ca/economy/">Economy</a></li>
+<li id="menu-item-38232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38232"><a href="https://dev.geo.ca/emergency/">Emergency</a></li>
+<li id="menu-item-38233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38233"><a href="https://dev.geo.ca/environment/">Environment</a></li>
+<li id="menu-item-38235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38235"><a href="https://dev.geo.ca/imagery/">Imagery</a></li>
+<li id="menu-item-38242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38242"><a href="https://dev.geo.ca/infrastructure/">Infrastructure</a></li>
+<li id="menu-item-38237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38237"><a href="https://dev.geo.ca/legal/">Legal</a></li>
+<li id="menu-item-38243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38243"><a href="https://dev.geo.ca/science/">Science</a></li>
+<li id="menu-item-38239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38239"><a href="https://dev.geo.ca/society/">Society</a></li>
+<li id="menu-item-38234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38234"><a href="https://dev.geo.ca/foundation-data/">Foundation Data</a></li>
+</ul></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-1182d303" data-id="1182d303" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3025b1fb elementor-widget elementor-widget-heading" data-id="3025b1fb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Discover By Content Type</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1b790d39 elementor-widget elementor-widget-wp-widget-nav_menu" data-id="1b790d39" data-element_type="widget" data-widget_type="wp-widget-nav_menu.default">
+				<div class="elementor-widget-container">
+			<div class="menu-footer-content-types-menu-en-container"><ul id="menu-footer-content-types-menu-en" class="menu">
+<li id="menu-item-38244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38244"><a href="https://app-dev.geo.ca/?type=api">API</a></li>
+<li id="menu-item-38245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38245"><a href="https://app-dev.geo.ca/?type=application">Application</a></li>
+<li id="menu-item-38246" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38246"><a href="https://app-dev.geo.ca/?type=collection">Collection</a></li>
+<li id="menu-item-38247" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38247"><a href="https://app-dev.geo.ca/?type=dataset">Dataset</a></li>
+<li id="menu-item-38248" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38248"><a href="https://app-dev.geo.ca/?type=community">Community</a></li>
+<li id="menu-item-38249" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38249"><a href="https://app-dev.geo.ca/?type=service">Service</a></li>
+</ul></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4ced393c" data-id="4ced393c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-71af18d2 elementor-widget elementor-widget-heading" data-id="71af18d2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Discover By Organization</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-554a9e11 elementor-widget elementor-widget-wp-widget-nav_menu" data-id="554a9e11" data-element_type="widget" data-widget_type="wp-widget-nav_menu.default">
+				<div class="elementor-widget-container">
+			<div class="menu-footer-organizations-menu-en-container"><ul id="menu-footer-organizations-menu-en" class="menu">
+<li id="menu-item-38250" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15464 current_page_item menu-item-38250"><a href="https://dev.geo.ca/government-of-canada/" aria-current="page">Government of Canada</a></li>
+<li id="menu-item-38292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38292"><a href="https://dev.geo.ca/provinces-and-territories/">Provinces and Territories</a></li>
+<li id="menu-item-38252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38252"><a href="https://dev.geo.ca/initiatives/geobase/">GeoBase</a></li>
+</ul></div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7c37a6d9 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7c37a6d9" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-328da7ba" data-id="328da7ba" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-bfd82fc elementor-hidden-mobile elementor-widget elementor-widget-text-editor" data-id="bfd82fc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Powered by GEO.ca, Copyright © 2023   •   <a href="https://dev.geo.ca/terms-and-conditions/">Terms and Conditions</a>   •   <a href="https://dev.geo.ca/contact/">Contact Us</a></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3f2b3628 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-text-editor" data-id="3f2b3628" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Powered by GEO.ca<br>Copyright © 2023</p>
+<p><a href="https://dev.geo.ca/terms-and-conditions/">Terms and Conditions</a></p>
+<p><a href="https://dev.geo.ca/contact/">Contact Us</a></p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4805de4f" data-id="4805de4f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-554e8da6 elementor-widget elementor-widget-image" data-id="554e8da6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.12.1 - 02-04-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="1000" height="308" src="https://dev.geo.ca/wp-content/uploads/2020/05/Canada-Gov-logo.png" class="attachment-large size-large wp-image-5578" alt="Canada Government Logo" loading="lazy">															</div>
 				</div>
 					</div>
 		</div>
@@ -658,22 +704,16 @@ function csbwfsCheckCookie() {
 		</section>
 						</div>
 		
-<div id="csbwfs-delaydiv"><div class="csbwfs-social-widget" id="csbwfs-right" title="Share This With Your Friends" style="top:35%;right:-5px;">
-<div class="csbwfs-show"><a href="javascript:" title="Show Buttons" id="csbwfs-show"><img src="https://dev.geo.ca/wp-content/plugins/custom-share-buttons-with-floating-sidebar/images/hide-r.png" alt="Show Buttons"></a></div>
-<div id="csbwfs-social-inner">
-<div class="csbwfs-sbutton csbwfsbtns"><div id="csbwfs-fb" class="csbwfs-fb"><a href="javascript:" onclick="javascript:window.open('//www.facebook.com/sharer/sharer.php?u=https://dev.geo.ca/government-of-canada/?simply_static_page=117490', '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" title="Share On Facebook"><i class="csbwfs_facebook"></i></a></div></div>
-<div class="csbwfs-sbutton csbwfsbtns"><div id="csbwfs-tw" class="csbwfs-tw"><a href="javascript:" onclick="window.open('//twitter.com/share?url=https://dev.geo.ca/government-of-canada/?simply_static_page=117490&text=Government%20of%20Canada%20-%20GEO.CA','_blank','width=800,height=300')" title="Share On Twitter"><i class="csbwfs_twitter"></i></a></div></div>
-<div class="csbwfs-sbutton csbwfsbtns"><div id="csbwfs-li" class="csbwfs-li"><a href="javascript:" onclick="javascript:window.open('//www.linkedin.com/cws/share?mini=true&url=https://dev.geo.ca/government-of-canada/?simply_static_page=117490','','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=800');return false;" title="Share On Linkedin"><i class="csbwfs_linkedin"></i></a></div></div>
-<div class="csbwfs-sbutton csbwfsbtns"><div id="csbwfs-ml" class="csbwfs-ml"><a href="mailto:/?subject=Government%20of%20Canada%20-%20GEO.CA&body=https://dev.geo.ca/government-of-canada/?simply_static_page=117490" title="Contact us"><i class="csbwfs_mail"></i></a></div></div>
-</div>
-<div class="csbwfs-hide"><a href="javascript:" title="Hide Buttons" id="csbwfs-hide"><img src="https://dev.geo.ca/wp-content/plugins/custom-share-buttons-with-floating-sidebar/images/show.png" alt="Hide Buttons"></a></div>
-</div></div>		<span class="ssp-id" style="display:none">15464</span>
-		<script src="https://dev.geo.ca/wp-content/plugins/cgp-api-shortcodes/public/dist/js/cgp-api-hero-banner-data-count-min.js?ver=1.0" id="cgp-api-hero-banner-data-count-js"></script>
+		<span class="ssp-id" style="display:none">15464</span>
+		<link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://dev.geo.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://dev.geo.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://dev.geo.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all">
+<script src="https://dev.geo.ca/wp-content/plugins/cgp-api-shortcodes/public/dist/js/cgp-api-hero-banner-data-count-min.js?ver=1.0" id="cgp-api-hero-banner-data-count-js"></script>
 <script src="https://dev.geo.ca/wp-content/themes/geo/includes/cgp-mega-menu/vendor/dist/js/main.min.js?ver=1.0" id="adobe-accessible-mega-menu-main-js"></script>
 <script src="https://dev.geo.ca/wp-content/themes/geo/includes/cgp-mega-menu/vendor/dist/js/jquery-accessibleMegaMenu.min.js?ver=1.0" id="adobe-accessible-mega-menu-jquery-js"></script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/dist/js/cgp-video-min.js?ver=1.0.0" id="cgp-video-js"></script>
 <script src="https://dev.geo.ca/wp-content/themes/geo/includes/cgp-global/dist/js/cgp-global-min.js?ver=1.0" id="cgp-global-js"></script>
-<script id="eael-general-js-extra">var localize = {"ajaxurl":"https:\/\/dev.geo.ca\/wp-admin\/admin-ajax.php","nonce":"f649da6c2c","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https:\/\/dev.geo.ca\/government-of-canada\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};</script>
+<script id="eael-general-js-extra">var localize = {"ajaxurl":"https:\/\/dev.geo.ca\/wp-admin\/admin-ajax.php","nonce":"12312e368b","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https:\/\/dev.geo.ca\/government-of-canada\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};</script>
 <script src="https://dev.geo.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.7.2" id="eael-general-js"></script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.12.1" id="elementor-webpack-runtime-js"></script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.12.1" id="elementor-frontend-modules-js"></script>
@@ -683,7 +723,6 @@ function csbwfsCheckCookie() {
 var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.12.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"landing-pages":true,"page-transitions":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/dev.geo.ca\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":15464,"title":"Government%20of%20Canada%20-%20GEO.CA","excerpt":"","featuredImage":"https:\/\/dev.geo.ca\/wp-content\/uploads\/2017\/05\/shaking-hands-1024x1024.jpg"}};</script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.12.1" id="elementor-frontend-js"></script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/dist/js/geo-latest-announcement.min.js?ver=1675973778" id="geo-latest-announcement-js"></script>
-<script src="https://dev.geo.ca/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1" id="smartmenus-js"></script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.10.2" id="elementor-pro-webpack-runtime-js"></script>
 <script src="https://dev.geo.ca/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
 <script src="https://dev.geo.ca/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11" id="regenerator-runtime-js"></script>
@@ -693,7 +732,7 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 <script id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 </script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/dev.geo.ca\/wp-admin\/admin-ajax.php","nonce":"4d9028cd01","urls":{"assets":"https:\/\/dev.geo.ca\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/dev.geo.ca\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_CA","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/dev.geo.ca\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/dev.geo.ca\/wp-admin\/admin-ajax.php","nonce":"3b754335da","urls":{"assets":"https:\/\/dev.geo.ca\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/dev.geo.ca\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_CA","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/dev.geo.ca\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.10.2" id="elementor-pro-frontend-js"></script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.10.2" id="pro-elements-handlers-js"></script>
 
