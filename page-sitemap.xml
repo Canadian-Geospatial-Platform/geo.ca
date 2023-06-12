@@ -55,38 +55,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/geo-dans-actualite/</loc>
-		<lastmod>2023-03-21T15:16:10+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/79.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/COVID-19-768x433.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/02/floods-fr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/geo-in-the-news/</loc>
-		<lastmod>2023-03-21T16:12:58+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/79.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/COVID-19-768x433.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/FL-23-floods-in-canada-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/geo-dans-actualite/fr-covid-19/</loc>
 		<lastmod>2023-03-21T16:22:31+00:00</lastmod>
 		<image:image>
@@ -405,37 +373,6 @@
 	<url>
 		<loc>https://dev.geo.ca/fr/environnement/</loc>
 		<lastmod>2023-04-06T20:02:04+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/accueil/</loc>
-		<lastmod>2023-04-06T20:03:03+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/Open-Database-of-Buildings-and-Automatically-Extracted-Buildings-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/FL-22-cded-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/pexels-james-wheeler-1571436-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/marc-olivier-jodoin-TStNU7H4UEE-unsplash-scaled-e1678740185896-768x431.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/celebrate-canada-1100-1-e1678740108598-768x431.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/elementor/thumbs/GettyImages-1070725116-475-q3zj1m8lnfzpbnx0u50pm438o0lrwtcgqgk9wzb6z2.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/ele1-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/DSM-DTM_Wakefield-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/brydon-mccluskey-Ozo27HdqtT0-unsplash-cr-768x432.jpg</image:loc>
-		</image:image>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/fr/imagerie/</loc>
@@ -808,37 +745,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/home/</loc>
-		<lastmod>2023-05-19T18:03:42+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/Open-Database-of-Buildings-and-Automatically-Extracted-Buildings-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/FL-22-cded-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/pexels-james-wheeler-1571436-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/marc-olivier-jodoin-TStNU7H4UEE-unsplash-scaled-e1678740185896-768x431.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/celebrate-canada-1100-1-e1678740108598-768x431.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/GettyImages-1070725116-1800-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/ele1-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/DSM-DTM_Wakefield-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/brydon-mccluskey-Ozo27HdqtT0-unsplash-cr-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/about-us/</loc>
 		<lastmod>2023-05-19T18:19:45+00:00</lastmod>
 		<image:image>
@@ -915,6 +821,100 @@
 	<url>
 		<loc>https://dev.geo.ca/fr/economie/</loc>
 		<lastmod>2023-06-02T20:57:14+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/home/</loc>
+		<lastmod>2023-06-08T19:24:18+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/marc-olivier-jodoin-TStNU7H4UEE-unsplash-scaled-e1678740185896-768x431.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/pexels-james-wheeler-1571436-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/GettyImages-1070725116-1800-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/ele1-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/DSM-DTM_Wakefield-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/brydon-mccluskey-Ozo27HdqtT0-unsplash-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/air-pollutants-monitoring-station-map-thumb-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x450.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/geo-in-the-news/</loc>
+		<lastmod>2023-06-08T19:29:19+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/79.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/COVID-19-768x433.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/FL-23-floods-in-canada-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/geo-dans-actualite/</loc>
+		<lastmod>2023-06-08T19:44:47+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/79.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/COVID-19-768x433.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/02/floods-fr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/accueil/</loc>
+		<lastmod>2023-06-08T20:23:38+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/marc-olivier-jodoin-TStNU7H4UEE-unsplash-scaled-e1678740185896-768x431.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/celebrate-canada-1100-1-e1678740108598-768x431.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/elementor/thumbs/GettyImages-1070725116-475-q3zj1m8lnfzpbnx0u50pm438o0lrwtcgqgk9wzb6z2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/ele1-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/DSM-DTM_Wakefield-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/brydon-mccluskey-Ozo27HdqtT0-unsplash-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/air-pollutants-monitoring-station-map-thumb-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x450.jpg</image:loc>
+		</image:image>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->
