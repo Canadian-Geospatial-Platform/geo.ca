@@ -652,7 +652,7 @@
             ],
             "disabledControls": [],
             "state": {
-              "opacity": 1,
+              "opacity": 0.7,
               "visibility": true,
               "boundingBox": false,
               "query": true,
@@ -694,7 +694,7 @@
             ],
             "disabledControls": [],
             "state": {
-              "opacity": 1,
+              "opacity": 0.25,
               "visibility": true,
               "boundingBox": false,
               "query": true,
@@ -775,7 +775,7 @@
       "reorderable": true,
       "allowImport": true,
       "isOpen": {
-        "large": true,
+        "large": false,
         "medium": false,
         "small": false
       }
