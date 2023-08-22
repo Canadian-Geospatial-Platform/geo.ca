@@ -6,19 +6,6 @@
 /* Start custom CSS for text-editor, class: .elementor-element-1a769a75 */.elementor-34829 .elementor-element.elementor-element-1a769a75 p:last-child {
     margin-bottom: 0;
 }/* End custom CSS */
-/* Start custom CSS for section, class: .elementor-element-81db0e7 */.map-list {
-    margin-top: -10px;
-}
-.map-list li:first-child {
-    padding: 2px 0px;
-}   
-.map-list li {
-        list-style: none;
-        padding: 2px 30px;
-        background-repeat: no-repeat;
-        background-position: left center;
-        background-size: 20px;
-    }/* End custom CSS */
 /* Start custom CSS for section, class: .elementor-element-ab6dc91 */.elementor-34829 .elementor-element.elementor-element-ab6dc91 .elementor-button-icon {
     font-size:20px;
 }
