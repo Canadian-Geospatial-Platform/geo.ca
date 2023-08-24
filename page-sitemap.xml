@@ -983,17 +983,17 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/inventaire-inondables-canada/</loc>
-		<lastmod>2023-08-22T14:25:45+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/GRE-007c.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/indice-vulnerabilite-inondations/</loc>
 		<lastmod>2023-08-22T14:27:32+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/COA-010c.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/inventaire-inondables-canada/</loc>
+		<lastmod>2023-08-24T15:14:22+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/GRE-007c.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
