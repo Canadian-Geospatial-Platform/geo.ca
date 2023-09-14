@@ -1,999 +1,1013 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://dev.geo.ca/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://dev.geo.ca/</loc>
-		<lastmod>2023-08-18T18:40:10+00:00</lastmod>
+		<loc>./index.html</loc>
+		<lastmod>2023-05-03T15:50:36+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/12/geo_landing_page.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/12/geo_landing_page.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/elementor/thumbs/wordmark_C-pxh843ahqx4gqjfly8zd4c5jtc50axvfbgw4wlqkfg.png</image:loc>
+			<image:loc>./wp-content/uploads/elementor/thumbs/wordmark_C-pxh843ahqx4gqjfly8zd4c5jtc50axvfbgw4wlqkfg.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/contact/</loc>
+		<loc>./contact/index.html</loc>
 		<lastmod>2023-03-17T19:17:52+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/contactez-nous/</loc>
+		<loc>./fr/contactez-nous/index.html</loc>
 		<lastmod>2023-03-17T19:23:21+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/behind-the-scenes/</loc>
+		<loc>./behind-the-scenes/index.html</loc>
 		<lastmod>2023-03-17T19:49:28+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/dans-les-coulisses/</loc>
+		<loc>./fr/dans-les-coulisses/index.html</loc>
 		<lastmod>2023-03-17T19:57:31+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/decouvrez-richesse-geo/la-toponymie-du-canada-rend-hommage-aux-femmes/</loc>
+		<loc>./fr/decouvrez-richesse-geo/la-toponymie-du-canada-rend-hommage-aux-femmes/index.html</loc>
 		<lastmod>2023-03-17T20:20:52+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/discover-value-geo/recognizing-women-with-canadian-place-names/</loc>
+		<loc>./discover-value-geo/recognizing-women-with-canadian-place-names/index.html</loc>
 		<lastmod>2023-03-17T20:51:12+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/geo-dans-actualite/fr-covid-19/</loc>
+		<loc>./fr/geo-dans-actualite/fr-covid-19/index.html</loc>
 		<lastmod>2023-03-21T16:22:31+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/elementor/thumbs/canada-27003-pxh842cn3uy0s4jc53pb158suttqeuluonvi3smbn8.png</image:loc>
+			<image:loc>./wp-content/uploads/elementor/thumbs/canada-27003-pxh842cn3uy0s4jc53pb158suttqeuluonvi3smbn8.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/alberta-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/alberta-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/british-columbia-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/british-columbia-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/manitoba-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/manitoba-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/new-brunswick-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/new-brunswick-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/newfoundland-labrador-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/newfoundland-labrador-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/northwest-territories-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/northwest-territories-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/nova-scotia-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/nova-scotia-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/nunavut-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/nunavut-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/ontario-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/ontario-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/prince-edward-island-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/prince-edward-island-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/quebec-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/quebec-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/saskatchewan-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/saskatchewan-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/yukon-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/yukon-flag.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/geo-in-the-news/covid-19/</loc>
+		<loc>./geo-in-the-news/covid-19/index.html</loc>
 		<lastmod>2023-03-21T16:22:45+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/elementor/thumbs/canada-27003-pxh842cn3uy0s4jc53pb158suttqeuluonvi3smbn8.png</image:loc>
+			<image:loc>./wp-content/uploads/elementor/thumbs/canada-27003-pxh842cn3uy0s4jc53pb158suttqeuluonvi3smbn8.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/alberta-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/alberta-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/british-columbia-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/british-columbia-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/manitoba-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/manitoba-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/new-brunswick-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/new-brunswick-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/newfoundland-labrador-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/newfoundland-labrador-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/northwest-territories-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/northwest-territories-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/nova-scotia-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/nova-scotia-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/nunavut-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/nunavut-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/ontario-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/ontario-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/prince-edward-island-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/prince-edward-island-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/quebec-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/quebec-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/saskatchewan-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/saskatchewan-flag.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/05/yukon-flag.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/05/yukon-flag.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/geo-dans-actualite/inondations/</loc>
+		<loc>./fr/geo-dans-actualite/inondations/index.html</loc>
 		<lastmod>2023-03-21T16:32:42+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/map-gallery/</loc>
+		<loc>./map-gallery/index.html</loc>
 		<lastmod>2023-03-23T16:13:25+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/air-pollutants-monitoring-station-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/air-pollutants-monitoring-station-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/indigenous-communities-tribal-councils-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/indigenous-communities-tribal-councils-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/indigenous-mining-agreements-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/indigenous-mining-agreements-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/major-projects-indigenous-communities-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/major-projects-indigenous-communities-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/marine-protected-areas-species-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/marine-protected-areas-species-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/water-pollutants-facility-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/water-pollutants-facility-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/mineral-tenure-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/mineral-tenure-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/ocean-habitat-protection-zones-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/ocean-habitat-protection-zones-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/terms-and-conditions/</loc>
+		<loc>./terms-and-conditions/index.html</loc>
 		<lastmod>2023-03-23T16:48:26+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/provinces-et-territoires/</loc>
+		<loc>./fr/provinces-et-territoires/index.html</loc>
 		<lastmod>2023-03-27T14:10:42+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/geo-in-the-news/floods/</loc>
+		<loc>./geo-in-the-news/floods/index.html</loc>
 		<lastmod>2023-04-05T18:51:51+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/avis/</loc>
+		<loc>./fr/a-propos-de-nous/ressources-naturelles-canada/index.html</loc>
+		<lastmod>2023-04-05T20:58:25+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2020/04/about-baner.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/basemaps.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/atlas_la_monde.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/hrdem.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2020/03/10_Orthoimagery-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/GNBC.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/Toporama_fr.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2020/07/landsat-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2020/04/source-page-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/emergency-flood-mapping.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./fr/avis/index.html</loc>
 		<lastmod>2023-04-06T14:56:09+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/decouvrez-richesse-geo/</loc>
+		<loc>./fr/decouvrez-richesse-geo/index.html</loc>
 		<lastmod>2023-04-06T15:32:24+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/celebrate-canada-1100-1-e1678740108598.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/12/celebrate-canada-1100-1-e1678740108598.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/atlas_la_monde.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/atlas_la_monde.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/womens-banner-credit-768x433.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/womens-banner-credit-768x433.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/galerie-de-cartes/</loc>
+		<loc>./fr/galerie-de-cartes/index.html</loc>
 		<lastmod>2023-04-06T16:26:03+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/air-pollutants-monitoring-station-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/air-pollutants-monitoring-station-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/indigenous-communities-tribal-councils-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/indigenous-communities-tribal-councils-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/indigenous-mining-agreements-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/indigenous-mining-agreements-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/major-projects-indigenous-communities-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/major-projects-indigenous-communities-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/marine-protected-areas-species-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/marine-protected-areas-species-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/water-pollutants-facility-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/water-pollutants-facility-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/mineral-tenure-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/mineral-tenure-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/ocean-habitat-protection-zones-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/ocean-habitat-protection-zones-map-thumb-768x450.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/gouvernement-du-canada/</loc>
+		<loc>./fr/gouvernement-du-canada/index.html</loc>
 		<lastmod>2023-04-06T18:40:41+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/government-of-canada/</loc>
+		<loc>./government-of-canada/index.html</loc>
 		<lastmod>2023-04-06T18:50:39+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/provinces-and-territories/</loc>
+		<loc>./provinces-and-territories/index.html</loc>
 		<lastmod>2023-04-06T19:21:37+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/savoir-plus/</loc>
+		<loc>./fr/cartographie-inondations/savoir-plus/index.html</loc>
 		<lastmod>2023-04-13T14:06:34+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/GettyImages-1205721027-1800.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/GettyImages-1205721027-1800.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/tom-carnegie-7k294YFeVbI-700-unsplash.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/tom-carnegie-7k294YFeVbI-700-unsplash.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/book-transparent-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/book-transparent-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/hfe-175.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/discover-value-geo/</loc>
+		<loc>./discover-value-geo/index.html</loc>
 		<lastmod>2023-04-24T13:00:23+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/celebrate-canada-1100-1-e1678740108598.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/12/celebrate-canada-1100-1-e1678740108598.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/atlas_the_world.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/atlas_the_world.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/womens-banner-credit-768x433.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/08/womens-banner-credit-768x433.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/flood-mapping/learn-about/</loc>
+		<loc>./flood-mapping/learn-about/index.html</loc>
 		<lastmod>2023-04-24T15:34:32+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/GettyImages-1205721027-1800.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/GettyImages-1205721027-1800.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/tom-carnegie-7k294YFeVbI-700-unsplash.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/tom-carnegie-7k294YFeVbI-700-unsplash.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/book-transparent-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/book-transparent-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/hfe-175.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/flood-mapping/government-canada/</loc>
+		<loc>./flood-mapping/government-canada/index.html</loc>
 		<lastmod>2023-04-24T15:35:35+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/04/shutterstock_747320902-1600.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/04/shutterstock_747320902-1600.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/aurora-borealis-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/aurora-borealis-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/bruno-soares-Pa8ofq11OGg-800-unsplash-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/bruno-soares-Pa8ofq11OGg-800-unsplash-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/forest-450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/forest-450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/book-transparent-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/book-transparent-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/hfe-175.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/gouvernement-canada/</loc>
+		<loc>./fr/cartographie-inondations/gouvernement-canada/index.html</loc>
 		<lastmod>2023-04-24T15:36:42+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/04/shutterstock_747320902-1600.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/04/shutterstock_747320902-1600.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/aurora-borealis-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/aurora-borealis-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/bruno-soares-Pa8ofq11OGg-800-unsplash-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/bruno-soares-Pa8ofq11OGg-800-unsplash-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/forest-450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/forest-450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/book-transparent-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/book-transparent-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/hfe-175.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/flood-mapping/province-territory/</loc>
+		<loc>./flood-mapping/province-territory/index.html</loc>
 		<lastmod>2023-05-18T17:52:16+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/province-territoire/</loc>
+		<loc>./fr/cartographie-inondations/province-territoire/index.html</loc>
 		<lastmod>2023-05-19T18:02:03+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/</loc>
+		<loc>./about-us/nrcan/index.html</loc>
+		<lastmod>2023-05-19T18:20:22+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2020/04/about-baner.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/basemaps.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/atlas_the_world.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/hrdem.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2020/03/10_Orthoimagery-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/GNBC.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/Toporama_en.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2020/07/landsat-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2020/04/source-page-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/emergency-flood-mapping.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./fr/initiatives-fr/geobase/index.html</loc>
 		<lastmod>2023-05-31T15:47:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/initiatives/geobase/</loc>
+		<loc>./initiatives/geobase/index.html</loc>
 		<lastmod>2023-05-31T15:47:52+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/geo-in-the-news/</loc>
+		<loc>./geo-in-the-news/index.html</loc>
 		<lastmod>2023-06-08T19:29:19+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/79.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/03/79.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/COVID-19-768x433.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/04/COVID-19-768x433.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/FL-23-floods-in-canada-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/03/FL-23-floods-in-canada-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/geo-dans-actualite/</loc>
+		<loc>./fr/geo-dans-actualite/index.html</loc>
 		<lastmod>2023-06-08T19:44:47+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/79.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/03/79.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/COVID-19-768x433.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/04/COVID-19-768x433.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/02/floods-fr-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/02/floods-fr-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/07/in-the-spotlight-map-16-9-cr-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/about-us/</loc>
+		<loc>./about-us/index.html</loc>
 		<lastmod>2023-06-27T16:21:09+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/about-baner.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/04/about-baner.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/2_Addresses-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2017/05/2_Addresses-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/contributors-baner-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/04/contributors-baner-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/01/10-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/01/10-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/getting-started/</loc>
+		<loc>./getting-started/index.html</loc>
 		<lastmod>2023-06-27T16:22:18+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-home-hero.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-home-hero.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/getting-started-discover.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/06/getting-started-discover.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-search-1-768x517.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-search-1-768x517.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-keyword-search-768x518.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-keyword-search-768x518.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-filters-768x517.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-filters-768x517.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-1.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-view-data-1.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-2.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-view-data-2.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-add-to-map-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/10/cgp-gs-screenshot-add-to-map-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-upload-data-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/10/cgp-gs-screenshot-upload-data-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-added-to-map-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/10/cgp-gs-screenshot-added-to-map-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-export-map-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/10/cgp-gs-screenshot-export-map-768x450.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/communities/</loc>
+		<loc>./communities/index.html</loc>
 		<lastmod>2023-06-27T18:43:34+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/a-propos-de-nous/</loc>
+		<loc>./fr/a-propos-de-nous/index.html</loc>
 		<lastmod>2023-06-27T18:51:28+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/about-baner.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/04/about-baner.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/2_Addresses-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2017/05/2_Addresses-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/contributors-baner-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/04/contributors-baner-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/01/10-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/01/10-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/communautes/</loc>
+		<loc>./fr/communautes/index.html</loc>
 		<lastmod>2023-06-27T18:52:12+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/pour-commencer/</loc>
+		<loc>./fr/pour-commencer/index.html</loc>
 		<lastmod>2023-06-27T18:52:17+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-home-hero-fr.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-home-hero-fr.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/pour-commencer-decouvrir.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/06/pour-commencer-decouvrir.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-search-fr-768x517.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-search-fr-768x517.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-keyword-search-fr-768x517.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-keyword-search-fr-768x517.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-filters-fr-768x517.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-filters-fr-768x517.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-1-fr.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-view-data-1-fr.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-2-fr.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/11/getting-started-view-data-2-fr.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-add-to-map-fr-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/12/cgp-gs-screenshot-add-to-map-fr-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-upload-data-fr-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/12/cgp-gs-screenshot-upload-data-fr-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-added-to-map-fr-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/12/cgp-gs-screenshot-added-to-map-fr-768x450.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-export-map-fr.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2021/12/cgp-gs-screenshot-export-map-fr.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/</loc>
+		<loc>./flood-mapping/flood-map-gallery/index.html</loc>
 		<lastmod>2023-06-27T19:57:01+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/ACA-087b.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/ACA-087b.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/hfe-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/satellite-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/FSI-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/06/FSI-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/elevation-768x432.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/elevation-768x432.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/lidar-houses-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/lidar-houses-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/foundation-data/</loc>
+		<loc>./foundation-data/index.html</loc>
 		<lastmod>2023-06-29T17:34:07+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/donnees-de-base-du-canada/</loc>
+		<loc>./fr/donnees-de-base-du-canada/index.html</loc>
 		<lastmod>2023-06-29T17:39:53+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2020/03/FL-earth.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/contributors/</loc>
+		<loc>./contributors/index.html</loc>
 		<lastmod>2023-07-04T19:59:14+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/contributeurs/</loc>
+		<loc>./fr/contributeurs/index.html</loc>
 		<lastmod>2023-07-04T20:01:07+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/flood-mapping/</loc>
+		<loc>./flood-mapping/index.html</loc>
 		<lastmod>2023-07-05T15:34:58+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/GettyImages-1070725116-475.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/GettyImages-1070725116-475.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/04/shutterstock_747320902-1600-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/04/shutterstock_747320902-1600-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/hfe-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/satellite-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/FSI-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/06/FSI-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/</loc>
+		<loc>./home/index.html</loc>
+		<lastmod>2023-07-07T16:30:05+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/12/marc-olivier-jodoin-TStNU7H4UEE-unsplash-scaled-e1678740185896-768x431.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/11/pexels-james-wheeler-1571436-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/02/GettyImages-1070725116-1800-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/11/ele1-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/11/DSM-DTM_Wakefield-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/11/brydon-mccluskey-Ozo27HdqtT0-unsplash-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/08/air-pollutants-monitoring-station-map-thumb-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x450.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./fr/accueil/index.html</loc>
+		<lastmod>2023-07-07T18:09:51+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/12/marc-olivier-jodoin-TStNU7H4UEE-unsplash-scaled-e1678740185896-768x431.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/12/celebrate-canada-1100-1-e1678740108598-768x431.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/elementor/thumbs/GettyImages-1070725116-475-q3zj1m8lnfzpbnx0u50pm438o0lrwtcgqgk9wzb6z2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/11/ele1-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/11/DSM-DTM_Wakefield-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/11/brydon-mccluskey-Ozo27HdqtT0-unsplash-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/08/air-pollutants-monitoring-station-map-thumb-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>./wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x450.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./fr/cartographie-inondations/index.html</loc>
 		<lastmod>2023-07-13T18:57:21+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/GettyImages-1070725116-475.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/GettyImages-1070725116-475.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/04/shutterstock_747320902-1600-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/04/shutterstock_747320902-1600-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash-768x432.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/hfe-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/satellite-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/FSI-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/06/FSI-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/economy/</loc>
+		<loc>./economy/index.html</loc>
 		<lastmod>2023-07-14T19:13:25+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/society/</loc>
+		<loc>./society/index.html</loc>
 		<lastmod>2023-07-14T20:44:58+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/economie/</loc>
+		<loc>./flood-mapping/flood-map-gallery/active-floods-canada/index.html</loc>
+		<lastmod>2023-07-19T14:47:15+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/COA-161d.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./flood-mapping/flood-map-gallery/historical-flood-events/index.html</loc>
+		<lastmod>2023-07-19T14:47:55+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/BOR-006b.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./flood-mapping/flood-map-gallery/flood-susceptibility-index/index.html</loc>
+		<lastmod>2023-07-19T14:55:20+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/COA-010c.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./fr/economie/index.html</loc>
 		<lastmod>2023-07-19T15:21:49+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/societe/</loc>
+		<loc>./fr/societe/index.html</loc>
 		<lastmod>2023-07-19T15:52:12+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/administration/</loc>
+		<loc>./fr/cartographie-inondations/galerie-cartes-inondations/indice-vulnerabilite-inondations/index.html</loc>
+		<lastmod>2023-07-19T17:31:23+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/COA-010c.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./administration/index.html</loc>
 		<lastmod>2023-07-25T14:20:02+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/administration-fr/</loc>
+		<loc>./fr/administration-fr/index.html</loc>
 		<lastmod>2023-07-25T14:23:28+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/emergency/</loc>
+		<loc>./emergency/index.html</loc>
 		<lastmod>2023-07-25T14:41:24+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/urgences/</loc>
+		<loc>./fr/urgences/index.html</loc>
 		<lastmod>2023-07-25T14:45:48+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/environment/</loc>
+		<loc>./environment/index.html</loc>
 		<lastmod>2023-07-25T14:47:47+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/environnement/</loc>
+		<loc>./fr/environnement/index.html</loc>
 		<lastmod>2023-07-25T14:48:59+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/imagery/</loc>
+		<loc>./imagery/index.html</loc>
 		<lastmod>2023-07-25T14:50:34+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/imagerie/</loc>
+		<loc>./fr/imagerie/index.html</loc>
 		<lastmod>2023-07-25T14:52:21+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/infrastructure/</loc>
+		<loc>./infrastructure/index.html</loc>
 		<lastmod>2023-07-25T14:53:38+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/infrastructure-fr/</loc>
+		<loc>./fr/infrastructure-fr/index.html</loc>
 		<lastmod>2023-07-25T14:55:17+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/legal/</loc>
+		<loc>./legal/index.html</loc>
 		<lastmod>2023-07-25T14:58:19+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/renseignements-juridiques/</loc>
+		<loc>./fr/renseignements-juridiques/index.html</loc>
 		<lastmod>2023-07-25T15:00:53+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/science/</loc>
+		<loc>./science/index.html</loc>
 		<lastmod>2023-07-25T15:03:00+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/science-fr/</loc>
+		<loc>./fr/science-fr/index.html</loc>
 		<lastmod>2023-07-25T15:03:54+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+			<image:loc>./wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/</loc>
+		<loc>./fr/cartographie-inondations/galerie-cartes-inondations/evenements-historiques-inondations/index.html</loc>
+		<lastmod>2023-07-27T14:22:08+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/BOR-006b.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./fr/cartographie-inondations/galerie-cartes-inondations/inventaire-inondables-canada/index.html</loc>
+		<lastmod>2023-07-27T14:25:20+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/06/GRE-007c.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./fr/cartographie-inondations/galerie-cartes-inondations/inondations-actives-canada/index.html</loc>
+		<lastmod>2023-07-27T14:26:59+00:00</lastmod>
+		<image:image>
+			<image:loc>./wp-content/uploads/2023/03/COA-161d.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>./fr/cartographie-inondations/galerie-cartes-inondations/index.html</loc>
 		<lastmod>2023-08-01T17:07:35+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/ACA-087b.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/ACA-087b.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/hfe-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/satellite-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/satellite-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/FSI-175.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/06/FSI-175.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/canada-dark-175-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/elevation-768x432.png</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/elevation-768x432.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/lidar-houses-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/a-propos-de-nous/ressources-naturelles-canada/</loc>
-		<lastmod>2023-08-18T15:51:46+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/about-baner.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/basemaps.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/atlas_la_monde.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hrdem.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/10_Orthoimagery-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/GNBC.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/Toporama_fr.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/07/landsat-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/source-page-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/emergency-flood-mapping.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/02/lidar-houses-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/about-us/nrcan/</loc>
-		<lastmod>2023-08-18T15:55:04+00:00</lastmod>
+		<loc>./flood-mapping/flood-map-gallery/canada-flood-map-geolocator-1/index.html</loc>
+		<lastmod>2023-08-09T17:32:56+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/about-baner.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/basemaps.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/atlas_the_world.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hrdem.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/03/10_Orthoimagery-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/GNBC.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/Toporama_en.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/07/landsat-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/source-page-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/emergency-flood-mapping.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/BOR-006b.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/home/</loc>
-		<lastmod>2023-08-18T18:42:04+00:00</lastmod>
+		<loc>./flood-mapping/flood-map-gallery/canada-flood-map-inventory/index.html</loc>
+		<lastmod>2023-08-22T13:19:56+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/marc-olivier-jodoin-TStNU7H4UEE-unsplash-scaled-e1678740185896-768x431.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/pexels-james-wheeler-1571436-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/GettyImages-1070725116-1800-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/ele1-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/DSM-DTM_Wakefield-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/brydon-mccluskey-Ozo27HdqtT0-unsplash-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/air-pollutants-monitoring-station-map-thumb-768x450.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x450.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x450.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/06/GRE-007c.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/accueil/</loc>
-		<lastmod>2023-08-18T18:43:34+00:00</lastmod>
+		<loc>./flood-mapping/flood-map-gallery/canada-flood-map-geolocator/index.html</loc>
+		<lastmod>2023-09-12T15:42:40+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/marc-olivier-jodoin-TStNU7H4UEE-unsplash-scaled-e1678740185896-768x431.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/celebrate-canada-1100-1-e1678740108598-768x431.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/elementor/thumbs/GettyImages-1070725116-475-q3zj1m8lnfzpbnx0u50pm438o0lrwtcgqgk9wzb6z2.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/ele1-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/DSM-DTM_Wakefield-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/brydon-mccluskey-Ozo27HdqtT0-unsplash-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/air-pollutants-monitoring-station-map-thumb-768x450.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x450.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x450.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/canada-flood-map-inventory/</loc>
-		<lastmod>2023-08-22T13:55:16+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/GRE-007c.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/historical-flood-events/</loc>
-		<lastmod>2023-08-22T14:02:25+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/BOR-006b.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/active-floods-canada/</loc>
-		<lastmod>2023-08-22T14:04:22+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/COA-161d.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/flood-susceptibility-index/</loc>
-		<lastmod>2023-08-22T14:08:11+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/COA-010c.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/evenements-historiques-inondations/</loc>
-		<lastmod>2023-08-22T14:25:24+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/BOR-006b.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/inondations-actives-canada/</loc>
-		<lastmod>2023-08-22T14:25:36+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/COA-161d.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/indice-vulnerabilite-inondations/</loc>
-		<lastmod>2023-08-22T14:27:32+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/COA-010c.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/inventaire-inondables-canada/</loc>
-		<lastmod>2023-08-24T15:14:22+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/GRE-007c.jpg</image:loc>
+			<image:loc>./wp-content/uploads/2023/03/BOR-006b.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
