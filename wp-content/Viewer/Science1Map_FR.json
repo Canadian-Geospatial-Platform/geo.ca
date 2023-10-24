@@ -600,7 +600,7 @@
                         "index": 2
                     }
                 ],
-                "url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/HC/airborne_radioactivity_chart_fr/MapServer",
+                "url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/HC/airborne_radioactivity_fr/MapServer",
                 "name": "Radioactivité de l'air",
                 "id": "Airborne Radioactivity***13d293f4"
             }
@@ -699,7 +699,7 @@
             "footnote": {
                 "isSelected": true,
                 "isSelectable": false,
-                "value": "© Sa Majesté la Reine du Chef du Canada, représentée par le ministre des Ressources naturelles"
+                "value": "© Sa Majesté le Roi du chef du Canada, représenté par le ministre de Ressources naturelles Canada, 2022"
             },
             "map": {
                 "isSelected": true,
@@ -795,7 +795,7 @@
                     },
                     "id": "Airborne Radioactivity***13d293f4",
                     "nameField": "Location_Emplacement",
-                    "linkUrl": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/HC/airborne_radioactivity_chart_fr/MapServer/3",
+                    "linkUrl": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/HC/airborne_radioactivity_fr/MapServer/3",
                     "linkField": "Location_Emplacement",
                     "data": [{
                             "type": "combine",

@@ -521,7 +521,7 @@
                 "id": "RCTLPT (Recommended traffic lane part)",
                 "name": "Recommended traffic lane part",
                 "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/0",
+                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Vessel_Traffic_Routes_EN/MapServer/0",
                 "state": {
                     "opacity": 1,
                     "visibility": true
@@ -534,7 +534,7 @@
                 "id": "FERYRT (Ferry route)",
                 "name": "Ferry route",
                 "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/1",
+                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Vessel_Traffic_Routes_EN/MapServer/1",
                 "state": {
                     "opacity": 1,
                     "visibility": true
@@ -544,10 +544,10 @@
                     "columns": []
                 }
             }, {
-                "id": "NAVLNE (Navigation line)",
-                "name": "Navigation line",
+                "id": "Traffic Separation Lines",
+                "name": "Traffic Separation Lines",
                 "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/2",
+                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Vessel_Traffic_Routes_EN/MapServer/2",
                 "state": {
                     "opacity": 1,
                     "visibility": true
@@ -557,10 +557,10 @@
                     "columns": []
                 }
             }, {
-                "id": "RCRTCL (Recommended route centerline)",
-                "name": "Recommended route centerline",
+                "id": "Traffic Separation Zones",
+                "name": "Traffic Separation Zones",
                 "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/3",
+                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Vessel_Traffic_Routes_EN/MapServer/3",
                 "state": {
                     "opacity": 1,
                     "visibility": true
@@ -570,10 +570,10 @@
                     "columns": []
                 }
             }, {
-                "id": "RECTRC (Track recommended to all or only certain vessels)",
-                "name": "Track recommended to all or only certain vessels",
+                "id": "Traffic Separation Parts",
+                "name": "Traffic Separation Parts",
                 "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/4",
+                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Vessel_Traffic_Routes_EN/MapServer/4",
                 "state": {
                     "opacity": 1,
                     "visibility": true
@@ -583,10 +583,10 @@
                     "columns": []
                 }
             }, {
-                "id": "TSELNE (Traffic Separation Line)",
-                "name": "Traffic separation line",
+                "id": "Routes",
+                "name": "Routes",
                 "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/5",
+                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Vessel_Traffic_Routes_EN/MapServer/5",
                 "state": {
                     "opacity": 1,
                     "visibility": true
@@ -596,88 +596,10 @@
                     "columns": []
                 }
             }, {
-                "id": "TSSBND (Traffic Separation Scheme Boundary)",
-                "name": "Traffic separation scheme boundary",
+                "id": "Other Zones",
+                "name": "Other Zones",
                 "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/6",
-                "state": {
-                    "opacity": 1,
-                    "visibility": true
-                },
-                "layerChoice": "esriFeature",
-                "table": {
-                    "columns": []
-                }
-            }, {
-                "id": "CTSARE (Cargo transshipment area)",
-                "name": "Cargo transshipment area",
-                "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/7",
-                "state": {
-                    "opacity": 1,
-                    "visibility": true
-                },
-                "layerChoice": "esriFeature",
-                "table": {
-                    "columns": []
-                }
-            }, {
-                "id": "ISTZNE (Inshore traffic zone)",
-                "name": "Inshore traffic zone",
-                "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/8",
-                "state": {
-                    "opacity": 1,
-                    "visibility": true
-                },
-                "layerChoice": "esriFeature",
-                "table": {
-                    "columns": []
-                }
-            }, {
-                "id": "TSEZNE (Traffic Separation Zone)",
-                "name": "Traffic separation zone",
-                "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/11",
-                "state": {
-                    "opacity": 1,
-                    "visibility": true
-                },
-                "layerChoice": "esriFeature",
-                "table": {
-                    "columns": []
-                }
-            }, {
-                "id": "TSSCRS (Traffic Separation Scheme Crossing)",
-                "name": "Traffic separation scheme crossing",
-                "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/12",
-                "state": {
-                    "opacity": 1,
-                    "visibility": true
-                },
-                "layerChoice": "esriFeature",
-                "table": {
-                    "columns": []
-                }
-            }, {
-                "id": "TSSLPT (Traffic Separation Scheme Lane part)",
-                "name": "Traffic separation scheme lane part",
-                "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/13",
-                "state": {
-                    "opacity": 1,
-                    "visibility": true
-                },
-                "layerChoice": "esriFeature",
-                "table": {
-                    "columns": []
-                }
-            }, {
-                "id": "TWRTPT (Two-way route part)",
-                "name": "Two-way route part",
-                "layerType": "esriFeature",
-                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Traffic_Routes/MapServer/14",
+                "url": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Vessel_Traffic_Routes_EN/MapServer/6",
                 "state": {
                     "opacity": 1,
                     "visibility": true
@@ -1336,27 +1258,15 @@
                             }, {
                                 "layerId": "FERYRT (Ferry route)"
                             }, {
-                                "layerId": "NAVLNE (Navigation line)"
+                                "layerId": "Traffic Separation Lines"
                             }, {
-                                "layerId": "RCRTCL (Recommended route centerline)"
+                                "layerId": "Traffic Separation Zones"
                             }, {
-                                "layerId": "RECTRC (Track recommended to all or only certain vessels)"
+                                "layerId": "Traffic Separation Parts"
                             }, {
-                                "layerId": "TSELNE (Traffic Separation Line)"
+                                "layerId": "Routes"
                             }, {
-                                "layerId": "TSSBND (Traffic Separation Scheme Boundary)"
-                            }, {
-                                "layerId": "CTSARE (Cargo transshipment area)"
-                            }, {
-                                "layerId": "ISTZNE (Inshore traffic zone)"
-                            }, {
-                                "layerId": "TSEZNE (Traffic Separation Zone)"
-                            }, {
-                                "layerId": "TSSCRS (Traffic Separation Scheme Crossing)"
-                            }, {
-                                "layerId": "TSSLPT (Traffic Separation Scheme Lane part)"
-                            }, {
-                                "layerId": "TWRTPT (Two-way route part)"
+                                "layerId": "Other Zones"
                             }
                         ]
                     }
@@ -1443,7 +1353,7 @@
             "footnote": {
                 "isSelected": true,
                 "isSelectable": false,
-                "value": "© Her Majesty the Queen in Right of Canada, represented by the Minister of Natural Resources"
+                "value": "© His Majesty the King in Right of Canada, as represented by the Minister of Natural Resources Canada, 2022"
             },
             "map": {
                 "isSelected": true,

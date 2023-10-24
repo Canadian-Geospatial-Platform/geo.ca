@@ -841,7 +841,7 @@
       "footnote": {
         "isSelected": true,
         "isSelectable": false,
-        "value": "© Her Majesty the Queen in Right of Canada, represented by the Minister of Natural Resources"
+        "value": "© Sa Majesté le Roi du chef du Canada, représenté par le ministre de Ressources naturelles Canada, 2022"
       },
       "map": {
         "isSelected": true,
@@ -870,7 +870,7 @@
     "esriLibUrl": ""
   },
   "version": "3.3.5",
-  "language": "en-CA",
+  "language": "fr-CA",
   "plugins": {
     "rangeSlider": {
       "enable": false,

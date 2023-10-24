@@ -24,7 +24,13 @@
         <p>This interactive map requires JavaScript. To view this content please enable JavaScript in your browser or download a browser that supports it.</p>
       </noscript>
     </div>
+    <button id="fullscreen">Go Fullscreen</button>
     <script src="https://viewer-visualiseur.services.geo.ca/apps/RAMP/fgpv/fgpv-3.3.5/legacy-api.js"></script>
     <script src="https://viewer-visualiseur.services.geo.ca/apps/RAMP/fgpv/fgpv-3.3.5/rv-main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>jQuery( '#fullscreen' ).click( function( ) {
+        console.log( "fullscreen clicked" );
+        jQuery('.myMap rv-mapnav-button[name="fullscreen"] button' ).trigger( 'click' );
+      });</script>
   </body>
 </html>

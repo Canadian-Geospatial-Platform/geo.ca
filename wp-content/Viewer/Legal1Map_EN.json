@@ -716,7 +716,7 @@
                 },
                 "name": "Protected Areas - Canada",
                 "id": "ProtectedAreas",
-                "url": "https://ec.gc.ca/arcgis/rest/services/SpeciesProtectRestore_Canada_CanadianWildlifeService/MapServer/0",
+                "url": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/CPCAD/MapServer/0",
                 "nameField": "Name"
             }, {
                 "layerChoice": "esriFeature",
@@ -901,7 +901,7 @@
             "footnote": {
                 "isSelected": true,
                 "isSelectable": false,
-                "value": "© Her Majesty the Queen in Right of Canada, represented by the Minister of Natural Resources"
+                "value": "© His Majesty the King in Right of Canada, as represented by the Minister of Natural Resources Canada, 2022"
             },
             "map": {
                 "isSelected": true,

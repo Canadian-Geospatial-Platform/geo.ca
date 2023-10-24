@@ -536,7 +536,7 @@
                 "name": "Aboriginal Agreements",
                 "layerType": "esriFeature",
                 "nameField": "ENAME",
-                "url": "https://data.aadnc-aandc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Entente_autochtone_Aboriginal_Agreement/MapServer/0",
+                "url": "https://data.aadnc-aandc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Indigenous_Agreement_E/MapServer/0",
                 "state": {
                     "opacity": 1,
                     "visibility": true
@@ -646,7 +646,7 @@
             "footnote": {
                 "isSelected": true,
                 "isSelectable": false,
-                "value": "© Her Majesty the Queen in Right of Canada, represented by the Minister of Natural Resources"
+                "value": "© His Majesty the King in Right of Canada, as represented by the Minister of Natural Resources Canada, 2022"
             },
             "map": {
                 "isSelected": true,
