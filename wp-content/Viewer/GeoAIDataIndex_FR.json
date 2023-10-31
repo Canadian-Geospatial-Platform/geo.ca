@@ -277,313 +277,286 @@
         ]
       }
     ],
-    "tileSchemas": [
-      {
-        "id": "cad53536",
-        "name": "Canada",
-        "extentSetId": "EXT_NRCAN_Lambert_3978",
-        "lodSetId": "LOD_NRCAN_Lambert_3978",
-        "overviewUrl": {
-          "layerType": "esriTile",
-          "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBMT3978/MapServer"
-        }
-      },
-      {
-        "id": "e0ceca1d",
-        "name": "World",
-        "extentSetId": "EXT_ESRI_World_AuxMerc_3857",
-        "lodSetId": "LOD_ESRI_World_AuxMerc_3857",
-        "overviewUrl": {
-          "layerType": "esriTile",
-          "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer"
-        }
-      }
-    ],
-    "baseMaps": [
-      {
-        "id": "f7f9f166",
-        "name": "Transport with labels",
-        "description": "This Canadian basemap provides geographic context with bilingual labels and an emphasis on transportation networks.  From Natural Resources Canada.",
-        "altText": "Transport with labels",
-        "thumbnailUrl": "",
-        "layers": [
-          {
-            "id": "CBME_CBCE_HS_RO_3978",
-            "layerType": "esriFeature",
-            "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBME_CBCE_HS_RO_3978/MapServer",
-            "opacity": 1
-          },
-          {
-            "id": "CBMT",
-            "layerType": "esriFeature",
-            "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBMT3978/MapServer",
-            "opacity": 0.75
-          }
+    "tileSchemas": [{
+                "id": "cad53536",
+                "name": "Canada",
+                "extentSetId": "EXT_NRCAN_Lambert_3978",
+                "lodSetId": "LOD_NRCAN_Lambert_3978",
+                "overviewUrl": {
+                    "layerType": "esriTile",
+                    "url": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/CBCT3978/MapServer"
+                }
+            }, {
+                "id": "e0ceca1d",
+                "name": "Monde",
+                "extentSetId": "EXT_ESRI_World_AuxMerc_3857",
+                "lodSetId": "LOD_ESRI_World_AuxMerc_3857",
+                "overviewUrl": {
+                    "layerType": "esriTile",
+                    "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer"
+                }
+            }
         ],
-        "tileSchemaId": "cad53536",
-        "attribution": {
-          "text": {
-            "enabled": true
-          },
-          "logo": {
-            "enabled": false
-          }
-        }
-      },
-      {
-        "id": "48fc375c",
-        "name": "Transport without labels",
-        "description": "This Canadian basemap provides geographic context with an emphasis on transportation networks and without labels.  From Natural Resources Canada.",
-        "altText": "Transport without labels",
-        "thumbnailUrl": "",
-        "layers": [
-          {
-            "id": "CBME_CBCE_HS_RO_3978",
-            "layerType": "esriFeature",
-            "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBME_CBCE_HS_RO_3978/MapServer",
-            "opacity": 1
-          },
-          {
-            "id": "CBMT_CBCT_GEOM_3978",
-            "layerType": "esriFeature",
-            "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBMT_CBCT_GEOM_3978/MapServer",
-            "opacity": 0.75
-          }
+        "baseMaps": [{
+                "id": "f7f9f166",
+                "name": "Transport avec étiquettes",
+                "description": "Cette carte de base canadienne fournit un contexte géographique avec des étiquettes bilingues et met l'accent sur les réseaux de transport. De Ressources naturelles Canada.",
+                "altText": "Transport avec étiquettes",
+                "thumbnailUrl": "",
+                "layers": [{
+                        "id": "CBME_CBCE_HS_RO_3978",
+                        "layerType": "esriFeature",
+                        "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBME_CBCE_HS_RO_3978/MapServer",
+                        "opacity": 1
+                    }, {
+                        "id": "CBMT",
+                        "layerType": "esriFeature",
+                        "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBCT3978/MapServer",
+                        "opacity": 0.75
+                    }
+                ],
+                "tileSchemaId": "cad53536",
+                "attribution": {
+                    "text": {
+                        "enabled": true
+                    },
+                    "logo": {
+                        "enabled": false
+                    }
+                }
+            }, {
+                "id": "48fc375c",
+                "name": "Transport sans étiquettes",
+                "description": "Cette carte de base canadienne fournit un contexte géographique en mettant l'accent sur les réseaux de transport et ce, sans étiquettes. De Ressources naturelles Canada.",
+                "altText": "Transport sans étiquettes",
+                "thumbnailUrl": "",
+                "layers": [{
+                        "id": "CBME_CBCE_HS_RO_3978",
+                        "layerType": "esriFeature",
+                        "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBME_CBCE_HS_RO_3978/MapServer",
+                        "opacity": 1
+                    }, {
+                        "id": "CBMT_CBCT_GEOM_3978",
+                        "layerType": "esriFeature",
+                        "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBMT_CBCT_GEOM_3978/MapServer",
+                        "opacity": 0.75
+                    }
+                ],
+                "tileSchemaId": "cad53536",
+                "attribution": {
+                    "text": {
+                        "enabled": true
+                    },
+                    "logo": {
+                        "enabled": false
+                    }
+                }
+            }, {
+                "id": "431b5b89",
+                "name": "Gris",
+                "description": "Cette carte de base canadienne fournit un contexte géographique avec une apparence minimaliste. De Ressources naturelles Canada.",
+                "altText": "Gris",
+                "layers": [{
+                        "id": "SMR",
+                        "layerType": "esriFeature",
+                        "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/Simple/MapServer",
+                        "opacity": 1
+                    }
+                ],
+                "tileSchemaId": "cad53536",
+                "attribution": {
+                    "text": {
+                        "enabled": true
+                    },
+                    "logo": {
+                        "enabled": false
+                    }
+                }
+            }, {
+                "id": "2a30f9b6",
+                "name": "Relief ombragé",
+                "description": "Cette carte de base canadienne fournit un contexte géographique à l'aide d'un relief ombragé. De Ressources naturelles Canada.",
+                "altText": "Relief ombragé",
+                "layers": [{
+                        "id": "CBME_CBCE_HS_RO_3978",
+                        "layerType": "esriFeature",
+                        "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBME_CBCE_HS_RO_3978/MapServer",
+                        "opacity": 1
+                    }
+                ],
+                "tileSchemaId": "cad53536",
+                "attribution": {
+                    "text": {
+                        "enabled": true
+                    },
+                    "logo": {
+                        "enabled": false
+                    }
+                }
+            }, {
+                "id": "18e13bfd",
+                "name": "Transport avec étiquettes",
+                "description": "Cette carte de base mondiale fournit un contexte géographique avec des étiquettes bilingues et met l'accent sur les réseaux de transport. De Ressources naturelles Canada.",
+                "typeSummary": "",
+                "altText": "Transport avec étiquettes",
+                "thumbnailUrl": "",
+                "tileSchemaId": "e0ceca1d",
+                "attribution": {
+                    "text": {
+                        "enabled": true,
+                        "value": ""
+                    },
+                    "logo": {
+                        "enabled": false,
+                        "value": "",
+                        "link": ""
+                    }
+                },
+                "layers": [{
+                        "id": "WorldTransportLabel",
+                        "layerType": "esriFeature",
+                        "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBMT_CBCT_GEOM_3857/MapServer",
+                        "opacity": 1
+                    }, {
+                        "id": "WorldLabel",
+                        "layerType": "esriFeature",
+                        "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBCT_TXT_3857/MapServer",
+                        "opacity": 1
+                    }
+                ]
+            }, {
+                "id": "bb32d78a",
+                "name": "Transport sans étiquettes",
+                "description": "Cette carte de base mondiale fournit un contexte géographique mettant l'accent sur les réseaux de transport et ce, sans étiquettes. De Ressources naturelles Canada.",
+                "typeSummary": "",
+                "altText": "Transport sans étiquettes",
+                "thumbnailUrl": "",
+                "tileSchemaId": "e0ceca1d",
+                "attribution": {
+                    "text": {
+                        "enabled": true,
+                        "value": ""
+                    },
+                    "logo": {
+                        "enabled": false,
+                        "value": "",
+                        "link": ""
+                    }
+                },
+                "layers": [{
+                        "id": "WorldTransport",
+                        "layerType": "esriFeature",
+                        "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBMT_CBCT_GEOM_3857/MapServer",
+                        "opacity": 1
+                    }
+                ]
+            }, {
+                "id": "e448891a",
+                "name": "Imagerie",
+                "description": "Cette carte de base mondiale fournit des images satellitaires et aériennes d'un mètre ou plus dans de nombreuses régions du monde et des images satellitaires à plus basse résolution pour le reste. D'ESRI.",
+                "altText": "Imagerie",
+                "layers": [{
+                        "id": "World_Imagery",
+                        "layerType": "esriFeature",
+                        "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer",
+                        "opacity": 1
+                    }
+                ],
+                "tileSchemaId": "e0ceca1d",
+                "attribution": {
+                    "text": {
+                        "enabled": true
+                    },
+                    "logo": {
+                        "enabled": true
+                    }
+                }
+            }, {
+                "id": "b5c5be99",
+                "name": "Physique",
+                "description": "Cette carte de base mondiale présente la carte physique de la Terre Naturelle à 1,24km par pixel pour la plus grande partie du monde et 500m pour les Etats-Unis. D'ESRI.",
+                "altText": "Physique",
+                "layers": [{
+                        "id": "World_Physical_Map",
+                        "layerType": "esriFeature",
+                        "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer",
+                        "opacity": 1
+                    }
+                ],
+                "tileSchemaId": "e0ceca1d",
+                "attribution": {
+                    "text": {
+                        "enabled": true
+                    },
+                    "logo": {
+                        "enabled": true
+                    }
+                }
+            }, {
+                "id": "ae2713e8",
+                "name": "Carte routière",
+                "description": "Cette carte de base de rue mondial présente des données au niveau de l'autoroute. D'ESRI.",
+                "altText": "Carte routière",
+                "layers": [{
+                        "id": "World_Street_Map",
+                        "layerType": "esriFeature",
+                        "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer",
+                        "opacity": 1
+                    }
+                ],
+                "tileSchemaId": "e0ceca1d",
+                "attribution": {
+                    "text": {
+                        "enabled": true
+                    },
+                    "logo": {
+                        "enabled": true
+                    }
+                }
+            }, {
+                "id": "06acee3b",
+                "name": "Relief ombragé",
+                "description": "Cette carte de base mondiale fournit un contexte géographique à l'aide d'un relief ombragé. D'ESRI.",
+                "altText": "Relief ombragé",
+                "layers": [{
+                        "id": "World_Shaded_Relief",
+                        "layerType": "esriFeature",
+                        "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer",
+                        "opacity": 1
+                    }
+                ],
+                "tileSchemaId": "e0ceca1d",
+                "attribution": {
+                    "text": {
+                        "enabled": true
+                    },
+                    "logo": {
+                        "enabled": true
+                    }
+                }
+            }, {
+                "id": "c53f8920",
+                "name": "Topographique",
+                "description": "Cette carte de base mondial fournit un contexte géographique en mettant l'accent sur la topographie. D'ESRI.",
+                "altText": "Topographique",
+                "layers": [{
+                        "id": "World_Topographic",
+                        "layerType": "esriFeature",
+                        "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer",
+                        "opacity": 1
+                    }
+                ],
+                "tileSchemaId": "e0ceca1d",
+                "attribution": {
+                    "text": {
+                        "enabled": true
+                    },
+                    "logo": {
+                        "enabled": true
+                    }
+                }
+            }
         ],
-        "tileSchemaId": "cad53536",
-        "attribution": {
-          "text": {
-            "enabled": true
-          },
-          "logo": {
-            "enabled": false
-          }
-        }
-      },
-      {
-        "id": "431b5b89",
-        "name": "Grey",
-        "description": "This Canadian basemap provides geographic context with a minimalist appearance. From Natural Resources Canada.",
-        "altText": "Grey",
-        "layers": [
-          {
-            "id": "SMR",
-            "layerType": "esriFeature",
-            "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/Simple/MapServer",
-            "opacity": 1
-          }
-        ],
-        "tileSchemaId": "cad53536",
-        "attribution": {
-          "text": {
-            "enabled": true
-          },
-          "logo": {
-            "enabled": false
-          }
-        }
-      },
-      {
-        "id": "2a30f9b6",
-        "name": "Shaded relief",
-        "description": "This Canadian base map provides geographic context using shaded relief. From Natural Resources Canada.",
-        "altText": "Shaded relief",
-        "layers": [
-          {
-            "id": "CBME_CBCE_HS_RO_3978",
-            "layerType": "esriFeature",
-            "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBME_CBCE_HS_RO_3978/MapServer",
-            "opacity": 1
-          }
-        ],
-        "tileSchemaId": "cad53536",
-        "attribution": {
-          "text": {
-            "enabled": true
-          },
-          "logo": {
-            "enabled": false
-          }
-        }
-      },
-      {
-        "id": "18e13bfd",
-        "name": "Transport with labels",
-        "description": "This worldwide basemap provides geographic context with bilingual labels and an emphasis on transportation networks. From Natural Resources Canada.",
-        "typeSummary": "",
-        "altText": "Transport with labels",
-        "thumbnailUrl": "",
-        "tileSchemaId": "e0ceca1d",
-        "attribution": {
-          "text": {
-            "enabled": true,
-            "value": ""
-          },
-          "logo": {
-            "enabled": false,
-            "value": "",
-            "link": ""
-          }
-        },
-        "layers": [
-          {
-            "id": "WorldTransportLabel",
-            "layerType": "esriFeature",
-            "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBMT_CBCT_GEOM_3857/MapServer",
-            "opacity": 1
-          },
-          {
-            "id": "WorldLabel",
-            "layerType": "esriFeature",
-            "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBMT_TXT_3857/MapServer",
-            "opacity": 1
-          }
-        ]
-      },
-      {
-        "id": "bb32d78a",
-        "name": "Transport without labels",
-        "description": "This worldwide basemap provides geographic context with an emphasis on transportation networks and without labels. From Natural Resources Canada.",
-        "typeSummary": "",
-        "altText": "Transport without labels",
-        "thumbnailUrl": "",
-        "tileSchemaId": "e0ceca1d",
-        "attribution": {
-          "text": {
-            "enabled": true,
-            "value": ""
-          },
-          "logo": {
-            "enabled": false,
-            "value": "",
-            "link": ""
-          }
-        },
-        "layers": [
-          {
-            "id": "WorldTransport",
-            "layerType": "esriFeature",
-            "url": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBMT_CBCT_GEOM_3857/MapServer",
-            "opacity": 1
-          }
-        ]
-      },
-      {
-        "id": "e448891a",
-        "name": "Imagery",
-        "description": "This worldwide basemap provides one meter or better satellite and aerial imagery in many parts of the world and lower resolution satellite imagery for the rest. From ESRI.",
-        "altText": "Imagery",
-        "layers": [
-          {
-            "id": "World_Imagery",
-            "layerType": "esriFeature",
-            "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer",
-            "opacity": 1
-          }
-        ],
-        "tileSchemaId": "e0ceca1d",
-        "attribution": {
-          "text": {
-            "enabled": true
-          },
-          "logo": {
-            "enabled": true
-          }
-        }
-      },
-      {
-        "id": "b5c5be99",
-        "name": "Physical",
-        "description": "This worldwide basemap presents the Natural Earth physical map at 1.24km per pixel for most of the world and 500m for the United States. From ESRI.",
-        "altText": "Physical",
-        "layers": [
-          {
-            "id": "World_Physical_Map",
-            "layerType": "esriFeature",
-            "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer",
-            "opacity": 1
-          }
-        ],
-        "tileSchemaId": "e0ceca1d",
-        "attribution": {
-          "text": {
-            "enabled": true
-          },
-          "logo": {
-            "enabled": true
-          }
-        }
-      },
-      {
-        "id": "ae2713e8",
-        "name": "Street Map",
-        "description": "This worldwide street basemap presents highway-level data.  From ESRI.",
-        "altText": "Street Map",
-        "layers": [
-          {
-            "id": "World_Street_Map",
-            "layerType": "esriFeature",
-            "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer",
-            "opacity": 1
-          }
-        ],
-        "tileSchemaId": "e0ceca1d",
-        "attribution": {
-          "text": {
-            "enabled": true
-          },
-          "logo": {
-            "enabled": true
-          }
-        }
-      },
-      {
-        "id": "06acee3b",
-        "name": "Shaded relief",
-        "description": "This worldwide basemap provides geographic context using a shaded relief.  From ESRI.",
-        "altText": "Shaded relief",
-        "layers": [
-          {
-            "id": "World_Shaded_Relief",
-            "layerType": "esriFeature",
-            "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Shaded_Relief/MapServer",
-            "opacity": 1
-          }
-        ],
-        "tileSchemaId": "e0ceca1d",
-        "attribution": {
-          "text": {
-            "enabled": true
-          },
-          "logo": {
-            "enabled": true
-          }
-        }
-      },
-      {
-        "id": "c53f8920",
-        "name": "Topographic",
-        "description": "This worldwide basemap provides geographic context with an emphasis on topography.  From ESRI.",
-        "altText": "Topographic",
-        "layers": [
-          {
-            "id": "World_Topographic",
-            "layerType": "esriFeature",
-            "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer",
-            "opacity": 1
-          }
-        ],
-        "tileSchemaId": "e0ceca1d",
-        "attribution": {
-          "text": {
-            "enabled": true
-          },
-          "logo": {
-            "enabled": true
-          }
-        }
-      }
-    ],
     "layers": [{
             "id": "geoai-data-index",
             "name": "Carte-index des données GéoIA",
@@ -629,8 +602,8 @@
       "logo": true
     },
     "about": {
-      "content": "-- placeholder --",
-      "aboutChoice": "string"
+        "content": "-- à modifier --",
+        "aboutChoice": "string"
     },
     "fullscreen": false,
     "theme": "default",
@@ -711,7 +684,7 @@
       "footnote": {
         "isSelected": true,
         "isSelectable": false,
-        "value": "© His Majesty the King in Right of Canada, as represented by the Minister of Natural Resources Canada, 2022"
+        "value": "© Sa Majesté le Roi du chef du Canada, représenté par le ministre de Ressources naturelles Canada, 2022"
       },
       "map": {
         "isSelected": true,
