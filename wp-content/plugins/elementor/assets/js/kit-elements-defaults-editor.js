@@ -1,4 +1,4 @@
-/*! elementor - v3.14.0 - 26-06-2023 */
+/*! elementor - v3.17.0 - 08-11-2023 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -917,6 +917,9 @@ function _addContextMenuItem2() {
         group.actions = [].concat((0, _toConsumableArray2.default)(group.actions), [{
           name: 'save-as-default',
           title: __('Save as default', 'elementor'),
+          isEnabled: function isEnabled() {
+            return !view.getContainer().isLocked();
+          },
           callback: function callback() {
             $e.run('kit-elements-defaults/confirm-creation', {
               container: view.getContainer()

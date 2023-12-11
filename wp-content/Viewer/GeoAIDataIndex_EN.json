@@ -584,20 +584,90 @@
         }
       }
     ],
-    "layers": [{
-            "id": "geoai-data-index",
-            "name": "GeoAI Data Index",
-            "layerType": "esriFeature",
-            "url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GEOAI_Projects_en/MapServer/0",
-            "state": {
-                "opacity": 1,
-                "visibility": true
-            },
-            "layerChoice": "esriFeature",
+    "layers": [
+      {
+        "layerChoice": "esriDynamic",
+        "layerType": "esriDynamic",
+        "toggleSymbology": true,
+        "refreshInterval": 0,
+        "expectedResponseTime": 4000,
+        "tolerance": 5,
+        "outfields": "*",
+        "imageFormat": "png32",
+        "singleEntryCollapse": true,
+        "controls": [
+          "opacity",
+          "visibility",
+          "boundingBox",
+          "query",
+          "snapshot",
+          "metadata",
+          "boundaryZoom",
+          "refresh",
+          "reload",
+          "remove",
+          "settings",
+          "data",
+          "styles"
+        ],
+        "disabledControls": [],
+        "enableStructuredDelete": false,
+        "state": {
+          "opacity": 1,
+          "visibility": true,
+          "boundingBox": false,
+          "query": true,
+          "snapshot": false,
+          "hovertips": true
+        },
+        "layerEntries": [
+          {
+            "outfields": "",
+            "stateOnly": false,
             "table": {
-                "columns": []
-            }
-        }
+              "title": "",
+              "maximize": false,
+              "lazyFilter": false,
+              "applyMap": false,
+              "showFilter": true,
+              "filterByExtent": false,
+              "searchStrictMatch": false,
+              "printEnabled": false,
+              "columns": []
+            },
+            "controls": [
+              "opacity",
+              "visibility",
+              "boundingBox",
+              "query",
+              "snapshot",
+              "metadata",
+              "boundaryZoom",
+              "refresh",
+              "reload",
+              "remove",
+              "settings",
+              "data",
+              "styles"
+            ],
+            "disabledControls": [],
+            "state": {
+              "opacity": 1,
+              "visibility": true,
+              "boundingBox": false,
+              "query": true,
+              "snapshot": false,
+              "hovertips": true
+            },
+            "init": true,
+            "index": 0,
+            "name": "GeoAI Data Index"
+          }
+        ],
+        "name": "GeoAI Data Index",
+        "id": "geoai_data_index_en",
+        "url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GEOAI_Projects_en/MapServer"
+      }
     ],
     "legend": {
       "legendChoice": "autopopulate",
@@ -657,7 +727,7 @@
     },
     "restrictNavigation": false,
     "help": {
-      "folderName": "../../../../../wp-content/Viewer/help/default"
+      "folderName": "../../../../wp-content/Viewer/help/default"
     },
     "legend": {
       "reorderable": true,
@@ -744,7 +814,8 @@
   "plugins": {
     "rangeSlider": {
       "enable": false,
-      "autonit": true
+      "autonit": true,
+      "maximize": false
     },
     "coordInfo": {
       "enable": false

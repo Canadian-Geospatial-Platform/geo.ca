@@ -1,4 +1,4 @@
-/*! elementor - v3.14.0 - 26-06-2023 */
+/*! elementor - v3.17.0 - 08-11-2023 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -251,24 +251,24 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Link": () => (/* binding */ Link),
-/* harmony export */   "Location": () => (/* binding */ Location),
-/* harmony export */   "LocationProvider": () => (/* binding */ LocationProvider),
-/* harmony export */   "Match": () => (/* binding */ Match),
-/* harmony export */   "Redirect": () => (/* binding */ Redirect),
-/* harmony export */   "Router": () => (/* binding */ Router),
-/* harmony export */   "ServerLocation": () => (/* binding */ ServerLocation),
-/* harmony export */   "createHistory": () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_5__.createHistory),
-/* harmony export */   "createMemorySource": () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_5__.createMemorySource),
-/* harmony export */   "globalHistory": () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_5__.globalHistory),
-/* harmony export */   "isRedirect": () => (/* binding */ isRedirect),
-/* harmony export */   "matchPath": () => (/* reexport safe */ _lib_utils__WEBPACK_IMPORTED_MODULE_4__.match),
-/* harmony export */   "navigate": () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_5__.navigate),
-/* harmony export */   "redirectTo": () => (/* binding */ redirectTo),
-/* harmony export */   "useLocation": () => (/* binding */ useLocation),
-/* harmony export */   "useMatch": () => (/* binding */ useMatch),
-/* harmony export */   "useNavigate": () => (/* binding */ useNavigate),
-/* harmony export */   "useParams": () => (/* binding */ useParams)
+/* harmony export */   Link: () => (/* binding */ Link),
+/* harmony export */   Location: () => (/* binding */ Location),
+/* harmony export */   LocationProvider: () => (/* binding */ LocationProvider),
+/* harmony export */   Match: () => (/* binding */ Match),
+/* harmony export */   Redirect: () => (/* binding */ Redirect),
+/* harmony export */   Router: () => (/* binding */ Router),
+/* harmony export */   ServerLocation: () => (/* binding */ ServerLocation),
+/* harmony export */   createHistory: () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_5__.createHistory),
+/* harmony export */   createMemorySource: () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_5__.createMemorySource),
+/* harmony export */   globalHistory: () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_5__.globalHistory),
+/* harmony export */   isRedirect: () => (/* binding */ isRedirect),
+/* harmony export */   matchPath: () => (/* reexport safe */ _lib_utils__WEBPACK_IMPORTED_MODULE_4__.match),
+/* harmony export */   navigate: () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_5__.navigate),
+/* harmony export */   redirectTo: () => (/* binding */ redirectTo),
+/* harmony export */   useLocation: () => (/* binding */ useLocation),
+/* harmony export */   useMatch: () => (/* binding */ useMatch),
+/* harmony export */   useNavigate: () => (/* binding */ useNavigate),
+/* harmony export */   useParams: () => (/* binding */ useParams)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -276,7 +276,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! invariant */ "../node_modules/invariant/browser.js");
 /* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(invariant__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var create_react_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! create-react-context */ "../node_modules/@reach/router/node_modules/create-react-context/lib/index.js");
+/* harmony import */ var create_react_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! create-react-context */ "../node_modules/create-react-context/lib/index.js");
 /* harmony import */ var create_react_context__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(create_react_context__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_lifecycles_compat__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-lifecycles-compat */ "../node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js");
 /* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./lib/utils */ "../node_modules/@reach/router/es/lib/utils.js");
@@ -420,7 +420,7 @@ LocationProvider.defaultProps = {
   history: _lib_history__WEBPACK_IMPORTED_MODULE_5__.globalHistory
 };
  true ? LocationProvider.propTypes = {
-  history: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().object.isRequired)
+  history: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().object).isRequired
 } : 0;
 var ServerLocation = function ServerLocation(_ref2) {
   var url = _ref2.url,
@@ -779,7 +779,7 @@ var Link = forwardRef(function (_ref4, ref) {
 Link.displayName = "Link";
 
  true ? Link.propTypes = {
-  to: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().string.isRequired)
+  to: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().string).isRequired
 } : 0;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -861,7 +861,7 @@ var Redirect = function Redirect(props) {
 
  true ? Redirect.propTypes = {
   from: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().string),
-  to: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().string.isRequired)
+  to: (prop_types__WEBPACK_IMPORTED_MODULE_6___default().string).isRequired
 } : 0;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -1008,10 +1008,10 @@ var shouldNavigate = function shouldNavigate(event) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createHistory": () => (/* binding */ createHistory),
-/* harmony export */   "createMemorySource": () => (/* binding */ createMemorySource),
-/* harmony export */   "globalHistory": () => (/* binding */ globalHistory),
-/* harmony export */   "navigate": () => (/* binding */ navigate)
+/* harmony export */   createHistory: () => (/* binding */ createHistory),
+/* harmony export */   createMemorySource: () => (/* binding */ createMemorySource),
+/* harmony export */   globalHistory: () => (/* binding */ globalHistory),
+/* harmony export */   navigate: () => (/* binding */ navigate)
 /* harmony export */ });
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -1208,13 +1208,13 @@ var navigate = globalHistory.navigate;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "insertParams": () => (/* binding */ insertParams),
-/* harmony export */   "match": () => (/* binding */ match),
-/* harmony export */   "pick": () => (/* binding */ pick),
-/* harmony export */   "resolve": () => (/* binding */ resolve),
-/* harmony export */   "shallowCompare": () => (/* binding */ shallowCompare),
-/* harmony export */   "startsWith": () => (/* binding */ startsWith),
-/* harmony export */   "validateRedirect": () => (/* binding */ validateRedirect)
+/* harmony export */   insertParams: () => (/* binding */ insertParams),
+/* harmony export */   match: () => (/* binding */ match),
+/* harmony export */   pick: () => (/* binding */ pick),
+/* harmony export */   resolve: () => (/* binding */ resolve),
+/* harmony export */   shallowCompare: () => (/* binding */ shallowCompare),
+/* harmony export */   startsWith: () => (/* binding */ startsWith),
+/* harmony export */   validateRedirect: () => (/* binding */ validateRedirect)
 /* harmony export */ });
 /* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! invariant */ "../node_modules/invariant/browser.js");
 /* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(invariant__WEBPACK_IMPORTED_MODULE_0__);
@@ -1504,238 +1504,6 @@ var shallowCompare = function shallowCompare(obj1, obj2) {
 
 /***/ }),
 
-/***/ "../node_modules/@reach/router/node_modules/create-react-context/lib/implementation.js":
-/*!*********************************************************************************************!*\
-  !*** ../node_modules/@reach/router/node_modules/create-react-context/lib/implementation.js ***!
-  \*********************************************************************************************/
-/***/ ((module, exports, __webpack_require__) => {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _react = __webpack_require__(/*! react */ "react");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _gud = __webpack_require__(/*! gud */ "../node_modules/gud/index.js");
-
-var _gud2 = _interopRequireDefault(_gud);
-
-var _warning = __webpack_require__(/*! warning */ "../node_modules/warning/warning.js");
-
-var _warning2 = _interopRequireDefault(_warning);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MAX_SIGNED_31_BIT_INT = 1073741823;
-
-// Inlined Object.is polyfill.
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
-function objectIs(x, y) {
-  if (x === y) {
-    return x !== 0 || 1 / x === 1 / y;
-  } else {
-    return x !== x && y !== y;
-  }
-}
-
-function createEventEmitter(value) {
-  var handlers = [];
-  return {
-    on: function on(handler) {
-      handlers.push(handler);
-    },
-    off: function off(handler) {
-      handlers = handlers.filter(function (h) {
-        return h !== handler;
-      });
-    },
-    get: function get() {
-      return value;
-    },
-    set: function set(newValue, changedBits) {
-      value = newValue;
-      handlers.forEach(function (handler) {
-        return handler(value, changedBits);
-      });
-    }
-  };
-}
-
-function onlyChild(children) {
-  return Array.isArray(children) ? children[0] : children;
-}
-
-function createReactContext(defaultValue, calculateChangedBits) {
-  var _Provider$childContex, _Consumer$contextType;
-
-  var contextProp = '__create-react-context-' + (0, _gud2.default)() + '__';
-
-  var Provider = function (_Component) {
-    _inherits(Provider, _Component);
-
-    function Provider() {
-      var _temp, _this, _ret;
-
-      _classCallCheck(this, Provider);
-
-      for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-        args[_key] = arguments[_key];
-      }
-
-      return _ret = (_temp = (_this = _possibleConstructorReturn(this, _Component.call.apply(_Component, [this].concat(args))), _this), _this.emitter = createEventEmitter(_this.props.value), _temp), _possibleConstructorReturn(_this, _ret);
-    }
-
-    Provider.prototype.getChildContext = function getChildContext() {
-      var _ref;
-
-      return _ref = {}, _ref[contextProp] = this.emitter, _ref;
-    };
-
-    Provider.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
-      if (this.props.value !== nextProps.value) {
-        var oldValue = this.props.value;
-        var newValue = nextProps.value;
-        var changedBits = void 0;
-
-        if (objectIs(oldValue, newValue)) {
-          changedBits = 0; // No change
-        } else {
-          changedBits = typeof calculateChangedBits === 'function' ? calculateChangedBits(oldValue, newValue) : MAX_SIGNED_31_BIT_INT;
-          if (true) {
-            (0, _warning2.default)((changedBits & MAX_SIGNED_31_BIT_INT) === changedBits, 'calculateChangedBits: Expected the return value to be a ' + '31-bit integer. Instead received: %s', changedBits);
-          }
-
-          changedBits |= 0;
-
-          if (changedBits !== 0) {
-            this.emitter.set(nextProps.value, changedBits);
-          }
-        }
-      }
-    };
-
-    Provider.prototype.render = function render() {
-      return this.props.children;
-    };
-
-    return Provider;
-  }(_react.Component);
-
-  Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = _propTypes2.default.object.isRequired, _Provider$childContex);
-
-  var Consumer = function (_Component2) {
-    _inherits(Consumer, _Component2);
-
-    function Consumer() {
-      var _temp2, _this2, _ret2;
-
-      _classCallCheck(this, Consumer);
-
-      for (var _len2 = arguments.length, args = Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
-        args[_key2] = arguments[_key2];
-      }
-
-      return _ret2 = (_temp2 = (_this2 = _possibleConstructorReturn(this, _Component2.call.apply(_Component2, [this].concat(args))), _this2), _this2.state = {
-        value: _this2.getValue()
-      }, _this2.onUpdate = function (newValue, changedBits) {
-        var observedBits = _this2.observedBits | 0;
-        if ((observedBits & changedBits) !== 0) {
-          _this2.setState({ value: _this2.getValue() });
-        }
-      }, _temp2), _possibleConstructorReturn(_this2, _ret2);
-    }
-
-    Consumer.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
-      var observedBits = nextProps.observedBits;
-
-      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT // Subscribe to all changes by default
-      : observedBits;
-    };
-
-    Consumer.prototype.componentDidMount = function componentDidMount() {
-      if (this.context[contextProp]) {
-        this.context[contextProp].on(this.onUpdate);
-      }
-      var observedBits = this.props.observedBits;
-
-      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT // Subscribe to all changes by default
-      : observedBits;
-    };
-
-    Consumer.prototype.componentWillUnmount = function componentWillUnmount() {
-      if (this.context[contextProp]) {
-        this.context[contextProp].off(this.onUpdate);
-      }
-    };
-
-    Consumer.prototype.getValue = function getValue() {
-      if (this.context[contextProp]) {
-        return this.context[contextProp].get();
-      } else {
-        return defaultValue;
-      }
-    };
-
-    Consumer.prototype.render = function render() {
-      return onlyChild(this.props.children)(this.state.value);
-    };
-
-    return Consumer;
-  }(_react.Component);
-
-  Consumer.contextTypes = (_Consumer$contextType = {}, _Consumer$contextType[contextProp] = _propTypes2.default.object, _Consumer$contextType);
-
-
-  return {
-    Provider: Provider,
-    Consumer: Consumer
-  };
-}
-
-exports["default"] = createReactContext;
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ "../node_modules/@reach/router/node_modules/create-react-context/lib/index.js":
-/*!************************************************************************************!*\
-  !*** ../node_modules/@reach/router/node_modules/create-react-context/lib/index.js ***!
-  \************************************************************************************/
-/***/ ((module, exports, __webpack_require__) => {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _react = __webpack_require__(/*! react */ "react");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _implementation = __webpack_require__(/*! ./implementation */ "../node_modules/@reach/router/node_modules/create-react-context/lib/implementation.js");
-
-var _implementation2 = _interopRequireDefault(_implementation);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports["default"] = _react2.default.createContext || _implementation2.default;
-module.exports = exports['default'];
-
-/***/ }),
-
 /***/ "../app/assets/js/hooks/use-action.js":
 /*!********************************************!*\
   !*** ../app/assets/js/hooks/use-action.js ***!
@@ -1891,6 +1659,140 @@ function useAjax() {
     ajaxState: ajaxState,
     ajaxActions: ajaxActions,
     runRequest: runRequest
+  };
+}
+
+/***/ }),
+
+/***/ "../app/assets/js/hooks/use-confirm-action.js":
+/*!****************************************************!*\
+  !*** ../app/assets/js/hooks/use-confirm-action.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+Object.defineProperty(exports, "__esModule", ({
+  value: true
+}));
+exports["default"] = useConfirmAction;
+var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "../node_modules/@babel/runtime/helpers/toConsumableArray.js"));
+var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "../node_modules/@babel/runtime/helpers/slicedToArray.js"));
+var _react = __webpack_require__(/*! react */ "react");
+var _useIntroduction2 = _interopRequireDefault(__webpack_require__(/*! ./use-introduction */ "../app/assets/js/hooks/use-introduction.js"));
+function useConfirmAction(_ref) {
+  var action = _ref.action,
+    _ref$doNotShowAgainKe = _ref.doNotShowAgainKey,
+    doNotShowAgainKey = _ref$doNotShowAgainKe === void 0 ? null : _ref$doNotShowAgainKe;
+  var _useIntroduction = (0, _useIntroduction2.default)(doNotShowAgainKey),
+    shouldNotShowAgain = _useIntroduction.isViewed,
+    markAsShouldNotShowAgain = _useIntroduction.markAsViewed;
+  var _useState = (0, _react.useState)({
+      isOpen: false,
+      actionArgs: []
+    }),
+    _useState2 = (0, _slicedToArray2.default)(_useState, 2),
+    dialogState = _useState2[0],
+    setDialogState = _useState2[1];
+  var _useState3 = (0, _react.useState)(false),
+    _useState4 = (0, _slicedToArray2.default)(_useState3, 2),
+    doNotShowAgainCheckboxState = _useState4[0],
+    setDoNotShowAgainCheckboxState = _useState4[1];
+  return {
+    checkbox: {
+      isChecked: doNotShowAgainCheckboxState,
+      setIsChecked: setDoNotShowAgainCheckboxState
+    },
+    dialog: {
+      isOpen: dialogState.isOpen,
+      approve: function approve() {
+        action.apply(void 0, (0, _toConsumableArray2.default)(dialogState.actionArgs));
+        if (doNotShowAgainCheckboxState && doNotShowAgainKey) {
+          markAsShouldNotShowAgain();
+        }
+        setDialogState({
+          isOpen: false,
+          actionArgs: []
+        });
+      },
+      dismiss: function dismiss() {
+        setDialogState({
+          isOpen: false,
+          actionArgs: []
+        });
+      }
+    },
+    runAction: function runAction() {
+      for (var _len = arguments.length, actionArgs = new Array(_len), _key = 0; _key < _len; _key++) {
+        actionArgs[_key] = arguments[_key];
+      }
+      if (shouldNotShowAgain) {
+        action.apply(void 0, actionArgs);
+        return;
+      }
+      setDialogState({
+        isOpen: true,
+        actionArgs: actionArgs
+      });
+    }
+  };
+}
+
+/***/ }),
+
+/***/ "../app/assets/js/hooks/use-introduction.js":
+/*!**************************************************!*\
+  !*** ../app/assets/js/hooks/use-introduction.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+Object.defineProperty(exports, "__esModule", ({
+  value: true
+}));
+exports["default"] = useIntroduction;
+var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "../node_modules/@babel/runtime/helpers/slicedToArray.js"));
+var _react = __webpack_require__(/*! react */ "react");
+function useIntroduction(key) {
+  var _window$elementorAppC, _window$elementorAppC2, _window$elementorAppC3;
+  var _useState = (0, _react.useState)(!!((_window$elementorAppC = window.elementorAppConfig) !== null && _window$elementorAppC !== void 0 && (_window$elementorAppC2 = _window$elementorAppC.user) !== null && _window$elementorAppC2 !== void 0 && (_window$elementorAppC3 = _window$elementorAppC2.introduction) !== null && _window$elementorAppC3 !== void 0 && _window$elementorAppC3[key])),
+    _useState2 = (0, _slicedToArray2.default)(_useState, 2),
+    isViewed = _useState2[0],
+    setIsViewed = _useState2[1];
+  function markAsViewed() {
+    if (!key) {
+      return Promise.reject();
+    }
+    return new Promise(function (resolve, reject) {
+      if (isViewed) {
+        reject();
+      }
+      elementorCommon.ajax.addRequest('introduction_viewed', {
+        data: {
+          introductionKey: key
+        },
+        error: function error() {
+          return reject();
+        },
+        success: function success() {
+          var _window$elementorAppC4, _window$elementorAppC5;
+          setIsViewed(true);
+          if ((_window$elementorAppC4 = window.elementorAppConfig) !== null && _window$elementorAppC4 !== void 0 && (_window$elementorAppC5 = _window$elementorAppC4.user) !== null && _window$elementorAppC5 !== void 0 && _window$elementorAppC5.introduction) {
+            window.elementorAppConfig.user.introduction[key] = true;
+          }
+          resolve();
+        }
+      });
+    });
+  }
+  return {
+    isViewed: isViewed,
+    markAsViewed: markAsViewed
   };
 }
 
@@ -3016,6 +2918,8 @@ var _useAjax = _interopRequireDefault(__webpack_require__(/*! ./hooks/use-ajax *
 var _useAction = _interopRequireDefault(__webpack_require__(/*! ./hooks/use-action */ "../app/assets/js/hooks/use-action.js"));
 var _usePageTitle = _interopRequireDefault(__webpack_require__(/*! ./hooks/use-page-title */ "../app/assets/js/hooks/use-page-title.js"));
 var _useQueryParams = _interopRequireDefault(__webpack_require__(/*! ./hooks/use-query-params */ "../app/assets/js/hooks/use-query-params.js"));
+var _useIntroduction = _interopRequireDefault(__webpack_require__(/*! ./hooks/use-introduction */ "../app/assets/js/hooks/use-introduction.js"));
+var _useConfirmAction = _interopRequireDefault(__webpack_require__(/*! ./hooks/use-confirm-action */ "../app/assets/js/hooks/use-confirm-action.js"));
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 // Alphabetical order.
@@ -3070,7 +2974,9 @@ var hooks = {
   useAjax: _useAjax.default,
   useAction: _useAction.default,
   usePageTitle: _usePageTitle.default,
-  useQueryParams: _useQueryParams.default
+  useQueryParams: _useQueryParams.default,
+  useIntroduction: _useIntroduction.default,
+  useConfirmAction: _useConfirmAction.default
 };
 exports.hooks = hooks;
 
@@ -3238,7 +3144,8 @@ function Checkbox(_ref) {
     indeterminate = _ref.indeterminate,
     error = _ref.error,
     disabled = _ref.disabled,
-    onChange = _ref.onChange;
+    onChange = _ref.onChange,
+    id = _ref.id;
   var baseClassName = 'eps-checkbox',
     classes = [baseClassName, className];
   if (rounded) {
@@ -3255,7 +3162,8 @@ function Checkbox(_ref) {
     type: "checkbox",
     checked: checked,
     disabled: disabled,
-    onChange: onChange
+    onChange: onChange,
+    id: id
   });
 }
 Checkbox.propTypes = {
@@ -3265,7 +3173,8 @@ Checkbox.propTypes = {
   indeterminate: PropTypes.bool,
   rounded: PropTypes.bool,
   error: PropTypes.bool,
-  onChange: PropTypes.func
+  onChange: PropTypes.func,
+  id: PropTypes.string
 };
 Checkbox.defaultProps = {
   className: '',
@@ -4698,7 +4607,7 @@ exports["default"] = AddNewButton;
 }));
 (0, _defineProperty2.default)(AddNewButton, "defaultProps", _objectSpread(_objectSpread({}, _button.default.defaultProps), {}, {
   className: 'eps-add-new-button',
-  text: __('Add New', 'elementor-pro'),
+  text: __('Add New', 'elementor'),
   icon: 'eicon-plus'
 }));
 
@@ -6037,6 +5946,238 @@ Layout.defaultProps = {
 
 /***/ }),
 
+/***/ "../node_modules/create-react-context/lib/implementation.js":
+/*!******************************************************************!*\
+  !*** ../node_modules/create-react-context/lib/implementation.js ***!
+  \******************************************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _react = __webpack_require__(/*! react */ "react");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _gud = __webpack_require__(/*! gud */ "../node_modules/gud/index.js");
+
+var _gud2 = _interopRequireDefault(_gud);
+
+var _warning = __webpack_require__(/*! warning */ "../node_modules/warning/warning.js");
+
+var _warning2 = _interopRequireDefault(_warning);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var MAX_SIGNED_31_BIT_INT = 1073741823;
+
+// Inlined Object.is polyfill.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+function objectIs(x, y) {
+  if (x === y) {
+    return x !== 0 || 1 / x === 1 / y;
+  } else {
+    return x !== x && y !== y;
+  }
+}
+
+function createEventEmitter(value) {
+  var handlers = [];
+  return {
+    on: function on(handler) {
+      handlers.push(handler);
+    },
+    off: function off(handler) {
+      handlers = handlers.filter(function (h) {
+        return h !== handler;
+      });
+    },
+    get: function get() {
+      return value;
+    },
+    set: function set(newValue, changedBits) {
+      value = newValue;
+      handlers.forEach(function (handler) {
+        return handler(value, changedBits);
+      });
+    }
+  };
+}
+
+function onlyChild(children) {
+  return Array.isArray(children) ? children[0] : children;
+}
+
+function createReactContext(defaultValue, calculateChangedBits) {
+  var _Provider$childContex, _Consumer$contextType;
+
+  var contextProp = '__create-react-context-' + (0, _gud2.default)() + '__';
+
+  var Provider = function (_Component) {
+    _inherits(Provider, _Component);
+
+    function Provider() {
+      var _temp, _this, _ret;
+
+      _classCallCheck(this, Provider);
+
+      for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+
+      return _ret = (_temp = (_this = _possibleConstructorReturn(this, _Component.call.apply(_Component, [this].concat(args))), _this), _this.emitter = createEventEmitter(_this.props.value), _temp), _possibleConstructorReturn(_this, _ret);
+    }
+
+    Provider.prototype.getChildContext = function getChildContext() {
+      var _ref;
+
+      return _ref = {}, _ref[contextProp] = this.emitter, _ref;
+    };
+
+    Provider.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+      if (this.props.value !== nextProps.value) {
+        var oldValue = this.props.value;
+        var newValue = nextProps.value;
+        var changedBits = void 0;
+
+        if (objectIs(oldValue, newValue)) {
+          changedBits = 0; // No change
+        } else {
+          changedBits = typeof calculateChangedBits === 'function' ? calculateChangedBits(oldValue, newValue) : MAX_SIGNED_31_BIT_INT;
+          if (true) {
+            (0, _warning2.default)((changedBits & MAX_SIGNED_31_BIT_INT) === changedBits, 'calculateChangedBits: Expected the return value to be a ' + '31-bit integer. Instead received: %s', changedBits);
+          }
+
+          changedBits |= 0;
+
+          if (changedBits !== 0) {
+            this.emitter.set(nextProps.value, changedBits);
+          }
+        }
+      }
+    };
+
+    Provider.prototype.render = function render() {
+      return this.props.children;
+    };
+
+    return Provider;
+  }(_react.Component);
+
+  Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = _propTypes2.default.object.isRequired, _Provider$childContex);
+
+  var Consumer = function (_Component2) {
+    _inherits(Consumer, _Component2);
+
+    function Consumer() {
+      var _temp2, _this2, _ret2;
+
+      _classCallCheck(this, Consumer);
+
+      for (var _len2 = arguments.length, args = Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+        args[_key2] = arguments[_key2];
+      }
+
+      return _ret2 = (_temp2 = (_this2 = _possibleConstructorReturn(this, _Component2.call.apply(_Component2, [this].concat(args))), _this2), _this2.state = {
+        value: _this2.getValue()
+      }, _this2.onUpdate = function (newValue, changedBits) {
+        var observedBits = _this2.observedBits | 0;
+        if ((observedBits & changedBits) !== 0) {
+          _this2.setState({ value: _this2.getValue() });
+        }
+      }, _temp2), _possibleConstructorReturn(_this2, _ret2);
+    }
+
+    Consumer.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+      var observedBits = nextProps.observedBits;
+
+      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT // Subscribe to all changes by default
+      : observedBits;
+    };
+
+    Consumer.prototype.componentDidMount = function componentDidMount() {
+      if (this.context[contextProp]) {
+        this.context[contextProp].on(this.onUpdate);
+      }
+      var observedBits = this.props.observedBits;
+
+      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT // Subscribe to all changes by default
+      : observedBits;
+    };
+
+    Consumer.prototype.componentWillUnmount = function componentWillUnmount() {
+      if (this.context[contextProp]) {
+        this.context[contextProp].off(this.onUpdate);
+      }
+    };
+
+    Consumer.prototype.getValue = function getValue() {
+      if (this.context[contextProp]) {
+        return this.context[contextProp].get();
+      } else {
+        return defaultValue;
+      }
+    };
+
+    Consumer.prototype.render = function render() {
+      return onlyChild(this.props.children)(this.state.value);
+    };
+
+    return Consumer;
+  }(_react.Component);
+
+  Consumer.contextTypes = (_Consumer$contextType = {}, _Consumer$contextType[contextProp] = _propTypes2.default.object, _Consumer$contextType);
+
+
+  return {
+    Provider: Provider,
+    Consumer: Consumer
+  };
+}
+
+exports["default"] = createReactContext;
+module.exports = exports['default'];
+
+/***/ }),
+
+/***/ "../node_modules/create-react-context/lib/index.js":
+/*!*********************************************************!*\
+  !*** ../node_modules/create-react-context/lib/index.js ***!
+  \*********************************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+exports.__esModule = true;
+
+var _react = __webpack_require__(/*! react */ "react");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _implementation = __webpack_require__(/*! ./implementation */ "../node_modules/create-react-context/lib/implementation.js");
+
+var _implementation2 = _interopRequireDefault(_implementation);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports["default"] = _react2.default.createContext || _implementation2.default;
+module.exports = exports['default'];
+
+/***/ }),
+
 /***/ "../node_modules/gud/index.js":
 /*!************************************!*\
   !*** ../node_modules/gud/index.js ***!
@@ -7228,7 +7369,7 @@ if (false) {} else {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "polyfill": () => (/* binding */ polyfill)
+/* harmony export */   polyfill: () => (/* binding */ polyfill)
 /* harmony export */ });
 /**
  * Copyright (c) 2013-present, Facebook, Inc.

@@ -557,21 +557,91 @@
                 }
             }
         ],
-    "layers": [{
-            "id": "geoai-data-index",
-            "name": "Carte-index des données GéoIA",
-            "layerType": "esriFeature",
-            "url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GEOAI_Projects_fr/MapServer/0",
+    "layers": [
+          {
+            "layerChoice": "esriDynamic",
+            "layerType": "esriDynamic",
+            "toggleSymbology": true,
+            "refreshInterval": 0,
+            "expectedResponseTime": 4000,
+            "tolerance": 5,
+            "outfields": "*",
+            "imageFormat": "png32",
+            "singleEntryCollapse": true,
+            "controls": [
+              "opacity",
+              "visibility",
+              "boundingBox",
+              "query",
+              "snapshot",
+              "metadata",
+              "boundaryZoom",
+              "refresh",
+              "reload",
+              "remove",
+              "settings",
+              "data",
+              "styles"
+            ],
+            "disabledControls": [],
+            "enableStructuredDelete": false,
             "state": {
-                "opacity": 1,
-                "visibility": true
+              "opacity": 1,
+              "visibility": true,
+              "boundingBox": false,
+              "query": true,
+              "snapshot": false,
+              "hovertips": true
             },
-            "layerChoice": "esriFeature",
-            "table": {
-                "columns": []
-            }
-        }
-    ],
+            "layerEntries": [
+              {
+                "outfields": "",
+                "stateOnly": false,
+                "table": {
+                  "title": "",
+                  "maximize": false,
+                  "lazyFilter": false,
+                  "applyMap": false,
+                  "showFilter": true,
+                  "filterByExtent": false,
+                  "searchStrictMatch": false,
+                  "printEnabled": false,
+                  "columns": []
+                },
+                "controls": [
+                  "opacity",
+                  "visibility",
+                  "boundingBox",
+                  "query",
+                  "snapshot",
+                  "metadata",
+                  "boundaryZoom",
+                  "refresh",
+                  "reload",
+                  "remove",
+                  "settings",
+                  "data",
+                  "styles"
+                ],
+                "disabledControls": [],
+                "state": {
+                  "opacity": 1,
+                  "visibility": true,
+                  "boundingBox": false,
+                  "query": true,
+                  "snapshot": false,
+                  "hovertips": true
+                },
+                "init": true,
+                "index": 0,
+                "name": "Carte-index des données GéoIA"
+              }
+            ],
+            "name": "Carte-index des données GéoIA",
+            "id": "geoai_data_index_fr",
+            "url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GEOAI_Projects_en/MapServer"
+          }
+        ],
     "legend": {
       "legendChoice": "autopopulate",
       "type": "autopopulate",

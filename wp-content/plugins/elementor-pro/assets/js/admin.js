@@ -1,4 +1,4 @@
-/*! elementor-pro - v3.14.0 - 26-06-2023 */
+/*! elementor-pro - v3.17.0 - 01-11-2023 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -1424,8 +1424,9 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = void 0;
 class _default extends elementorModules.Module {
   constructor() {
+    var _elementorModules$adm;
     super();
-    if (!elementorModules.admin?.MenuHandler) {
+    if (!((_elementorModules$adm = elementorModules.admin) !== null && _elementorModules$adm !== void 0 && _elementorModules$adm.MenuHandler)) {
       return;
     }
     new elementorModules.admin.MenuHandler({
@@ -1542,10 +1543,20 @@ module.exports = function () {
     elements.$locationWrapper.toggle('section' === elements.$templateTypeInput.val());
     elements.$postTypeWrapper.toggle('single' === elements.$templateTypeInput.val());
   };
+  const setPostType = () => {
+    const postTypeMap = {
+      'error-404': 'not_found404'
+    };
+    const postType = postTypeMap[elements.$templateTypeInput.val()] || '';
+    elements.$postTypeWrapper.find('select').val(postType);
+  };
   var run = function () {
     setElements();
     setLocationFieldVisibility();
-    elements.$templateTypeInput.on('change', setLocationFieldVisibility);
+    elements.$templateTypeInput.on('change', () => {
+      setLocationFieldVisibility();
+      setPostType();
+    });
   };
   this.init = function () {
     if (!window.elementorNewTemplate) {

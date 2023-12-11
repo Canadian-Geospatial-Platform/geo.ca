@@ -1,4 +1,4 @@
-/*! elementor - v3.14.0 - 26-06-2023 */
+/*! elementor - v3.17.0 - 08-11-2023 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -1574,6 +1574,9 @@ ControlsStack = Marionette.CompositeView.extend({
     }
     this.listenTo(elementor.channels.deviceMode, 'change', this.onDeviceModeChange);
   },
+  onDestroy: function onDestroy() {
+    this.stopListening(elementor.channels.deviceMode, 'change', this.onDeviceModeChange);
+  },
   initCollection: function initCollection() {
     this.collection = new Backbone.Collection(_.values(elementor.mergeControlsSettings(this.getOption('controls'))));
   },
@@ -1679,8 +1682,8 @@ ControlsStack = Marionette.CompositeView.extend({
 }, {
   handlePopovers: function handlePopovers(view) {
     var popover;
-    view.popovers = [];
     this.removePopovers(view);
+    view.popovers = [];
     view.children.each(function (control) {
       if (popover) {
         popover.addChild(control);
@@ -1699,7 +1702,8 @@ ControlsStack = Marionette.CompositeView.extend({
     });
   },
   removePopovers: function removePopovers(view) {
-    view.popovers.forEach(function (popover) {
+    var _view$popovers;
+    (_view$popovers = view.popovers) === null || _view$popovers === void 0 ? void 0 : _view$popovers.forEach(function (popover) {
       return popover.destroy();
     });
   }

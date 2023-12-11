@@ -1,4 +1,4 @@
-/*! elementor - v3.14.0 - 26-06-2023 */
+/*! elementor - v3.17.0 - 08-11-2023 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -1137,7 +1137,6 @@ ControlBaseView = Marionette.CompositeView.extend({
     return Marionette.TemplateCache.get('#tmpl-elementor-control-' + this.model.get('type') + '-content');
   },
   initialize: function initialize(options) {
-    var _this = this;
     var label = this.model.get('label');
 
     // TODO: Temp backwards compatibility. since 2.8.0.
@@ -1188,10 +1187,12 @@ ControlBaseView = Marionette.CompositeView.extend({
     var settings = this.container ? this.container.settings : this.elementSettingsModel;
     this.listenTo(settings, 'change', this.onAfterChange);
     if (this.model.attributes.responsive) {
-      elementor.listenTo(elementor.channels.deviceMode, 'change', function () {
-        return _this.onDeviceModeChange();
-      });
+      this.onDeviceModeChange = this.onDeviceModeChange.bind(this);
+      elementor.listenTo(elementor.channels.deviceMode, 'change', this.onDeviceModeChange);
     }
+  },
+  onDestroy: function onDestroy() {
+    elementor.stopListening(elementor.channels.deviceMode, 'change', this.onDeviceModeChange);
   },
   onDeviceModeChange: function onDeviceModeChange() {
     this.toggleControlVisibility();

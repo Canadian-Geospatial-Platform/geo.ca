@@ -1,4 +1,4 @@
-/*! elementor - v3.14.0 - 26-06-2023 */
+/*! elementor - v3.17.0 - 08-11-2023 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -104,7 +104,7 @@ function AdminTopBar() {
   var finderAction = function finderAction() {
     $e.route('finder');
   };
-  var controlSign = _environment.default.mac ? '&#8984;' : '^';
+  var controlSign = _environment.default.mac ? "\u2318" : '^';
   var finderTooltipText = __('Search or do anything in Elementor', 'elementor') + " ".concat(controlSign, "+E");
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "e-admin-top-bar"
@@ -117,7 +117,10 @@ function AdminTopBar() {
     className: "e-admin-top-bar__secondary-area"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "e-admin-top-bar__secondary-area-buttons"
-  }, window.elementorAdminTopBarConfig.is_administrator ? /*#__PURE__*/_react.default.createElement(_barButton.default, {
+  }, /*#__PURE__*/_react.default.createElement(_barButton.default, {
+    href: window.elementorAdminTopBarConfig.apps_url,
+    icon: "eicon-integration"
+  }, __('Apps', 'elementor')), window.elementorAdminTopBarConfig.is_administrator ? /*#__PURE__*/_react.default.createElement(_barButton.default, {
     onClick: finderAction,
     dataInfo: finderTooltipText,
     icon: "eicon-search-bold"
@@ -1628,14 +1631,7 @@ var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
 var _adminTopBar = _interopRequireDefault(__webpack_require__(/*! ./admin-top-bar */ "../modules/admin-top-bar/assets/js/admin-top-bar.js"));
 var AppWrapper = elementorCommon.config.isDebug ? _react.default.StrictMode : _react.default.Fragment;
 var adminTopBarElement = document.getElementById('e-admin-top-bar-root');
-var elementorMenuItemIds = ['toplevel_page_elementor', 'menu-posts-elementor_library'];
-var menuItemSelector = elementorMenuItemIds.map(function (itemId) {
-  return "#".concat(itemId, " .wp-menu-open");
-}).join(', ');
-var isElementorPage = !!document.querySelector(menuItemSelector);
-if (isElementorPage) {
-  ReactDOM.render( /*#__PURE__*/_react.default.createElement(AppWrapper, null, /*#__PURE__*/_react.default.createElement(_adminTopBar.default, null)), adminTopBarElement);
-}
+ReactDOM.render( /*#__PURE__*/_react.default.createElement(AppWrapper, null, /*#__PURE__*/_react.default.createElement(_adminTopBar.default, null)), adminTopBarElement);
 })();
 
 /******/ })()
