@@ -6,3 +6,6 @@
 /* Start custom CSS for text-editor, class: .elementor-element-1da14082 */.elementor-25045 .elementor-element.elementor-element-1da14082 p:last-child {
     margin-bottom: 0;
 }/* End custom CSS */
+/* Start custom CSS for geo-news, class: .elementor-element-eb5ccfb */.elementor-25045 .elementor-element.elementor-element-eb5ccfb .geo-new-post__date {
+    text-transform: lowercase;
+}/* End custom CSS */
