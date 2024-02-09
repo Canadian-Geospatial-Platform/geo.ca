@@ -744,13 +744,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/evenements-historiques-inondations/</loc>
-		<lastmod>2024-01-23T21:11:54+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/BOR-006b.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/geo-dans-actualite/</loc>
 		<lastmod>2024-01-25T16:49:57+00:00</lastmod>
 		<image:image>
@@ -1100,6 +1093,13 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/09/charlesdeluvio-pjAH2Ax4uWk-unsplash-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/evenements-historiques-inondations/</loc>
+		<lastmod>2024-02-09T16:15:20+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/BOR-006b.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
