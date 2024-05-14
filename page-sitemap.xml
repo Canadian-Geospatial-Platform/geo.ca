@@ -786,10 +786,6 @@
 		<lastmod>2024-05-01T18:55:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/reseau-hydrospatial-canadien/carte-du-reseau-hydrospatial-canadien/</loc>
-		<lastmod>2024-05-01T18:55:52+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/geo-in-the-news/</loc>
 		<lastmod>2024-05-02T18:11:05+00:00</lastmod>
 		<image:image>
@@ -893,46 +889,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-map.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/accueil/</loc>
-		<lastmod>2024-05-02T19:15:56+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/GettyImages-1070725116-1800-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/04/geoai-thumb.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ben-den-engelsen-aY16vd7hNgk-unsplash-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/09/charlesdeluvio-pjAH2Ax4uWk-unsplash-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/tetrahedrite-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/pexels-james-wheeler-1571436-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/ele1-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/DSM-DTM_Wakefield-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/brydon-mccluskey-Ozo27HdqtT0-unsplash-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-data.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1152,6 +1108,50 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/hfe-175.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/reseau-hydrospatial-canadien/carte-du-reseau-hydrospatial-canadien/</loc>
+		<lastmod>2024-05-14T13:20:34+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/accueil/</loc>
+		<lastmod>2024-05-14T13:38:56+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/GettyImages-1070725116-1800-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/04/geoai-thumb.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ben-den-engelsen-aY16vd7hNgk-unsplash-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/09/charlesdeluvio-pjAH2Ax4uWk-unsplash-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/tetrahedrite-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/pexels-james-wheeler-1571436-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/ele1-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/DSM-DTM_Wakefield-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/brydon-mccluskey-Ozo27HdqtT0-unsplash-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-data.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/automatically-extracted-buildings-map-thumb-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/canada-commemorative-map-thumb-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
