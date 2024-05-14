@@ -1,75 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://dev.geo.ca/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://stage.geo.ca/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-ADMINISTRATION-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-ADMINISTRATION-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:34:23+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-ADMINISTRATION1-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-ADMINISTRATION1-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:35:31+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-ECONOMY-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-ECONOMY-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:36:30+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-ECONOMY1-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-ECONOMY1-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:36:55+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-EMERGENCY-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-EMERGENCY-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:37:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-EMERGENCY1-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-EMERGENCY1-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:38:09+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-ENVIRONMENT-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-ENVIRONMENT-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:40:04+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-ENVIRONMENT1-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-ENVIRONMENT1-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:40:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-IMAGERY-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-IMAGERY-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:42:32+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-IMAGERY1-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-IMAGERY1-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:43:08+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-INFRASTRUCTURE-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-INFRASTRUCTURE-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:43:59+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-INFRASTRUCTURE1-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-INFRASTRUCTURE1-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:44:28+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-LEGAL-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-LEGAL-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:45:23+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-LEGAL1-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-LEGAL1-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T18:46:01+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-SCIENCE-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-SCIENCE-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T19:09:40+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-SCIENCE1-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-SCIENCE1-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T19:10:11+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-SOCIETY-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-SOCIETY-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T19:11:05+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/wp-content/Viewer/config-int-SOCIETY1-iframe-map-en.html</loc>
+		<loc>https://stage.geo.ca/wp-content/Viewer/config-int-SOCIETY1-iframe-map-en.html</loc>
 		<lastmod>2023-12-21T19:11:51+00:00</lastmod>
 	</url>
 </urlset>
