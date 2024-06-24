@@ -219,13 +219,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/contributeurs/</loc>
-		<lastmod>2023-07-04T20:01:07+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/cartographie-inondations/savoir-plus/</loc>
 		<lastmod>2023-11-06T17:30:35+00:00</lastmod>
 		<image:image>
@@ -1307,29 +1300,8 @@
 		<lastmod>2024-06-18T18:32:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/flood-mapping/province-territory/</loc>
-		<lastmod>2024-06-20T14:34:35+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/province-territoire/</loc>
-		<lastmod>2024-06-20T14:39:32+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/historical-flood-events/</loc>
 		<lastmod>2024-06-20T18:57:23+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/BOR-006b.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/evenements-historiques-inondations/</loc>
-		<lastmod>2024-06-20T18:58:07+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/BOR-006b.jpg</image:loc>
 		</image:image>
@@ -1357,9 +1329,37 @@
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/indice-vulnerabilite-inondations/</loc>
-		<lastmod>2024-06-21T12:42:42+00:00</lastmod>
+		<lastmod>2024-06-24T13:57:49+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/COA-010c.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/evenements-historiques-inondations/</loc>
+		<lastmod>2024-06-24T14:06:41+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/BOR-006b.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/flood-mapping/province-territory/</loc>
+		<lastmod>2024-06-24T17:32:39+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/contributeurs/</loc>
+		<lastmod>2024-06-24T17:45:57+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/shaking-hands-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/cartographie-inondations/province-territoire/</loc>
+		<lastmod>2024-06-24T18:06:35+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>

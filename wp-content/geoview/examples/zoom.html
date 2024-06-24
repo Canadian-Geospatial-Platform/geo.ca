@@ -1,4 +1,10 @@
-<!DOCTYPE html><html><head><title>Geoview Test</title><meta charset=utf-8><meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name=viewport><style>body {
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geoview Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <style type="text/css">body {
           font-family: sans-serif;
       }
 
@@ -15,13 +21,25 @@
       .geoview-map {
         height: 600px;
         width: 100%;
-      }</style> <body><div class=container><h1>Zoom on load</h1> <button onclick=zoomToOntario(); type=button>Zoom to Ontario</button> <div class=geoview-map-wrapper><div class=geoview-map data-config-url=./configs/zoom.json data-lang=en id=map1></div> </div></div> <script src=https://canadian-geospatial-platform.github.io/geoview/public/cgpv-main.js></script> <script>function zoomToOntario() {
+      }</style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Zoom on load</h1>
+      <button type="button" onclick="zoomToOntario();">Zoom to Ontario</button>
+      <div class="geoview-map-wrapper">
+        <div id="map1" class="geoview-map" data-lang="en" data-config-url="./configs/zoom.json"></div>
+      </div>
+    </div>
+    <script src="https://canadian-geospatial-platform.github.io/geoview/public/cgpv-main.js"></script>
+    <script>function zoomToOntario() {
 
           const ontarioBbox = [-96.827612, 38.8820195, -72.0266058, 60.1901621];
           const extent = cgpv.api.maps['map1'].convertExtentLngLatToMapProj( ontarioBbox );
 
           cgpv.api.maps['map1'].zoomToExtent( extent );
-        }</script> <script>// init functions, takes one parameter as a function callback. Any code inside the callback will run once map has finished rendering.
+        }</script>
+    <script>// init functions, takes one parameter as a function callback. Any code inside the callback will run once map has finished rendering.
       cgpv.init(( mapId ) => {
         if ( mapId == 'map1' ) {
           cgpv.api.maps[mapId].onMapLayersLoaded(() => {
@@ -29,3 +47,5 @@
           });
         }
       });</script>
+  </body>
+</html>

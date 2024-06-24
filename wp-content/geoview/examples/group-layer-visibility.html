@@ -1,4 +1,10 @@
-<!DOCTYPE html><html><head><title>Geoview Test</title><meta charset=utf-8><meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name=viewport><style>body {
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Geoview Test</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		<style type="text/css">body {
 				font-family: sans-serif;
 			}
 
@@ -9,5 +15,18 @@
 
 		    .geoview-map {
 			    height: 600px;
-			}</style> <body><div class=container><h2>Visbile = true</h2> <div class=geoview-map data-config-url=https://dev.geo.ca/wp-content/geoview/configs/group-layer-visible.json data-lang=en id=map1></div> <h2>Visbile = false</h2> <div class=geoview-map data-config-url=https://dev.geo.ca/wp-content/geoview/configs/group-layer-invisible.json data-lang=en id=map2></div></div> <script src=https://canadian-geospatial-platform.github.io/geoview/public/cgpv-main.js></script> <script>// init functions, takes one parameter as a function callback. Any code inside the callback will run once map has finished rendering.
+			}</style>
+	</head>
+	<body>
+		<div class="container">
+			<h2>Visbile = true</h2>
+			<div id="map1" class="geoview-map" data-lang="en" data-config-url="https://wordpress.dev.geo.ca/wp-content/geoview/configs/group-layer-visible.json"></div>
+			
+			<h2>Visbile = false</h2>
+			<div id="map2" class="geoview-map" data-lang="en" data-config-url="https://wordpress.dev.geo.ca/wp-content/geoview/configs/group-layer-invisible.json"></div>
+		</div>
+		<script src="https://canadian-geospatial-platform.github.io/geoview/public/cgpv-main.js"></script>
+		<script>// init functions, takes one parameter as a function callback. Any code inside the callback will run once map has finished rendering.
 			cgpv.init(function () {});</script>
+	</body>
+</html>
