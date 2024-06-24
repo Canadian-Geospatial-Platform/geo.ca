@@ -1,0 +1,61 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "annual-crop-inventory-2023",
+				"geoviewLayerName": {
+					"en": "Annual Crop Inventory 2023",
+					"fr": "Inventaire annuel des cultures, 2023"
+				},
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": {
+					"en": "https://agriculture.canada.ca/atlas/rest/services/imageservices/annual_crop_inventory_2023/ImageServer",
+					"fr": "https://agriculture.canada.ca/atlas/rest/services/servicesimage/inventaire_annuel_des_cultures_2023/ImageServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

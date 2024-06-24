@@ -1,0 +1,114 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "blocked-passage",
+				"geoviewLayerName": {
+					"en": "Blocked passage",
+					"fr": "Passage obstrué"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
+					"fr": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "toll-point",
+				"geoviewLayerName": {
+					"en": "Toll Point",
+					"fr": "Poste de péage"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
+					"fr": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "11"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "ferry",
+				"geoviewLayerName": {
+					"en": "Ferry connection segment",
+					"fr": "Segment de liaison par transbordeur"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
+					"fr": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "19"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "road-segment",
+				"geoviewLayerName": {
+					"en": "Road segment",
+					"fr": "Segment routier"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
+					"fr": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "32"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

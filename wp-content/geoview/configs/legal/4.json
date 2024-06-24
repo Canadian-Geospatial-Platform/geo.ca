@@ -1,0 +1,63 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+		    	"zoomAndCenter" : [ 4, [-90, 60] ]
+		    },
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "protected-areas",
+				"geoviewLayerName": {
+					"en": "Protected and conserved area",
+					"fr": "Aire protégée et conservée"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/CPCAD/MapServer",
+					"fr": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/BDCAPC/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

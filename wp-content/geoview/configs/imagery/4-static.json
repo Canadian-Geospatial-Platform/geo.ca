@@ -1,0 +1,94 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "hrdem",
+				"geoviewLayerName": {
+					"en": "HRDEM Datasets Footprints by coordinate system",
+					"fr": "Empreintes des jeux de données MNEHR par système de coordonnées "
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_fr/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1"
+					},
+					{
+						"layerId": "2"
+					},
+					{
+						"layerId": "3"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "hrdem-project-extent",
+				"geoviewLayerName": {
+					"en": "HRDEM Project Extent",
+					"fr": "Étendue des projets MNEHR"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_fr/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "4"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "hrdem-project-footprints",
+				"geoviewLayerName": {
+					"en": "HRDEM Project Footprints",
+					"fr": "Empreintes des projets MNEHR "
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_fr/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "5"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "hrdem-project-footprint-arcticdem",
+				"geoviewLayerName": {
+					"en": "HRDEM Project Footprint - ArcticDEM",
+					"fr": "Empreintes des projets MNEHR - ArcticDEM"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_fr/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "6"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

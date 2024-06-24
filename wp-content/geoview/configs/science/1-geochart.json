@@ -1,0 +1,59 @@
+{
+  "charts": [
+    {
+      "layers": [
+        {
+          "layerId": "airborne-radioactivity/1",
+          "propertyValue": "OBJECTID",
+          "propertyDisplay": "Location_Emplacement"
+        }
+      ],
+      "chart": "line",
+      "query": {
+        "type": "esriRegular",
+        "url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/HC/airborne_radioactivity_en/MapServer/3",
+        "queryOptions": {
+          "whereClauses": [
+            {
+              "field": "Location_Emplacement",
+              "prefix": "'",
+              "valueFrom": "Location_Emplacement",
+              "suffix": "'"
+            }
+          ],
+          "orderByField": "CollectionStart_DebutPrelevement"
+        }
+      },
+      "geochart": {
+        "xAxis": {
+          "type": "time",
+          "property": "CollectionStart_DebutPrelevement",
+          "label": "Collected date"
+        },
+        "yAxis": {
+          "type": "linear",
+          "property": "Activity_Activite_mBqm3",
+          "label": "Activity (mBqm3)",
+          "tooltipSuffix": "mBqm3"
+        },
+        "borderWidth": 1
+      },
+      "category": {
+        "property": "Radionuclide_Radionucleide",
+        "usePalette": false
+      },
+      "ui": {
+        "xSlider": {
+          "display": true
+        },
+        "ySlider": {
+          "display": true
+        },
+        "stepsSwitcher": true,
+        "resetStates": true,
+        "description": "This is a description text",
+        "download": true
+      }
+    }
+  ]
+}

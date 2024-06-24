@@ -1,0 +1,27 @@
+<!DOCTYPE html><html><head><title>Geoview Prototype</title><meta charset=utf-8><meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name=viewport><link href=https://necolas.github.io/normalize.css/8.0.1/normalize.css rel=stylesheet><style>body {
+        font-family: sans-serif;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 1280px;
+      }
+
+      .row {
+        display: flex;
+      }
+
+      .col {
+        flex: 0 0 50%;
+        padding: 10px;
+        width: 50%;
+      }
+
+      .map-wrap {
+        margin-bottom: 20px;
+      }
+
+      body .geoview-map {
+        height: 600px;
+      }</style> <body><div class=container><h1>Infrastructure Geoview Prototype</h1> <div class=map-wrap></div> <div class=map-wrap></div> <div class=map-wrap><div class=geoview-map data-config-url=../configs/infrastructure3.json data-lang=en id=map3></div> </div> <div class=map-wrap></div></div> <script src=https://dev.geo.ca/wp-content/geoview/cgpv-main.js></script> <script>// init functions, takes one parameter as a function callback. Any code inside the callback will run once map has finished rendering.
+      cgpv.init(function () {});</script>

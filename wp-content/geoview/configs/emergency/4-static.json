@@ -1,0 +1,37 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+				"zoomAndCenter" : [ 4, [-90, 60] ]
+			},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "EGS_Flood_Product_Archive_en",
+				"geoviewLayerName": {
+					"en": "Floods in Canada - Archive - Product Footprints",
+					"fr": "Inondations au Canada - Archive - Empreintes au sol"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/egs_sgu/rest/services/Flood_Inondation/EGS_Flood_Product_Archive_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/egs_sgu/rest/services/Flood_Inondation/EGS_Flood_Product_Archive_fr/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

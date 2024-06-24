@@ -1,0 +1,58 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+	        	"zoomAndCenter" : [ 4, [-90, 60] ]
+	      	},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "Aboriginal Lands - Boundaries",
+				"geoviewLayerName": {
+					"en": "Aboriginal Lands of Canada Legislative Boundaries",
+					"fr": "Limites législatives des terres autochtones du Canada"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/CLSS-SATC/CLSS_Administrative_Boundaries/MapServer",
+					"fr": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/CLSS-SATC/SATC_Limites_administratives/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": {
+							"en": "Aboriginal Lands of Canada Legislative Boundaries",
+							"fr": "Limites législatives des terres autochtones du Canada"
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "Aboriginal Agreements",
+				"geoviewLayerName": {
+					"en": "Aboriginal Agreements",
+					"fr": "Ententes autochtones"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Indigenous_Agreement_E/MapServer",
+					"fr": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Indigenous_Agreement_F/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

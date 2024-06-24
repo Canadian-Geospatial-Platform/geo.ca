@@ -1,0 +1,64 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [
+        			4, [-90, 60]
+        		]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "digital-surface-model",
+				"geoviewLayerName": {
+					"en": "Digital Surface Model",
+					"fr": "Modèle numérique de surface"
+				},
+				"geoviewLayerType": "ogcWms",
+				"metadataAccessPath": {
+					"en": "https://datacube.services.geo.ca/web/elevation.xml",
+					"fr": "https://datacube.services.geo.ca/web/elevation.xml"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "dsm-hillshade",
+						"layerName": {
+							"en": "Digital Surface Model",
+							"fr": "Modèle numérique de surface"
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "digital-terrain-model",
+				"geoviewLayerName": {
+					"en": "Digital Terrain Model",
+					"fr": "Modèle numérique de terrain"
+				},
+				"geoviewLayerType": "ogcWms",
+				"metadataAccessPath": {
+					"en": "https://datacube.services.geo.ca/web/elevation.xml",
+					"fr": "https://datacube.services.geo.ca/web/elevation.xml"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "dtm-hillshade",
+						"layerName": {
+							"en": "Digital Terrain Model",
+							"fr": "Modèle numérique de terrain"
+						}
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

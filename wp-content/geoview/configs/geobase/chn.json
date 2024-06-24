@@ -1,0 +1,123 @@
+{
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "projection": 3978,
+      "initialView" : {
+        "zoomAndCenter" : [ 8, [-66.5, 46.8] ]
+      }
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": true,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "chn",
+        "geoviewLayerName": {
+          "en": "Canadian Hydrospatial Network",
+          "fr": "Réseau hydrospatial canadien"
+        },
+        "metadataAccessPath": {
+          "en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/chn_en/MapServer",
+          "fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/chn_fr/MapServer"
+        },
+        "geoviewLayerType": "esriDynamic",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "1",
+            "layerName": {
+              "en": "Hydrolocation",
+              "fr": "Hydrolocalisation"
+            }
+          },
+          {
+            "layerId": "2",
+            "layerName": {
+              "en": "Flowlines",
+              "fr": "Filamentaires d'écoulement"
+            }
+          },
+          {
+            "layerId": "9",
+            "layerName": {
+              "en": "Work Unit",
+              "fr": "Unité de travail"
+            }
+          },
+          {
+            "layerId": "10",
+            "layerName": {
+              "en": "Catchment Aggregate",
+              "fr": "Agrégat d'aire de drainage"
+            }
+          },
+          {
+            "layerId": "11",
+            "layerName": {
+              "en": "Catchment",
+              "fr": "Aire de drainage"
+            }
+          },
+          {
+            "layerId": "12",
+            "layerName": {
+              "en": "Waterbody",
+              "fr": "Étendue d'eau"
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "digital-terrain-model",
+        "geoviewLayerName": {
+          "en": "Digital Terrain model",
+          "fr": "Modèle numérique de terrain"
+        },
+        "geoviewLayerType": "ogcWms",
+        "metadataAccessPath": {
+          "en": "https://datacube.services.geo.ca/web/elevation.xml",
+          "fr": "https://datacube.services.geo.ca/web/elevation.xml"
+        },
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "dtm-hillshade",
+            "layerName": {
+              "en": "Digital Terrain model",
+              "fr": "Modèle numérique de terrain"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "components": ["north-arrow", "overview-map"],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "location",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "basemap-panel",
+        "export"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "legend",
+        "layers",
+        "details",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca"
+}

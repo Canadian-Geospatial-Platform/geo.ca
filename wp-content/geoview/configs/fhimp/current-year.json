@@ -1,0 +1,79 @@
+{
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView" : {
+        "zoomAndCenter" : [ 4, [-90, 60] ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "floods-canada-current-year",
+        "geoviewLayerName": {
+          "en": "Floods in Canada - Current Year",
+          "fr": "Inondations au Canada – Année courante"
+        },
+        "metadataAccessPath": {
+          "en": "https://maps-cartes.services.geo.ca/egs_sgu/rest/services/Flood_Inondation/EGS_Flood_Product_Current_en/MapServer",
+          "fr": "https://maps-cartes.services.geo.ca/egs_sgu/rest/services/Flood_Inondation/EGS_Flood_Product_Current_fr/MapServer"
+        },
+        "geoviewLayerType": "esriDynamic",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          },
+          {
+            "layerId": "1",
+            "initialSettings" : {
+              "states" : {
+                "visible" : false
+              }
+            }
+          },
+          {
+            "layerId": "2",
+            "initialSettings" : {
+              "states" : {
+                "visible" : false
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "components": ["north-arrow", "overview-map"],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "location",
+    "home"
+  ],
+  "appBar": {
+        "tabs": {
+          "core": [
+            "geolocator",
+            "legend",
+            "basemap-panel",
+            "export"
+          ]
+        }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "legend",
+        "layers",
+        "details",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca"
+}

@@ -1,0 +1,67 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "national-parks-reserves",
+				"geoviewLayerName": {
+					"en": "National Parks and National Park Reserves of Canada Legislative Boundaries",
+					"fr": "Limites législatives des parcs nationaux et des réserves à vocation de parc national du Canada"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/CLSS-SATC/CLSS_Administrative_Boundaries/MapServer/",
+					"fr": "https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/CLSS-SATC/SATC_Limites_administratives/MapServer/"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1",
+						"layerName" : {
+							"en": "National Parks and National Park Reserves of Canada Legislative Boundaries",
+							"fr": "Limites législatives des parcs nationaux et des réserves à vocation de parc national du Canada"
+						}
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

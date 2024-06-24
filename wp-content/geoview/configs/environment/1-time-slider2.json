@@ -1,0 +1,21 @@
+{
+  "sliders": [
+    {
+      "layerPaths": ["max-temp/agclimate_tx"],
+      "title": {
+          "en": "Maximum Temperature",
+          "fr": "Température maximale"
+        },
+      "description": {
+          "en": "Maximum Temperature",
+          "fr": "Température maximale"
+        },
+      "locked": false,
+      "reversed": false,
+      "temporalDimension": {
+        "field": "dStart",
+        "singleHandle": false
+      }
+    }
+  ]
+}

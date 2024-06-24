@@ -1,0 +1,696 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "1867",
+				"geoviewLayerName": {
+					"en": "1867"
+				},
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "3"
+					},
+					{
+						"layerId": "5"
+					},
+					{
+						"layerId": "8"
+					},
+					{
+						"layerId": "9"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1870",
+				"geoviewLayerName": {
+					"en": "1870"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "15"
+					},
+					{
+						"layerId": "18"
+					},
+					{
+						"layerId": "19"
+					},
+					{
+						"layerId": "13"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1871",
+				"geoviewLayerName": {
+					"en": "1871"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "25"
+					},
+					{
+						"layerId": "203"
+					},
+					{
+						"layerId": "204"
+					},
+					{
+						"layerId": "23"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1873",
+				"geoviewLayerName": {
+					"en": "1873"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "210"
+					},
+					{
+						"layerId": "213"
+					},
+					{
+						"layerId": "214"
+					},
+					{
+						"layerId": "208"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1874",
+				"geoviewLayerName": {
+					"en": "1874"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "220"
+					},
+					{
+						"layerId": "223"
+					},
+					{
+						"layerId": "224"
+					},
+					{
+						"layerId": "218"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1876",
+				"geoviewLayerName": {
+					"en": "1876"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "230"
+					},
+					{
+						"layerId": "233"
+					},
+					{
+						"layerId": "234"
+					},
+					{
+						"layerId": "228"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1880",
+				"geoviewLayerName": {
+					"en": "1880"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "240"
+					},
+					{
+						"layerId": "243"
+					},
+					{
+						"layerId": "244"
+					},
+					{
+						"layerId": "238"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1881",
+				"geoviewLayerName": {
+					"en": "1881"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "250"
+					},
+					{
+						"layerId": "253"
+					},
+					{
+						"layerId": "254"
+					},
+					{
+						"layerId": "248"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1882",
+				"geoviewLayerName": {
+					"en": "1882"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "267"
+					},
+					{
+						"layerId": "263"
+					},
+					{
+						"layerId": "264"
+					},
+					{
+						"layerId": "258"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1886",
+				"geoviewLayerName": {
+					"en": "1886"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "277"
+					},
+					{
+						"layerId": "273"
+					},
+					{
+						"layerId": "274"
+					},
+					{
+						"layerId": "268"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1889",
+				"geoviewLayerName": {
+					"en": "1889"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "287"
+					},
+					{
+						"layerId": "283"
+					},
+					{
+						"layerId": "284"
+					},
+					{
+						"layerId": "278"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1895",
+				"geoviewLayerName": {
+					"en": "1895"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "298"
+					},
+					{
+						"layerId": "294"
+					},
+					{
+						"layerId": "295"
+					},
+					{
+						"layerId": "288"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1897",
+				"geoviewLayerName": {
+					"en": "1897"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "309"
+					},
+					{
+						"layerId": "305"
+					},
+					{
+						"layerId": "306"
+					},
+					{
+						"layerId": "299"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1898",
+				"geoviewLayerName": {
+					"en": "1898"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "320"
+					},
+					{
+						"layerId": "316"
+					},
+					{
+						"layerId": "317"
+					},
+					{
+						"layerId": "310"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1901",
+				"geoviewLayerName": {
+					"en": "1901"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "331"
+					},
+					{
+						"layerId": "327"
+					},
+					{
+						"layerId": "328"
+					},
+					{
+						"layerId": "321"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1905",
+				"geoviewLayerName": {
+					"en": "1905"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "342"
+					},
+					{
+						"layerId": "338"
+					},
+					{
+						"layerId": "339"
+					},
+					{
+						"layerId": "332"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1912",
+				"geoviewLayerName": {
+					"en": "1912"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "353"
+					},
+					{
+						"layerId": "349"
+					},
+					{
+						"layerId": "350"
+					},
+					{
+						"layerId": "343"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1920",
+				"geoviewLayerName": {
+					"en": "1920"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "364"
+					},
+					{
+						"layerId": "360"
+					},
+					{
+						"layerId": "361"
+					},
+					{
+						"layerId": "354"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1927",
+				"geoviewLayerName": {
+					"en": "1927"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "375"
+					},
+					{
+						"layerId": "371"
+					},
+					{
+						"layerId": "372"
+					},
+					{
+						"layerId": "365"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1949",
+				"geoviewLayerName": {
+					"en": "1949"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "385"
+					},
+					{
+						"layerId": "382"
+					},
+					{
+						"layerId": "376"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "1999",
+				"geoviewLayerName": {
+					"en": "1999"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "394"
+					},
+					{
+						"layerId": "391"
+					},
+					{
+						"layerId": "386"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "2001",
+				"geoviewLayerName": {
+					"en": "2001"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "403"
+					},
+					{
+						"layerId": "400"
+					},
+					{
+						"layerId": "395"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "2003",
+				"geoviewLayerName": {
+					"en": "2003"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer"
+				},
+				"initialSettings" : {
+					"states" : {
+						"visible" : false
+					}
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					},
+					{
+						"layerId": "409"
+					},
+					{
+						"layerId": "404"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

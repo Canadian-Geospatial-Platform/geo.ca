@@ -1,0 +1,122 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        "zoomAndCenter" : [ 4, [-100, 60] ]
+      },
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "2015-land-cover-canada",
+				"geoviewLayerName": {
+					"en": "2015 Land Cover of Canada"
+				},
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/canada_landcover_2015_en/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "CanEcumene_PopRDensityV2",
+				"geoviewLayerName": {
+					"en": "CanEcumene_PopRDensityV2"
+				},
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/indigenous_population_2016_en/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "urban-development2",
+				"geoviewLayerName": {
+					"en": "GeoAI Use Case - Urban Development, Quebec City"
+				},
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GeoAI_UseCase_en/MapServer"
+				},
+				"geoviewLayerType": "esriImage",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1",
+						"layerName" : {
+							"en" : "New Building Concentration"
+						},
+						"initialSettings": {
+							"states" : {
+								"opacity": 0.5
+							}
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "fire-season-length",
+				"geoviewLayerName": {
+					"en": "Fire Season Length"
+				},
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_en/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1"
+					},
+					{
+						"layerId": "2"
+					},
+					{
+						"layerId": "3"
+					},
+					{
+						"layerId": "4"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

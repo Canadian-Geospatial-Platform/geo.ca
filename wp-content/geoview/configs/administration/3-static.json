@@ -1,0 +1,41 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+		        "zoomAndCenter" : [ 4, [-90, 60] ]
+		    },
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "federal-electoral-districts-2019",
+				"geoviewLayerName": {
+					"en": "Federal Electoral Districts of 2019",
+					"fr": "Circonscriptions fédérales de 2019"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/ELECTIONS/elections_canada_2019_en/mapserver",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/ELECTIONS/elections_canada_2019_fr/mapserver"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": {
+							"en": "Federal Electoral Districts of 2019",
+							"fr": "Circonscriptions fédérales de 2019"
+						}
+					}
+				]
+			}
+		]
+	},
+		"components" : ["north-arrow"],
+	"theme": "geo.ca"
+}

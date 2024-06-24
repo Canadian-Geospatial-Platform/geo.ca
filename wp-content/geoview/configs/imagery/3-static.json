@@ -1,0 +1,54 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "2010-land-cover-canada",
+				"geoviewLayerName": {
+					"en": "2010 Land Cover of Canada",
+					"fr": "Couverture terrestre au Canada 2010"
+				},
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/LandCover_EN/MapServer",
+					"fr": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/LandCover_FR/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "2015-land-cover-canada",
+				"geoviewLayerName": {
+					"en": "2015 Land Cover of Canada",
+					"fr": "Couverture terrestre au Canada 2015"
+				},
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": {
+					"en": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/canada_landcover_2015_en/MapServer",
+					"fr": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/LandCover_FR/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

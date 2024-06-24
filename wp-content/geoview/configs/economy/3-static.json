@@ -1,0 +1,83 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+				"zoomAndCenter" : [
+					4,
+					[-90, 60]
+				]
+			},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "mpi",
+				"geoviewLayerName": {
+					"en": "Major Project Investory (MPI)",
+					"fr": "Inventaire des grands projets"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/major_projects_inventory_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/major_projects_inventory_fr/MapServer/"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					},
+					{
+						"layerId": "1"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "cannor",
+				"geoviewLayerName": {
+					"en": "Canadian Northern Economic Development Agency (CanNor)",
+					"fr": "Agence canadienne de développement économique du Nord (CanNor)"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/CanNor/cannor_northern_major_projects_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/CanNor/cannor_northern_major_projects_fr/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					},
+					{
+						"layerId": "1"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "mpmo",
+				"geoviewLayerName": {
+					"en": "Major Projects Management Office (MPMO)",
+					"fr": "Bureau de gestion des grands projets (BGGP)"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/MPMO_Major_Projects/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/BGGP_Projets_Majeurs/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					},
+					{
+						"layerId": "1"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

@@ -1,0 +1,67 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        "zoomAndCenter" : [ 4, [-90, 60] ]
+      },
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "first-nations-locations",
+				"geoviewLayerName": {
+					"en": "First Nation Locations",
+					"fr": "Localisation des Premières Nations"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Premiere_Nation_First_Nation/MapServer",
+					"fr": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Premiere_Nation_First_Nation/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": {
+							"en": "First Nation Locations",
+							"fr": "Localisation des Premières Nations"
+						}
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

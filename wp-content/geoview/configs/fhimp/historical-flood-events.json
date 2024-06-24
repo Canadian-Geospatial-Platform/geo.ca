@@ -1,0 +1,68 @@
+{
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView" : {
+        "zoomAndCenter" : [ 0, [-90, 60] ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "historical-flood",
+        "serviceDateFormat": "yyyy/mm/ddThh:mm:ssz",
+        "geoviewLayerName": {
+          "en": "Historical Flood Events",
+          "fr": "Événements historiques d'inondation"
+        },
+        "metadataAccessPath": {
+          "en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/historical_flood_event_en/MapServer",
+          "fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/historical_flood_event_fr/MapServer"
+        },
+        "geoviewLayerType": "esriFeature",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          }
+        ]
+      }
+    ]
+  },
+  "theme": "geo.ca",
+  "components": ["north-arrow", "overview-map"],
+  "appBar": {
+      "tabs": {
+        "core": [
+          "geolocator",
+          "legend",
+          "basemap-panel",
+          "export"
+        ]
+      }
+  },
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "location",
+    "home"
+  ],
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "legend",
+        "layers",
+        "details",
+        "data-table",
+        "time-slider"
+      ]
+    }
+  },
+  "corePackages": [],
+  "externalPackages": [],
+  "suportedLanguages": ["en"]
+}

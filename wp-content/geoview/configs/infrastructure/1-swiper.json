@@ -1,0 +1,8 @@
+{
+  "orientation": "vertical",
+  "keyboardOffset": 10,
+  "layers": [
+    "power-plant-1mw",
+    "power-plant-100mw"
+  ]
+}

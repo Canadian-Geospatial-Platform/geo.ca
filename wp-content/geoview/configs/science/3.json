@@ -1,0 +1,108 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+	        	"zoomAndCenter" : [ 4, [-90, 60] ]
+	      	},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "average-ambient-particulate",
+				"geoviewLayerName": {
+					"en": "Average ambient fine particulate matter concentrations at monitoring stations",
+					"fr": "Concentration ambiante moyenne de particules fines aux stations de suivi"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CESI/MapServer",
+					"fr": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/ICDE/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "26"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "peak-ambient-particulate",
+				"geoviewLayerName": {
+					"en": "Peak ambient fine particulate matter concentrations at monitoring stations",
+					"fr": "Concentration ambiante de pointe de particules fines"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CESI/MapServer",
+					"fr": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/ICDE/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "27",
+						"initialSettings" : {
+							"states" : {
+								"visible" : false
+							}
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "fine-particulate-by-facility",
+				"geoviewLayerName": {
+					"en": "Fine particulate matter emissions by facility",
+					"fr": "Émissions de particules fines"
+
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CESI/MapServer",
+					"fr": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/ICDE/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "17",
+						"initialSettings" : {
+							"states" : {
+								"visible" : false
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

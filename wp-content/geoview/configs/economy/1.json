@@ -1,0 +1,95 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+				"zoomAndCenter" : [
+					4, [-90, 60]
+				]
+			},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "population_ecumene_CSD2016",
+				"geoviewLayerName": {
+					"en": "2016 population ecumene by census subdivision",
+					"fr": "Écoumène de population de 2016 par subdivision de recensement"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/csd_population_ecumene_2016_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/csd_population_ecumene_2016_fr/MapServer/"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": {
+							"en": "2016 population ecumene by census subdivision",
+							"fr": "Écoumène de population de 2016 par subdivision de recensement"
+						},
+						"initialSettings" : {
+							"states" : {
+								"visible" : false
+							}
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "Median_total_income_households_CSD2016",
+				"geoviewLayerName": {
+					"en": "Median total income of households in 2015 (dollars) by census subdivision, 2016",
+					"fr": "Revenu total médian des ménages en 2015 (dollars) par subdivision de recensement, 2016"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/csd_socioeconomic_variables_2016_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/csd_socioeconomic_variables_2016_fr/MapServer/"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "8",
+						"layerName": {
+							"en": "Median total income of households in 2015 (dollars) by census subdivision, 2016",
+							"fr": "Revenu total médian des ménages en 2015 (dollars) par subdivision de recensement, 2016"
+						}
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

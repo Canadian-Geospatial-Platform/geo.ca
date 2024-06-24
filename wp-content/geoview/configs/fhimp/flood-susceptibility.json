@@ -1,0 +1,65 @@
+{
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView" : {
+        "zoomAndCenter" : [ 0, [-90, 60] ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "flood-susceptibility",
+        "geoviewLayerName": {
+          "en": "Flood Susceptibility Index",
+          "fr": "Indice de vulnérabilité aux inondations"
+        },
+        "metadataAccessPath": {
+          "en": "https://datacube.services.geo.ca/web/flood-susceptibility.xml",
+          "fr": "https://datacube.services.geo.ca/web/flood-susceptibility.xml"
+        },
+        "geoviewLayerType": "ogcWms",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "FS-national-2015-index",
+            "layerName" : {
+              "en": "Flood Susceptibility Index",
+              "fr": "Indice de vulnérabilité aux inondations"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "components": ["north-arrow", "overview-map"],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "location",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "basemap-panel",
+        "export"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "legend",
+        "layers"
+      ]
+    }
+  },
+  "theme": "geo.ca"
+}

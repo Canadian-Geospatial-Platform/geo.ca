@@ -1,0 +1,153 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"projection": 3978,
+			"initialView" : {
+				"zoomAndCenter" : [ 12, [-71.26, 46.80] ]
+			}
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": true,
+			"labeled": false
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "urban-development",
+				"geoviewLayerName": {
+					"en": "GeoAI Use Case - Urban Development, Quebec City"
+				},
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GeoAI_UseCase_en/MapServer"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"listOfLayerEntryConfig": [
+					{
+						"entryType": "group",
+						"layerId": "urban-development-group",
+						"layerName": {
+							"en" : "GeoAI Use Case - Urban Development, Quebec City"
+						},
+						"listOfLayerEntryConfig": [
+							{
+								"layerId": "0",
+								"layerName" : {
+									"en" : "New Building - Centroids"
+								},
+								"initialSettings" : {
+									"states" : {
+										"visible": false
+									}
+								}
+							},
+							{
+								"layerId": "2",
+								"layerName" : {
+									"en" : "New Building"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "urban-development2",
+				"geoviewLayerName": {
+					"en": "GeoAI Use Case - Urban Development, Quebec City"
+				},
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GeoAI_UseCase_en/MapServer"
+				},
+				"geoviewLayerType": "esriImage",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1",
+						"layerName" : {
+							"en" : "New Building Concentration"
+						},
+						"initialSettings": {
+							"states" : {
+								"opacity": 0.5
+							}
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "quebec-2022",
+				"geoviewLayerName": {
+					"en": "Québec 2022"
+				},
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GeoAI_UseCase_en/MapServer"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "3",
+						"layerName" : {
+							"en" : "Québec 2022"
+						},
+						"initialSettings" : {
+							"states" : {
+								"visible": false
+							}
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "quebec-2006",
+				"geoviewLayerName": {
+					"en": "Québec 2006"
+				},
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GeoAI_UseCase_en/MapServer"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "8",
+						"layerName" : {
+							"en" : "Québec 2006"
+						},
+						"initialSettings" : {
+							"states" : {
+								"visible": false
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}
