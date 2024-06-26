@@ -25,7 +25,7 @@
 				"geoviewLayerType": "esriFeature",
 				"metadataAccessPath": {
 					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/major_projects_inventory_en/MapServer",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/major_projects_inventory_fr/MapServer/"
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/major_projects_inventory_fr/MapServer"
 				},
 				"listOfLayerEntryConfig": [
 					{

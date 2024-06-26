@@ -25,7 +25,7 @@
 				"geoviewLayerType": "esriDynamic",
 				"metadataAccessPath": {
 					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/csd_population_ecumene_2016_en/MapServer",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/csd_population_ecumene_2016_fr/MapServer/"
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/csd_population_ecumene_2016_fr/MapServer"
 				},
 				"listOfLayerEntryConfig": [
 					{
@@ -51,7 +51,7 @@
 				"geoviewLayerType": "esriDynamic",
 				"metadataAccessPath": {
 					"en": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/csd_socioeconomic_variables_2016_en/MapServer",
-					"fr": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/csd_socioeconomic_variables_2016_fr/MapServer/"
+					"fr": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/csd_socioeconomic_variables_2016_fr/MapServer"
 				},
 				"listOfLayerEntryConfig": [
 					{

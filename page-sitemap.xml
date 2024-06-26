@@ -928,33 +928,12 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/floods-in-canada-current-year/</loc>
-		<lastmod>2024-06-10T17:30:18+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/COA-161d.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/inondations-au-canada-annee-courante/</loc>
-		<lastmod>2024-06-10T17:30:30+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/COA-161d.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/administration/national-parks-and-national-park-reserves-of-canada-legislative-boundaries/</loc>
 		<lastmod>2024-06-14T18:14:24+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/administration/first-nation-location/</loc>
 		<lastmod>2024-06-14T18:14:31+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/administration/</loc>
-		<lastmod>2024-06-14T18:16:16+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
-		</image:image>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/fr/administration-fr/localisation-des-premieres-nations/</loc>
@@ -965,46 +944,11 @@
 		<lastmod>2024-06-14T18:24:37+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/administration-fr/</loc>
-		<lastmod>2024-06-14T18:26:34+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/economy/median-total-income-of-households-in-2015-dollars-by-census-subdivision-2016/</loc>
-		<lastmod>2024-06-14T18:30:21+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/economy/</loc>
 		<lastmod>2024-06-14T18:38:15+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/economie/investissements-cibles-dans-linfrastructure-des-collectivites-des-premieres-nations/</loc>
-		<lastmod>2024-06-14T18:45:42+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/economie/revenu-total-median-des-menages-en-2015-dollars-par-subdivision-de-recensement-2016/</loc>
-		<lastmod>2024-06-14T18:52:15+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/economie/ententes-minieres-avec-les-autochtones-actives/</loc>
-		<lastmod>2024-06-14T18:55:52+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/economy/indigenous-mining-agreements-active/</loc>
-		<lastmod>2024-06-14T18:56:15+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/economy/major-natural-resource-projects-in-canada/</loc>
-		<lastmod>2024-06-14T18:56:19+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/economy/targeted-investments-in-first-nations-community-infrastructure/</loc>
-		<lastmod>2024-06-14T18:56:33+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/fr/economie/</loc>
@@ -1014,72 +958,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/economie/grands-projets-de-ressources-naturelles-au-canada/</loc>
-		<lastmod>2024-06-14T19:00:35+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/emergency/floods-in-canada-archive/</loc>
-		<lastmod>2024-06-14T19:08:27+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/urgences/inondations-au-canada-archive/</loc>
-		<lastmod>2024-06-14T19:14:34+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/environment/maximum-temperature/</loc>
-		<lastmod>2024-06-14T19:31:48+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/environment/priority-species-at-risk-ranges/</loc>
-		<lastmod>2024-06-14T19:35:26+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/environment/critical-habitat-species-at-risk-canada/</loc>
-		<lastmod>2024-06-14T19:38:32+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/environnement/temperature-maximale/</loc>
-		<lastmod>2024-06-14T19:43:53+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/environnement/repartitions-des-especes-prioritaires-en-peril/</loc>
-		<lastmod>2024-06-14T19:45:17+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/environment/</loc>
-		<lastmod>2024-06-14T19:46:08+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/environnement/habitat-essentiel-especes-en-peril-canada/</loc>
-		<lastmod>2024-06-14T19:47:02+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/environnement/</loc>
-		<lastmod>2024-06-14T19:48:18+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/imagery/annual-crop-inventory/</loc>
-		<lastmod>2024-06-14T20:07:27+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/imagery/high-resolution-digital-elevation-model-mosaic-hrdem-mosaic-canelevation-series-to-display-dsm-and-dtm/</loc>
-		<lastmod>2024-06-14T20:08:14+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/imagery/land-cover-canada/</loc>
-		<lastmod>2024-06-14T20:10:22+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/imagery/high-resolution-digital-elevation-model-hrdem-canelevation-series/</loc>
-		<lastmod>2024-06-14T20:11:29+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/imagery/</loc>
 		<lastmod>2024-06-14T20:14:25+00:00</lastmod>
 		<image:image>
@@ -1087,39 +965,11 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/imagerie/mosaique-du-modele-numerique-delevation-de-haute-resolution-mosaique-mnehr-serie-canelevation-affichant-les-mns-et-mnt/</loc>
-		<lastmod>2024-06-14T20:17:13+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/imagerie/inventaire-annuel-des-cultures/</loc>
-		<lastmod>2024-06-14T20:18:07+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/imagerie/couverture-terrestre-du-canada/</loc>
-		<lastmod>2024-06-14T20:19:30+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/imagerie/modele-numerique-delevation-de-haute-resolution-mnehr-serie-canelevation/</loc>
-		<lastmod>2024-06-14T20:20:16+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/imagerie/</loc>
 		<lastmod>2024-06-14T20:21:20+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/legal/national-parks-and-protected-areas/</loc>
-		<lastmod>2024-06-17T15:23:07+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/legal/indigenous-justice-program/</loc>
-		<lastmod>2024-06-17T15:28:02+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/legal/protected-areas-canada/</loc>
-		<lastmod>2024-06-17T15:29:48+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/fr/renseignements-juridiques/</loc>
@@ -1136,80 +986,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/science/the-canadian-radiological-monitoring-network/</loc>
-		<lastmod>2024-06-17T15:50:46+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/science/air-quality/</loc>
-		<lastmod>2024-06-17T15:57:11+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/science/ecologically-and-biologically-significant-areas/</loc>
-		<lastmod>2024-06-17T15:58:08+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/science/</loc>
-		<lastmod>2024-06-17T15:59:17+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/science-fr/</loc>
-		<lastmod>2024-06-17T16:07:04+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/society/ratio-of-new-immigrant-arrivals-2001-2016-to-older-immigrant-arrivals-before-2001-by-census-division-2016/</loc>
-		<lastmod>2024-06-17T16:11:06+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/society/majority-mother-tongue-population-by-census-division-2016/</loc>
-		<lastmod>2024-06-17T16:12:37+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/society/fluwatchers/</loc>
-		<lastmod>2024-06-17T16:13:14+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/societe/ratio-des-nouveaux-arrivages-dimmigrants-de-2001-a-2016-par-rapport-aux-anciens-arrivages-dimmigrants-avant-2001-par-subdivision-de-recensement-2016/</loc>
-		<lastmod>2024-06-17T16:21:18+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/societe/population-majoritaire-de-langue-maternelle-par-division-de-recensement-2016/</loc>
-		<lastmod>2024-06-17T16:23:31+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/societe/actiongrippe/</loc>
-		<lastmod>2024-06-17T16:24:22+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/renseignements-juridiques/aires-protegees-canada/</loc>
-		<lastmod>2024-06-17T17:52:57+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/renseignements-juridiques/parcs-nationaux-et-aires-protegees/</loc>
-		<lastmod>2024-06-17T17:53:03+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/renseignements-juridiques/programme-de-justice-autochtone/</loc>
-		<lastmod>2024-06-17T17:53:07+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/science-fr/le-reseau-canadien-de-surveillance-radiologique/</loc>
-		<lastmod>2024-06-17T17:53:25+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/science-fr/qualite-de-lair/</loc>
-		<lastmod>2024-06-17T17:53:31+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/science-fr/zones-dimportance-ecologique-et-biologique/</loc>
-		<lastmod>2024-06-17T17:53:38+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/society/</loc>
 		<lastmod>2024-06-17T18:36:12+00:00</lastmod>
 		<image:image>
@@ -1224,10 +1000,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/emergency/disaster-events-since-1900/</loc>
-		<lastmod>2024-06-17T18:53:45+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/emergency/</loc>
 		<lastmod>2024-06-17T18:54:05+00:00</lastmod>
 		<image:image>
@@ -1235,31 +1007,11 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/urgences/evenement-catastrophes-depuis-1900/</loc>
-		<lastmod>2024-06-17T18:58:52+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/urgences/</loc>
 		<lastmod>2024-06-17T19:15:55+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/infrastructure/north-american-energy/</loc>
-		<lastmod>2024-06-17T19:32:17+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/infrastructure/proportion-of-commuters-using-sustainable-transportation-by-census-subdivision-2016/</loc>
-		<lastmod>2024-06-17T19:41:11+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/infrastructure-fr/lenergie-en-amerique-du-nord/</loc>
-		<lastmod>2024-06-17T19:52:47+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/infrastructure-fr/proportion-de-navetteurs-utilisant-le-transport-durable-par-subdivision-de-recensement-2016/</loc>
-		<lastmod>2024-06-17T20:04:54+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/initiatives/canadian-geospatial-data-infrastructure/mapml/</loc>
@@ -1282,22 +1034,6 @@
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/initiatives/geobase/geoai/data-index-map/</loc>
-		<lastmod>2024-06-18T17:58:59+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/geoia/carte-index-des-donnees/</loc>
-		<lastmod>2024-06-18T18:03:28+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/initiatives/geobase/canadian-hydrospatial-network/canadian-hydrospatial-network-map/</loc>
-		<lastmod>2024-06-18T18:09:14+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/reseau-hydrospatial-canadien/carte-du-reseau-hydrospatial-canadien/</loc>
-		<lastmod>2024-06-18T18:32:36+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/historical-flood-events/</loc>
@@ -1342,13 +1078,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/flood-mapping/province-territory/</loc>
-		<lastmod>2024-06-24T17:32:39+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/contributeurs/</loc>
 		<lastmod>2024-06-24T17:45:57+00:00</lastmod>
 		<image:image>
@@ -1361,6 +1090,301 @@
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
 		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/flood-mapping/province-territory/</loc>
+		<lastmod>2024-06-25T12:48:42+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/administration/administrative-and-electoral-boundaries-of-canada-2019/</loc>
+		<lastmod>2024-06-25T15:39:53+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/administration/</loc>
+		<lastmod>2024-06-25T15:41:00+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/administration-fr/limites-administratives-et-electorales-du-canada-2019/</loc>
+		<lastmod>2024-06-25T15:43:30+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/administration-fr/</loc>
+		<lastmod>2024-06-25T15:44:27+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/science/</loc>
+		<lastmod>2024-06-25T18:56:48+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/science-fr/</loc>
+		<lastmod>2024-06-25T18:57:30+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/environment/</loc>
+		<lastmod>2024-06-25T19:44:03+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/environnement/</loc>
+		<lastmod>2024-06-25T19:49:25+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/economy/targeted-investments-in-first-nations-community-infrastructure/</loc>
+		<lastmod>2024-06-25T20:14:45+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/economy/major-natural-resource-projects-in-canada/</loc>
+		<lastmod>2024-06-25T20:16:03+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/economie/grands-projets-de-ressources-naturelles-au-canada/</loc>
+		<lastmod>2024-06-25T20:17:06+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/economy/median-total-income-of-households-in-2015-dollars-by-census-subdivision-2016/</loc>
+		<lastmod>2024-06-25T20:17:41+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/economie/revenu-total-median-des-menages-en-2015-dollars-par-subdivision-de-recensement-2016/</loc>
+		<lastmod>2024-06-25T20:18:14+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/economie/investissements-cibles-dans-linfrastructure-des-collectivites-des-premieres-nations/</loc>
+		<lastmod>2024-06-25T20:18:39+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/economy/indigenous-mining-agreements-active/</loc>
+		<lastmod>2024-06-25T20:19:13+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/economie/ententes-minieres-avec-les-autochtones-actives/</loc>
+		<lastmod>2024-06-25T20:20:00+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/emergency/floods-in-canada-archive/</loc>
+		<lastmod>2024-06-25T20:21:30+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/urgences/inondations-au-canada-archive/</loc>
+		<lastmod>2024-06-25T20:22:19+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/emergency/disaster-events-since-1900/</loc>
+		<lastmod>2024-06-25T20:22:31+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/urgences/evenement-catastrophes-depuis-1900/</loc>
+		<lastmod>2024-06-25T20:23:00+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/environment/maximum-temperature/</loc>
+		<lastmod>2024-06-25T20:26:48+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/environnement/temperature-maximale/</loc>
+		<lastmod>2024-06-25T20:27:21+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/environment/priority-species-at-risk-ranges/</loc>
+		<lastmod>2024-06-25T20:28:00+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/environnement/repartitions-des-especes-prioritaires-en-peril/</loc>
+		<lastmod>2024-06-25T20:28:39+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/environment/critical-habitat-species-at-risk-canada/</loc>
+		<lastmod>2024-06-25T20:29:24+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/environnement/habitat-essentiel-especes-en-peril-canada/</loc>
+		<lastmod>2024-06-25T20:30:05+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/environment/canadian-impact-assessment-registry-assessment-inventory/</loc>
+		<lastmod>2024-06-25T20:30:20+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/environnement/registre-canadien-devaluation-dimpact-inventaire-des-evaluations/</loc>
+		<lastmod>2024-06-25T20:40:46+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/imagery/annual-crop-inventory/</loc>
+		<lastmod>2024-06-26T15:17:30+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/imagerie/inventaire-annuel-des-cultures/</loc>
+		<lastmod>2024-06-26T15:18:16+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/imagery/high-resolution-digital-elevation-model-hrdem-canelevation-series/</loc>
+		<lastmod>2024-06-26T15:18:48+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/imagerie/modele-numerique-delevation-de-haute-resolution-mnehr-serie-canelevation/</loc>
+		<lastmod>2024-06-26T15:20:39+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/imagery/high-resolution-digital-elevation-model-mosaic-hrdem-mosaic-canelevation-series-to-display-dsm-and-dtm/</loc>
+		<lastmod>2024-06-26T15:21:22+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/imagerie/mosaique-du-modele-numerique-delevation-de-haute-resolution-mosaique-mnehr-serie-canelevation-affichant-les-mns-et-mnt/</loc>
+		<lastmod>2024-06-26T15:22:23+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/imagery/land-cover-canada/</loc>
+		<lastmod>2024-06-26T15:22:52+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/imagerie/couverture-terrestre-du-canada/</loc>
+		<lastmod>2024-06-26T15:23:29+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/infrastructure/north-american-energy/</loc>
+		<lastmod>2024-06-26T15:26:15+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/infrastructure-fr/lenergie-en-amerique-du-nord/</loc>
+		<lastmod>2024-06-26T15:38:50+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/infrastructure/proportion-of-commuters-using-sustainable-transportation-by-census-subdivision-2016/</loc>
+		<lastmod>2024-06-26T15:40:11+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/infrastructure-fr/proportion-de-navetteurs-utilisant-le-transport-durable-par-subdivision-de-recensement-2016/</loc>
+		<lastmod>2024-06-26T15:40:45+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/initiatives/geobase/canadian-hydrospatial-network/canadian-hydrospatial-network-map/</loc>
+		<lastmod>2024-06-26T15:45:12+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/initiatives/geobase/geoai/data-index-map/</loc>
+		<lastmod>2024-06-26T15:46:25+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/geoia/carte-index-des-donnees/</loc>
+		<lastmod>2024-06-26T15:47:24+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/legal/indigenous-justice-program/</loc>
+		<lastmod>2024-06-26T15:48:43+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/renseignements-juridiques/programme-de-justice-autochtone/</loc>
+		<lastmod>2024-06-26T15:49:24+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/legal/national-parks-and-protected-areas/</loc>
+		<lastmod>2024-06-26T15:49:49+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/renseignements-juridiques/parcs-nationaux-et-aires-protegees/</loc>
+		<lastmod>2024-06-26T15:50:30+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/legal/protected-areas-canada/</loc>
+		<lastmod>2024-06-26T15:50:50+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/renseignements-juridiques/aires-protegees-canada/</loc>
+		<lastmod>2024-06-26T15:51:37+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/science/air-quality/</loc>
+		<lastmod>2024-06-26T15:53:16+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/science-fr/qualite-de-lair/</loc>
+		<lastmod>2024-06-26T15:53:54+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/science/ecologically-and-biologically-significant-areas/</loc>
+		<lastmod>2024-06-26T15:54:20+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/science-fr/zones-dimportance-ecologique-et-biologique/</loc>
+		<lastmod>2024-06-26T15:54:54+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/science/permafrost-by-ecoprovince/</loc>
+		<lastmod>2024-06-26T15:55:26+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/science-fr/pergelisol-par-lecoprovince/</loc>
+		<lastmod>2024-06-26T15:56:08+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/science/the-canadian-radiological-monitoring-network/</loc>
+		<lastmod>2024-06-26T15:56:28+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/science-fr/le-reseau-canadien-de-surveillance-radiologique/</loc>
+		<lastmod>2024-06-26T15:57:29+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/society/fluwatchers/</loc>
+		<lastmod>2024-06-26T15:58:50+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/societe/actiongrippe/</loc>
+		<lastmod>2024-06-26T15:59:43+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/society/majority-mother-tongue-population-by-census-division-2016/</loc>
+		<lastmod>2024-06-26T16:01:46+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/societe/population-majoritaire-de-langue-maternelle-par-division-de-recensement-2016/</loc>
+		<lastmod>2024-06-26T16:02:26+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/society/ratio-of-new-immigrant-arrivals-2001-2016-to-older-immigrant-arrivals-before-2001-by-census-division-2016/</loc>
+		<lastmod>2024-06-26T16:02:47+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/societe/ratio-des-nouveaux-arrivages-dimmigrants-de-2001-a-2016-par-rapport-aux-anciens-arrivages-dimmigrants-avant-2001-par-subdivision-de-recensement-2016/</loc>
+		<lastmod>2024-06-26T16:03:30+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/floods-in-canada-current-year/</loc>
+		<lastmod>2024-06-26T17:26:42+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/COA-161d.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/inondations-au-canada-annee-courante/</loc>
+		<lastmod>2024-06-26T17:39:02+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/COA-161d.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/reseau-hydrospatial-canadien/carte-du-reseau-hydrospatial-canadien/</loc>
+		<lastmod>2024-06-26T18:57:05+00:00</lastmod>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->

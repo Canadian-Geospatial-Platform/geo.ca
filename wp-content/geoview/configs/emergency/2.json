@@ -19,10 +19,10 @@
 					"en": "Canadian Earthquakes 2010-2019",
 					"fr": "Tremblements de terre canadien 2010-2019"
 				},
-				"geoviewLayerType": "esriFeature",
+				"geoviewLayerType": "esriDynamic",
 				"metadataAccessPath": {
-					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_en/MapServer/",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_fr/MapServer/"
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_fr/MapServer"
 				},
 				"listOfLayerEntryConfig": [
 					{
@@ -40,10 +40,10 @@
 					"en": "Canadian Earthquakes 2000-2009",
 					"fr": "Tremblements de terre canadien 2000-2009"
 				},
-				"geoviewLayerType": "esriFeature",
+				"geoviewLayerType": "esriDynamic",
 				"metadataAccessPath": {
-					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_en/MapServer/",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_fr/MapServer/"
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_fr/MapServer"
 				},
 				"listOfLayerEntryConfig": [
 					{
@@ -61,10 +61,10 @@
 					"en": "Canadian Earthquakes 1990-1999",
 					"fr": "Tremblements de terre canadien 1990-1999"
 				},
-				"geoviewLayerType": "esriFeature",
+				"geoviewLayerType": "esriDynamic",
 				"metadataAccessPath": {
-					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_en/MapServer/",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_fr/MapServer/"
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_fr/MapServer"
 				},
 				"listOfLayerEntryConfig": [
 					{
@@ -82,10 +82,10 @@
 					"en": "Canadian Earthquakes 1980-1989",
 					"fr": "Tremblements de terre canadien 1980-1989"
 				},
-				"geoviewLayerType": "esriFeature",
+				"geoviewLayerType": "esriDynamic",
 				"metadataAccessPath": {
-					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_en/MapServer/",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_fr/MapServer/"
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/earthquakes_fr/MapServer"
 				},
 				"listOfLayerEntryConfig": [
 					{

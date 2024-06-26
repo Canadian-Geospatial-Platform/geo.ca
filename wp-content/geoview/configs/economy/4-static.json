@@ -24,8 +24,8 @@
 				},
 				"geoviewLayerType": "esriFeature",
 				"metadataAccessPath": {
-					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/IndigenousMiningAgreements_en/MapServer/",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/IndigenousMiningAgreements_fr/MapServer/"
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/IndigenousMiningAgreements_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/IndigenousMiningAgreements_fr/MapServer"
 				},
 				"listOfLayerEntryConfig": [
 					{
