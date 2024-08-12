@@ -51,7 +51,7 @@
         },
         "stepsSwitcher": true,
         "resetStates": true,
-        "description": "This is a description text",
+        "description": "",
         "download": true
       }
     }

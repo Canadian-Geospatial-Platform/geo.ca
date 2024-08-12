@@ -6,7 +6,7 @@
 <link rel="alternate" href="https://dev.geo.ca/flood-mapping/flood-map-gallery/floods-in-canada-current-year/" hreflang="en">
 <link rel="alternate" href="https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/inondations-au-canada-annee-courante/" hreflang="fr">
 
-	<!-- This site is optimized with the Yoast SEO plugin v22.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- This site is optimized with the Yoast SEO plugin v23.0 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Inondations au Canada – Année courante - GEO.CA</title>
 	<meta name="description" content="Explorez les inondations de l’année en cours au Canada. Inondations au Canada – Année courante Des polygones d’étendues des inondations de l’année en">
 	<link rel="canonical" href="https://dev.geo.ca/fr/cartographie-inondations/galerie-cartes-inondations/inondations-au-canada-annee-courante/">
@@ -36,7 +36,7 @@
 <link rel="stylesheet" id="elementor-icons-css" href="https://dev.geo.ca/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0" media="all">
 <link rel="stylesheet" id="swiper-css" href="https://dev.geo.ca/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" media="all">
 <link rel="stylesheet" id="elementor-post-336-css" href="https://dev.geo.ca/wp-content/uploads/elementor/css/post-336.css?ver=1715788638" media="all">
-<link rel="stylesheet" id="elementor-post-41236-css" href="https://dev.geo.ca/wp-content/uploads/elementor/css/post-41236.css?ver=1719423551" media="all">
+<link rel="stylesheet" id="elementor-post-41236-css" href="https://dev.geo.ca/wp-content/uploads/elementor/css/post-41236.css?ver=1722965904" media="all">
 <link rel="stylesheet" id="elementor-post-12645-css" href="https://dev.geo.ca/wp-content/uploads/elementor/css/post-12645.css?ver=1716299791" media="all">
 <link rel="stylesheet" id="elementor-post-22073-css" href="https://dev.geo.ca/wp-content/uploads/elementor/css/post-22073.css?ver=1716299791" media="all">
 <link rel="stylesheet" id="eael-general-css" href="https://dev.geo.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.9.21" media="all">
@@ -285,12 +285,18 @@
 			<script>document.addEventListener( "geoviewInit", ( event ) => {
     const params = new URLSearchParams( window.location.search );
     let province = params.get('province');
+    const mapId = event.detail.mapId;
+    
+    // FSI map select layers tab and layer 
+    if (mapId == 'flood-susceptibility-index') {
+        cgpv.api.maps[mapId].footerBarApi.selectTab('layers');
+        cgpv.api.maps[mapId].stateApi.setSelectedLayersTabLayer('flood-susceptibility/FS-national-2015-index');
+    }
 
     if ( ! province ) {
       return;
     }
 
-    const mapId = event.detail.mapId;
     const provinces = {
       'alberta': [-120.0063852, 48.9916763, -109.9997611, 60.0054216],
       'british-columbia': [-139.0661104, 48.2192883, -114.0488086, 60.0072268],
@@ -325,7 +331,7 @@
 				<div class="elementor-element elementor-element-e20efeb elementor-widget elementor-widget-geo-geoview-map" data-id="e20efeb" data-element_type="widget" data-widget_type="geo-geoview-map.default">
 				<div class="elementor-widget-container">
 			<style>.elementor-widget-geo-geoview-map .geoview-map hr{margin-left:7px}</style>		<div class="geo-geoview-map-wrapper">
-			<div id="floods-canada-current-year" class="geoview-map geo-geoview-map" data-lang="fr" data-config-url="https://dev.geo.ca/wp-content/geoview/configs/fhimp/current-year.json?ver=1673962143"></div>
+			<div id="floods-canada-current-year" class="geoview-map geo-geoview-map" data-lang="fr" data-config-url="https://wordpress.dev.geo.ca/wp-content/geoview/configs/fhimp/current-year.json?ver=1719409142"></div>
 		</div>
 				</div>
 				</div>
@@ -543,7 +549,7 @@
 <script src="https://dev.geo.ca/wp-content/themes/geo/includes/cgp-mega-menu/vendor/dist/js/jquery-accessibleMegaMenu.min.js?ver=1.0" id="adobe-accessible-mega-menu-jquery-js"></script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/dist/js/cgp-video-min.js?ver=1.0.0" id="cgp-video-js"></script>
 <script src="https://dev.geo.ca/wp-content/themes/geo/includes/cgp-global/dist/js/cgp-global-min.js?ver=1.0" id="cgp-global-js"></script>
-<script id="eael-general-js-extra">var localize = {"ajaxurl":"https:\/\/dev.geo.ca\/wp-admin\/admin-ajax.php","nonce":"87fa01473f","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https:\/\/dev.geo.ca\/fr\/cartographie-inondations\/galerie-cartes-inondations\/inondations-au-canada-annee-courante\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};</script>
+<script id="eael-general-js-extra">var localize = {"ajaxurl":"https:\/\/dev.geo.ca\/wp-admin\/admin-ajax.php","nonce":"05f21ae240","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https:\/\/dev.geo.ca\/fr\/cartographie-inondations\/galerie-cartes-inondations\/inondations-au-canada-annee-courante\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};</script>
 <script src="https://dev.geo.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.9.21" id="eael-general-js"></script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.21.4" id="elementor-webpack-runtime-js"></script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.4" id="elementor-frontend-modules-js"></script>
@@ -571,7 +577,7 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 <script id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 </script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/dev.geo.ca\/wp-admin\/admin-ajax.php","nonce":"1a6236c2a9","urls":{"assets":"https:\/\/dev.geo.ca\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/dev.geo.ca\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"fr_CA","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/dev.geo.ca\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/dev.geo.ca\/wp-admin\/admin-ajax.php","nonce":"1e38ed98cc","urls":{"assets":"https:\/\/dev.geo.ca\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/dev.geo.ca\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"fr_CA","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/dev.geo.ca\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.21.2" id="elementor-pro-frontend-js"></script>
 <script src="https://dev.geo.ca/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.21.2" id="pro-elements-handlers-js"></script>
 
