@@ -6,9 +6,9 @@
 	xmlns:admin="http://webns.net/mvcb/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	>
-<channel rdf:about="https://dev.geo.ca/">
+<channel rdf:about="https://stage.geo.ca/">
 	<title>GEO.CA</title>
-	<link>https://dev.geo.ca/</link>
+	<link>https://stage.geo.ca/</link>
 	<description></description>
 	<dc:date>2024-08-13T18:01:13Z	</dc:date>
 	<sy:updatePeriod>
