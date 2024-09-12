@@ -10,13 +10,13 @@
 	<title>GEO.CA</title>
 	<link>https://dev.geo.ca/</link>
 	<description></description>
-	<dc:date>2024-08-26T16:17:08Z	</dc:date>
+	<dc:date>2024-09-11T20:21:52Z	</dc:date>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
-	<admin:generatorAgent rdf:resource="https://wordpress.org/?v=6.5.5" />
+	<admin:generatorAgent rdf:resource="https://wordpress.org/?v=6.6.2" />
 	<items>
 		<rdf:Seq>
 				</rdf:Seq>
