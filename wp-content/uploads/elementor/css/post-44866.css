@@ -1,0 +1,32 @@
+.elementor-44866 .elementor-element.elementor-element-1702dfa3 > .elementor-container{max-width:720px;min-height:575px;}.elementor-44866 .elementor-element.elementor-element-1702dfa3:not(.elementor-motion-effects-element-type-background), .elementor-44866 .elementor-element.elementor-element-1702dfa3 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://dev.geo.ca/wp-content/uploads/2024/08/territory-permafrost.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-44866 .elementor-element.elementor-element-1702dfa3{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:60px;padding:0px 0px 0px 0px;}.elementor-44866 .elementor-element.elementor-element-1702dfa3 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-44866 .elementor-element.elementor-element-9c7f912:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-44866 .elementor-element.elementor-element-9c7f912 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#000000C7;}.elementor-44866 .elementor-element.elementor-element-9c7f912 > .elementor-element-populated, .elementor-44866 .elementor-element.elementor-element-9c7f912 > .elementor-element-populated > .elementor-background-overlay, .elementor-44866 .elementor-element.elementor-element-9c7f912 > .elementor-background-slideshow{border-radius:5px 5px 5px 5px;}.elementor-44866 .elementor-element.elementor-element-9c7f912 > .elementor-element-populated{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:60px 0px 60px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:35px 35px 35px 35px;}.elementor-44866 .elementor-element.elementor-element-9c7f912 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-44866 .elementor-element.elementor-element-13f5e565 .elementor-heading-title{color:var( --e-global-color-24b43351 );font-size:50px;font-weight:400;}.elementor-44866 .elementor-element.elementor-element-6b18145{color:var( --e-global-color-24b43351 );font-family:"Open Sans", sans-serif;font-size:18px;line-height:1.5em;}.elementor-44866 .elementor-element.elementor-element-a3f466a{margin-top:0px;margin-bottom:20px;}.elementor-44866 .elementor-element.elementor-element-cbfb662.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-44866 .elementor-element.elementor-element-f84f612 .widget-image-caption{text-align:left;background-color:var( --e-global-color-6812fe9 );}.elementor-44866 .elementor-element.elementor-element-dd0a7a1{margin-top:0px;margin-bottom:20px;}.elementor-44866 .elementor-element.elementor-element-17d14dc.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-44866 .elementor-element.elementor-element-576cbc9 .widget-image-caption{text-align:left;background-color:var( --e-global-color-6812fe9 );}@media(max-width:1024px){.elementor-44866 .elementor-element.elementor-element-1702dfa3 > .elementor-container{min-height:0px;}}@media(max-width:767px){.elementor-44866 .elementor-element.elementor-element-9c7f912 > .elementor-element-populated{margin:30px 0px 30px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:20px 20px 20px 20px;}.elementor-44866 .elementor-element.elementor-element-13f5e565 .elementor-heading-title{font-size:35px;}.elementor-44866 .elementor-element.elementor-element-6b18145{font-size:16px;}}/* Start custom CSS for breadcrumbs, class: .elementor-element-f15f1a1 */.elementor-44866 .elementor-element.elementor-element-f15f1a1 #breadcrumbs {
+    color: #fff;
+}
+
+ {}/* End custom CSS */
+/* Start custom CSS for text-editor, class: .elementor-element-6b18145 */.elementor-44866 .elementor-element.elementor-element-6b18145 p:last-child {
+    margin-bottom: 0;
+}/* End custom CSS */
+/* Start custom CSS for image, class: .elementor-element-f84f612 */.elementor-44866 .elementor-element.elementor-element-f84f612 .wp-caption {
+    max-width: 1024px;
+}
+
+.elementor-44866 .elementor-element.elementor-element-f84f612 .wp-caption-text {
+    padding: 5px 10px;
+}
+
+.elementor-44866 .elementor-element.elementor-element-f84f612 .wp-caption a {
+    display: inline;
+
+}/* End custom CSS */
+/* Start custom CSS for image, class: .elementor-element-576cbc9 */.elementor-44866 .elementor-element.elementor-element-576cbc9 .wp-caption {
+    max-width: 1024px;
+}
+
+.elementor-44866 .elementor-element.elementor-element-576cbc9 .wp-caption-text {
+    padding: 5px 10px;
+}
+
+.elementor-44866 .elementor-element.elementor-element-576cbc9 .wp-caption a {
+    display: inline;
+
+}/* End custom CSS */

@@ -22,7 +22,7 @@
 				"geoviewLayerType": "esriDynamic",
 				"metadataAccessPath": {
 					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer"
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_fr/MapServer"
 				},
 				"listOfLayerEntryConfig": [
 					{
@@ -39,7 +39,7 @@
 				"geoviewLayerType": "esriDynamic",
 				"metadataAccessPath": {
 					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer"
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_fr/MapServer"
 				},
 				"listOfLayerEntryConfig": [
 					{
@@ -56,7 +56,7 @@
 				"geoviewLayerType": "esriDynamic",
 				"metadataAccessPath": {
 					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer"
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_fr/MapServer"
 				},
 				"listOfLayerEntryConfig": [
 					{

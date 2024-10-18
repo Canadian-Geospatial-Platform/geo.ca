@@ -12,8 +12,5 @@
 .prov-section h4 {
     line-height: 1.3em;
 }
-.icon-nowrap {
-    white-space: nowrap;
-}
 .geo-link-list__list {
     color: #fff !important;/* End custom CSS */
