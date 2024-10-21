@@ -1497,39 +1497,39 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://dev.geo.ca/communities/permafrost/permafrost-by-province/</loc>
+		<lastmod>2024-10-21T13:47:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/alberta-jasper-permafrost-1024x576.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/manitoba-hudson-bay-rail-line-1024x576.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/quebec-nunavik-community-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/communautes/pergelisol/le-pergelisol-par-province/</loc>
+		<lastmod>2024-10-21T13:48:00+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/alberta-jasper-permafrost-1024x576.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/manitoba-hudson-bay-rail-line-1024x576.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/quebec-nunavik-community-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://dev.geo.ca/communities/permafrost/permafrost-by-territory/</loc>
-		<lastmod>2024-10-17T19:51:59+00:00</lastmod>
+		<lastmod>2024-10-21T13:49:56+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/northwest-territories-thaw-slump.jpg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/09/yukon-alaskan-highway-degradation-1024x576.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/communautes/pergelisol/le-pergelisol-par-province/</loc>
-		<lastmod>2024-10-17T20:04:25+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/alberta-jasper-permafrost-1024x576.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/manitoba-hudson-bay-rail-line-1024x576.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/quebec-nunavik-community-1024x576.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/communities/permafrost/permafrost-by-province/</loc>
-		<lastmod>2024-10-17T20:04:38+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/alberta-jasper-permafrost-1024x576.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/manitoba-hudson-bay-rail-line-1024x576.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/10/quebec-nunavik-community-1024x576.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
