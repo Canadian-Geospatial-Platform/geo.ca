@@ -1355,26 +1355,6 @@
 		<lastmod>2024-09-25T20:30:32+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/initiatives/geobase/canadian-hydrospatial-network/</loc>
-		<lastmod>2024-10-10T17:51:51+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-data.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-map.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/reseau-hydrospatial-canadien/</loc>
-		<lastmod>2024-10-10T17:52:09+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-data.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-map.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/home/</loc>
 		<lastmod>2024-10-17T17:38:29+00:00</lastmod>
 		<image:image>
@@ -1530,6 +1510,26 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/09/yukon-alaskan-highway-degradation-1024x576.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/initiatives/geobase/canadian-hydrospatial-network/</loc>
+		<lastmod>2024-10-22T15:35:53+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-data.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-map.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/reseau-hydrospatial-canadien/</loc>
+		<lastmod>2024-10-22T15:53:38+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-data.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-map.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
