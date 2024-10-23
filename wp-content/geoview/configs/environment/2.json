@@ -19,7 +19,7 @@
 					"en": "Completed",
 					"fr": "Achevé"
 				},
-				"geoviewLayerType": "esriDynamic",
+				"geoviewLayerType": "esriFeature",
 				"metadataAccessPath": {
 					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer",
 					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_fr/MapServer"
@@ -36,7 +36,7 @@
 					"en": "In progress",
 					"fr": "En cours"
 				},
-				"geoviewLayerType": "esriDynamic",
+				"geoviewLayerType": "esriFeature",
 				"metadataAccessPath": {
 					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer",
 					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_fr/MapServer"
@@ -53,7 +53,7 @@
 					"en": "Terminated",
 					"fr": "Arrêté"
 				},
-				"geoviewLayerType": "esriDynamic",
+				"geoviewLayerType": "esriFeature",
 				"metadataAccessPath": {
 					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer",
 					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_fr/MapServer"
