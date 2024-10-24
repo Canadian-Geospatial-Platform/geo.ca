@@ -9,8 +9,8 @@
 
 <channel>
 	<title>GEO.CA</title>
-	<atom:link href="https://dev.geo.ca/feed/" rel="self" type="application/rss+xml" />
-	<link>https://dev.geo.ca/</link>
+	<atom:link href="https://stage.geo.ca/feed/" rel="self" type="application/rss+xml" />
+	<link>https://stage.geo.ca/</link>
 	<description></description>
 	<lastBuildDate>Thu, 24 Oct 2024 15:55:27 +0000</lastBuildDate>
 	<language>en-CA</language>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.6.2</generator>
 
 <image>
-	<url>https://dev.geo.ca/wp-content/uploads/2022/11/icon-GEO-300x300-1-150x150.png</url>
+	<url>https://stage.geo.ca/wp-content/uploads/2022/11/icon-GEO-300x300-1-150x150.png</url>
 	<title>GEO.CA</title>
-	<link>https://dev.geo.ca/</link>
+	<link>https://stage.geo.ca/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
