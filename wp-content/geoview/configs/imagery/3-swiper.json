@@ -1,0 +1,7 @@
+{
+  "orientation": "vertical",
+  "keyboardOffset": 10,
+  "layers": [
+    "landcover-2020"
+  ]
+}

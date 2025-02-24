@@ -11,7 +11,7 @@
                 "geoviewLayerId": "M2UKB145VGE0D",
                 "geoviewLayerName": {
                     "en": "Sea ice velocity [m/s] - WCPS",
-                    "fr": "Sea ice velocity [m/s] - WCPS"
+                    "fr": "Vitesse de la glace de mer [m/s] – SPCE"
                 },
                 "geoviewLayerType": "ogcWms",
                 "initialSettings": {
@@ -44,7 +44,7 @@
                         "layerId": "WCPS_1km_SeaIceVelocity",
                         "layerName": {
                             "en": "Sea ice velocity [m/s] - WCPS",
-                            "fr": "Sea ice velocity [m/s] - WCPS"
+                            "fr": "Vitesse de la glace de mer [m/s] – SPCE"
                         },
                         "initialSettings": {
                             "states": {
@@ -90,7 +90,7 @@
                 "geoviewLayerId": "M2UJMLT8W4ERV",
                 "geoviewLayerName": {
                     "en": "Tide and Water Level Station",
-                    "fr": "Tide and Water Level Station"
+                    "fr": "Station d’observation des marées et du niveau d’eau"
                 },
                 "geoviewLayerType": "esriDynamic",
                 "initialSettings": {
@@ -123,7 +123,7 @@
                         "layerId": 2,
                         "layerName": {
                             "en": "Tide and Water Level Station",
-                            "fr": "Tide and Water Level Station"
+                            "fr": "Station d’observation des marées et du niveau d’eau"
                         },
                         "initialSettings": {
                             "states": {
@@ -190,7 +190,7 @@
                 "geoviewLayerId": "M2UJWGAVBQ0V8",
                 "geoviewLayerName": {
                     "en": "Bathymetry, 35M-13M, polygon, Bathymetry, 13M-3M, polygon, Bathymetry, 3M-500K, polygon",
-                    "fr": "Bathymetry, 35M-13M, polygon, Bathymetry, 13M-3M, polygon, Bathymetry, 3M-500K, polygon"
+                    "fr": "Bathymétrie, 35M-13M, polygone; bathymétrie, 13M-3M, polygone; bathymétrie, 3M-500K, polygone"
                 },
                 "geoviewLayerType": "ogcWms",
                 "initialSettings": {
@@ -215,7 +215,7 @@
                         "layerId": "bathymetry_small",
                         "layerName": {
                             "en": "Bathymetry, 35M-13M, polygon",
-                            "fr": "Bathymetry, 35M-13M, polygon"
+                            "fr": "Bathymétrie, 35M-13M, polygone"
                         },
                         "initialSettings": {
                             "states": {
@@ -255,7 +255,7 @@
                         "layerId": "bathymetry_mid",
                         "layerName": {
                             "en": "Bathymetry, 13M-3M, polygon",
-                            "fr": "Bathymetry, 13M-3M, polygon"
+                            "fr": "Bathymétrie, 13M-3M, polygone"
                         },
                         "initialSettings": {
                             "states": {
@@ -295,7 +295,7 @@
                         "layerId": "bathymetry_large",
                         "layerName": {
                             "en": "Bathymetry, 3M-500K, polygon",
-                            "fr": "Bathymetry, 3M-500K, polygon"
+                            "fr": "Bathymétrie, 3M-500K, polygone"
                         },
                         "initialSettings": {
                             "states": {
@@ -341,7 +341,7 @@
                 "geoviewLayerId": "M2UK0IHKIGQGW",
                 "geoviewLayerName": {
                     "en": "Water temperature [K] - GDPS.ETA",
-                    "fr": "Water temperature [K] - GDPS.ETA"
+                    "fr": "Température de l’eau [K] – GDPS.ETA"
                 },
                 "geoviewLayerType": "ogcWms",
                 "initialSettings": {
@@ -374,7 +374,7 @@
                         "layerId": "GDPS.ETA_TM",
                         "layerName": {
                             "en": "Water temperature [K] - GDPS.ETA",
-                            "fr": "Water temperature [K] - GDPS.ETA"
+                            "fr": "Température de l’eau [K] – GDPS.ETA"
                         },
                         "initialSettings": {
                             "states": {

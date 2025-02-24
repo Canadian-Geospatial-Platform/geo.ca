@@ -11,7 +11,7 @@
                 "geoviewLayerId": "M2UMWUGG30VS5",
                 "geoviewLayerName": {
                     "en": "Active Wildland Fires",
-                    "fr": "Active Wildland Fires"
+                    "fr": "Feux de végétation actifs"
                 },
                 "geoviewLayerType": "ogcWms",
                 "initialSettings": {
@@ -44,7 +44,7 @@
                         "layerId": "public:activefires_current",
                         "layerName": {
                             "en": "Active Wildland Fires",
-                            "fr": "Active Wildland Fires"
+                            "fr": "Feux de végétation actifs"
                         },
                         "initialSettings": {
                             "states": {
@@ -90,7 +90,7 @@
                 "geoviewLayerId": "M2UMT0X8BRHI9",
                 "geoviewLayerName": {
                     "en": "Wildfire hotspots ingested by RAQDPS-FireWork",
-                    "fr": "Wildfire hotspots ingested by RAQDPS-FireWork"
+                    "fr": "Points chauds des feux de forêt calculés par le SRPDQA-FW"
                 },
                 "geoviewLayerType": "ogcWms",
                 "initialSettings": {
@@ -123,7 +123,7 @@
                         "layerId": "FIREWORK.HOTSPOTS",
                         "layerName": {
                             "en": "Wildfire hotspots ingested by RAQDPS-FireWork",
-                            "fr": "Wildfire hotspots ingested by RAQDPS-FireWork"
+                            "fr": "Points chauds des feux de forêt calculés par le SRPDQA-FW"
                         },
                         "initialSettings": {
                             "states": {
@@ -169,7 +169,7 @@
                 "geoviewLayerId": "M2UNYWQOOV16X",
                 "geoviewLayerName": {
                     "en": "HRDPS.CONTINENTAL - Snow depth [m]",
-                    "fr": "HRDPS.CONTINENTAL - Snow depth [m]"
+                    "fr": "Épaisseur de la neige [m] – HRDPS.CONTINENTAL"
                 },
                 "geoviewLayerType": "ogcWms",
                 "initialSettings": {
@@ -202,7 +202,7 @@
                         "layerId": "HRDPS.CONTINENTAL_SD",
                         "layerName": {
                             "en": "Snow depth [m] - HRDPS.CONTINENTAL",
-                            "fr": "Snow depth [m] - HRDPS.CONTINENTAL"
+                            "fr": "Épaisseur de la neige [m] – HRDPS.CONTINENTAL"
                         },
                         "initialSettings": {
                             "states": {
@@ -248,7 +248,7 @@
                 "geoviewLayerId": "M2UNE9VX3BTTU",
                 "geoviewLayerName": {
                     "en": "Total precipitation intensity index - RDPS-WEonG",
-                    "fr": "Total precipitation intensity index - RDPS-WEonG"
+                    "fr": "Indice d’intensité totale des précipitations – SRPD-ETsurG"
                 },
                 "geoviewLayerType": "ogcWms",
                 "initialSettings": {
@@ -281,7 +281,7 @@
                         "layerId": "RDPS-WEonG_10km_TotalPrecipIntensityIndex",
                         "layerName": {
                             "en": "Total precipitation intensity index - RDPS-WEonG",
-                            "fr": "Total precipitation intensity index - RDPS-WEonG"
+                            "fr": "Indice d’intensité totale des précipitations – SRPD-ETsurG"
                         },
                         "initialSettings": {
                             "states": {
@@ -327,7 +327,7 @@
                 "geoviewLayerId": "M2UKYTQWXJ88C",
                 "geoviewLayerName": {
                     "en": "Sea ice concentration simulations (50th percentile) - CMIP6-SSP585 (Annual)",
-                    "fr": "Sea ice concentration simulations (50th percentile) - CMIP6-SSP585 (Annual)"
+                    "fr": "Simulations des concentrations de glace de mer (50e centile) - CMIP6-SSP585 (données annuelles)"
                 },
                 "geoviewLayerType": "ogcWms",
                 "initialSettings": {
@@ -360,7 +360,7 @@
                         "layerId": "CMIP6-SSP585_SeaIceConcentration-Pct50_2015-2100_P1Y",
                         "layerName": {
                             "en": "Sea ice concentration simulations (50th percentile) - CMIP6-SSP585 (Annual)",
-                            "fr": "Sea ice concentration simulations (50th percentile) - CMIP6-SSP585 (Annual)"
+                            "fr": "Simulations des concentrations de glace de mer (50e centile) - CMIP6-SSP585 (données annuelles)"
                         },
                         "initialSettings": {
                             "states": {
@@ -406,7 +406,7 @@
                 "geoviewLayerId": "M2UL8UCM9S762",
                 "geoviewLayerName": {
                     "en": "Absolute trend of Mean Temperature (1948-2018) - CANGRD",
-                    "fr": "Absolute trend of Mean Temperature (1948-2018) - CANGRD"
+                    "fr": "Tendance absolue de la température moyenne (1948-2018) - CANGRD (données annuelles)"
                 },
                 "geoviewLayerType": "ogcWms",
                 "initialSettings": {
@@ -439,7 +439,7 @@
                         "layerId": "CANGRD.TREND.TM_ANNUAL",
                         "layerName": {
                             "en": "Absolute trend of Mean Temperature (1948-2018) - CANGRD",
-                            "fr": "Absolute trend of Mean Temperature (1948-2018) - CANGRD"
+                            "fr": "Tendance absolue de la température moyenne (1948-2018) - CANGRD (données annuelles)"
                         },
                         "initialSettings": {
                             "states": {
