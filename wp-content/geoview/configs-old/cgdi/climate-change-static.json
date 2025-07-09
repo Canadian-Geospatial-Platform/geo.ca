@@ -1,0 +1,542 @@
+{
+    "map": {
+        "basemapOptions": {
+            "basemapId": "transport",
+            "shaded": true,
+            "labeled": true
+        },
+        "interaction": "static",
+        "listOfGeoviewLayerConfig": [
+            {
+                "geoviewLayerId": "M2UMWUGG30VS5",
+                "geoviewLayerName": {
+                    "en": "Active Wildland Fires",
+                    "fr": "Active Wildland Fires"
+                },
+                "geoviewLayerType": "ogcWms",
+                "initialSettings": {
+                    "states": {
+                        "visible": false,
+                        "opacity": 1,
+                        "legendCollapsed": false,
+                        "queryable": true,
+                        "hoverable": true
+                    },
+                    "controls": {
+                        "highlight": true,
+                        "hover": true,
+                        "opacity": true,
+                        "query": true,
+                        "remove": true,
+                        "table": true,
+                        "visibility": true,
+                        "zoom": true
+                    },
+                    "bounds": [
+                        -180,
+                        30.220259209268296,
+                        180,
+                        87.46090453011479
+                    ]
+                },
+                "listOfLayerEntryConfig": [
+                    {
+                        "layerId": "public:activefires_current",
+                        "layerName": {
+                            "en": "Active Wildland Fires",
+                            "fr": "Active Wildland Fires"
+                        },
+                        "initialSettings": {
+                            "states": {
+                                "visible": false,
+                                "opacity": 1,
+                                "legendCollapsed": false,
+                                "queryable": true,
+                                "hoverable": true
+                            },
+                            "controls": {
+                                "highlight": true,
+                                "hover": true,
+                                "opacity": true,
+                                "query": true,
+                                "remove": true,
+                                "table": true,
+                                "visibility": true,
+                                "zoom": true
+                            },
+                            "bounds": [
+                                -180,
+                                30.220259209268296,
+                                180,
+                                87.46090453011479
+                            ]
+                        },
+                        "source": {
+                            "dataAccessPath": {
+                                "en": "https://cwfis.cfs.nrcan.gc.ca/geoserver/ows",
+                                "fr": "https://cwfis.cfs.nrcan.gc.ca/geoserver/ows"
+                            },
+                            "serverType": "mapserver"
+                        },
+                        "listOfLayerEntryConfig": []
+                    }
+                ],
+                "metadataAccessPath": {
+                    "en": "https://cwfis.cfs.nrcan.gc.ca/geoserver/ows",
+                    "fr": "https://cwfis.cfs.nrcan.gc.ca/geoserver/ows"
+                }
+            },
+            {
+                "geoviewLayerId": "M2UMT0X8BRHI9",
+                "geoviewLayerName": {
+                    "en": "Wildfire hotspots ingested by RAQDPS-FireWork",
+                    "fr": "Wildfire hotspots ingested by RAQDPS-FireWork"
+                },
+                "geoviewLayerType": "ogcWms",
+                "initialSettings": {
+                    "states": {
+                        "visible": true,
+                        "opacity": 1,
+                        "legendCollapsed": false,
+                        "queryable": true,
+                        "hoverable": true
+                    },
+                    "controls": {
+                        "highlight": true,
+                        "hover": true,
+                        "opacity": true,
+                        "query": true,
+                        "remove": true,
+                        "table": true,
+                        "visibility": true,
+                        "zoom": true
+                    },
+                    "bounds": [
+                        -180,
+                        18,
+                        -52,
+                        90
+                    ]
+                },
+                "listOfLayerEntryConfig": [
+                    {
+                        "layerId": "FIREWORK.HOTSPOTS",
+                        "layerName": {
+                            "en": "Wildfire hotspots ingested by RAQDPS-FireWork",
+                            "fr": "Wildfire hotspots ingested by RAQDPS-FireWork"
+                        },
+                        "initialSettings": {
+                            "states": {
+                                "visible": true,
+                                "opacity": 1,
+                                "legendCollapsed": false,
+                                "queryable": true,
+                                "hoverable": true
+                            },
+                            "controls": {
+                                "highlight": true,
+                                "hover": true,
+                                "opacity": true,
+                                "query": true,
+                                "remove": true,
+                                "table": true,
+                                "visibility": true,
+                                "zoom": true
+                            },
+                            "bounds": [
+                                -180,
+                                18,
+                                -52,
+                                90
+                            ]
+                        },
+                        "source": {
+                            "dataAccessPath": {
+                                "en": "https://geo.weather.gc.ca/geomet",
+                                "fr": "https://geo.weather.gc.ca/geomet"
+                            },
+                            "serverType": "mapserver"
+                        },
+                        "listOfLayerEntryConfig": []
+                    }
+                ],
+                "metadataAccessPath": {
+                    "en": "https://geo.weather.gc.ca/geomet",
+                    "fr": "https://geo.weather.gc.ca/geomet"
+                }
+            },
+            {
+                "geoviewLayerId": "M2UNYWQOOV16X",
+                "geoviewLayerName": {
+                    "en": "HRDPS.CONTINENTAL - Snow depth [m]",
+                    "fr": "HRDPS.CONTINENTAL - Snow depth [m]"
+                },
+                "geoviewLayerType": "ogcWms",
+                "initialSettings": {
+                    "states": {
+                        "visible": false,
+                        "opacity": 1,
+                        "legendCollapsed": false,
+                        "queryable": true,
+                        "hoverable": true
+                    },
+                    "controls": {
+                        "highlight": true,
+                        "hover": true,
+                        "opacity": true,
+                        "query": true,
+                        "remove": true,
+                        "table": true,
+                        "visibility": true,
+                        "zoom": true
+                    },
+                    "bounds": [
+                        -152.769,
+                        27.284,
+                        -40.6938,
+                        70.6165
+                    ]
+                },
+                "listOfLayerEntryConfig": [
+                    {
+                        "layerId": "HRDPS.CONTINENTAL_SD",
+                        "layerName": {
+                            "en": "HRDPS.CONTINENTAL - Snow depth [m]",
+                            "fr": "HRDPS.CONTINENTAL - Snow depth [m]"
+                        },
+                        "initialSettings": {
+                            "states": {
+                                "visible": false,
+                                "opacity": 1,
+                                "legendCollapsed": false,
+                                "queryable": true,
+                                "hoverable": true
+                            },
+                            "controls": {
+                                "highlight": true,
+                                "hover": true,
+                                "opacity": true,
+                                "query": true,
+                                "remove": true,
+                                "table": true,
+                                "visibility": true,
+                                "zoom": true
+                            },
+                            "bounds": [
+                                -152.769,
+                                27.284,
+                                -40.6938,
+                                70.6165
+                            ]
+                        },
+                        "source": {
+                            "dataAccessPath": {
+                                "en": "https://geo.weather.gc.ca/geomet",
+                                "fr": "https://geo.weather.gc.ca/geomet"
+                            },
+                            "serverType": "mapserver"
+                        },
+                        "listOfLayerEntryConfig": []
+                    }
+                ],
+                "metadataAccessPath": {
+                    "en": "https://geo.weather.gc.ca/geomet",
+                    "fr": "https://geo.weather.gc.ca/geomet"
+                }
+            },
+            {
+                "geoviewLayerId": "M2UNE9VX3BTTU",
+                "geoviewLayerName": {
+                    "en": "RDPS-WEonG - Total precipitation intensity index",
+                    "fr": "RDPS-WEonG - Total precipitation intensity index"
+                },
+                "geoviewLayerType": "ogcWms",
+                "initialSettings": {
+                    "states": {
+                        "visible": true,
+                        "opacity": 0.3,
+                        "legendCollapsed": false,
+                        "queryable": true,
+                        "hoverable": true
+                    },
+                    "controls": {
+                        "highlight": true,
+                        "hover": true,
+                        "opacity": true,
+                        "query": true,
+                        "remove": true,
+                        "table": true,
+                        "visibility": true,
+                        "zoom": true
+                    },
+                    "bounds": [
+                        -180,
+                        -7.77647,
+                        180,
+                        90
+                    ]
+                },
+                "listOfLayerEntryConfig": [
+                    {
+                        "layerId": "RDPS-WEonG_10km_TotalPrecipIntensityIndex",
+                        "layerName": {
+                            "en": "RDPS-WEonG - Total precipitation intensity index",
+                            "fr": "RDPS-WEonG - Total precipitation intensity index"
+                        },
+                        "initialSettings": {
+                            "states": {
+                                "visible": true,
+                                "opacity": 0.3,
+                                "legendCollapsed": false,
+                                "queryable": true,
+                                "hoverable": true
+                            },
+                            "controls": {
+                                "highlight": true,
+                                "hover": true,
+                                "opacity": true,
+                                "query": true,
+                                "remove": true,
+                                "table": true,
+                                "visibility": true,
+                                "zoom": true
+                            },
+                            "bounds": [
+                                -180,
+                                -7.77647,
+                                180,
+                                90
+                            ]
+                        },
+                        "source": {
+                            "dataAccessPath": {
+                                "en": "https://geo.weather.gc.ca/geomet",
+                                "fr": "https://geo.weather.gc.ca/geomet"
+                            },
+                            "serverType": "mapserver"
+                        },
+                        "listOfLayerEntryConfig": []
+                    }
+                ],
+                "metadataAccessPath": {
+                    "en": "https://geo.weather.gc.ca/geomet",
+                    "fr": "https://geo.weather.gc.ca/geomet"
+                }
+            },
+            {
+                "geoviewLayerId": "M2UKYTQWXJ88C",
+                "geoviewLayerName": {
+                    "en": "CMIP6-SSP585 (Annual)- Sea ice concentration simulations (50th percentile)",
+                    "fr": "CMIP6-SSP585 (Annual)- Sea ice concentration simulations (50th percentile)"
+                },
+                "geoviewLayerType": "ogcWms",
+                "initialSettings": {
+                    "states": {
+                        "visible": false,
+                        "opacity": 1,
+                        "legendCollapsed": false,
+                        "queryable": true,
+                        "hoverable": true
+                    },
+                    "controls": {
+                        "highlight": true,
+                        "hover": true,
+                        "opacity": true,
+                        "query": true,
+                        "remove": true,
+                        "table": true,
+                        "visibility": true,
+                        "zoom": true
+                    },
+                    "bounds": [
+                        -146,
+                        35,
+                        -44,
+                        90
+                    ]
+                },
+                "listOfLayerEntryConfig": [
+                    {
+                        "layerId": "CMIP6-SSP585_SeaIceConcentration-Pct50_2015-2100_P1Y",
+                        "layerName": {
+                            "en": "CMIP6-SSP585 (Annual)- Sea ice concentration simulations (50th percentile)",
+                            "fr": "CMIP6-SSP585 (Annual)- Sea ice concentration simulations (50th percentile)"
+                        },
+                        "initialSettings": {
+                            "states": {
+                                "visible": false,
+                                "opacity": 1,
+                                "legendCollapsed": false,
+                                "queryable": true,
+                                "hoverable": true
+                            },
+                            "controls": {
+                                "highlight": true,
+                                "hover": true,
+                                "opacity": true,
+                                "query": true,
+                                "remove": true,
+                                "table": true,
+                                "visibility": true,
+                                "zoom": true
+                            },
+                            "bounds": [
+                                -146,
+                                35,
+                                -44,
+                                90
+                            ]
+                        },
+                        "source": {
+                            "dataAccessPath": {
+                                "en": "https://geo.weather.gc.ca/geomet-climate",
+                                "fr": "https://geo.weather.gc.ca/geomet-climate"
+                            },
+                            "serverType": "mapserver"
+                        },
+                        "listOfLayerEntryConfig": []
+                    }
+                ],
+                "metadataAccessPath": {
+                    "en": "https://geo.weather.gc.ca/geomet-climate",
+                    "fr": "https://geo.weather.gc.ca/geomet-climate"
+                }
+            },
+            {
+                "geoviewLayerId": "M2UL8UCM9S762",
+                "geoviewLayerName": {
+                    "en": "CANGRD (Annual)- Absolute trend of Mean Temperature (1948-2018)",
+                    "fr": "CANGRD (Annual)- Absolute trend of Mean Temperature (1948-2018)"
+                },
+                "geoviewLayerType": "ogcWms",
+                "initialSettings": {
+                    "states": {
+                        "visible": true,
+                        "opacity": 1,
+                        "legendCollapsed": false,
+                        "queryable": true,
+                        "hoverable": true
+                    },
+                    "controls": {
+                        "highlight": true,
+                        "hover": true,
+                        "opacity": true,
+                        "query": true,
+                        "remove": true,
+                        "table": true,
+                        "visibility": true,
+                        "zoom": true
+                    },
+                    "bounds": [
+                        -180,
+                        25.4105,
+                        180,
+                        90
+                    ]
+                },
+                "listOfLayerEntryConfig": [
+                    {
+                        "layerId": "CANGRD.TREND.TM_ANNUAL",
+                        "layerName": {
+                            "en": "CANGRD (Annual)- Absolute trend of Mean Temperature (1948-2018)",
+                            "fr": "CANGRD (Annual)- Absolute trend of Mean Temperature (1948-2018)"
+                        },
+                        "initialSettings": {
+                            "states": {
+                                "visible": true,
+                                "opacity": 1,
+                                "legendCollapsed": false,
+                                "queryable": true,
+                                "hoverable": true
+                            },
+                            "controls": {
+                                "highlight": true,
+                                "hover": true,
+                                "opacity": true,
+                                "query": true,
+                                "remove": true,
+                                "table": true,
+                                "visibility": true,
+                                "zoom": true
+                            },
+                            "bounds": [
+                                -180,
+                                25.4105,
+                                180,
+                                90
+                            ]
+                        },
+                        "source": {
+                            "dataAccessPath": {
+                                "en": "https://geo.weather.gc.ca/geomet-climate",
+                                "fr": "https://geo.weather.gc.ca/geomet-climate"
+                            },
+                            "serverType": "mapserver"
+                        },
+                        "listOfLayerEntryConfig": []
+                    }
+                ],
+                "metadataAccessPath": {
+                    "en": "https://geo.weather.gc.ca/geomet-climate",
+                    "fr": "https://geo.weather.gc.ca/geomet-climate"
+                }
+            }
+        ],
+        "highlightColor": "black",
+        "overlayObjects": {
+            "pointMarkers": {}
+        },
+        "viewSettings": {
+            "initialView": {
+                "zoomAndCenter": [
+                    4,
+                    [
+                        -93.50804342081383,
+                        61.24006978435318
+                    ]
+                ]
+            },
+            "enableRotation": true,
+            "rotation": 0,
+            "minZoom": 0,
+            "maxZoom": 50,
+            "maxExtent": [
+                -135,
+                25,
+                -50,
+                89
+            ],
+            "projection": 3978
+        }
+    },
+    "theme": "geo.ca",
+    "navBar": [
+        "zoom",
+        "fullscreen",
+        "home",
+        "basemap-select"
+    ],
+    "appBar": {
+        "tabs": {
+            "core": [
+                "geolocator"
+            ]
+        },
+        "selectedTab": "",
+        "collapsed": false
+    },
+    "overviewMap": {
+        "hideOnZoom": 6
+    },
+    "components": [
+        "overview-map"
+    ],
+    "corePackages": [],
+    "externalPackages": [],
+    "serviceUrls": {
+        "geocoreUrl": "https://geocore.api.geo.ca",
+        "geolocator": "https://geolocator.api.geo.ca?keys=geonames,nominatim,locate",
+        "proxyUrl": "https://maps.canada.ca/wmsproxy/ws/wmsproxy/executeFromProxy"
+    },
+    "schemaVersionUsed": "1.0"
+}

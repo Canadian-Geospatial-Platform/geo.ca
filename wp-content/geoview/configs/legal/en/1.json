@@ -1,0 +1,84 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [
+        			"NationalParkBoundaries",
+					"ProtectedAreas",
+					"MarineProtectedAreas"
+        		]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "NationalParkBoundaries",
+				"geoviewLayerName": "National Parks and National Park Reserves of Canada Legislative Boundaries",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/CLSS-SATC/CLSS_Administrative_Boundaries/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1",
+						"layerName": "National Parks and National Park Reserves of Canada Legislative Boundaries"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "ProtectedAreas",
+				"geoviewLayerName": "Protected Areas - Canada",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/CPCAD/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": "Protected Areas - Canada"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "MarineProtectedAreas",
+				"geoviewLayerName": "Oceans Act Marine Protected Areas",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/oceans_act_marine_protected_areas_zones_de_protection_marines_de_la_loi_sur_les_oceans/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": "Oceans Act Marine Protected Areas"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"basemap-select",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

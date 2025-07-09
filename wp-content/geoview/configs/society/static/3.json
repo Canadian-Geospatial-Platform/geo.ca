@@ -1,0 +1,48 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "population_ecumene_CD2016",
+				"geoviewLayerName": "2016 population ecumene by census division",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/cd_population_ecumene_2016_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"initialSettings" : {
+							"states" : {
+								"visible" : false
+							}
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "mother_tongue_CD2016",
+				"geoviewLayerName": "Majority (%) mother tongue population by census division, 2016",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/cd_socioeconomic_variables_2016_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "7"
+					}
+				]
+			}
+
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

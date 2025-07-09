@@ -1,0 +1,31 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "sustainable-transportation-census-2016",
+				"geoviewLayerName": "Proportion of commuters using sustainable transportation by census subdivision, 2016",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/csd_socioeconomic_variables_2016_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "11"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

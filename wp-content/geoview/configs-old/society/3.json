@@ -1,0 +1,87 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "population_ecumene_CD2016",
+				"geoviewLayerName": {
+					"en": "2016 population ecumene by census division",
+					"fr": "Écoumène de population de 2016 par division de recensement"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/cd_population_ecumene_2016_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/cd_population_ecumene_2016_fr/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"initialSettings" : {
+							"states" : {
+								"visible" : false
+							}
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "mother_tongue_CD2016",
+				"geoviewLayerName": {
+					"en": "Majority (%) mother tongue population by census division, 2016",
+					"fr": "Population majoritaire (%) de langue maternelle par division de recensement, 2016"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/cd_socioeconomic_variables_2016_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/cd_socioeconomic_variables_2016_fr/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "7"
+					}
+				]
+			}
+
+		]
+	},
+	"components": ["north-arrow"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca",
+	"suportedLanguages": [ "en", "fr"]
+}

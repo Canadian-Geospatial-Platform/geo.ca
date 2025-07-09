@@ -1,0 +1,34 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+				"zoomAndCenter" : [
+					4,
+					[-90, 60]
+				]
+			},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "Indigenous_Community_Infrastructure_Investment_E",
+				"geoviewLayerName": "Investments in Indigenous Community infrastructure",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Indigenous_Community_Infrastructure_E/MapServer/",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "4"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

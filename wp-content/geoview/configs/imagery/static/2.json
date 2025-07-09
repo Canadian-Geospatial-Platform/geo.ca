@@ -1,0 +1,31 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "annual-crop-inventory-2023",
+				"geoviewLayerName": "Annual Crop Inventory 2023",
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": "https://agriculture.canada.ca/atlas/rest/services/imageservices/annual_crop_inventory_2023/ImageServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

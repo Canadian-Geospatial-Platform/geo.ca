@@ -1,0 +1,176 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "nrwn",
+				"geoviewLayerName": {
+					"en": "National Railway Network - NRWN - GeoBase Series",
+					"fr": "Réseau ferroviaire national - RFN - Série GéoBase"
+				},
+				"geoviewLayerType": "ogcWms",
+				"metadataAccessPath": {
+					"en": "https://maps.canada.ca/wmsproxy/ws/wmsproxy/executeFromProxy?https://maps.geogratis.gc.ca/wms/railway_en",
+					"fr": "https://maps.canada.ca/wmsproxy/ws/wmsproxy/executeFromProxy?https://cartes.geogratis.gc.ca/wms/railway_fr"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId" : "railway.structure.line"
+					},
+					{
+						"layerId" : "railway.structure.point"
+					},
+					{
+						"layerId" : "railway.track"
+					},
+					{
+						"layerId" : "railway.ferry"
+					},
+					{
+						"layerId" : "railway.subdivision"
+					},
+					{
+						"layerId" : "railway.station"
+					},
+					{
+						"layerId" : "railway.marker_post"
+					},
+					{
+						"layerId" : "railway.crossing"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "vessel-traffic-routes",
+				"geoviewLayerName": {
+					"en": "Vessel Traffic Routes",
+					"fr": "Voies de circulation navire"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Vessel_Traffic_Routes_EN/MapServer",
+					"fr": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Vessel_Traffic_Routes_FR/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId" : "0"
+					},
+					{
+						"layerId" : "1"
+					},
+					{
+						"layerId" : "2"
+					},
+					{
+						"layerId" : "3"
+					},
+					{
+						"layerId" : "4"
+					},
+					{
+						"layerId" : "5"
+					},
+					{
+						"layerId" : "6"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "nrn",
+				"geoviewLayerName": {
+					"en": "National Road Network - NRN - GeoBase Series",
+					"fr": "Réseau routier national - RRN - Série GéoBase"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/NRN_WMS_EN/MapServer",
+					"fr": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/NRN_WMS_FR/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId" : "2"
+					},
+					{
+						"layerId" : "3"
+					},
+					{
+						"layerId" : "4"
+					},
+					{
+						"entryType": "group",
+						"layerId" : "road-segment",
+						"layerName": {
+							"en": "Road Segement",
+							"fr": "Segment routier"
+						},
+						"listOfLayerEntryConfig": [
+							{
+								"layerId" : "6"
+							},
+							{
+								"layerId" : "7"
+							},
+							{
+								"layerId" : "8"
+							},
+							{
+								"layerId" : "9"
+							},
+							{
+								"layerId" : "10"
+							},
+							{
+								"layerId" : "11"
+							},
+							{
+								"layerId" : "12"
+							},
+							{
+								"layerId" : "13"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

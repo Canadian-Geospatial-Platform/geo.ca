@@ -1,0 +1,39 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+				"zoomAndCenter" : [
+					4, [-90, 60]
+				]
+			},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "fire-season-length-short-term",
+				"geoviewLayerName": {
+					"en": "Fire Season Length under RCP 8.5 - Short-term [2011-2040]",
+					"fr": "Durée de la saison des feux selon le RCP 8.5 - Court terme [2011-2040]"
+				},
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_en/MapServer",
+					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_fr/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

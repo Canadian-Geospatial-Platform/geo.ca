@@ -1,0 +1,88 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "Protected and conserved area***2888ff57-a21c-448c-a4fa-570c4cabd956",
+				"geoviewLayerName": {
+					"en": "Protected and conserved area",
+					"fr": "Les aires protégées et de conservation"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/CPCAD/MapServer",
+					"fr": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/BDCAPC/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": {
+							"en": "Protected and conserved area",
+							"fr": "Les aires protégées et de conservation"
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "Priority species for species at risk***9bd571fa",
+				"geoviewLayerName": {
+					"en": "Priority species for species at risk",
+					"fr": "Espèces prioritaires pour les espèces en péril"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/PrioritySpecies/MapServer",
+					"fr": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/EspecesPrioritaires/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName" : {
+							"en": "Priority species for species at risk",
+							"fr": "Espèces prioritaires pour les espèces en péril"
+						}
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

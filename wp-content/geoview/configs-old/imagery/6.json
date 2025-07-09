@@ -1,0 +1,65 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "canadian-wetland-inventory",
+				"geoviewLayerName": {
+					"en": "Canadian Wetland Inventory",
+					"fr": "Inventaire canadien des terres humides"
+				},
+				"geoviewLayerType": "ogcWms",
+				"metadataAccessPath": {
+					"en": "https://datacube.services.geo.ca/ows/canadian-wetland-inventory",
+					"fr": "https://datacube.services.geo.ca/ows/canadian-wetland-inventory"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "canadian-wetland-inventory-v3A",
+						"layerName" : {
+							"en": "Canadian Wetland Inventory",
+							"fr": "Inventaire canadien des terres humides"
+						}
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

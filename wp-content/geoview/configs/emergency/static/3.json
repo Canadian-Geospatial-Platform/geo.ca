@@ -1,0 +1,35 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+				"zoomAndCenter" : [
+					4,
+					[-90, 60]
+				]
+		  	},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "Canadian Disasters, by Event Type***38633a35",
+				"geoviewLayerName": "Canadian Disasters, by Event Type",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/PS/canadian_disasters_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": "Canadian Disasters, by Event Type"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

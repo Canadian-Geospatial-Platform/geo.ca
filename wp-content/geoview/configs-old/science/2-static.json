@@ -1,0 +1,37 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+		        "zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "permafrost-by-ecoprovince-image",
+				"geoviewLayerName": {
+					"en": "Permafrost by Ecoprovince",
+					"fr": "Pergélisol selon l'écoprovince"
+				},
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": {
+					"en": "https://agriculture.canada.ca/atlas/rest/services/mapservices/aafc_national_ecological_framework_of_canada/MapServer",
+					"fr": "https://agriculture.canada.ca/atlas/rest/services/servicesdecarte/aac_cadre_ecologique_national_pour_le_canada/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "33"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

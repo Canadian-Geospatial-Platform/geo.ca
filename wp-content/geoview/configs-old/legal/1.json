@@ -1,0 +1,109 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        	"zoomAndCenter" : [ 4, [-90, 60] ]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "NationalParkBoundaries",
+				"geoviewLayerName": {
+					"en": "National Parks and National Park Reserves of Canada Legislative Boundaries",
+					"fr": "Limites législatives des parcs nationaux et des réserves à vocation de parc national du Canada"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/CLSS-SATC/CLSS_Administrative_Boundaries/MapServer",
+					"fr": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/CLSS-SATC/SATC_Limites_administratives/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1",
+						"layerName": {
+							"en": "National Parks and National Park Reserves of Canada Legislative Boundaries",
+							"fr": "Limites législatives des parcs nationaux et des réserves à vocation de parc national du Canada"
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "ProtectedAreas",
+				"geoviewLayerName": {
+					"en": "Protected Areas - Canada",
+					"fr": "Aires protégées - Canada"
+				},
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": {
+					"en": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/CPCAD/MapServer",
+					"fr": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/BDCAPC/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": {
+							"en": "Protected Areas - Canada",
+							"fr": "Aires protégées - Canada"
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "MarineProtectedAreas",
+				"geoviewLayerName": {
+					"en": "Oceans Act Marine Protected Areas",
+					"fr": "Zones de protection marines de la Loi sur les océans"
+				},
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": {
+					"en": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Oceans_Act_Marine_Protected_Areas/MapServer",
+					"fr": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Oceans_Act_Marine_Protected_Areas/MapServer"
+				},
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": {
+							"en": "Oceans Act Marine Protected Areas",
+							"fr": "Zones de protection marines de la Loi sur les océans"
+						}
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"location",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"basemap-panel",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"legend",
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}
