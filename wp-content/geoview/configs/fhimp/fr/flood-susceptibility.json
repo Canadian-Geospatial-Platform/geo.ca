@@ -49,8 +49,7 @@
     "tabs": {
       "core": [
         "layers",
-        "details",
-        "data-table"
+        "details"
       ]
     }
   },

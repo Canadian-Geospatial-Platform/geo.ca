@@ -370,22 +370,6 @@
 		<lastmod>2025-07-03T20:07:45+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/a-propos-de-nous/</loc>
-		<lastmod>2025-07-07T19:27:54+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/about-baner.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/2_Addresses-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/contributors-baner-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/01/10-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/a-propos-de-nous/ressources-naturelles-canada/</loc>
 		<lastmod>2025-07-07T19:29:11+00:00</lastmod>
 		<image:image>
@@ -417,22 +401,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/03/emergency-flood-mapping.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/about-us/</loc>
-		<lastmod>2025-07-07T19:30:15+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/about-baner.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/2_Addresses-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/contributors-baner-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/01/10-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -653,10 +621,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/communautes/</loc>
-		<lastmod>2025-07-07T19:40:15+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/communautes/pergelisol/</loc>
 		<lastmod>2025-07-07T19:40:32+00:00</lastmod>
 		<image:image>
@@ -688,10 +652,6 @@
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/09/yukon-alaskan-highway-degradation-1024x576.jpg</image:loc>
 		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/communities/</loc>
-		<lastmod>2025-07-07T19:42:53+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/communities/permafrost/</loc>
@@ -961,43 +921,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/getting-started/</loc>
-		<lastmod>2025-07-07T20:00:50+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-home-hero.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/getting-started-discover.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-search-1-768x517.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-keyword-search-768x518.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-filters-768x517.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-2.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-add-to-map-768x450.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-upload-data-768x450.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-added-to-map-768x450.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-export-map-768x450.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/gouvernement-du-canada/</loc>
 		<lastmod>2025-07-07T20:01:05+00:00</lastmod>
 		<image:image>
@@ -1075,28 +998,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/initiatives/national-elevation-data-strategy/</loc>
-		<lastmod>2025-07-07T20:09:33+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/hrdem-canelevation-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/hrdem-mosaic-canelevation.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/mrdem-canelevation.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/07/lidar-clouds-768x432.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/07/extracted-buildings-768x432.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/atlas-relief-map.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/initiatives/geobase/</loc>
 		<lastmod>2025-07-07T20:11:31+00:00</lastmod>
 	</url>
@@ -1125,10 +1026,6 @@
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/12/urban-development-768x432.jpg</image:loc>
 		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/initiatives/understanding-canadas-land-from-space/</loc>
-		<lastmod>2025-07-07T20:14:08+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/fr/initiatives-fr/</loc>
@@ -1167,10 +1064,6 @@
 	<url>
 		<loc>https://dev.geo.ca/fr/initiatives-fr/mapml-langage-de-balisage-de-carte/</loc>
 		<lastmod>2025-07-07T20:14:40+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/comprendre-le-territoire-canadien-depuis-lespace/</loc>
-		<lastmod>2025-07-07T20:16:15+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/</loc>
@@ -1262,43 +1155,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/08/ocean-habitat-protection-zones-map-thumb-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/pour-commencer/</loc>
-		<lastmod>2025-07-07T20:22:44+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-home-hero-fr.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/pour-commencer-decouvrir.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-search-fr-768x517.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-keyword-search-fr-768x517.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-filters-fr-768x517.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-1-fr.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-2-fr.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-add-to-map-fr-768x450.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-upload-data-fr-768x450.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-added-to-map-fr-768x450.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-export-map-fr.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1641,13 +1497,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/administration/</loc>
-		<lastmod>2025-07-08T23:21:57+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/administration-fr/</loc>
 		<lastmod>2025-07-08T23:23:08+00:00</lastmod>
 		<image:image>
@@ -1695,6 +1544,135 @@
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
 		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/administration/</loc>
+		<lastmod>2025-07-09T18:21:08+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/communities/</loc>
+		<lastmod>2025-07-09T19:08:15+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/communautes/</loc>
+		<lastmod>2025-07-09T19:10:08+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/about-us/</loc>
+		<lastmod>2025-07-09T19:12:39+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/about-baner.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/2_Addresses-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/contributors-baner-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/01/10-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/getting-started/</loc>
+		<lastmod>2025-07-09T19:13:05+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-home-hero.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/getting-started-discover.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-search-1-768x517.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-keyword-search-768x518.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-filters-768x517.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-add-to-map-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-upload-data-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-added-to-map-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/10/cgp-gs-screenshot-export-map-768x450.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/a-propos-de-nous/</loc>
+		<lastmod>2025-07-09T19:14:08+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/about-baner.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2017/05/2_Addresses-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2020/04/contributors-baner-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/01/10-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/pour-commencer/</loc>
+		<lastmod>2025-07-09T19:14:15+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-home-hero-fr.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/06/pour-commencer-decouvrir.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-search-fr-768x517.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-keyword-search-fr-768x517.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-filters-fr-768x517.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-1-fr.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/getting-started-view-data-2-fr.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-add-to-map-fr-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-upload-data-fr-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-added-to-map-fr-768x450.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/12/cgp-gs-screenshot-export-map-fr.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/initiatives/understanding-canadas-land-from-space/</loc>
+		<lastmod>2025-07-09T19:27:55+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/comprendre-le-territoire-canadien-depuis-lespace/</loc>
+		<lastmod>2025-07-09T19:32:32+00:00</lastmod>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->
