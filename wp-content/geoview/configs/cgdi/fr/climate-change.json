@@ -54,7 +54,7 @@
                 "geoviewLayerType": "ogcWms",
                 "listOfLayerEntryConfig": [
                     {
-                        "layerId": "FIREWORK.HOTSPOTS",
+                        "layerId": "RAQDPS-FW.CE_HOTSPOTS.2020",
                         "layerName": "Points chauds des feux de forêt calculés par le SRPDQA-FW",
                         "initialSettings": {
                             "states": {
