@@ -265,12 +265,11 @@
         },
         "viewSettings": {
             "initialView": {
-                "zoomAndCenter": [
-                    4.9179922890814485,
-                    [
-                        -90.47119622680759,
-                        61.8035796359631
-                    ]
+                "layerIds": [
+                    "M2UKB145VGE0D",
+                    "M2UJMLT8W4ERV",
+                    "M2UJWGAVBQ0V8",
+                    "M2UK0IHKIGQGW"
                 ]
             },
             "enableRotation": true,

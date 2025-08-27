@@ -3,7 +3,9 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-		    	"zoomAndCenter" : [ 4, [-90, 60] ]
+		    	"layerIds" : [ 
+		    	    "Ratio_new_immigrant_arrivals_to_Older_CD2016"
+		    	]
 		    },
 			"projection": 3978
 		},

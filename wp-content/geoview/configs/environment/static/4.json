@@ -3,7 +3,12 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-        		"zoomAndCenter" : [ 4, [-90, 60] ]
+        		"layerIds" : [ 
+        		    "critical-habitat-point",
+                    "proposed-critical-habitat-point",
+                    "critical-habitat-area",
+                    "proposed-critical-habitat-area"
+        		 ]
       		},
 			"projection": 3978
 		},

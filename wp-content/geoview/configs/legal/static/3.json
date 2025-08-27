@@ -3,7 +3,10 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-	        	"zoomAndCenter" : [ 4, [-90, 60] ]
+	        	"layerIds" : [ 
+	        	    "aboriginal-lands-boundaries",
+                    "aboriginal-agreements"
+	        	]
 	      	},
 			"projection": 3978
 		},
@@ -14,7 +17,7 @@
 		},
 		"listOfGeoviewLayerConfig": [
 			{
-				"geoviewLayerId": "Aboriginal Lands - Boundaries",
+				"geoviewLayerId": "aboriginal-lands-boundaries",
 				"geoviewLayerName": "Aboriginal Lands of Canada Legislative Boundaries",
 				"geoviewLayerType": "esriImage",
 				"metadataAccessPath": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/CLSS-SATC/CLSS_Administrative_Boundaries/MapServer",
@@ -26,7 +29,7 @@
 				]
 			},
 			{
-				"geoviewLayerId": "Aboriginal Agreements",
+				"geoviewLayerId": "aboriginal-agreements",
 				"geoviewLayerName": "Aboriginal Agreements",
 				"geoviewLayerType": "esriFeature",
 				"metadataAccessPath": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Indigenous_Agreement_E/MapServer",

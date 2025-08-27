@@ -3,8 +3,10 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-        "zoomAndCenter" : [ 4, [-90, 60] ]
-      },
+                "layerIds" : [
+                    "first-nations-locations"
+                ]
+            },
 			"projection": 3978
 		},
 		"basemapOptions": {

@@ -3,7 +3,9 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-				"zoomAndCenter" : [ 4, [-90, 60] ]
+				"layerIds" : [ 
+				    "EGS_Flood_Product_Archive_en" 
+				]
 			},
 			"projection": 3978
 		},

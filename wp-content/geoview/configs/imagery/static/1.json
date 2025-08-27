@@ -3,8 +3,9 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-        		"zoomAndCenter" : [
-        			4, [-90, 60]
+        		"layerIdsd" : [
+        			"digital-surface-model",
+                    "digital-terrain-model"
         		]
       		},
 			"projection": 3978
@@ -19,7 +20,7 @@
 				"geoviewLayerId": "digital-surface-model",
 				"geoviewLayerName": "Digital Surface Model",
 				"geoviewLayerType": "ogcWms",
-				"metadataAccessPath": "https://datacube.services.geo.ca/web/elevation.xml",
+				"metadataAccessPath": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic",
 				"listOfLayerEntryConfig": [
 					{
 						"layerId": "dsm-hillshade",
@@ -31,7 +32,7 @@
 				"geoviewLayerId": "digital-terrain-model",
 				"geoviewLayerName": "Digital Terrain Model",
 				"geoviewLayerType": "ogcWms",
-				"metadataAccessPath": "https://datacube.services.geo.ca/web/elevation.xml",
+				"metadataAccessPath": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic",
 				"listOfLayerEntryConfig": [
 					{
 						"layerId": "dtm-hillshade",

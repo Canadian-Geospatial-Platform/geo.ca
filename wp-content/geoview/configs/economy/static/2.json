@@ -3,9 +3,8 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-				"zoomAndCenter" : [
-					4,
-					[-90, 60]
+				"layerIds" : [
+				    "Indigenous_Community_Infrastructure_Investment_E"
 				]
 			},
 			"projection": 3978

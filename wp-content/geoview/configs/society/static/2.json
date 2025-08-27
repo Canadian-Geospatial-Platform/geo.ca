@@ -3,7 +3,11 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-        		"zoomAndCenter" : [ 4, [-90, 60] ]
+        		"layerIds" : [ 
+        		    "indigenous-population-2016",
+                    "CanEcumene_PopRDensityV2",
+                    "canecumene-extent"
+        		]
       		},
 			"projection": 3978
 		},

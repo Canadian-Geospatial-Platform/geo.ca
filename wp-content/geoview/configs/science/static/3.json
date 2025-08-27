@@ -3,7 +3,9 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-	        	"zoomAndCenter" : [ 4, [-90, 60] ]
+	        	"layerIds" : [ 
+	        	    "average-ambient-particulate"
+	        	]
 	      	},
 			"projection": 3978
 		},

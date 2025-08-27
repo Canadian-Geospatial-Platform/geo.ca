@@ -3,8 +3,13 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-        		"zoomAndCenter" : [ 4, [-90, 60] ]
+        		"layerIds" : [ 
+        		    "land-surface-evaporation",
+                    "water-surface-evaporation"
+        		 ]
       		},
+      		"minZoom": 4.5,
+            "maxZoom": 50,
 			"projection": 3978
 		},
 		"basemapOptions": {

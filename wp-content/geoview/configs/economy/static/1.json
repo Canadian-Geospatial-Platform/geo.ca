@@ -3,9 +3,8 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-				"zoomAndCenter" : [
-					4,
-					[-90, 60]
+				"layerIds" : [
+					"Median_total_income_households_CSD2016"
 				]
 			},
 			"projection": 3978

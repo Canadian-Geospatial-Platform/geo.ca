@@ -3,8 +3,12 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-        "zoomAndCenter" : [ 4, [-90, 60] ]
-      },
+                "layerIds" : [ 
+                    "completed",
+                    "in-progress",
+                    "terminated"
+                ]
+            },
 			"projection": 3978
 		},
 		"basemapOptions": {

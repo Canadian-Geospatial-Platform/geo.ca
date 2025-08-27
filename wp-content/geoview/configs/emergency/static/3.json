@@ -3,9 +3,8 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-				"zoomAndCenter" : [
-					4,
-					[-90, 60]
+				"layerIds" : [
+				    "canadian-disasters-by-event-type"
 				]
 		  	},
 			"projection": 3978
@@ -17,7 +16,7 @@
 		},
 		"listOfGeoviewLayerConfig": [
 			{
-				"geoviewLayerId": "Canadian Disasters, by Event Type***38633a35",
+				"geoviewLayerId": "canadian-disasters-by-event-type",
 				"geoviewLayerName": "Canadian Disasters, by Event Type",
 				"geoviewLayerType": "esriFeature",
 				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/PS/canadian_disasters_en/MapServer",

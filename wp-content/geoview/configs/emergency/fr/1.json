@@ -3,8 +3,11 @@
 		"interaction": "dynamic",
 		"viewSettings": {
 			"initialView" : {
-				"zoomAndCenter" : [
-					4, [-90, 60]
+				"layerIds" : [
+					"fire-season-length-short-term",
+					"fire-season-length-medium-term",
+					"fire-season-length-long-term",
+					"fire-season-length-long-term-2"
 				]
 			},
 			"projection": 3978
@@ -17,15 +20,9 @@
 		"listOfGeoviewLayerConfig": [
 			{
 				"geoviewLayerId": "fire-season-length-short-term",
-				"geoviewLayerName": {
-					"en": "Fire Season Length under RCP 8.5 - Short-term [2011-2040]",
-					"fr": "Durée de la saison des feux selon le RCP 8.5 - Court terme [2011-2040]"
-				},
+				"geoviewLayerName": "Durée de la saison des feux selon le RCP 8.5 - Court terme [2011-2040]",
 				"geoviewLayerType": "esriImage",
-				"metadataAccessPath": {
-					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_en/MapServer",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_fr/MapServer"
-				},
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_fr/MapServer",
 				"listOfLayerEntryConfig": [
 					{
 						"layerId": "1"
@@ -34,15 +31,9 @@
 			},
 			{
 				"geoviewLayerId": "fire-season-length-medium-term",
-				"geoviewLayerName": {
-					"en": "Fire Season Length under RCP 8.5 - Medium-term [2041-2070]",
-					"fr": "Durée de la saison des feux selon le RCP 8.5 - Moyen terme [2041-2070]"
-				},
+				"geoviewLayerName": "Durée de la saison des feux selon le RCP 8.5 - Moyen terme [2041-2070]",
 				"geoviewLayerType": "esriImage",
-				"metadataAccessPath": {
-					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_en/MapServer",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_fr/MapServer"
-				},
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_fr/MapServer",
 				"initialSettings" : {
 					"states" : {
 						"visible" : false
@@ -56,15 +47,9 @@
 			},
 			{
 				"geoviewLayerId": "fire-season-length-long-term",
-				"geoviewLayerName": {
-					"en": "Fire Season Length under RCP 8.5 - Long-term [2071-2100]",
-					"fr": "Durée de la saison des feux selon le RCP 8.5 - Long terme [2071-2100]"
-				},
+				"geoviewLayerName": "Durée de la saison des feux selon le RCP 8.5 - Long terme [2071-2100]",
 				"geoviewLayerType": "esriImage",
-				"metadataAccessPath": {
-					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_en/MapServer",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_fr/MapServer"
-				},
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_fr/MapServer",
 				"initialSettings" : {
 					"states" : {
 						"visible" : false
@@ -78,20 +63,14 @@
 			},
 			{
 				"geoviewLayerId": "fire-season-length-long-term-2",
-				"geoviewLayerName": {
-					"en": "Fire Season Length under RCP 2.6 - Long-term [2071-2100]",
-					"fr": "Durée de la saison des feux selon le RCP 2.6 - Long terme [2071-2100]"
-				},
+				"geoviewLayerName": "Durée de la saison des feux selon le RCP 2.6 - Long terme [2071-2100]",
 				"geoviewLayerType": "esriImage",
 				"initialSettings" : {
 					"states" : {
 						"visible" : false
 					}
 				},
-				"metadataAccessPath": {
-					"en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_en/MapServer",
-					"fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_fr/MapServer"
-				},
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_fr/MapServer",
 				"listOfLayerEntryConfig": [
 					{
 						"layerId": "4"
@@ -104,7 +83,7 @@
 	"navBar": [
 		"zoom",
 		"fullscreen",
-		"location",
+		"basemap-select",
 		"home"
 	],
 	"appBar": {
@@ -112,7 +91,6 @@
 	        "core": [
 	        	"geolocator",
 	        	"legend",
-	        	"basemap-panel",
 	        	"export"
 	        ]
 	      }
@@ -120,8 +98,9 @@
 	"footerBar": {
 		"tabs": {
 			"core": [
-				"legend",
-				"layers"
+				"layers",
+				"details",
+				"data-table"
 			]
 		}
 	},

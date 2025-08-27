@@ -3,7 +3,11 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-        		"zoomAndCenter" : [ 4, [-90, 60] ]
+        		"layerIds" : [ 
+        		    "nrwn",
+                    "vessel-traffic-routes",
+                    "nrn"
+        		]
       		},
 			"projection": 3978
 		},

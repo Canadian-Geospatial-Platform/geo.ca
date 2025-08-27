@@ -3,7 +3,10 @@
 		"interaction": "dynamic",
 		"viewSettings": {
 			"initialView" : {
-	        	"zoomAndCenter" : [ 4, [-90, 60] ]
+	        	"layerIds" : [
+	        		"aboriginal-lands-boundaries",
+					"aboriginal-agreements"
+	        	]
 	      	},
 			"projection": 3978
 		},
@@ -14,37 +17,22 @@
 		},
 		"listOfGeoviewLayerConfig": [
 			{
-				"geoviewLayerId": "Aboriginal Lands - Boundaries",
-				"geoviewLayerName": {
-					"en": "Aboriginal Lands of Canada Legislative Boundaries",
-					"fr": "Limites législatives des terres autochtones du Canada"
-				},
+				"geoviewLayerId": "aboriginal-lands-boundaries",
+				"geoviewLayerName": "Limites législatives des terres autochtones du Canada",
 				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": {
-					"en": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/CLSS-SATC/CLSS_Administrative_Boundaries/MapServer",
-					"fr": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/CLSS-SATC/SATC_Limites_administratives/MapServer"
-				},
+				"metadataAccessPath": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/CLSS-SATC/SATC_Limites_administratives/MapServer",
 				"listOfLayerEntryConfig": [
 					{
 						"layerId": "0",
-						"layerName": {
-							"en": "Aboriginal Lands of Canada Legislative Boundaries",
-							"fr": "Limites législatives des terres autochtones du Canada"
-						}
+						"layerName": "Limites législatives des terres autochtones du Canada"
 					}
 				]
 			},
 			{
-				"geoviewLayerId": "Aboriginal Agreements",
-				"geoviewLayerName": {
-					"en": "Aboriginal Agreements",
-					"fr": "Ententes autochtones"
-				},
+				"geoviewLayerId": "aboriginal-agreements",
+				"geoviewLayerName": "Ententes autochtones",
 				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": {
-					"en": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Indigenous_Agreement_E/MapServer",
-					"fr": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Indigenous_Agreement_F/MapServer"
-				},
+				"metadataAccessPath": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Indigenous_Agreement_F/MapServer",
 				"listOfLayerEntryConfig": [
 					{
 						"layerId": "0"
@@ -57,7 +45,7 @@
 	"navBar": [
 		"zoom",
 		"fullscreen",
-		"location",
+		"basemap-select",
 		"home"
 	],
 	"appBar": {
@@ -65,7 +53,6 @@
 	        "core": [
 	        	"geolocator",
 	        	"legend",
-	        	"basemap-panel",
 	        	"export"
 	        ]
 	      }
@@ -73,7 +60,6 @@
 	"footerBar": {
 		"tabs": {
 			"core": [
-				"legend",
 				"layers",
 				"details",
 				"data-table"

@@ -3,7 +3,9 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-        		"zoomAndCenter" : [ 4, [-90, 60] ]
+        		"layerIds" : [ 
+        		    "annual-crop-inventory-2023" 
+        		 ]
       		},
 			"projection": 3978
 		},

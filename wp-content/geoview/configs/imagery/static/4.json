@@ -3,7 +3,12 @@
 		"interaction": "static",
 		"viewSettings": {
 			"initialView" : {
-        		"zoomAndCenter" : [ 4, [-90, 60] ]
+        		"layerIds" : [ 
+        		    "hrdem",
+                    "hrdem-project-extent",
+                    "hrdem-project-footprints",
+                    "hrdem-project-footprint-arcticdem"
+        		]
       		},
 			"projection": 3978
 		},
