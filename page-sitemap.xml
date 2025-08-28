@@ -1659,81 +1659,60 @@
 		<lastmod>2025-08-26T17:48:14+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/strategie-nationale-de-donnees-delevation-du-canada/</loc>
-		<lastmod>2025-08-26T18:27:08+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/hrdem-canelevation-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/hrdem-mosaic-canelevation.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/mrdem-canelevation.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/07/lidar-clouds-768x432.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/07/extracted-buildings-768x432.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/atlas-relief-map.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/initiatives/national-elevation-data-strategy/</loc>
-		<lastmod>2025-08-26T18:45:36+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/hrdem-canelevation-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/hrdem-mosaic-canelevation.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/mrdem-canelevation.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/07/lidar-clouds-768x432.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/07/extracted-buildings-768x432.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/atlas-relief-map.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/initiatives/geobase/</loc>
 		<lastmod>2025-08-26T19:03:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/initiatives/geobase/geoai/</loc>
-		<lastmod>2025-08-27T19:03:11+00:00</lastmod>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/</loc>
+		<lastmod>2025-08-28T15:05:20+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/initiatives/national-elevation-data-strategy/</loc>
+		<lastmod>2025-08-28T15:33:57+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/08/geoai-resolution.jpg</image:loc>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/hrdem-canelevation-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/08/geoai-time-analysis.jpg</image:loc>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/hrdem-mosaic-canelevation.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/08/geoai-data-index-2025.jpg</image:loc>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/mrdem-canelevation.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/09/cover_img_aef_bw-768x432.jpeg</image:loc>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/07/lidar-clouds-768x432.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/12/urban-development-768x432.jpg</image:loc>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/07/extracted-buildings-768x432.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/08/geoai-improved-accuracy.jpg</image:loc>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/atlas-relief-map.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/strategie-nationale-de-donnees-delevation-du-canada/</loc>
+		<lastmod>2025-08-28T15:34:51+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/hrdem-canelevation-768x432.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/08/geoai-post-processing.jpg</image:loc>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/hrdem-mosaic-canelevation.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/mrdem-canelevation.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/07/lidar-clouds-768x432.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/07/extracted-buildings-768x432.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/atlas-relief-map.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/geoia/</loc>
-		<lastmod>2025-08-27T19:09:02+00:00</lastmod>
+		<lastmod>2025-08-28T19:19:16+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/08/geoai-resolution.jpg</image:loc>
 		</image:image>
@@ -1757,8 +1736,29 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/</loc>
-		<lastmod>2025-08-28T15:05:20+00:00</lastmod>
+		<loc>https://dev.geo.ca/initiatives/geobase/geoai/</loc>
+		<lastmod>2025-08-28T19:20:24+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/08/geoai-resolution.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/08/geoai-time-analysis.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/08/geoai-data-index-2025.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/09/cover_img_aef_bw-768x432.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/12/urban-development-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/08/geoai-improved-accuracy.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/08/geoai-post-processing.jpg</image:loc>
+		</image:image>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by Yoast SEO -->
