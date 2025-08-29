@@ -976,13 +976,13 @@ a.elementor-responsive-switcher:hover {
 }
 
 .elementor-group-control-blur .elementor-slider {
-  background: url("https://dev.geo.ca/wp-content/plugins/elementor/assets/images/blur.png");
+  background: url("https://stage.geo.ca/wp-content/plugins/elementor/assets/images/blur.png");
   background-size: cover;
   background-position: center;
 }
 
 .elementor-group-control-contrast .elementor-slider {
-  background: url("https://dev.geo.ca/wp-content/plugins/elementor/assets/images/contrast.png");
+  background: url("https://stage.geo.ca/wp-content/plugins/elementor/assets/images/contrast.png");
   background-size: 100% 100%;
 }
 
@@ -2716,7 +2716,7 @@ body.elementor-editor-active .elementor.elementor-edit-mode .elementor-element.e
 }
 
 .e-ui-state--elements-color-picker-color-picking__on *:not(.e-element-color-picker__swatch) {
-  cursor: url("https://dev.geo.ca/wp-content/plugins/elementor/assets/images/eyedropper.svg") 0 20, pointer;
+  cursor: url("https://stage.geo.ca/wp-content/plugins/elementor/assets/images/eyedropper.svg") 0 20, pointer;
 }
 .e-ui-state--elements-color-picker-color-picking__on .e-element-color-picker:not(.e-picker-hidden):hover,
 .e-ui-state--elements-color-picker-color-picking__on .elementor-element:hover > .e-element-color-picker:not(.e-picker-hidden),
