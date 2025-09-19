@@ -22,20 +22,10 @@
         "geoviewLayerType": "esriDynamic",
         "listOfLayerEntryConfig": [
           {
-            "layerId": "0",
-            "initialSettings": {
-              "states" : {
-                "opacity": 0.7
-              }
-            }
+            "layerId": "0"
           },
           {
-            "layerId": "1",
-            "initialSettings": {
-              "states" : {
-                "opacity": 0.25
-              }
-            }
+            "layerId": "1"
           }
         ]
       }
