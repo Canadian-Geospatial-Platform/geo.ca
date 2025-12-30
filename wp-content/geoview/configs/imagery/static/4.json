@@ -10,6 +10,7 @@
                     "hrdem-project-footprint-arcticdem"
         		]
       		},
+      		"minZoom": 4,
 			"projection": 3978
 		},
 		"basemapOptions": {

@@ -3,8 +3,12 @@
 		"interaction": "dynamic",
 		"viewSettings": {
 			"initialView" : {
-        		"zoomAndCenter" : [ 4, [-90, 60] ]
-      		},
+				"layerIds" : [
+					"nrwn",
+					"vessel-traffic-routes",
+					"nrn"
+				]
+	  		},
 			"projection": 3978
 		},
 		"basemapOptions": {
@@ -14,80 +18,98 @@
 		},
 		"listOfGeoviewLayerConfig": [
 			{
-				"geoviewLayerId": "blocked-passage",
-				"geoviewLayerName": {
-					"en": "Blocked passage",
-					"fr": "Passage obstrué"
-				},
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": {
-					"en": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
-					"fr": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer"
-				},
+				"geoviewLayerId": "nrn",
+				"geoviewLayerName": "National Road Network - NRN - GeoBase Series",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
 				"listOfLayerEntryConfig": [
 					{
-						"layerId": "0"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "toll-point",
-				"geoviewLayerName": {
-					"en": "Toll Point",
-					"fr": "Poste de péage"
-				},
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": {
-					"en": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
-					"fr": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer"
-				},
-				"listOfLayerEntryConfig": [
+						"layerId" : "0",
+						"initialSettings" : {
+			              "states" : {
+			              	"visible": false,
+			                "legendCollapsed": true
+			              }
+			            }
+					},
 					{
-						"layerId": "11"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "ferry",
-				"geoviewLayerName": {
-					"en": "Ferry connection segment",
-					"fr": "Segment de liaison par transbordeur"
-				},
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": {
-					"en": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
-					"fr": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer"
-				},
-				"listOfLayerEntryConfig": [
+						"layerId" : "11",
+						"initialSettings" : {
+			              "states" : {
+			              	"visible": false,
+			                "legendCollapsed": true
+			              }
+			            }
+					},
 					{
-						"layerId": "19"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "road-segment",
-				"geoviewLayerName": {
-					"en": "Road segment",
-					"fr": "Segment routier"
-				},
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": {
-					"en": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
-					"fr": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer"
-				},
-				"listOfLayerEntryConfig": [
+						"layerId" : "19",
+						"initialSettings" : {
+			              "states" : {
+			              	"visible": false,
+			                "legendCollapsed": true
+			              }
+			            }
+					},
 					{
-						"layerId": "32"
+						"entryType": "group",
+						"layerId" : "road-segment",
+						"layerName": "Road segement",
+						"listOfLayerEntryConfig": [
+							{
+								"layerId": 33
+							},
+							{
+								"layerId": 47,
+								"initialSettings" : {
+					              "states" : {
+					              	"visible": false,
+					                "legendCollapsed": true
+					              }
+					            }
+							},
+							{
+								"layerId": 61,
+								"initialSettings" : {
+					              "states" : {
+					              	"visible": false,
+					                "legendCollapsed": true
+					              }
+					            }
+							},
+							{
+								"layerId": 75,
+								"initialSettings" : {
+					              "states" : {
+					              	"visible": false,
+					                "legendCollapsed": true
+					              }
+					            }
+							},
+							{
+								"layerId": 89,
+								"initialSettings" : {
+					              "states" : {
+					              	"visible": false,
+					                "legendCollapsed": true
+					              }
+					            }
+							}
+						],
+						"initialSettings" : {
+			              "states" : {
+			                "legendCollapsed": true
+			              }
+			            }
 					}
 				]
 			}
 		]
 	},
-	"components": ["north-arrow"],
+	"components": ["north-arrow", "overview-map"],
 	"navBar": [
 		"zoom",
 		"fullscreen",
-		"location",
+		"basemap-select",
 		"home"
 	],
 	"appBar": {
@@ -95,7 +117,6 @@
 	        "core": [
 	        	"geolocator",
 	        	"legend",
-	        	"basemap-panel",
 	        	"export"
 	        ]
 	      }
@@ -103,7 +124,6 @@
 	"footerBar": {
 		"tabs": {
 			"core": [
-				"legend",
 				"layers",
 				"details",
 				"data-table"

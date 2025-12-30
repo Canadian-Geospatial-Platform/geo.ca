@@ -7,6 +7,7 @@
 		            "federal-electoral-districts-2019"
 		        ]
 		    },
+		    "minZoom": 3.5,
 			"projection": 3978
 		},
 		"basemapOptions": {

@@ -9,6 +9,7 @@
                     "terminated"
                 ]
             },
+            "minZoom": 3.5,
 			"projection": 3978
 		},
 		"basemapOptions": {

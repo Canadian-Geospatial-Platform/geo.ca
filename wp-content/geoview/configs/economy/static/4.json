@@ -7,6 +7,7 @@
 				    "IndigenousMiningAgreements_en"
 				]
 			},
+			"minZoom": 4,
 			"projection": 3978
 		},
 		"basemapOptions": {

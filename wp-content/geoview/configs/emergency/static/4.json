@@ -7,6 +7,7 @@
 				    "EGS_Flood_Product_Archive_en" 
 				]
 			},
+			"minZoom": 4,
 			"projection": 3978
 		},
 		"basemapOptions": {

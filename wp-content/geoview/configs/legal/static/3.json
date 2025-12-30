@@ -8,6 +8,7 @@
                     "aboriginal-agreements"
 	        	]
 	      	},
+	      	"minZoom": 4,
 			"projection": 3978
 		},
 		"basemapOptions": {

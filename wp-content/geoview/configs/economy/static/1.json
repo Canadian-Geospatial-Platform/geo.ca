@@ -7,6 +7,7 @@
 					"Median_total_income_households_CSD2016"
 				]
 			},
+			"minZoom": 4,
 			"projection": 3978
 		},
 		"basemapOptions": {

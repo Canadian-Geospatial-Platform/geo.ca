@@ -7,6 +7,7 @@
 				    "Indigenous_Community_Infrastructure_Investment_E"
 				]
 			},
+			"minZoom": 4,
 			"projection": 3978
 		},
 		"basemapOptions": {

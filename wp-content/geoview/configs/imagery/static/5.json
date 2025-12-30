@@ -9,7 +9,6 @@
         		 ]
       		},
       		"minZoom": 4.5,
-            "maxZoom": 50,
 			"projection": 3978
 		},
 		"basemapOptions": {

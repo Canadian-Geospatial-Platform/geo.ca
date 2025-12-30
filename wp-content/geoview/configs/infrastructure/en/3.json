@@ -3,8 +3,12 @@
 		"interaction": "dynamic",
 		"viewSettings": {
 			"initialView" : {
-        		"zoomAndCenter" : [ 4, [-90, 60] ]
-      		},
+				"layerIds" : [
+					"nrwn",
+					"vessel-traffic-routes",
+					"nrn"
+				]
+	  		},
 			"projection": 3978
 		},
 		"basemapOptions": {
@@ -15,15 +19,9 @@
 		"listOfGeoviewLayerConfig": [
 			{
 				"geoviewLayerId": "nrwn",
-				"geoviewLayerName": {
-					"en": "National Railway Network - NRWN - GeoBase Series",
-					"fr": "Réseau ferroviaire national - RFN - Série GéoBase"
-				},
+				"geoviewLayerName": "National Railway Network - NRWN - GeoBase Series",
 				"geoviewLayerType": "ogcWms",
-				"metadataAccessPath": {
-					"en": "https://maps.canada.ca/wmsproxy/ws/wmsproxy/executeFromProxy?https://maps.geogratis.gc.ca/wms/railway_en",
-					"fr": "https://maps.canada.ca/wmsproxy/ws/wmsproxy/executeFromProxy?https://cartes.geogratis.gc.ca/wms/railway_fr"
-				},
+				"metadataAccessPath": "https://maps.canada.ca/wmsproxy/ws/wmsproxy/executeFromProxy?https://maps.geogratis.gc.ca/wms/railway_en",
 				"listOfLayerEntryConfig": [
 					{
 						"layerId" : "railway.structure.line"
@@ -49,25 +47,26 @@
 					{
 						"layerId" : "railway.crossing"
 					}
-				]
+				],
+				"initialSettings" : {
+	              "states" : {
+	                "legendCollapsed": true
+	              }
+	            }
 			},
 			{
 				"geoviewLayerId": "vessel-traffic-routes",
-				"geoviewLayerName": {
-					"en": "Vessel Traffic Routes",
-					"fr": "Voies de circulation navire"
-				},
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": {
-					"en": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Vessel_Traffic_Routes_EN/MapServer",
-					"fr": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Vessel_Traffic_Routes_FR/MapServer"
-				},
+				"geoviewLayerName": "Vessel Traffic Routes",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/vessel_traffic_routes_en/MapServer",
 				"listOfLayerEntryConfig": [
 					{
-						"layerId" : "0"
+						"layerId" : "0",
+						"layerName": "Recommended traffic lane part"
 					},
 					{
-						"layerId" : "1"
+						"layerId" : "1",
+						"layerName": "Ferry route"
 					},
 					{
 						"layerId" : "2"
@@ -84,64 +83,61 @@
 					{
 						"layerId" : "6"
 					}
-				]
+				],
+				"initialSettings" : {
+	              "states" : {
+	                "legendCollapsed": true
+	              }
+	            }
 			},
 			{
 				"geoviewLayerId": "nrn",
-				"geoviewLayerName": {
-					"en": "National Road Network - NRN - GeoBase Series",
-					"fr": "Réseau routier national - RRN - Série GéoBase"
-				},
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": {
-					"en": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/NRN_WMS_EN/MapServer",
-					"fr": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/NRN_WMS_FR/MapServer"
-				},
+				"geoviewLayerName": "National Road Network - NRN - GeoBase Series",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
 				"listOfLayerEntryConfig": [
 					{
-						"layerId" : "2"
+						"layerId" : "0",
+						"initialSettings" : {
+			              "states" : {
+			              	"visible": false,
+			                "legendCollapsed": true
+			              }
+			            }
 					},
 					{
-						"layerId" : "3"
+						"layerId" : "11",
+						"initialSettings" : {
+			              "states" : {
+			              	"visible": false,
+			                "legendCollapsed": true
+			              }
+			            }
 					},
 					{
-						"layerId" : "4"
+						"layerId" : "19",
+						"initialSettings" : {
+			              "states" : {
+			              	"visible": false,
+			                "legendCollapsed": true
+			              }
+			            }
 					},
 					{
-						"entryType": "group",
-						"layerId" : "road-segment",
-						"layerName": {
-							"en": "Road Segement",
-							"fr": "Segment routier"
-						},
-						"listOfLayerEntryConfig": [
-							{
-								"layerId" : "6"
-							},
-							{
-								"layerId" : "7"
-							},
-							{
-								"layerId" : "8"
-							},
-							{
-								"layerId" : "9"
-							},
-							{
-								"layerId" : "10"
-							},
-							{
-								"layerId" : "11"
-							},
-							{
-								"layerId" : "12"
-							},
-							{
-								"layerId" : "13"
-							}
-						]
+						"layerId": "32",
+						"initialSettings" : {
+			              "states" : {
+			              	"visible": false,
+			                "legendCollapsed": true
+			              }
+			            }
 					}
-				]
+				],
+				"initialSettings" : {
+	              "states" : {
+	                "legendCollapsed": true
+	              }
+	            }
 			}
 		]
 	},
@@ -149,7 +145,7 @@
 	"navBar": [
 		"zoom",
 		"fullscreen",
-		"location",
+		"basemap-select",
 		"home"
 	],
 	"appBar": {
@@ -157,7 +153,6 @@
 	        "core": [
 	        	"geolocator",
 	        	"legend",
-	        	"basemap-panel",
 	        	"export"
 	        ]
 	      }
@@ -165,7 +160,6 @@
 	"footerBar": {
 		"tabs": {
 			"core": [
-				"legend",
 				"layers",
 				"details",
 				"data-table"

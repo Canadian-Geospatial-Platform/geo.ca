@@ -8,6 +8,7 @@
                     "priority-species-for-species-at-risk"
         		 ]
       		},
+      		"minZoom": 4,
 			"projection": 3978
 		},
 		"basemapOptions": {
