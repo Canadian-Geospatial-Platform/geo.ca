@@ -628,70 +628,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/initiatives/arctic-spatial-data-infrastructure/</loc>
-		<lastmod>2025-07-07T20:09:01+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/09/arcticSDI_Geoportal-768x347.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2021-657-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/geoportal-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2022-438-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2014-233-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2021-672-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/open-science-map-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/initiatives/geobase/canadian-hydrospatial-network/</loc>
-		<lastmod>2025-07-07T20:11:46+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-data-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/reseau-hydrospatial-canadien/</loc>
-		<lastmod>2025-07-07T20:16:53+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-data-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/linfrastructure-de-donnees-spatiales-pour-larctique-ids-arctique/</loc>
-		<lastmod>2025-07-07T20:18:53+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/09/arcticSDI_Geoportal-fr-768x348.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2021-657-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/geoportal-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2022-438-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2014-233-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2021-672-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/open-science-map-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/flood-mapping/flood-map-gallery/canada-flood-map-inventory/</loc>
 		<lastmod>2025-07-08T19:24:06+00:00</lastmod>
 		<image:image>
@@ -1059,26 +995,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/communities/permafrost/</loc>
-		<lastmod>2025-07-18T15:22:45+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/08/province-permafrost-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/08/territory-permafrost-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/communautes/pergelisol/</loc>
-		<lastmod>2025-07-18T15:23:42+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/08/province-permafrost-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/08/territory-permafrost-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/geo-in-the-news/floods/</loc>
 		<lastmod>2025-07-24T15:24:07+00:00</lastmod>
 		<image:image>
@@ -1237,14 +1153,6 @@
 	<url>
 		<loc>https://dev.geo.ca/behind-the-scenes/</loc>
 		<lastmod>2025-08-26T17:48:14+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/initiatives/geobase/</loc>
-		<lastmod>2025-08-26T19:03:36+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/</loc>
-		<lastmod>2025-08-28T15:05:20+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/initiatives/</loc>
@@ -1792,6 +1700,98 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/initiatives/geobase/canadian-hydrospatial-network/</loc>
+		<lastmod>2026-01-06T13:04:22+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-data-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/reseau-hydrospatial-canadien/</loc>
+		<lastmod>2026-01-06T13:05:48+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/03/chn-data-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/initiatives/geobase/</loc>
+		<lastmod>2026-01-06T13:10:06+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/geobase/</loc>
+		<lastmod>2026-01-06T13:11:16+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/communities/permafrost/</loc>
+		<lastmod>2026-01-06T13:16:49+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/08/province-permafrost-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/08/territory-permafrost-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/communautes/pergelisol/</loc>
+		<lastmod>2026-01-06T13:18:18+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/08/province-permafrost-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/08/territory-permafrost-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/initiatives/arctic-spatial-data-infrastructure/</loc>
+		<lastmod>2026-01-09T14:31:31+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/09/arcticSDI_Geoportal-768x347.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2021-657-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/geoportal-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2022-438-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2014-233-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2021-672-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/open-science-map-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/linfrastructure-de-donnees-spatiales-pour-larctique-ids-arctique/</loc>
+		<lastmod>2026-01-22T16:41:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/09/arcticSDI_Geoportal-fr-768x348.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2021-657-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/geoportal-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2022-438-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2014-233-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2021-672-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/open-science-map-768x432.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
