@@ -1,58 +1,57 @@
 {
-	"map": {
-		"interaction": "static",
-		"viewSettings": {
-			"initialView" : {
-                "layerIds" : [ 
-                    "completed",
-                    "in-progress",
-                    "terminated"
-                ]
-            },
-            "minZoom": 3.5,
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "completed",
-				"geoviewLayerName": "Completed",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "in-progress",
-				"geoviewLayerName": "In progress",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "1"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "terminated",
-				"geoviewLayerName": "Terminated",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/IAAC/assessment_inventory_en/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "2"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow"],
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "completed",
+          "in-progress",
+          "terminated"
+        ]
+      },
+      "minZoom": 3.5,
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerName": "Completed",
+        "geoviewLayerId": "f4c51eaa-a6ca-48b9-a1fc-b0651da20509",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          }
+        ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerName": "In progress",
+        "geoviewLayerId": "f4c51eaa-a6ca-48b9-a1fc-b0651da20509",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "1"
+          }
+        ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerName": "Terminated",
+        "geoviewLayerId": "f4c51eaa-a6ca-48b9-a1fc-b0651da20509",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "theme": "geo.ca"
 }

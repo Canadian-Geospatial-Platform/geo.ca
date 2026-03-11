@@ -1,0 +1,35 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [ 
+        		    "2020-land-cover-canada"
+        		]
+      		},
+      		"minZoom": 4,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "2020-land-cover-canada",
+				"geoviewLayerName": "2020 Land Cover of Canada",
+				"geoviewLayerType": "ogcWms",
+				"metadataAccessPath": "https://datacube.services.geo.ca/web/landcover.xml",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "landcover-2020",
+						"layerName": "2020 Land Cover of Canada"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

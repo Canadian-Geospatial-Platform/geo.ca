@@ -1,0 +1,57 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+				"layerIds" : [
+					"EGS_Flood_Product_Archive_en"
+				]
+			},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "EGS_Flood_Product_Archive_en",
+				"geoviewLayerName": "Inondations au Canada - Archive - Empreintes au sol",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/egs_sgu/rest/services/Flood_Inondation/EGS_Flood_Product_Archive_fr/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"basemap-select",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

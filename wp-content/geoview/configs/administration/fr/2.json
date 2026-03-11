@@ -1,58 +1,61 @@
 {
-	"map": {
-		"interaction": "dynamic",
-		"viewSettings": {
-			"initialView" : {
-        		"layerIds": [
-					"national-parks-reserves/1"
-				]
-      		},
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "national-parks-reserves",
-				"geoviewLayerName": "Limites législatives des parcs nationaux et des réserves à vocation de parc national du Canada",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/CLSS-SATC/SATC_Limites_administratives/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "1",
-						"layerName" : "Limites législatives des parcs nationaux et des réserves à vocation de parc national du Canada"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow", "overview-map"],
-	"navBar": [
-		"zoom",
-		"fullscreen",
-		"basemap-select",
-		"home"
-	],
-	"appBar": {
-	      "tabs": {
-	        "core": [
-	        	"geolocator",
-	        	"legend",
-	        	"export"
-	        ]
-	      }
-	},
-	"footerBar": {
-		"tabs": {
-			"core": [
-				"layers",
-				"details",
-				"data-table"
-			]
-		}
-	},
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "national-parks-reserves/1"
+        ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "9e1507cd-f25c-4c64-995b-6563bf9d65bd",
+        "geoviewLayerName": "Limites législatives des parcs nationaux et des réserves à vocation de parc national du Canada",
+        "metadataAccessPath": "https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/CLSS-SATC/SATC_Limites_administratives/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "1",
+            "layerName": "Limites législatives des parcs nationaux et des réserves à vocation de parc national du Canada"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "basemap-select",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca"
 }

@@ -3,9 +3,9 @@
     "interaction": "dynamic",
     "viewSettings": {
       "projection": 3978,
-      "initialView" : {
-        "layerIds" : [
-          "geoai-data-index"
+      "initialView": {
+        "layerIds": [
+          "0"
         ]
       }
     },
@@ -16,10 +16,8 @@
     },
     "listOfGeoviewLayerConfig": [
       {
-        "geoviewLayerId": "geoai-data-index",
-        "geoviewLayerName": "Carte-index des données GéoIA",
-        "metadataAccessPath":  "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GEOAI_Projects_fr/MapServer",
-        "geoviewLayerType": "esriDynamic",
+        "geoviewLayerId": "74738ff5-5367-5958-9aee-98fffdcd1876",
+        "geoviewLayerType": "geoCore",
         "listOfLayerEntryConfig": [
           {
             "layerId": "0",
@@ -29,7 +27,10 @@
       }
     ]
   },
-  "components": ["north-arrow", "overview-map"],
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
   "navBar": [
     "zoom",
     "fullscreen",
@@ -37,19 +38,19 @@
     "home"
   ],
   "appBar": {
-        "tabs": {
-          "core": [
-            "geolocator",
-            "legend",
-            "export"
-          ]
-        }
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
   },
   "footerBar": {
     "tabs": {
       "core": [
         "layers",
-        "details",
         "data-table"
       ]
     }

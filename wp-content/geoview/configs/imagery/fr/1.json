@@ -1,74 +1,76 @@
 {
-	"map": {
-		"interaction": "dynamic",
-		"viewSettings": {
-			"initialView" : {
-        		"layerIds" : [
-        			"digital-surface-model",
-					"digital-terrain-model"
-        		]
-      		},
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "digital-surface-model",
-				"geoviewLayerName": "Modèle numérique de surface",
-				"geoviewLayerType": "ogcWms",
-				"metadataAccessPath": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "dsm-hillshade",
-						"layerName":  "Modèle numérique de surface"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "digital-terrain-model",
-				"geoviewLayerName": "Modèle numérique de terrain",
-				"geoviewLayerType": "ogcWms",
-				"metadataAccessPath": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "dtm-hillshade",
-						"layerName": "Modèle numérique de terrain"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow"],
-	"navBar": [
-		"zoom",
-		"fullscreen",
-		"basemap-select",
-		"home"
-	],
-	"appBar": {
-	      "tabs": {
-	        "core": [
-	        	"geolocator",
-	        	"legend",
-	        	"export"
-	        ]
-	      }
-	},
-	"footerBar": {
-		"tabs": {
-			"core": [
-				"layers",
-				"details",
-				"data-table"
-			]
-		}
-	},
-	"theme": "geo.ca",
-	"corePackages": [
-		"swiper"
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "dsm-hillshade",
+          "dtm-hillshade"
+        ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "digital-surface-model",
+        "geoviewLayerName": "Digital Surface Model",
+        "geoviewLayerType": "ogcWms",
+        "metadataAccessPath": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "dsm-hillshade",
+            "layerName": "Modèle numérique de surface"
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "digital-terrain-model",
+        "geoviewLayerName": "Digital Terrain Model",
+        "geoviewLayerType": "ogcWms",
+        "metadataAccessPath": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "dtm-hillshade",
+            "layerName": "Modèle numérique de terrain"
+          }
+        ]
+      }
     ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "basemap-select",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca",
+  "corePackages": [
+    "swiper"
+  ]
 }

@@ -1,70 +1,73 @@
+
 {
-	"map": {
-		"interaction": "dynamic",
-		"viewSettings": {
-			"initialView" : {
-        		"layerIds" : [
-        			"airborne-radioactivity",
-					"station-location"
-        		]
-      		},
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "airborne-radioactivity",
-				"geoviewLayerName": "Airborne Radioactivity",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/HC/airborne_radioactivity_en/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "1"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "station-location",
-				"geoviewLayerName": "Station location range",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/HC/airborne_radioactivity_en/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "2"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow"],
-	"navBar": [
-		"zoom",
-		"fullscreen",
-		"basemap-select",
-		"home"
-	],
-	"appBar": {
-	      "tabs": {
-	        "core": [
-	        	"geolocator",
-	        	"legend",
-	        	"export"
-	        ]
-	      }
-	},
-	"footerBar": {
-		"tabs": {
-			"core": [
-				"layers",
-				"details",
-				"data-table",
-				"geochart"
-			]
-		}
-	},
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "airborne-radioactivity",
+          "station-location"
+        ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "airborne-radioactivity",
+        "geoviewLayerName": "Airborne Radioactivity",
+        "geoviewLayerType": "esriDynamic",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/HC/airborne_radioactivity_en/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "1"
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "station-location",
+        "geoviewLayerName": "Station location range",
+        "geoviewLayerType": "esriDynamic",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/HC/airborne_radioactivity_en/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "2"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "basemap-select",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table",
+        "geochart"
+      ]
+    }
+  },
+  "theme": "geo.ca"
 }

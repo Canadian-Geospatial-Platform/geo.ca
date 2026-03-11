@@ -3,8 +3,8 @@
     "interaction": "dynamic",
     "viewSettings": {
       "projection": 3978,
-      "initialView" : {
-        "layerIds" : [
+      "initialView": {
+        "layerIds": [
           "urban-development"
         ]
       }
@@ -18,21 +18,21 @@
       {
         "geoviewLayerId": "urban-development",
         "geoviewLayerName": "GeoAI Use Case - Urban Development, Quebec City",
-        "metadataAccessPath":  "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GeoAI_UseCase_en/MapServer",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GeoAI_UseCase_en/MapServer",
         "geoviewLayerType": "esriDynamic",
         "listOfLayerEntryConfig": [
           {
             "layerId": "0",
-            "initialSettings" : {
-              "states" : {
+            "initialSettings": {
+              "states": {
                 "visible": false
               }
             }
           },
           {
             "layerId": "1",
-            "initialSettings" : {
-              "states" : {
+            "initialSettings": {
+              "states": {
                 "opacity": 0.5
               }
             }
@@ -45,13 +45,13 @@
       {
         "geoviewLayerId": "quebec-2022",
         "geoviewLayerName": "Quebec 2022",
-        "metadataAccessPath":  "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GeoAI_UseCase_en/MapServer",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GeoAI_UseCase_en/MapServer",
         "geoviewLayerType": "esriDynamic",
         "listOfLayerEntryConfig": [
           {
             "layerId": "3",
-            "initialSettings" : {
-              "states" : {
+            "initialSettings": {
+              "states": {
                 "legendCollapsed": true
               }
             }
@@ -61,14 +61,13 @@
       {
         "geoviewLayerId": "quebec-2006",
         "geoviewLayerName": "Quebec 2006",
-        "metadataAccessPath":  "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GeoAI_UseCase_en/MapServer",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GeoAI_UseCase_en/MapServer",
         "geoviewLayerType": "esriDynamic",
         "listOfLayerEntryConfig": [
           {
             "layerId": "8",
-            "initialSettings" : {
-              "states" : {
-
+            "initialSettings": {
+              "states": {
                 "legendCollapsed": true
               }
             }
@@ -77,7 +76,10 @@
       }
     ]
   },
-  "components": ["north-arrow", "overview-map"],
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
   "navBar": [
     "zoom",
     "fullscreen",
@@ -85,19 +87,19 @@
     "home"
   ],
   "appBar": {
-        "tabs": {
-          "core": [
-            "geolocator",
-            "legend",
-            "export"
-          ]
-        }
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
   },
   "footerBar": {
     "tabs": {
       "core": [
         "layers",
-        "details",
         "data-table"
       ]
     }

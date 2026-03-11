@@ -1,0 +1,99 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [
+        			"hrdem",
+					"hrdem-project-extent",
+					"hrdem-project-footprints",
+					"hrdem-project-footprint-arcticdem"
+        		]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "hrdem",
+				"geoviewLayerName": "Empreintes des jeux de données MNEHR par système de coordonnées",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_fr/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1"
+					},
+					{
+						"layerId": "2"
+					},
+					{
+						"layerId": "3"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "hrdem-project-extent",
+				"geoviewLayerName": "Étendue des projets MNEHR",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_fr/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "4"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "hrdem-project-footprints",
+				"geoviewLayerName": "Empreintes des projets MNEHR",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_fr/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "5"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "hrdem-project-footprint-arcticdem",
+				"geoviewLayerName": "Empreintes des projets MNEHR - ArcticDEM",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_fr/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "6"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"basemap-select",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

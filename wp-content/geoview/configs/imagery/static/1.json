@@ -1,48 +1,41 @@
 {
-	"map": {
-		"interaction": "static",
-		"viewSettings": {
-			"initialView" : {
-        		"layerIdsd" : [
-        			"digital-surface-model",
-                    "digital-terrain-model"
-        		]
-      		},
-      		"minZoom": 4,
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "digital-surface-model",
-				"geoviewLayerName": "Digital Surface Model",
-				"geoviewLayerType": "ogcWms",
-				"metadataAccessPath": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "dsm-hillshade",
-						"layerName": "Digital Surface Model"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "digital-terrain-model",
-				"geoviewLayerName": "Digital Terrain Model",
-				"geoviewLayerType": "ogcWms",
-				"metadataAccessPath": "https://datacube.services.geo.ca/wrapper/ogc/elevation-hrdem-mosaic",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "dtm-hillshade",
-						"layerName": "Digital Terrain Model"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow"],
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": []
+      },
+      "projection": 3978,
+      "minZoom": 4
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "0fe65119-e96e-4a57-8bfe-9d9245fba06b",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "dsm-hillshade"
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "0fe65119-e96e-4a57-8bfe-9d9245fba06b",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "dtm-hillshade"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "theme": "geo.ca"
 }

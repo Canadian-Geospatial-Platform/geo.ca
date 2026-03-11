@@ -1,0 +1,34 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+    	        "layerIds" : [ 
+    	            "fluwatchers"
+    	        ]
+	      },
+	      "minZoom": 4,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "fluwatchers",
+				"geoviewLayerName": "FluWatchers",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/PHAC/fluwatchers_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

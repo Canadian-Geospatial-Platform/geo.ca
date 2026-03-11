@@ -1,0 +1,35 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+                "layerIds" : [
+                    "first-nations-locations"
+                ]
+            },
+            "minZoom": 4,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "first-nations-locations",
+				"geoviewLayerName": "First Nation Locations",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Premiere_Nation_First_Nation/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": "First Nation Locations"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

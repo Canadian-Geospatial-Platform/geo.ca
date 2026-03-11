@@ -1,70 +1,67 @@
 {
-	"map": {
-		"interaction": "dynamic",
-		"viewSettings": {
-			"initialView" : {
-	        	"layerIds" : [
-	        		"aboriginal-lands-boundaries",
-					"aboriginal-agreements"
-	        	]
-	      	},
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "aboriginal-lands-boundaries",
-				"geoviewLayerName": "Limites législatives des terres autochtones du Canada",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/CLSS-SATC/SATC_Limites_administratives/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0",
-						"layerName": "Limites législatives des terres autochtones du Canada"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "aboriginal-agreements",
-				"geoviewLayerName": "Ententes autochtones",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Indigenous_Agreement_F/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow"],
-	"navBar": [
-		"zoom",
-		"fullscreen",
-		"basemap-select",
-		"home"
-	],
-	"appBar": {
-	      "tabs": {
-	        "core": [
-	        	"geolocator",
-	        	"legend",
-	        	"export"
-	        ]
-	      }
-	},
-	"footerBar": {
-		"tabs": {
-			"core": [
-				"layers",
-				"details",
-				"data-table"
-			]
-		}
-	},
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "aboriginal-lands-boundaries",
+          "aboriginal-agreements"
+        ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "522b07b9-78e2-4819-b736-ad9208eb1067",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "82cad281-ff7d-47b3-b2ce-9f794257e86d",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "basemap-select",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca"
 }

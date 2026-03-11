@@ -1,35 +1,35 @@
 {
-	"map": {
-		"interaction": "static",
-		"viewSettings": {
-			"initialView" : {
-        		"layerIds" : [ 
-        		    "national-parks-reserves"
-        		]
-      		},
-      		"minZoom": 4,
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "national-parks-reserves",
-				"geoviewLayerName": "National Parks and National Park Reserves of Canada Legislative Boundaries",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/CLSS-SATC/CLSS_Administrative_Boundaries/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "1",
-						"layerName": "National Parks and National Park Reserves of Canada Legislative Boundaries"
-					}
-				]
-			}
-		]
-	},
-	"components" : ["north-arrow"],
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "national-parks-reserves"
+        ]
+      },
+      "minZoom": 4,
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "9e1507cd-f25c-4c64-995b-6563bf9d65bd",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "1",
+            "layerName": "National Parks and National Park Reserves of Canada Legislative Boundaries"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "theme": "geo.ca"
 }

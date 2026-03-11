@@ -1,97 +1,93 @@
 {
-	"map": {
-		"interaction": "static",
-		"viewSettings": {
-			"initialView" : {
-        		"layerIds" : [ 
-        		    "nrwn",
-                    "vessel-traffic-routes",
-                    "nrn"
-        		]
-      		},
-      		"minZoom": 4,
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "nrwn",
-				"geoviewLayerName": "National Railway Network - NRWN - GeoBase Series",
-				"geoviewLayerType": "ogcWms",
-				"metadataAccessPath": "https://maps.canada.ca/wmsproxy/ws/wmsproxy/executeFromProxy?https://maps.geogratis.gc.ca/wms/railway_en",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId" : "railway.structure.line"
-					},
-					{
-						"layerId" : "railway.structure.point"
-					},
-					{
-						"layerId" : "railway.track"
-					},
-					{
-						"layerId" : "railway.ferry"
-					},
-					{
-						"layerId" : "railway.subdivision"
-					},
-					{
-						"layerId" : "railway.station"
-					},
-					{
-						"layerId" : "railway.marker_post"
-					},
-					{
-						"layerId" : "railway.crossing"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "vessel-traffic-routes",
-				"geoviewLayerName": "Vessel Traffic Routes",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/vessel_traffic_routes_en/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId" : "0"
-					},
-					{
-						"layerId" : "1"
-					},
-					{
-						"layerId" : "2"
-					},
-					{
-						"layerId" : "3"
-					},
-					{
-						"layerId" : "4"
-					},
-					{
-						"layerId" : "5"
-					},
-					{
-						"layerId" : "6"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "nrn",
-				"geoviewLayerName": "National Road Network - NRN - GeoBase Series",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId" : "33"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow"],
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "nrwn",
+          "vessel-traffic-routes",
+          "nrn"
+        ]
+      },
+      "minZoom": 4,
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "ac26807e-a1e8-49fa-87bf-451175a859b8",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "railway.structure.line"
+          },
+          {
+            "layerId": "railway.structure.point"
+          },
+          {
+            "layerId": "railway.track"
+          },
+          {
+            "layerId": "railway.ferry"
+          },
+          {
+            "layerId": "railway.subdivision"
+          },
+          {
+            "layerId": "railway.station"
+          },
+          {
+            "layerId": "railway.marker_post"
+          },
+          {
+            "layerId": "railway.crossing"
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "6ab2803a-aace-4e60-83ed-44a7e0ccd1d8",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          },
+          {
+            "layerId": "1"
+          },
+          {
+            "layerId": "2"
+          },
+          {
+            "layerId": "3"
+          },
+          {
+            "layerId": "4"
+          },
+          {
+            "layerId": "5"
+          },
+          {
+            "layerId": "6"
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "3d282116-e556-400c-9306-ca1a3cada77f",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "33"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "theme": "geo.ca"
 }

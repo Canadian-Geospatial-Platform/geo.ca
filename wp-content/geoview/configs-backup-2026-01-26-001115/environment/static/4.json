@@ -1,0 +1,70 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [ 
+        		    "critical-habitat-point",
+                    "proposed-critical-habitat-point",
+                    "critical-habitat-area",
+                    "proposed-critical-habitat-area"
+        		 ]
+      		},
+      		"minZoom": 4,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "critical-habitat-point",
+				"geoviewLayerName": "Critical Habitat Point",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/CriticalHabitat/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "proposed-critical-habitat-point",
+				"geoviewLayerName": "Proposed Critical Habitat Point",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/CriticalHabitat/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "2"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "critical-habitat-area",
+				"geoviewLayerName": "Critical Habitat Area",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/CriticalHabitat/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "3"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "proposed-critical-habitat-area",
+				"geoviewLayerName": "Proposed Critical Habitat Area",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/CriticalHabitat/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "4"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

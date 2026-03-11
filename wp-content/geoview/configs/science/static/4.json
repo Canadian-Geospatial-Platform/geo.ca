@@ -1,35 +1,34 @@
 {
-	"map": {
-		"interaction": "static",
-		"viewSettings": {
-			"initialView" : {
-				"layerIds" : [ 
-				    "ecologically-biologically-significant-areas"
-			    ]
-			},
-			"minZoom": 4,
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "ecologically-biologically-significant-areas",
-				"geoviewLayerName": "Ecologically and Biologically Significant Areas",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/ecologically_and_biologically_significant_areas/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "1",
-						"layerName": "Ecologically and Biologically Significant Areas"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow"],
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "ecologically-biologically-significant-areas"
+        ]
+      },
+      "minZoom": 4,
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "d2d6057f-d7c4-45d9-9fd9-0a58370577e0",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "theme": "geo.ca"
 }

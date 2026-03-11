@@ -1,0 +1,67 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+				"layerIds" : [
+					"mpi",
+                    "cannor",
+                    "mpmo"
+				]
+			},
+			"minZoom": 4,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "mpi",
+				"geoviewLayerName": "Major Project Investory (MPI)",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/major_projects_inventory_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					},
+					{
+						"layerId": "1"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "cannor",
+				"geoviewLayerName": "Canadian Northern Economic Development Agency (CanNor)",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/CanNor/cannor_northern_major_projects_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					},
+					{
+						"layerId": "1"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "mpmo",
+				"geoviewLayerName": "Major Projects Management Office (MPMO)",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/MPMO_Major_Projects/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					},
+					{
+						"layerId": "1"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

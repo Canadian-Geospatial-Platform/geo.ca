@@ -1,58 +1,61 @@
 {
-	"map": {
-		"interaction": "dynamic",
-		"viewSettings": {
-			"initialView" : {
-				"layerIds" : [
-					"Indigenous_Community_Infrastructure_Investment_E"
-				]
-			},
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "Indigenous_Community_Infrastructure_Investment_E",
-				"geoviewLayerName": "Investissement dans l'infrastructure des communautés autochtones",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Indigenous_Community_Infrastructure_F/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0",
-						"layerName": "Investissement dans l'infrastructure des communautés autochtones"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow", "overview-map"],
-	"navBar": [
-		"zoom",
-		"fullscreen",
-		"basemap-select",
-		"home"
-	],
-	"appBar": {
-	      "tabs": {
-	        "core": [
-	        	"geolocator",
-	        	"legend",
-	        	"export"
-	        ]
-	      }
-	},
-	"footerBar": {
-		"tabs": {
-			"core": [
-				"layers",
-				"details",
-				"data-table"
-			]
-		}
-	},
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "Indigenous_Community_Infrastructure_Investment_E"
+        ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "62155d6f-9167-4972-b77c-b90734b628dc",
+        "geoviewLayerName": "Investissement dans l'infrastructure des communautés autochtones",
+        "metadataAccessPath": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Indigenous_Community_Infrastructure_F/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0",
+            "layerName": "Investissement dans l'infrastructure des communautés autochtones"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "basemap-select",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca"
 }

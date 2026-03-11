@@ -1,0 +1,76 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [ 
+        		    "hrdem",
+                    "hrdem-project-extent",
+                    "hrdem-project-footprints",
+                    "hrdem-project-footprint-arcticdem"
+        		]
+      		},
+      		"minZoom": 4,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "hrdem",
+				"geoviewLayerName": "HRDEM Datasets Footprints by coordinate system",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1"
+					},
+					{
+						"layerId": "2"
+					},
+					{
+						"layerId": "3"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "hrdem-project-extent",
+				"geoviewLayerName": "HRDEM Project Extent",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "4"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "hrdem-project-footprints",
+				"geoviewLayerName": "HRDEM Project Footprints",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "5"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "hrdem-project-footprint-arcticdem",
+				"geoviewLayerName": "HRDEM Project Footprint - ArcticDEM",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/coverage_HRDEM_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "6"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

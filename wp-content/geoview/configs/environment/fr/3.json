@@ -1,69 +1,72 @@
 {
-	"map": {
-		"interaction": "dynamic",
-		"viewSettings": {
-			"initialView" : {
-        		"layerIds" : [
-        			"protected-and-conserved-area",
-					"priority-species-for-species-at-risk"
-        		]
-      		},
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "protected-and-conserved-area",
-				"geoviewLayerName": "Les aires protégées et de conservation",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/BDCAPC/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "priority-species-for-species-at-risk",
-				"geoviewLayerName": "Espèces prioritaires pour les espèces en péril",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/EspecesPrioritaires/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow", "overview-map"],
-	"navBar": [
-		"zoom",
-		"fullscreen",
-		"basemap-select",
-		"home"
-	],
-	"appBar": {
-	      "tabs": {
-	        "core": [
-	        	"geolocator",
-	        	"legend",
-	        	"export"
-	        ]
-	      }
-	},
-	"footerBar": {
-		"tabs": {
-			"core": [
-				"layers",
-				"details",
-				"data-table"
-			]
-		}
-	},
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "protected-and-conserved-area",
+          "priority-species-for-species-at-risk"
+        ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerName": "Les aires protégées et de conservation",
+        "geoviewLayerId": "6c343726-1e92-451a-876a-76e17d398a1c",
+        "metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/BDCAPC/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          }
+        ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerName": "Espèces prioritaires pour les espèces en péril",
+        "geoviewLayerId": "c3d1771f-fa10-4a09-ba6e-dece0ceb5f37",
+        "metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/EspecesPrioritaires/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "basemap-select",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca"
 }

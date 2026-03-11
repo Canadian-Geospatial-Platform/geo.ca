@@ -1,0 +1,55 @@
+{
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "40fbe40c-01cd-49d3-8add-0d20ed64c90d"
+        ]
+      },
+      "minZoom": 4,
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "40fbe40c-01cd-49d3-8add-0d20ed64c90d",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "22",
+            "layerName": "Centrales électriques, 100 MW et plus (hydro)"
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "490db619-ab58-4a2a-a245-2376ce1840de",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "33",
+            "layerName": "Centrales électriques, 1 MW et plus (hydro)"
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "40fbe40c-01cd-49d3-8add-0d20ed64c90d",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "25",
+            "layerName": "Centrales électriques, 100 MW et plus (pétrole)"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "theme": "geo.ca"
+}

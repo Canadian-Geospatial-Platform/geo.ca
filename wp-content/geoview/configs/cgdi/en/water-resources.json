@@ -1,321 +1,321 @@
 {
-    "map": {
-        "basemapOptions": {
-            "basemapId": "transport",
-            "shaded": true,
-            "labeled": true
-        },
-        "interaction": "dynamic",
-        "listOfGeoviewLayerConfig": [
-            {
-                "geoviewLayerId": "M2UKB145VGE0D",
-                "geoviewLayerName": "Sea ice velocity [m/s] - WCPS",
-                "geoviewLayerType": "ogcWms",
-                "listOfLayerEntryConfig": [
-                    {
-                        "layerId": "WCPS_1km_SeaIceVelocity",
-                        "layerName": "Sea ice velocity [m/s] - WCPS",
-                        "initialSettings": {
-                            "states": {
-                                "visible": false,
-                                "opacity": 1,
-                                "legendCollapsed": false,
-                                "queryable": true,
-                                "hoverable": true
-                            },
-                            "controls": {
-                                "highlight": true,
-                                "hover": true,
-                                "opacity": true,
-                                "query": true,
-                                "remove": true,
-                                "table": true,
-                                "visibility": true,
-                                "zoom": true
-                            },
-                            "bounds": [
-                                -93.375,
-                                34.75,
-                                -37.75,
-                                54.45
-                            ]
-                        },
-                        "source": {
-                            "dataAccessPath": "https://geo.weather.gc.ca/geomet",
-                            "serverType": "mapserver"
-                        }
-                    }
-                ],
-                "metadataAccessPath": "https://geo.weather.gc.ca/geomet"
+  "map": {
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": true,
+      "labeled": true
+    },
+    "interaction": "dynamic",
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "M2UKB145VGE0D",
+        "geoviewLayerName": "Sea ice velocity [m/s] - WCPS",
+        "geoviewLayerType": "ogcWms",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "WCPS_1km_SeaIceVelocity",
+            "layerName": "Sea ice velocity [m/s] - WCPS",
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "opacity": 1,
+                "legendCollapsed": false,
+                "queryable": true,
+                "hoverable": true
+              },
+              "controls": {
+                "highlight": true,
+                "hover": true,
+                "opacity": true,
+                "query": true,
+                "remove": true,
+                "table": true,
+                "visibility": true,
+                "zoom": true
+              },
+              "bounds": [
+                -93.375,
+                34.75,
+                -37.75,
+                54.45
+              ]
             },
-            {
-                "geoviewLayerId": "M2UJMLT8W4ERV",
-                "geoviewLayerName": "Tide and Water Level Station",
-                "geoviewLayerType": "esriDynamic",
-                "listOfLayerEntryConfig": [
-                    {
-                        "layerId": "2",
-                        "layerName": "Tide and Water Level Station",
-                        "initialSettings": {
-                            "states": {
-                                "visible": true,
-                                "opacity": 1,
-                                "legendCollapsed": false,
-                                "queryable": true,
-                                "hoverable": true
-                            },
-                            "controls": {
-                                "highlight": true,
-                                "hover": true,
-                                "opacity": true,
-                                "query": true,
-                                "remove": true,
-                                "table": true,
-                                "visibility": true,
-                                "zoom": true
-                            },
-                            "bounds": [
-                                -180,
-                                -90,
-                                180,
-                                90
-                            ]
-                        },
-                        "style": {
-                            "Point": {
-                                "styleType": "simple",
-                                "settings": {
-                                    "type": "simpleSymbol",
-                                    "rotation": 0,
-                                    "color": "rgba(78,78,78,1)",
-                                    "stroke": {
-                                        "color": "rgba(0,0,0,1)",
-                                        "lineStyle": "solid",
-                                        "width": 1
-                                    },
-                                    "size": 4.6690000000000005,
-                                    "symbol": "circle",
-                                    "offset": [
-                                        0,
-                                        0
-                                    ]
-                                }
-                            }
-                        },
-                        "source": {
-                            "dataAccessPath": "https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/tidal_stations_en/MapServer/"
-                        }
-                    }
-                ],
-                "metadataAccessPath": "https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/tidal_stations_en/MapServer/",
-                "serviceDateFormat": "DD/MM/YYYY HH:MM:SSZ"
-            },
-            {
-                "geoviewLayerId": "M2UJWGAVBQ0V8",
-                "geoviewLayerName": "Bathymetry, 35M-13M, polygon, Bathymetry, 13M-3M, polygon, Bathymetry, 3M-500K, polygon",
-                "geoviewLayerType": "ogcWms",
-                "listOfLayerEntryConfig": [
-                    {
-                        "layerId": "bathymetry_small",
-                        "layerName": "Bathymetry, 35M-13M, polygon",
-                        "initialSettings": {
-                            "states": {
-                                "visible": false,
-                                "opacity": 1,
-                                "legendCollapsed": false,
-                                "queryable": true,
-                                "hoverable": true
-                            },
-                            "controls": {
-                                "highlight": true,
-                                "hover": true,
-                                "opacity": true,
-                                "query": true,
-                                "remove": true,
-                                "table": true,
-                                "visibility": true,
-                                "zoom": true
-                            },
-                            "bounds": [
-                                -142,
-                                37,
-                                -48,
-                                90
-                            ]
-                        },
-                        "source": {
-                            "dataAccessPath": "https://maps.geogratis.gc.ca/wms/canvec_en",
-                            "serverType": "mapserver"
-                        }
-                    },
-                    {
-                        "layerId": "bathymetry_mid",
-                        "layerName": "Bathymetry, 13M-3M, polygon",
-                        "initialSettings": {
-                            "states": {
-                                "visible": false,
-                                "opacity": 1,
-                                "legendCollapsed": false,
-                                "queryable": true,
-                                "hoverable": true
-                            },
-                            "controls": {
-                                "highlight": true,
-                                "hover": true,
-                                "opacity": true,
-                                "query": true,
-                                "remove": true,
-                                "table": true,
-                                "visibility": true,
-                                "zoom": true
-                            },
-                            "bounds": [
-                                -142,
-                                37,
-                                -48,
-                                90
-                            ]
-                        },
-                        "source": {
-                            "dataAccessPath": "https://maps.geogratis.gc.ca/wms/canvec_en",
-                            "serverType": "mapserver"
-                        }
-                    },
-                    {
-                        "layerId": "bathymetry_large",
-                        "layerName": "Bathymetry, 3M-500K, polygon",
-                        "initialSettings": {
-                            "states": {
-                                "visible": false,
-                                "opacity": 1,
-                                "legendCollapsed": false,
-                                "queryable": true,
-                                "hoverable": true
-                            },
-                            "controls": {
-                                "highlight": true,
-                                "hover": true,
-                                "opacity": true,
-                                "query": true,
-                                "remove": true,
-                                "table": true,
-                                "visibility": true,
-                                "zoom": true
-                            },
-                            "bounds": [
-                                -142,
-                                37,
-                                -48,
-                                90
-                            ]
-                        },
-                        "source": {
-                            "dataAccessPath": "https://maps.geogratis.gc.ca/wms/canvec_en",
-                            "serverType": "mapserver"
-                        }
-                    }
-                ],
-                "metadataAccessPath": "https://maps.geogratis.gc.ca/wms/canvec_en"
-            },
-            {
-                "geoviewLayerId": "M2UK0IHKIGQGW",
-                "geoviewLayerName": "Water temperature [K] - GDPS.ETA",
-                "geoviewLayerType": "ogcWms",
-                "listOfLayerEntryConfig": [
-                    {
-                        "layerId": "GDPS.ETA_TM",
-                        "layerName": "Water temperature [K] - GDPS.ETA",
-                        "initialSettings": {
-                            "states": {
-                                "visible": true,
-                                "opacity": 0.5,
-                                "legendCollapsed": false,
-                                "queryable": true,
-                                "hoverable": true
-                            },
-                            "controls": {
-                                "highlight": true,
-                                "hover": true,
-                                "opacity": true,
-                                "query": true,
-                                "remove": true,
-                                "table": true,
-                                "visibility": true,
-                                "zoom": true
-                            },
-                            "bounds": [
-                                -180,
-                                -90,
-                                180,
-                                90
-                            ]
-                        },
-                        "source": {
-                            "dataAccessPath": "https://geo.weather.gc.ca/geomet",
-                            "serverType": "mapserver"
-                        }
-                    }
-                ],
-                "metadataAccessPath": "https://geo.weather.gc.ca/geomet"
+            "source": {
+              "dataAccessPath": "https://geo.weather.gc.ca/geomet",
+              "serverType": "mapserver"
             }
-        ],
-        "highlightColor": "black",
-        "overlayObjects": {
-            "pointMarkers": {}
-        },
-        "viewSettings": {
-            "initialView": {
-                "layerIds": [
-                    "M2UKB145VGE0D",
-                    "M2UJMLT8W4ERV",
-                    "M2UJWGAVBQ0V8",
-                    "M2UK0IHKIGQGW"
-                ]
-            },
-            "enableRotation": true,
-            "rotation": 0,
-            "minZoom": 0,
-            "maxZoom": 50,
-            "maxExtent": [
-                -135,
-                25,
-                -50,
-                89
-            ],
-            "projection": 3978
-        }
-    },
-    "theme": "geo.ca",
-    "navBar": [
-        "zoom",
-        "fullscreen",
-        "basemap-select",
-        "home"
-    ],
-    "appBar": {
-          "tabs": {
-            "core": [
-                "geolocator",
-                "legend",
-                "export"
-            ]
           }
-    },
-    "footerBar": {
-        "tabs": {
-            "core": [
-                "layers",
-                "details",
-                "data-table"
-            ]
-        }
-    },
-    "overviewMap": {
-        "hideOnZoom": 6
-    },
-    "components": [
-        "north-arrow",
-        "overview-map"
+        ],
+        "metadataAccessPath": "https://geo.weather.gc.ca/geomet"
+      },
+      {
+        "geoviewLayerId": "M2UJMLT8W4ERV",
+        "geoviewLayerName": "Tide and Water Level Station",
+        "geoviewLayerType": "esriDynamic",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "2",
+            "layerName": "Tide and Water Level Station",
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "opacity": 1,
+                "legendCollapsed": false,
+                "queryable": true,
+                "hoverable": true
+              },
+              "controls": {
+                "highlight": true,
+                "hover": true,
+                "opacity": true,
+                "query": true,
+                "remove": true,
+                "table": true,
+                "visibility": true,
+                "zoom": true
+              },
+              "bounds": [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            },
+            "style": {
+              "Point": {
+                "styleType": "simple",
+                "settings": {
+                  "type": "simpleSymbol",
+                  "rotation": 0,
+                  "color": "rgba(78,78,78,1)",
+                  "stroke": {
+                    "color": "rgba(0,0,0,1)",
+                    "lineStyle": "solid",
+                    "width": 1
+                  },
+                  "size": 4.6690000000000005,
+                  "symbol": "circle",
+                  "offset": [
+                    0,
+                    0
+                  ]
+                }
+              }
+            },
+            "source": {
+              "dataAccessPath": "https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/tidal_stations_en/MapServer/"
+            }
+          }
+        ],
+        "metadataAccessPath": "https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/tidal_stations_en/MapServer/",
+        "serviceDateFormat": "DD/MM/YYYY HH:MM:SSZ"
+      },
+      {
+        "geoviewLayerId": "M2UJWGAVBQ0V8",
+        "geoviewLayerName": "Bathymetry, 35M-13M, polygon, Bathymetry, 13M-3M, polygon, Bathymetry, 3M-500K, polygon",
+        "geoviewLayerType": "ogcWms",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "bathymetry_small",
+            "layerName": "Bathymetry, 35M-13M, polygon",
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "opacity": 1,
+                "legendCollapsed": false,
+                "queryable": true,
+                "hoverable": true
+              },
+              "controls": {
+                "highlight": true,
+                "hover": true,
+                "opacity": true,
+                "query": true,
+                "remove": true,
+                "table": true,
+                "visibility": true,
+                "zoom": true
+              },
+              "bounds": [
+                -142,
+                37,
+                -48,
+                90
+              ]
+            },
+            "source": {
+              "dataAccessPath": "https://maps.geogratis.gc.ca/wms/canvec_en",
+              "serverType": "mapserver"
+            }
+          },
+          {
+            "layerId": "bathymetry_mid",
+            "layerName": "Bathymetry, 13M-3M, polygon",
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "opacity": 1,
+                "legendCollapsed": false,
+                "queryable": true,
+                "hoverable": true
+              },
+              "controls": {
+                "highlight": true,
+                "hover": true,
+                "opacity": true,
+                "query": true,
+                "remove": true,
+                "table": true,
+                "visibility": true,
+                "zoom": true
+              },
+              "bounds": [
+                -142,
+                37,
+                -48,
+                90
+              ]
+            },
+            "source": {
+              "dataAccessPath": "https://maps.geogratis.gc.ca/wms/canvec_en",
+              "serverType": "mapserver"
+            }
+          },
+          {
+            "layerId": "bathymetry_large",
+            "layerName": "Bathymetry, 3M-500K, polygon",
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "opacity": 1,
+                "legendCollapsed": false,
+                "queryable": true,
+                "hoverable": true
+              },
+              "controls": {
+                "highlight": true,
+                "hover": true,
+                "opacity": true,
+                "query": true,
+                "remove": true,
+                "table": true,
+                "visibility": true,
+                "zoom": true
+              },
+              "bounds": [
+                -142,
+                37,
+                -48,
+                90
+              ]
+            },
+            "source": {
+              "dataAccessPath": "https://maps.geogratis.gc.ca/wms/canvec_en",
+              "serverType": "mapserver"
+            }
+          }
+        ],
+        "metadataAccessPath": "https://maps.geogratis.gc.ca/wms/canvec_en"
+      },
+      {
+        "geoviewLayerId": "M2UK0IHKIGQGW",
+        "geoviewLayerName": "Water temperature [K] - GDPS.ETA",
+        "geoviewLayerType": "ogcWms",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "GDPS.ETA_TM",
+            "layerName": "Water temperature [K] - GDPS.ETA",
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "opacity": 0.5,
+                "legendCollapsed": false,
+                "queryable": true,
+                "hoverable": true
+              },
+              "controls": {
+                "highlight": true,
+                "hover": true,
+                "opacity": true,
+                "query": true,
+                "remove": true,
+                "table": true,
+                "visibility": true,
+                "zoom": true
+              },
+              "bounds": [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            },
+            "source": {
+              "dataAccessPath": "https://geo.weather.gc.ca/geomet",
+              "serverType": "mapserver"
+            }
+          }
+        ],
+        "metadataAccessPath": "https://geo.weather.gc.ca/geomet"
+      }
     ],
-    "schemaVersionUsed": "1.0"
+    "highlightColor": "black",
+    "overlayObjects": {
+      "pointMarkers": {}
+    },
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "M2UKB145VGE0D",
+          "M2UJMLT8W4ERV",
+          "M2UJWGAVBQ0V8",
+          "M2UK0IHKIGQGW"
+        ]
+      },
+      "enableRotation": true,
+      "rotation": 0,
+      "minZoom": 0,
+      "maxZoom": 50,
+      "maxExtent": [
+        -135,
+        25,
+        -50,
+        89
+      ],
+      "projection": 3978
+    }
+  },
+  "theme": "geo.ca",
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "basemap-select",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table"
+      ]
+    }
+  },
+  "overviewMap": {
+    "hideOnZoom": 6
+  },
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
+  "schemaVersionUsed": "1.0"
 }

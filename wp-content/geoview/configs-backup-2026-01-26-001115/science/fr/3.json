@@ -1,0 +1,91 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+	        	"layerIds" : [
+	        		"average-ambient-particulate",
+					"peak-ambient-particulate",
+					"fine-particulate-by-facility"
+	        	]
+	      	},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "average-ambient-particulate",
+				"geoviewLayerName": "Concentration ambiante moyenne de particules fines aux stations de suivi",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/ICDE/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "26"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "peak-ambient-particulate",
+				"geoviewLayerName": "Concentration ambiante de pointe de particules fines",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/ICDE/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "27",
+						"initialSettings" : {
+							"states" : {
+								"visible" : false
+							}
+						}
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "fine-particulate-by-facility",
+				"geoviewLayerName": "Émissions de particules fines",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/ICDE/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "17",
+						"initialSettings" : {
+							"states" : {
+								"visible" : false
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"basemap-select",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

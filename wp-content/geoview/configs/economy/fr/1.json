@@ -1,76 +1,79 @@
 {
-	"map": {
-		"interaction": "dynamic",
-		"viewSettings": {
-			"initialView" : {
-				"layerIds" : [
-					"population_ecumene_CSD2016/0",
-					"Median_total_income_households_CSD2016/8"
-				]
-			},
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "population_ecumene_CSD2016",
-				"geoviewLayerName": "Écoumène de population de 2016 par subdivision de recensement",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/csd_population_ecumene_2016_fr/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0",
-						"layerName": "Écoumène de population de 2016 par subdivision de recensement",
-						"initialSettings" : {
-							"states" : {
-								"visible" : false
-							}
-						}
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "Median_total_income_households_CSD2016",
-				"geoviewLayerName": "Revenu total médian des ménages en 2015 (dollars) par subdivision de recensement, 2016",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/csd_socioeconomic_variables_2016_fr/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "8",
-						"layerName": "Revenu total médian des ménages en 2015 (dollars) par subdivision de recensement, 2016"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow", "overview-map"],
-	"navBar": [
-		"zoom",
-		"fullscreen",
-		"basemap-select",
-		"home"
-	],
-	"appBar": {
-	      "tabs": {
-	        "core": [
-	        	"geolocator",
-	        	"legend",
-	        	"export"
-	        ]
-	      }
-	},
-	"footerBar": {
-		"tabs": {
-			"core": [
-				"layers",
-				"details",
-				"data-table"
-			]
-		}
-	},
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "population_ecumene_CSD2016/0",
+          "Median_total_income_households_CSD2016/8"
+        ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "1694e167-f6f4-48a4-b40c-78ddb9587777",
+        "geoviewLayerName": "Écoumène de population de 2016 par subdivision de recensement",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/csd_population_ecumene_2016_fr/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0",
+            "layerName": "Écoumène de population de 2016 par subdivision de recensement",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "3fffdd62-41e7-443c-b607-8d5825e12600",
+        "geoviewLayerName": "Revenu total médian des ménages en 2015 (dollars) par subdivision de recensement, 2016",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/StatCan/csd_socioeconomic_variables_2016_fr/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "8",
+            "layerName": "Revenu total médian des ménages en 2015 (dollars) par subdivision de recensement, 2016"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "basemap-select",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca"
 }

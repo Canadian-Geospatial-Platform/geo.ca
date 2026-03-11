@@ -1,0 +1,58 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [ 
+        		    "indigenous-population-2016",
+                    "CanEcumene_PopRDensityV2",
+                    "canecumene-extent"
+        		]
+      		},
+      		"minZoom": 4,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "indigenous-population-2016",
+				"geoviewLayerName": "Indigenous Population of Canada (2016)",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/indigenous_population_2016_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "CanEcumene_PopRDensityV2",
+				"geoviewLayerName": "CanEcumene_PopRDensityV2",
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/indigenous_population_2016_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "1"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "canecumene-extent",
+				"geoviewLayerName": "CanEcumene Extent",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/indigenous_population_2016_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "2"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

@@ -1,58 +1,41 @@
 {
-	"map": {
-		"interaction": "static",
-		"viewSettings": {
-			"initialView" : {
-        		"layerIds" : [ 
-        		    "communities-served-by-IJP",
-                    "rcmp_detachments",
-                    "IJP_programs"
-        		]
-      		},
-      		"minZoom": 4,
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "communities-served-by-IJP",
-				"geoviewLayerName": "Communities served by IJP",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/JUS/indigenous_justice_program/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "rcmp_detachments",
-				"geoviewLayerName": "RCMP Detachments",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/JUS/indigenous_justice_program/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "1"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "IJP_programs",
-				"geoviewLayerName": "IJP Programs",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/JUS/indigenous_justice_program/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "2"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow"],
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+      "initialView": {
+      "projection": 3978,
+      "minZoom": 4
+      }
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "f281b150-0645-48e4-9c30-01f55f93f78e",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "be54680b-ea62-46f3-aaa9-7644ed970aef",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+
+  "theme": "geo.ca"
 }

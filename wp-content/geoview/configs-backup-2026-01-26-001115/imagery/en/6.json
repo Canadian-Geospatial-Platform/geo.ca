@@ -1,0 +1,57 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [
+        			"canadian-wetland-inventory"
+        		]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "canadian-wetland-inventory",
+				"geoviewLayerName": "Canadian Wetland Inventory",
+				"geoviewLayerType": "ogcWms",
+				"metadataAccessPath": "https://datacube.services.geo.ca/ows/canadian-wetland-inventory",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "canadian-wetland-inventory-v3A",
+						"layerName" : "Canadian Wetland Inventory"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"basemap-select",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"layers",
+				"details"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

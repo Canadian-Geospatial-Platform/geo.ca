@@ -1,0 +1,48 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [ 
+        		    "protected-and-conserved-area",
+                    "priority-species-for-species-at-risk"
+        		 ]
+      		},
+      		"minZoom": 4,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "protected-and-conserved-area",
+				"geoviewLayerName": "Protected and conserved area",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/CPCAD/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName": "Protected and conserved area"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "priority-species-for-species-at-risk",
+				"geoviewLayerName": "Priority species for species at risk",
+				"geoviewLayerType": "esriFeature",
+				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CWS_SCF/PrioritySpecies/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0",
+						"layerName" : "Priority species for species at risk"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

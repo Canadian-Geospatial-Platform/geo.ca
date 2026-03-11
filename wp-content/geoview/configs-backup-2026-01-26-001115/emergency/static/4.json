@@ -1,0 +1,34 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+				"layerIds" : [ 
+				    "EGS_Flood_Product_Archive_en" 
+				]
+			},
+			"minZoom": 4,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "EGS_Flood_Product_Archive_en",
+				"geoviewLayerName": "Floods in Canada - Archive - Product Footprints",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://maps-cartes.services.geo.ca/egs_sgu/rest/services/Flood_Inondation/EGS_Flood_Product_Archive_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

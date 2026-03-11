@@ -1,0 +1,48 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [ 
+        		    "land-surface-evaporation",
+                    "water-surface-evaporation"
+        		 ]
+      		},
+      		"minZoom": 4.5,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "land-surface-evaporation",
+				"geoviewLayerName": "Land Surface Evapotranspiration (mm H₂O)",
+				"geoviewLayerType": "ogcWms",
+				"metadataAccessPath": "https://datacube.services.geo.ca/wrapper/ramp/ogc/evapotranspiration",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "et-year",
+						"layerName" : "Land Surface Evapotranspiration (mm H₂O)"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "water-surface-evaporation",
+				"geoviewLayerName": "Water Surface Evaporation (mm H2O)",
+				"geoviewLayerType": "ogcWms",
+				"metadataAccessPath": "https://datacube.services.geo.ca/wrapper/ramp/ogc/evapotranspiration",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "pet-year",
+						"layerName" : "Water Surface Evaporation (mm H2O)"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

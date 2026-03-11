@@ -2,8 +2,8 @@
   "map": {
     "interaction": "dynamic",
     "viewSettings": {
-      "initialView" : {
-        "layerIds" : [
+      "initialView": {
+        "layerIds": [
           "flood-susceptibility"
         ]
       },
@@ -16,20 +16,21 @@
     },
     "listOfGeoviewLayerConfig": [
       {
-        "geoviewLayerId": "flood-susceptibility",
-        "geoviewLayerName": "Flood Susceptibility Index",
-        "metadataAccessPath": "https://datacube.services.geo.ca/web/flood-susceptibility.xml",
-        "geoviewLayerType": "ogcWms",
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "df106e11-4cee-425d-bd38-7e51ac674128",
         "listOfLayerEntryConfig": [
           {
             "layerId": "FS-national-2015-index",
-            "layerName" : "Flood Susceptibility Index"
+            "layerName": "Flood Susceptibility Index"
           }
         ]
       }
     ]
   },
-  "components": ["north-arrow", "overview-map"],
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
   "navBar": [
     "zoom",
     "fullscreen",
@@ -37,19 +38,19 @@
     "home"
   ],
   "appBar": {
-        "tabs": {
-          "core": [
-            "geolocator",
-            "legend",
-            "export"
-          ]
-        }
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
   },
   "footerBar": {
     "tabs": {
       "core": [
-        "layers",
-        "details"
+        "layers"
       ]
     }
   },

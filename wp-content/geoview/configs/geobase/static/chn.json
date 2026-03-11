@@ -2,11 +2,11 @@
   "map": {
     "interaction": "static",
     "viewSettings": {
-        "minZoom": 4,
+      "minZoom": 4,
       "projection": 3978,
-      "initialView" : {
-        "layerIds" : [
-          "chn"
+      "initialView": {
+        "layerIds": [
+          "ae385105-e48c-4b54-bd0f-dfb7303301cb"
         ]
       }
     },
@@ -17,10 +17,8 @@
     },
     "listOfGeoviewLayerConfig": [
       {
-        "geoviewLayerId": "chn",
-        "geoviewLayerName": "Canadian Hydrospatial Network",
-        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/chn_en/MapServer",
-        "geoviewLayerType": "esriDynamic",
+        "geoviewLayerId": "ae385105-e48c-4b54-bd0f-dfb7303301cb",
+        "geoviewLayerType": "geoCore",
         "listOfLayerEntryConfig": [
           {
             "layerId": "1",
@@ -49,19 +47,22 @@
         ]
       },
       {
-        "geoviewLayerId": "digital-terrain-model",
-        "geoviewLayerName": "Digital Terrain model",
-        "geoviewLayerType": "ogcWms",
-        "metadataAccessPath": "https://datacube.services.geo.ca/web/elevation.xml",
+        "geoviewLayerId": "0fe65119-e96e-4a57-8bfe-9d9245fba06b",
+        "geoviewLayerType": "geoCore",
         "listOfLayerEntryConfig": [
           {
             "layerId": "dtm-hillshade",
-            "layerName": "Digital Terrain model"
+            "layerName": "Digital Terrain model",
+            "initialSettings": {
+              "states": { "opacity": 0.65}
+             }
           }
         ]
       }
     ]
   },
-  "components": ["north-arrow"],
+  "components": [
+    "north-arrow"
+  ],
   "theme": "geo.ca"
 }

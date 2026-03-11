@@ -1,90 +1,105 @@
 {
-	"map": {
-		"interaction": "dynamic",
-		"viewSettings": {
-			"initialView" : {
-				"layerIds" : [
-					"mpi",
-					"cannor",
-					"mpmo"
-				]
-			},
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "mpi",
-				"geoviewLayerName": "Inventaire des grands projets",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/major_projects_inventory_fr/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0"
-					},
-					{
-						"layerId": "1"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "cannor",
-				"geoviewLayerName": "Agence canadienne de développement économique du Nord (CanNor)",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/CanNor/cannor_northern_major_projects_fr/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0"
-					},
-					{
-						"layerId": "1"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "mpmo",
-				"geoviewLayerName": "Bureau de gestion des grands projets (BGGP)",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/BGGP_Projets_Majeurs/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0"
-					},
-					{
-						"layerId": "1"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow", "overview-map"],
-	"navBar": [
-		"zoom",
-		"fullscreen",
-		"basemap-select",
-		"home"
-	],
-	"appBar": {
-	      "tabs": {
-	        "core": [
-	        	"geolocator",
-	        	"legend",
-	        	"export"
-	        ]
-	      }
-	},
-	"footerBar": {
-		"tabs": {
-			"core": [
-				"layers",
-				"details",
-				"data-table"
-			]
-		}
-	},
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "mpi",
+          "cannor",
+          "mpmo"
+        ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerName": "Inventaire des grands projets",
+        "geoviewLayerId": "f5f2db55-31e4-42fb-8c73-23e1c44de9b2",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/major_projects_inventory_fr/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          },
+          {
+            "layerId": "1"
+          }
+        ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerName": "Agence canadienne de développement économique du Nord (CanNor)",
+        "geoviewLayerId": "a9f0b1c5-df3d-4aa4-8b03-2d9c860823da",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/CanNor/cannor_northern_major_projects_fr/MapServer",
+        "listOfLayerEntryConfig": [
+           {
+            "layerId": "0",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
+          },
+          {
+            "layerId": "1",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerName": "Bureau de gestion des grands projets (BGGP)",
+        "geoviewLayerId": "52baeb21-9dc2-42f7-b944-8bbe4b4b66a0",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/BGGP_Projets_Majeurs/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "1",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "basemap-select",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca"
 }

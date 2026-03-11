@@ -2,10 +2,10 @@
   "map": {
     "interaction": "dynamic",
     "viewSettings": {
-      "initialView" : {
-        "layerIds" : [
+      "initialView": {
+        "layerIds": [
           "flood-map-inventory"
-         ]
+        ]
       },
       "projection": 3978
     },
@@ -16,10 +16,8 @@
     },
     "listOfGeoviewLayerConfig": [
       {
-        "geoviewLayerId": "flood-map-inventory",
-        "geoviewLayerName": "Canada Flood Map Inventory",
-        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/canada_flood_map_inventory_en/MapServer",
-        "geoviewLayerType": "esriDynamic",
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "a13a2575-5bda-4bfd-a9b1-5bd2dd583f09",
         "listOfLayerEntryConfig": [
           {
             "layerId": "0"
@@ -31,7 +29,10 @@
       }
     ]
   },
-  "components": ["north-arrow", "overview-map"],
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
   "navBar": [
     "zoom",
     "fullscreen",
@@ -39,19 +40,19 @@
     "home"
   ],
   "appBar": {
-        "tabs": {
-          "core": [
-            "geolocator",
-            "legend",
-            "export"
-          ]
-        }
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
   },
   "footerBar": {
     "tabs": {
       "core": [
         "layers",
-        "details",
         "data-table"
       ]
     }

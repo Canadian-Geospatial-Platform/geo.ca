@@ -1,0 +1,34 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+		        "layerIds" : [ 
+		            "permafrost-by-ecoprovince-image"
+		        ]
+      		},
+      		"minZoom": 4,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "permafrost-by-ecoprovince-image",
+				"geoviewLayerName": "Permafrost by Ecoprovince",
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": "https://agriculture.canada.ca/atlas/rest/services/mapservices/aafc_national_ecological_framework_of_canada/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "33"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

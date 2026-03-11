@@ -1,0 +1,170 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+				"layerIds" : [
+					"nrwn",
+					"vessel-traffic-routes",
+					"nrn"
+				]
+	  		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "nrwn",
+				"geoviewLayerName": "National Railway Network - NRWN - GeoBase Series",
+				"geoviewLayerType": "ogcWms",
+				"metadataAccessPath": "https://maps.canada.ca/wmsproxy/ws/wmsproxy/executeFromProxy?https://maps.geogratis.gc.ca/wms/railway_en",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId" : "railway.structure.line"
+					},
+					{
+						"layerId" : "railway.structure.point"
+					},
+					{
+						"layerId" : "railway.track"
+					},
+					{
+						"layerId" : "railway.ferry"
+					},
+					{
+						"layerId" : "railway.subdivision"
+					},
+					{
+						"layerId" : "railway.station"
+					},
+					{
+						"layerId" : "railway.marker_post"
+					},
+					{
+						"layerId" : "railway.crossing"
+					}
+				],
+				"initialSettings" : {
+	              "states" : {
+	                "legendCollapsed": true
+	              }
+	            }
+			},
+			{
+				"geoviewLayerId": "vessel-traffic-routes",
+				"geoviewLayerName": "Vessel Traffic Routes",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/vessel_traffic_routes_en/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId" : "0",
+						"layerName": "Recommended traffic lane part"
+					},
+					{
+						"layerId" : "1",
+						"layerName": "Ferry route"
+					},
+					{
+						"layerId" : "2"
+					},
+					{
+						"layerId" : "3"
+					},
+					{
+						"layerId" : "4"
+					},
+					{
+						"layerId" : "5"
+					},
+					{
+						"layerId" : "6"
+					}
+				],
+				"initialSettings" : {
+	              "states" : {
+	                "legendCollapsed": true
+	              }
+	            }
+			},
+			{
+				"geoviewLayerId": "nrn",
+				"geoviewLayerName": "National Road Network - NRN - GeoBase Series",
+				"geoviewLayerType": "esriDynamic",
+				"metadataAccessPath": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId" : "0",
+						"initialSettings" : {
+			              "states" : {
+			              	"visible": false,
+			                "legendCollapsed": true
+			              }
+			            }
+					},
+					{
+						"layerId" : "11",
+						"initialSettings" : {
+			              "states" : {
+			              	"visible": false,
+			                "legendCollapsed": true
+			              }
+			            }
+					},
+					{
+						"layerId" : "19",
+						"initialSettings" : {
+			              "states" : {
+			              	"visible": false,
+			                "legendCollapsed": true
+			              }
+			            }
+					},
+					{
+						"layerId": "32",
+						"initialSettings" : {
+			              "states" : {
+			              	"visible": false,
+			                "legendCollapsed": true
+			              }
+			            }
+					}
+				],
+				"initialSettings" : {
+	              "states" : {
+	                "legendCollapsed": true
+	              }
+	            }
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"basemap-select",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"layers",
+				"details",
+				"data-table"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

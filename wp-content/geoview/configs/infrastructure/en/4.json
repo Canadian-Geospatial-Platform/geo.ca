@@ -1,134 +1,137 @@
 {
-	"map": {
-		"interaction": "dynamic",
-		"viewSettings": {
-			"initialView" : {
-				"layerIds" : [
-					"nrwn",
-					"vessel-traffic-routes",
-					"nrn"
-				]
-	  		},
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "nrn",
-				"geoviewLayerName": "National Road Network - NRN - GeoBase Series",
-				"geoviewLayerType": "esriDynamic",
-				"metadataAccessPath": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId" : "0",
-						"initialSettings" : {
-			              "states" : {
-			              	"visible": false,
-			                "legendCollapsed": true
-			              }
-			            }
-					},
-					{
-						"layerId" : "11",
-						"initialSettings" : {
-			              "states" : {
-			              	"visible": false,
-			                "legendCollapsed": true
-			              }
-			            }
-					},
-					{
-						"layerId" : "19",
-						"initialSettings" : {
-			              "states" : {
-			              	"visible": false,
-			                "legendCollapsed": true
-			              }
-			            }
-					},
-					{
-						"entryType": "group",
-						"layerId" : "road-segment",
-						"layerName": "Road segement",
-						"listOfLayerEntryConfig": [
-							{
-								"layerId": 33
-							},
-							{
-								"layerId": 47,
-								"initialSettings" : {
-					              "states" : {
-					              	"visible": false,
-					                "legendCollapsed": true
-					              }
-					            }
-							},
-							{
-								"layerId": 61,
-								"initialSettings" : {
-					              "states" : {
-					              	"visible": false,
-					                "legendCollapsed": true
-					              }
-					            }
-							},
-							{
-								"layerId": 75,
-								"initialSettings" : {
-					              "states" : {
-					              	"visible": false,
-					                "legendCollapsed": true
-					              }
-					            }
-							},
-							{
-								"layerId": 89,
-								"initialSettings" : {
-					              "states" : {
-					              	"visible": false,
-					                "legendCollapsed": true
-					              }
-					            }
-							}
-						],
-						"initialSettings" : {
-			              "states" : {
-			                "legendCollapsed": true
-			              }
-			            }
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow", "overview-map"],
-	"navBar": [
-		"zoom",
-		"fullscreen",
-		"basemap-select",
-		"home"
-	],
-	"appBar": {
-	      "tabs": {
-	        "core": [
-	        	"geolocator",
-	        	"legend",
-	        	"export"
-	        ]
-	      }
-	},
-	"footerBar": {
-		"tabs": {
-			"core": [
-				"layers",
-				"details",
-				"data-table"
-			]
-		}
-	},
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "nrwn",
+          "vessel-traffic-routes",
+          "nrn"
+        ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "nrn",
+        "geoviewLayerName": "National Road Network - NRN - GeoBase Series",
+        "geoviewLayerType": "esriDynamic",
+        "metadataAccessPath": "https://geo.statcan.gc.ca/geo_wa/rest/services/NRN-RRN/nrn_rrn/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0",
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "legendCollapsed": true
+              }
+            }
+          },
+          {
+            "layerId": "11",
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "legendCollapsed": true
+              }
+            }
+          },
+          {
+            "layerId": "19",
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "legendCollapsed": true
+              }
+            }
+          },
+          {
+            "entryType": "group",
+            "layerId": "road-segment",
+            "layerName": "Road segement",
+            "listOfLayerEntryConfig": [
+              {
+                "layerId": 33
+              },
+              {
+                "layerId": 47,
+                "initialSettings": {
+                  "states": {
+                    "visible": false,
+                    "legendCollapsed": true
+                  }
+                }
+              },
+              {
+                "layerId": 61,
+                "initialSettings": {
+                  "states": {
+                    "visible": false,
+                    "legendCollapsed": true
+                  }
+                }
+              },
+              {
+                "layerId": 75,
+                "initialSettings": {
+                  "states": {
+                    "visible": false,
+                    "legendCollapsed": true
+                  }
+                }
+              },
+              {
+                "layerId": 89,
+                "initialSettings": {
+                  "states": {
+                    "visible": false,
+                    "legendCollapsed": true
+                  }
+                }
+              }
+            ],
+            "initialSettings": {
+              "states": {
+                "legendCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "basemap-select",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca"
 }

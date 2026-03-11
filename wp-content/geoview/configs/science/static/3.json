@@ -1,66 +1,62 @@
 {
-	"map": {
-		"interaction": "static",
-		"viewSettings": {
-			"initialView" : {
-	        	"layerIds" : [ 
-	        	    "average-ambient-particulate"
-	        	]
-	      	},
-	      	"minZoom": 4,
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "average-ambient-particulate",
-				"geoviewLayerName": "Average ambient fine particulate matter concentrations at monitoring stations",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CESI/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "26"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "peak-ambient-particulate",
-				"geoviewLayerName": "Peak ambient fine particulate matter concentrations at monitoring stations",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CESI/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "27",
-						"initialSettings" : {
-							"states" : {
-								"visible" : false
-							}
-						}
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "fine-particulate-by-facility",
-				"geoviewLayerName": "Fine particulate matter emissions by facility",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://maps-cartes.ec.gc.ca/arcgis/rest/services/CESI/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "17",
-						"initialSettings" : {
-							"states" : {
-								"visible" : false
-							}
-						}
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow"],
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "bfbc032e-8bad-45eb-8dcb-a69673f2e023"
+        ]
+      },
+      "minZoom": 4,
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "bfbc032e-8bad-45eb-8dcb-a69673f2e023",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "26"
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "bfbc032e-8bad-45eb-8dcb-a69673f2e023",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "27",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "bfbc032e-8bad-45eb-8dcb-a69673f2e023",
+        "geoviewLayerType": "geoCore",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "17",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "theme": "geo.ca"
 }

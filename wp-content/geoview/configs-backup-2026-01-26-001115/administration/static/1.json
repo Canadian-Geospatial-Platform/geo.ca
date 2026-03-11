@@ -1,0 +1,43 @@
+{
+	"map": {
+		"interaction": "static",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [ 
+        		    "1867" 
+        		]
+      		},
+      		"minZoom": 3.5,
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "1867",
+				"geoviewLayerName": "1867",
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/TE/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "3"
+					},
+					{
+						"layerId": "5"
+					},
+					{
+						"layerId": "8"
+					},
+					{
+						"layerId": "9"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"theme": "geo.ca"
+}

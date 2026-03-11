@@ -1,92 +1,95 @@
 {
-	"map": {
-		"interaction": "dynamic",
-		"viewSettings": {
-			"initialView" : {
-				"layerIds": [
-					"federal-electoral-districts-2019/0",
-					"advanced-polloing-district-boundaries-2019/1",
-					"polling-division-boudnaries-2019/2"
-				]
-		    },
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "federal-electoral-districts-2019",
-				"geoviewLayerName": "Circonscriptions fédérales de 2019",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/ELECTIONS/elections_canada_2019_fr/mapserver",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "0",
-						"layerName": "Circonscriptions fédérales de 2019"
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "advanced-polloing-district-boundaries-2019",
-				"geoviewLayerName": "Limites de districts de vote par anticipation de 2019",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/ELECTIONS/elections_canada_2019_fr/mapserver",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "1",
-						"initialSettings" : {
-							"states" : {
-								"visible" : false
-							}
-						}
-					}
-				]
-			},
-			{
-				"geoviewLayerId": "polling-division-boudnaries-2019",
-				"geoviewLayerName": "Limites de section de vote de 2019",
-				"geoviewLayerType": "esriFeature",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/ELECTIONS/elections_canada_2019_fr/mapserver",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "2",
-						"initialSettings" : {
-							"states" : {
-								"visible" : false
-							}
-						}
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow", "overview-map"],
-	"navBar": [
-		"zoom",
-		"fullscreen",
-		"basemap-select",
-		"home"
-	],
-	"appBar": {
-	      "tabs": {
-	        "core": [
-	        	"geolocator",
-	        	"legend",
-	        	"export"
-	        ]
-	      }
-	},
-	"footerBar": {
-		"tabs": {
-			"core": [
-				"layers",
-				"details",
-				"data-table"
-			]
-		}
-	},
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "federal-electoral-districts-2019/0",
+          "advanced-polloing-district-boundaries-2019/1",
+          "polling-division-boudnaries-2019/2"
+        ]
+      },
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "5931f6f0-0008-4b0c-94d7-a1ff596182c5",
+        "geoviewLayerName": "Circonscriptions fédérales de 2019",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/ELECTIONS/elections_canada_2019_fr/mapserver",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0",
+            "layerName": "Circonscriptions fédérales de 2019"
+          }
+        ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "e5a936e5-35e3-413c-8b11-5d495f2bdb70",
+        "geoviewLayerName": "Limites de districts de vote par anticipation de 2019",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/ELECTIONS/elections_canada_2019_fr/mapserver",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "1",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "e70e3263-8584-4f22-94cb-8c15b616cbfc",
+        "geoviewLayerName": "Limites de section de vote de 2019",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/ELECTIONS/elections_canada_2019_fr/mapserver",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "2",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow",
+    "overview-map"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "basemap-select",
+    "home"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "legend",
+        "export",
+        "details"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca"
 }

@@ -1,0 +1,83 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [
+        			"2020-land-cover-canada",
+					"2015-land-cover-canada",
+					"2010-land-cover-canada"
+        		]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "2020-land-cover-canada",
+				"geoviewLayerName": "Couverture terrestre au Canada 2020",
+				"geoviewLayerType": "ogcWms",
+				"metadataAccessPath": "https://datacube.services.geo.ca/web/landcover.xml",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "landcover-2020"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "2015-land-cover-canada",
+				"geoviewLayerName": "Couverture terrestre au Canada 2015",
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/canada_landcover_2015_fr/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			},
+			{
+				"geoviewLayerId": "2010-land-cover-canada",
+				"geoviewLayerName": "Couverture terrestre au Canada 2010",
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/LandCover_FR/MapServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "0"
+					}
+				]
+			}
+		]
+	},
+	"components": ["north-arrow", "overview-map"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"basemap-select",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"layers",
+				"details"
+			]
+		}
+	},
+	"theme": "geo.ca",
+	"corePackages": [
+		"swiper"
+    ]
+}

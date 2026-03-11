@@ -1,34 +1,36 @@
 {
-	"map": {
-		"interaction": "static",
-		"viewSettings": {
-			"initialView" : {
-				"layerIds" : [
-					"fire-season-length-short-term"
-				]
-			},
-			"minZoom": 4,
-			"projection": 3978
-		},
-		"basemapOptions": {
-			"basemapId": "transport",
-			"shaded": false,
-			"labeled": true
-		},
-		"listOfGeoviewLayerConfig": [
-			{
-				"geoviewLayerId": "fire-season-length-short-term",
-				"geoviewLayerName": "Fire Season Length under RCP 8.5 - Short-term [2011-2040]",
-				"geoviewLayerType": "esriImage",
-				"metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_en/MapServer",
-				"listOfLayerEntryConfig": [
-					{
-						"layerId": "1"
-					}
-				]
-			}
-		]
-	},
-	"components": ["north-arrow"],
-	"theme": "geo.ca"
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+          "fire-season-length-short-term"
+        ]
+      },
+      "minZoom": 4,
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "fire-season-length-short-term",
+        "geoviewLayerName": "Fire Season Length under RCP 8.5 - Short-term [2011-2040]",
+        "geoviewLayerType": "esriImage",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/fire_season_length_en/MapServer",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "theme": "geo.ca"
 }

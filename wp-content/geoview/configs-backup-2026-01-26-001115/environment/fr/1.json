@@ -1,0 +1,56 @@
+{
+	"map": {
+		"interaction": "dynamic",
+		"viewSettings": {
+			"initialView" : {
+        		"layerIds" : [
+        			"max-temp"
+        		]
+      		},
+			"projection": 3978
+		},
+		"basemapOptions": {
+			"basemapId": "transport",
+			"shaded": false,
+			"labeled": true
+		},
+		"listOfGeoviewLayerConfig": [
+			{
+				"geoviewLayerId": "max-temp",
+				"geoviewLayerName": "Température maximale",
+				"geoviewLayerType": "esriImage",
+				"metadataAccessPath": "https://www5.agr.gc.ca/atlas/rest/services/app_agclimate_agclimat/agclimate_tx/ImageServer",
+				"listOfLayerEntryConfig": [
+					{
+						"layerId": "agclimate_tx"
+		            }
+				]
+			}
+		]
+	},
+	"components": ["north-arrow"],
+	"navBar": [
+		"zoom",
+		"fullscreen",
+		"basemap-select",
+		"home"
+	],
+	"appBar": {
+	      "tabs": {
+	        "core": [
+	        	"geolocator",
+	        	"legend",
+	        	"export"
+	        ]
+	      }
+	},
+	"footerBar": {
+		"tabs": {
+			"core": [
+				"layers",
+				"details"
+			]
+		}
+	},
+	"theme": "geo.ca"
+}

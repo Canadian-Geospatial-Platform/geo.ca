@@ -1,0 +1,67 @@
+{
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+        "minZoom": 4,
+      "projection": 3978,
+      "initialView" : {
+        "layerIds" : [
+          "chn"
+        ]
+      }
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": true,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "chn",
+        "geoviewLayerName": "Canadian Hydrospatial Network",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/chn_en/MapServer",
+        "geoviewLayerType": "esriDynamic",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "1",
+            "layerName": "Hydrolocation"
+          },
+          {
+            "layerId": "2",
+            "layerName": "Flowline"
+          },
+          {
+            "layerId": "9",
+            "layerName": "Work Unit"
+          },
+          {
+            "layerId": "10",
+            "layerName": "Catchment Aggregate"
+          },
+          {
+            "layerId": "11",
+            "layerName": "Catchment"
+          },
+          {
+            "layerId": "12",
+            "layerName": "Waterbody"
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "digital-terrain-model",
+        "geoviewLayerName": "Digital Terrain model",
+        "geoviewLayerType": "ogcWms",
+        "metadataAccessPath": "https://datacube.services.geo.ca/web/elevation.xml",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "dtm-hillshade",
+            "layerName": "Digital Terrain model"
+          }
+        ]
+      }
+    ]
+  },
+  "components": ["north-arrow"],
+  "theme": "geo.ca"
+}
