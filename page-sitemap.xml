@@ -1697,13 +1697,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/flood-mapping/province-territory/</loc>
-		<lastmod>2026-02-23T16:55:43+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/cartographie-inondations/province-territoire/</loc>
 		<lastmod>2026-02-23T19:45:07+00:00</lastmod>
 		<image:image>
@@ -1898,6 +1891,13 @@
 		<lastmod>2026-03-11T14:37:47+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/images/loader.gif</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/flood-mapping/province-territory/</loc>
+		<lastmod>2026-03-11T17:07:50+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ayemin-ayemins-g7w5F3JVEPg-800-unsplash.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
