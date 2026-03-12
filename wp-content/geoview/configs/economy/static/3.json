@@ -19,10 +19,8 @@
     },
     "listOfGeoviewLayerConfig": [
       {
-        "geoviewLayerId": "mpi",
-        "geoviewLayerName": "Major Project Investory (MPI)",
-        "geoviewLayerType": "esriFeature",
-        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/major_projects_inventory_en/MapServer",
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "f5f2db55-31e4-42fb-8c73-23e1c44de9b2",
         "listOfLayerEntryConfig": [
           {
             "layerId": "0"
@@ -33,30 +31,46 @@
         ]
       },
       {
-        "geoviewLayerId": "cannor",
-        "geoviewLayerName": "Canadian Northern Economic Development Agency (CanNor)",
-        "geoviewLayerType": "esriFeature",
-        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/CanNor/cannor_northern_major_projects_en/MapServer",
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "a9f0b1c5-df3d-4aa4-8b03-2d9c860823da",
         "listOfLayerEntryConfig": [
-          {
-            "layerId": "0"
+           {
+            "layerId": "0",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
           },
           {
-            "layerId": "1"
+            "layerId": "1",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
           }
         ]
       },
       {
-        "geoviewLayerId": "mpmo",
-        "geoviewLayerName": "Major Projects Management Office (MPMO)",
-        "geoviewLayerType": "esriFeature",
-        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/MPMO_Major_Projects/MapServer",
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "52baeb21-9dc2-42f7-b944-8bbe4b4b66a0",
         "listOfLayerEntryConfig": [
-          {
-            "layerId": "0"
+           {
+            "layerId": "0",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
           },
           {
-            "layerId": "1"
+            "layerId": "1",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
           }
         ]
       }

@@ -4,7 +4,9 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "40fbe40c-01cd-49d3-8add-0d20ed64c90d"
+          "power-plant-100mw",
+          "power-plant-1mw",
+          "power-plant-petroleum"
         ]
       },
       "projection": 3978
@@ -16,32 +18,38 @@
     },
     "listOfGeoviewLayerConfig": [
       {
-        "geoviewLayerId": "40fbe40c-01cd-49d3-8add-0d20ed64c90d",
-        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "power-plant-100mw",
+        "geoviewLayerName": "Centrales électriques 100 MW et plus (hydro)",
+        "geoviewLayerType": "esriDynamic",
+        "metadataAccessPath": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_fr/MapServer",
         "listOfLayerEntryConfig": [
           {
             "layerId": "22",
-            "layerName": "Centrales électriques, 100 MW et plus (hydro)"
+            "layerName": "Centrales électriques 100 MW et plus (hydro)"
           }
         ]
       },
       {
-        "geoviewLayerId": "490db619-ab58-4a2a-a245-2376ce1840de",
-        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "power-plant-1mw",
+        "geoviewLayerName": "Centrales électriques 1 MW et plus (hydro)",
+        "geoviewLayerType": "esriDynamic",
+        "metadataAccessPath": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_fr/MapServer",
         "listOfLayerEntryConfig": [
           {
             "layerId": "33",
-            "layerName": "Centrales électriques, 1 MW et plus (hydro)"
+            "layerName": "Centrales électriques 1 MW et plus (hydro)"
           }
         ]
       },
       {
-        "geoviewLayerId": "40fbe40c-01cd-49d3-8add-0d20ed64c90d",
-        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "power-plant-petroleum",
+        "geoviewLayerName": "Centrales électriques 100 MW et plus (Pétrole)",
+        "geoviewLayerType": "esriDynamic",
+        "metadataAccessPath": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_fr/MapServer",
         "listOfLayerEntryConfig": [
           {
             "layerId": "25",
-            "layerName": "Centrales électriques, 100 MW et plus (pétrole)"
+            "layerName": "Centrales électriques 100 MW et plus (Pétrole)"
           }
         ]
       }

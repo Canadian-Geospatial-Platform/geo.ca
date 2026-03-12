@@ -55,6 +55,14 @@
         "geoviewLayerType": "geoCore",
         "geoviewLayerId": "52baeb21-9dc2-42f7-b944-8bbe4b4b66a0",
         "listOfLayerEntryConfig": [
+           {
+            "layerId": "0",
+            "initialSettings": {
+              "states": {
+                "visible": false
+              }
+            }
+          },
           {
             "layerId": "1",
             "initialSettings": {

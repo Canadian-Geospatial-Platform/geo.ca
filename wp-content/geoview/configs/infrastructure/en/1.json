@@ -4,7 +4,9 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "20"
+          "power-plant-100mw",
+          "power-plant-1mw",
+          "power-plant-petroleum"
         ]
       },
       "projection": 3978
@@ -16,8 +18,10 @@
     },
     "listOfGeoviewLayerConfig": [
       {
-        "geoviewLayerId": "40fbe40c-01cd-49d3-8add-0d20ed64c90d",
-        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "power-plant-100mw",
+        "geoviewLayerName": "Power Plant 100 MW or More (hydro)",
+        "geoviewLayerType": "esriDynamic",
+        "metadataAccessPath": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_en/MapServer",
         "listOfLayerEntryConfig": [
           {
             "layerId": "20",
@@ -26,8 +30,10 @@
         ]
       },
       {
-        "geoviewLayerId": "490db619-ab58-4a2a-a245-2376ce1840de",
-        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "power-plant-1mw",
+        "geoviewLayerName": "Power Plant 1 MW or More (hydro)",
+        "geoviewLayerType": "esriDynamic",
+        "metadataAccessPath": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_en/MapServer",
         "listOfLayerEntryConfig": [
           {
             "layerId": "32",
@@ -36,8 +42,10 @@
         ]
       },
       {
-        "geoviewLayerId": "40fbe40c-01cd-49d3-8add-0d20ed64c90d",
-        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "power-plant-petroleum",
+        "geoviewLayerName": "Power Plant 100 MW or More (petroleum)",
+        "geoviewLayerType": "esriDynamic",
+        "metadataAccessPath": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_en/MapServer",
         "listOfLayerEntryConfig": [
           {
             "layerId": "24",
