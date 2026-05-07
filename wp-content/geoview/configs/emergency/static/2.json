@@ -4,10 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "earthquakes-2010-2019",
-          "earthquakes-2000-2009",
-          "earthquakes-1990-1999",
-          "earthquakes-1980-1989"
         ]
       },
       "minZoom": 4,

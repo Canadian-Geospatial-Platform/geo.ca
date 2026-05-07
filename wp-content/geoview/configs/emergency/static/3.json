@@ -4,7 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "canadian-disasters-by-event-type"
         ]
       },
       "minZoom": 4,

@@ -1,0 +1,1516 @@
+{
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerId": "lhhydro",
+        "geoviewLayerName": "Base de données sur les ressources hydroélectriques à faible hauteur de chute du Canada : Sites avec une hauteur de chute inférieure à 15 m et une capacité inférieure à 50 MW",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer",
+        "geoviewLayerType": "esriFeature",
+        "isTimeAware": false,
+        "initialSettings": {
+          "states": {
+            "visible": false,
+            "legendCollapsed": true
+          }
+        },
+        "listOfLayerEntryConfig": [
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "1",
+            "layerName": "Yukon",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "2",
+            "layerName": "Saskatchewan",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "3",
+            "layerName": "Québec",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "4",
+            "layerName": "Île-du-Prince-Édouard",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "5",
+            "layerName": "Ontario",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "6",
+            "layerName": "Nunavut",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "7",
+            "layerName": "Territoires du Nord-Ouest",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "8",
+            "layerName": "Nouvelle-Écosse",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "9",
+            "layerName": "Terre-Neuve-et-Labrador",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "10",
+            "layerName": "Nouveau-Brunswick",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "11",
+            "layerName": "Manitoba",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "12",
+            "layerName": "Colombie-Britannique",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          },
+          {
+            "schemaTag": "esriFeature",
+            "entryType": "vector",
+            "layerId": "12",
+            "layerName": "Alberta",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,0,153,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Low_Head_Hydro_Database_fr/MapServer"
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "cadweather",
+        "geoviewLayerName": "weather",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Canadian_Weather_Energy_and_Engineering_Dataset_fr/MapServer",
+        "geoviewLayerType": "esriFeature",
+        "isTimeAware": false,
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(204,0,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "layerName": "Fichiers météorologiques canadiens pour l’énergie et le génie",
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Canadian_Weather_Energy_and_Engineering_Dataset_fr/MapServer"
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "weatheryear",
+        "geoviewLayerName": "weathertime",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/canadian_weather_year_energy_calculation_fr/MapServer",
+        "geoviewLayerType": "esriFeature",
+        "isTimeAware": false,
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(9,147,227,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "layerName": "Fichiers météorologiques canadiens pour le calcul énergétique",
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/canadian_weather_year_energy_calculation_fr/MapServer"
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "opticalsat",
+        "geoviewLayerName": "opsat",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Canadian_RHE_OpticalSatelliteAnalysis_fr/MapServer",
+        "geoviewLayerType": "esriDynamic",
+        "isTimeAware": false,
+        "listOfLayerEntryConfig": [
+          {
+            "schemaTag": "esriDynamic",
+            "entryType": "raster",
+            "layerId": "0",
+            "layerName": "Cartographie des ressources hydrocinétiques – Analyse par imagerie satellitaire optique des zones d’eau libre dans les cours d’eau canadiens couverts de glace",
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Canadian_RHE_OpticalSatelliteAnalysis_fr/MapServer"
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "offshoreenergy",
+        "geoviewLayerName": "Analyse préliminaire de l’énergie éolienne en mer au Canada atlantique",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Wind_study_considerations_fr/MapServer",
+        "geoviewLayerType": "esriDynamic",
+        "isTimeAware": false,
+        "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": true,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "10",
+            "layerName": "Domaines présentant le plus grand potentiel lors de l'évaluation des contraintes économiques, physiques, et environnementales pesant sur le développement",
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Wind_study_considerations_fr/MapServer"
+            }
+          },
+          {
+            "layerId": "9",
+            "layerName": "Potentiel d'adéquation des zones pour les fondations d'éoliennes en mer flottantes",
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Wind_study_considerations_fr/MapServer"
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "windturbine",
+        "geoviewLayerName": "Base de données canadienne sur les éoliennes",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer",
+        "geoviewLayerType": "esriFeature",
+        "isTimeAware": false,
+        "initialSettings": {
+          "states": {
+            "visible": false,
+            "legendCollapsed": true
+          }
+        },
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0",
+            "layerName": "Alberta",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/0"
+            }
+          },
+          {
+            "layerId": "1",
+            "layerName": "Colombie Britannique",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/1"
+            }
+          },
+          {
+            "layerId": "2",
+            "layerName": "Manitoba",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/2"
+            }
+          },
+          {
+            "layerId": "3",
+            "layerName": "Nouveau-Brunswick",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/3"
+            }
+          },
+          {
+            "layerId": "4",
+            "layerName": "Terre Neuve et Labrador",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/4"
+            }
+          },
+          {
+            "layerId": "5",
+            "layerName": "Territoires du Nord-Ouest",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/5"
+            }
+          },
+          {
+            "layerId": "6",
+            "layerName": "Nova Scotia",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/6"
+            }
+          },
+          {
+            "layerId": "7",
+            "layerName": "Ontario",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/7"
+            }
+          },
+          {
+            "layerId": "8",
+            "layerName": "Isle du Prince Edouard",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/8"
+            }
+          },
+          {
+            "layerId": "9",
+            "layerName": "Québec",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/9"
+            }
+          },
+          {
+            "layerId": "10",
+            "layerName": "Saskatchewan",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/10"
+            }
+          },
+          {
+            "layerId": "11",
+            "layerName": "Yukon",
+            "layerStyle": {
+              "Point": {
+                "type": "simple",
+                "fields": [],
+                "hasDefault": false,
+                "info": [
+                  {
+                    "visible": true,
+                    "values": [],
+                    "settings": {
+                      "type": "simpleSymbol",
+                      "rotation": 0,
+                      "color": "rgba(0,153,0,1)",
+                      "stroke": {
+                        "color": "rgba(0,0,0,0.502)",
+                        "lineStyle": "solid",
+                        "width": 0.998
+                      },
+                      "size": 4.002000000000001,
+                      "symbol": "circle",
+                      "offset": [
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": true,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/wind_turbine_database2_fr/MapServer/11"
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerId": "solarirradiance",
+        "geoviewLayerName": "Irradiance solaire moyenne quotidienne sur des surfaces inclinées pour l’ensemble du Canada",
+        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Average_Insolation_1998to2022_fr/MapServer",
+        "geoviewLayerType": "esriFeature",
+        "isTimeAware": false,
+        "initialSettings": {
+          "states": {
+            "visible": false
+          }
+        },
+        "listOfLayerEntryConfig": [
+          {
+            "schemaTag": "esriDynamic",
+            "entryType": "raster",
+            "layerId": "143",
+            "layerName": "Irradiance solaire moyenne quotidienne sur une surface avec un suivi à deux axes, qui suit le soleil tout au long de la journée (1998-2022)",
+            "isMetadataLayerGroup": false,
+            "initialSettings": {
+              "states": {
+                "visible": false,
+                "legendCollapsed": false,
+                "opacity": 1,
+                "hoverable": true,
+                "queryable": false
+              }
+            },
+            "source": {
+              "featureInfo": {},
+              "dataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/Average_Insolation_1998to2022_fr/MapServer/144"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "overview-map",
+    "north-arrow"
+  ],
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "data-table"
+      ]
+    }
+  },
+  "appBar": {
+    "tabs": {
+      "core": [
+        "legend",
+        "details",
+        "geolocator",
+        "export",
+        "about-panel"
+      ]
+    }
+  },
+  "corePackages": [],
+  "corePackagesConfig": [{
+      "about-panel": {
+        "isOpen": true,
+        "mdContent": [
+          "# ![Canmet banner](https://wordpress.dev.geo.ca/wp-content/uploads/2026/04/ceo_logo.jpg)",
+          "## Inventaire canadien des jeux de données sur l’énergie renouvelable\nCette carte Web interactive regroupe une série complète des jeux de données sur les énergies renouvelables créés par CanmetÉNERGIE-Ottawa afin de soutenir les connaissances en matière d’énergie renouvelable, la planification et la recherche à l’échelle du Canada. Les couches combinées comprennent les emplacements des projets actuels d’énergie éolienne au Canada, la pertinence de l’énergie éolienne en mer au Canada atlantique, les ressources hydrocinétiques des rivières, les possibilités d’hydroélectricité à faible hauteur de chute, le potentiel d’irradiation solaire et les jeux de données météorologiques normalisés pour la modélisation de l’énergie.\nEnsemble, ces jeux de données fournissent un aperçu du paysage de l’énergie renouvelable du Canada couvrant différents domaines technologiques, y compris l’énergie éolienne, l’énergie solaire et l’énergie marine, tout en intégrant les infrastructures actuelles et le potentiel de développement futur. Cette plateforme permet aux utilisateurs de comparer les répartitions spatiales, d’évaluer la disponibilité des ressources et de soutenir la prise de décisions fondées sur des données probantes pour la planification en matière d’énergie propre, la recherche et l’élaboration de politiques.",
+          "## Base de données canadienne sur les éoliennes \n\nCe jeu de données fournit les emplacements et les spécifications techniques des éoliennes dans l’ensemble du Canada, y compris la capacité, le diamètre du rotor, la hauteur du moyeu et la date de mise en service. Il soutient l’analyse de la capacité d’énergie éolienne installée, de la distribution spatiale et des tendances de développement de projets. La couche est destinée à être utilisée pour la planification énergétique, les études d’intégration du réseau et les évaluations environnementales.\n\nLa base de données canadienne sur les éoliennes est également accessible à l’adresse : https://app.geo.ca/fr-ca/map-browser/record/79fdad93-9025-49ad-ba16-c26d718cc070",
+          "## Analyse préliminaire de l’énergie éolienne en mer au Canada atlantique\n\nCe jeu de données soutient la planification des premières étapes et l’évaluation stratégique des possibilités d’énergie renouvelable extracôtière dans le Canada atlantique et présente des considérations et des contraintes physiques, humaines et environnementales clés pour le développement de l’énergie éolienne en mer, y compris le potentiel de production d’énergie éolienne, les zones écologiquement sensibles, les utilisations actuelles de l’énergie océanique et les contraintes physiques. Ces couches, contenant les diverses considérations physiques, humaines et environnementales qui définissent la pertinence, sont accessibles à l’adresse : https://app.geo.ca/fr-ca/map-browser/record/29fd13f3-e7d5-4291-8560-69d405a64a3f",
+          "## Cartographie des ressources hydrocinétiques – Analyse par imagerie satellitaire optique des zones d’eau libre dans les cours d’eau canadiens couverts de glace\n\nCe jeu de données cartographie les régions d’eau libre dans les rivières recouvertes de glace en utilisant des images satellites pour évaluer le potentiel énergétique hydrocinétique. Il identifie les zones où l’eau qui coule reste accessible pendant les conditions hivernales, ce qui est essentiel pour la production d’énergie tout au long de l’année. La couche soutient les études de faisabilité pour le déploiement de turbines en cours d’eau et la recherche sur les énergies renouvelables en climat froid.\n\nLe jeu de données complet des régions d’eau libre dans les rivières canadiennes recouvertes de glace est accessible à l’adresse : https://app.geo.ca/fr-ca/map-browser/record/61b4e576-9f3a-49a1-9546-b29be14787a4",
+          "## Fichiers météorologiques canadiens pour le calcul énergétique (FMCCE)\n\nLes FMCCE fournissent des données météorologiques typiques dérivées des observations météorologiques historiques pour les simulations d’énergie des bâtiments et la modélisation des énergies renouvelables. Le jeu de données comprend des valeurs horaires pour des variables telles que la température, la vitesse du vent, le rayonnement solaire et l’humidité. Il est largement utilisé pour le chauffage, le refroidissement et l’analyse du rendement des énergies renouvelables.\n\nCette couche indique les 644 emplacements pour lesquels des données détaillées sont disponibles. L’ensemble de la base de données des FMCCE peut être consulté à l’adresse : https://app.geo.ca/fr-ca/map-browser/record/55438acb-aa67-407a-9fdb-1cb21eb24e28",
+          "## Fichiers météorologiques canadiens pour l’énergie et le génie (FMCEG)\n\nLes FMCEG offrent des données horaires historiques à long terme provenant des stations climatiques dans l’ensemble du pays. Le jeu de données soutient la conception technique, la modélisation énergétique et l’évaluation des risques en fournissant des variables climatiques détaillées sur de longues périodes. Il est particulièrement précieux pour la planification des infrastructures et l’évaluation des ressources renouvelables.\n\nCette carte indique les 644 emplacements pour lesquels des données détaillées sont disponibles. L’ensemble de la base de données des FMCEG peut être consulté à l’adresse : https://app.geo.ca/fr-ca/map-browser/record/005494f2-1848-48d5-abe4-a76a7846f035",
+          "## Irradiance solaire moyenne quotidienne sur des surfaces inclinées pour l’ensemble du Canada\n\nCe jeu de données fournit des valeurs moyennes quotidiennes du rayonnement solaire modélisées pour tout le Canada pour 10 angles d’inclinaison différents pour la période de 1998 à 2022. Il permet de comparer le potentiel d’énergie solaire selon les orientations\\t des panneaux et les emplacements géographiques. Le jeu de données soutient l’emplacement\\t des projets solaires, l’estimation du rendement et la planification\\t des énergies renouvelables à l’échelle régionale. \n\nLa couche affichée sur cette carte représente l’irradiance solaire moyenne quotidienne sur une surface avec un suivi à deux axes, qui suit le soleil tout au long de la journée. Les valeurs d’irradiance solaire pour diverses surfaces inclinées, y compris celle montrée ici, peuvent être consultées à l’adresse : https://app.geo.ca/fr-ca/map-browser/record/1ab9f334-1e24-468b-bdc5-c086b3c19c8a",
+          "## Base de données sur les ressources hydroélectriques à faible hauteur de chute du Canada : Sites avec une hauteur de chute inférieure à 15 m et une capacité inférieure à 50 MW\n\nCe jeu de données détermine et caractérise les sites hydroélectriques potentiels à faible hauteur de chute, y compris la capacité estimée, la chute et l’emplacement géographique. Il se concentre sur les possibilités de production à plus petite échelle adaptées aux projets de génération communautaire, aux projets de génération municipale ou aux projets de génération distribuée. La couche soutient l’évaluation des ressources hydroélectriques non développées et l’expansion de l’énergie propre.\n\nLa base de données sur les ressources hydroélectriques de faible hauteur de chute est également accessible à l’adresse : https://app.geo.ca/en-ca/map-browser/record/1f961450-eab8-4bb3-abde-6c1554efbaed"
+        ]
+      }
+    }],
+  "theme": "geo.ca"
+}

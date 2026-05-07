@@ -4,7 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "national-parks-reserves"
         ]
       },
       "minZoom": 4,

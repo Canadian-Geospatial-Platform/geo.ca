@@ -1,0 +1,36 @@
+{
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+      "initialView": {
+        "layerIds": [
+        ]
+      },
+      "minZoom": 4,
+      "projection": 3978
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": false,
+      "labeled": true
+    },
+     "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "a13a2575-5bda-4bfd-a9b1-5bd2dd583f09",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "0"
+          },
+          {
+            "layerId": "1"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    "north-arrow"
+  ],
+  "theme": "geo.ca"
+}

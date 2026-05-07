@@ -4,9 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "indigenous-population-2016",
-          "CanEcumene_PopRDensityV2",
-          "canecumene-extent"
         ]
       },
       "minZoom": 4,

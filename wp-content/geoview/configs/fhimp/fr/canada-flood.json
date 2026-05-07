@@ -4,7 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "flood-map-inventory"
         ]
       },
       "projection": 3978
@@ -39,6 +38,7 @@
     "zoom",
     "fullscreen",
     "basemap-select",
+    "location",
     "home"
   ],
   "appBar": {

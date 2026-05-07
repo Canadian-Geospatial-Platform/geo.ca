@@ -4,9 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-           "landcover-2020",
-           "landcover-2015",
-           "landcover-2010"
         ]
       },
       "projection": 3978

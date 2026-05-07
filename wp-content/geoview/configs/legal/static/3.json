@@ -4,8 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "aboriginal-lands-boundaries",
-          "aboriginal-agreements"
         ]
       },
       "minZoom": 4,

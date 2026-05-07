@@ -4,9 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "completed",
-          "in-progress",
-          "terminated"
         ]
       },
       "minZoom": 3.5,

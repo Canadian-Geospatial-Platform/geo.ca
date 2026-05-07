@@ -4,8 +4,8 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "dsm-hillshade",
-          "dtm-hillshade"
+          "digital-surface-model",
+          "digital-terrain-model"
         ]
       },
       "projection": 3978

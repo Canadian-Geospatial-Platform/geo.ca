@@ -4,9 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "NationalParkBoundaries",
-          "ProtectedAreas",
-          "MarineProtectedAreas"
         ]
       },
       "minZoom": 4,

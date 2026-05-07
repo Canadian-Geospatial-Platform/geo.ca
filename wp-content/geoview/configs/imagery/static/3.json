@@ -2,6 +2,9 @@
   "map": {
     "interaction": "static",
     "viewSettings": {
+    "initialView" : {
+    "layerIds" : []
+       },
       "minZoom": 4,
       "projection": 3978
     },

@@ -4,8 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "population_ecumene_CSD2016/0",
-          "Median_total_income_households_CSD2016/8"
         ]
       },
       "projection": 3978

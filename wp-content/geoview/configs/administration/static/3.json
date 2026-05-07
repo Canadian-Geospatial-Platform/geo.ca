@@ -4,7 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "federal-electoral-districts-2019"
         ]
       },
       "minZoom": 3.5,

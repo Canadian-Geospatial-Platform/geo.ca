@@ -4,8 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "population_ecumene_CD2016",
-          "mother_tongue_CD2016"
         ]
       },
       "projection": 3978

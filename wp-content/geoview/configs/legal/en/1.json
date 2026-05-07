@@ -4,9 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "NationalParkBoundaries",
-          "ProtectedAreas",
-          "MarineProtectedAreas"
         ]
       },
       "projection": 3978

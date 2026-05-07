@@ -4,9 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "nrwn",
-          "vessel-traffic-routes",
-          "nrn"
         ]
       },
       "minZoom": 4,

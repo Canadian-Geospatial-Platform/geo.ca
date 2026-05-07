@@ -3,9 +3,10 @@
     "interaction": "static",
     "viewSettings": {
       "initialView": {
+      "layerIds": []
+      },
       "projection": 3978,
       "minZoom": 4
-      }
     },
     "basemapOptions": {
       "basemapId": "transport",

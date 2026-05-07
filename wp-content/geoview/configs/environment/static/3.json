@@ -4,8 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "protected-and-conserved-area",
-          "priority-species-for-species-at-risk"
         ]
       },
       "minZoom": 4,

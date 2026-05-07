@@ -4,7 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "first-nations-locations"
         ]
       },
       "minZoom": 4,

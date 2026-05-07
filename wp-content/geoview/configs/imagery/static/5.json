@@ -4,11 +4,9 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "et-year",
-          "pet-year"
         ]
       },
-      "minZoom": 4.5,
+      "minZoom": 4,
       "projection": 3978
     },
     "basemapOptions": {

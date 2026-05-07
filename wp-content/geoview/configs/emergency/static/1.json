@@ -4,7 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "fire-season-length-short-term"
         ]
       },
       "minZoom": 4,

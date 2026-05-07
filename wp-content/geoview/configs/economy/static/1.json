@@ -4,7 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "Median_total_income_households_CSD2016"
         ]
       },
       "minZoom": 4,

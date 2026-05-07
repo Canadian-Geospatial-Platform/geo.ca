@@ -4,9 +4,6 @@
     "viewSettings": {
       "initialView": {
         "layerIds": [
-          "federal-electoral-districts-2019/0",
-          "advanced-polloing-district-boundaries-2019/1",
-          "polling-division-boudnaries-2019/2"
         ]
       },
       "projection": 3978

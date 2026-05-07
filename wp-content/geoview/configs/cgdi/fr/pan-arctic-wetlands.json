@@ -1,0 +1,55 @@
+{
+  "map":{
+    "interaction": "dynamic",
+    "viewSettings": {
+      "initialView": {
+        "zoomAndCenter": [3, [-110, 80]]
+      },
+      "projection": 3573
+    },
+    "basemapOptions": {
+      "basemapId": "nogeom",
+      "shaded": false,
+      "labeled": false
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "8b83fd58-5953-4b80-8009-94d44ff89844"
+      },
+      {
+        "geoviewLayerType": "ogcWmts",
+        "geoviewLayerId": "arctic-sdi-bm1",
+        "geoviewLayerName": "arctic-sdi",
+        "useAsBasemap": true,
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "arctic_cascading",
+            "tileMatrixSet": "3573",
+            "source": {
+              "extent": [-4889334.802955, -4889334.802955, 4889334.802955, 4889334.802955],
+              "resolutionLevels": 11,
+              "projection": "EPSG:3573",
+              "dataAccessPath": "https://basemap.arctic-sdi.org/mapcache/wmts"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "components": ["overview-map", "north-arrow"],
+  "overviewMap": { "hideOnZoom": 7 },
+  "navBar": ["zoom"],
+  "footerBar": {
+    "tabs": {
+      "core": ["layers", "data-table"]
+    }
+  },
+  "corePackages": [],
+  "theme": "geo.ca",
+  "appBar": {
+    "tabs": {
+      "core": ["geolocator", "legend", "details", "export"]
+    }
+  }
+}
