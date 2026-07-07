@@ -2,7 +2,10 @@
   "map": {
     "interaction": "dynamic",
     "viewSettings": {
-      "projection": 3978
+      "projection": 3978,
+      "initialView": {
+        "zoomAndCenter":[4.5, [-115.123808, 60.58922]]
+      }
     },
     "basemapOptions": {
       "basemapId": "transport",
@@ -1500,8 +1503,8 @@
       "about-panel": {
         "isOpen": true,
         "mdContent": [
-          "# ![Canmet banner](https://dev.geo.ca/wp-content/uploads/2026/04/ceo_logo.jpg)",
-          "# Renewable Energy Datasets\n\nThis interactive web map brings together a comprehensive suite of renewable energy datasets created by CanmetENERGY-Ottawa to support renewable energy knowledge, planning, and research across Canada. The combined layers include the locations of current Canadian wind energy projects, offshore wind suitability in Atlantic Canada, hydrokinetic river resources, low-head hydropower opportunities, solar irradiance potential, and standardized weather datasets for energy modelling. Together, these datasets provide an overview of Canada’s renewable energy landscape spanning different technology areas, including wind, solar, and marine energy, while integrating existing infrastructure and future development potential. This platform enables users to compare spatial patterns, assess resource availability, and support evidence-based decision-making for clean energy planning, research, and policy development.",
+          "# <img src=\"https://wordpress.dev.geo.ca/wp-content/uploads/2026/04/ceo_logo.jpg\" alt=\"Canmet Energy Ottawa logo\" width=\"200px\" />\n",
+          "# Canadian Renewable Energy Dataset Inventory\n\nThis interactive web map brings together a comprehensive suite of renewable energy datasets created by CanmetENERGY-Ottawa to support renewable energy knowledge, planning, and research across Canada. The combined layers include the locations of current Canadian wind energy projects, offshore wind suitability in Atlantic Canada, hydrokinetic river resources, low-head hydropower opportunities, solar irradiance potential, and standardized weather datasets for energy modelling. Together, these datasets provide an overview of Canada’s renewable energy landscape spanning different technology areas, including wind, solar, and marine energy, while integrating existing infrastructure and future development potential. This platform enables users to compare spatial patterns, assess resource availability, and support evidence-based decision-making for clean energy planning, research, and policy development.",
           "## Canadian Wind Turbine Database\n\nThis dataset provides the locations and technical specifications of wind turbines across Canada, including capacity, rotor diameter, hub height, and commissioning date. It supports analysis of installed wind energy capacity, spatial distribution, and project development trends. The layer is intended to be used for energy planning, grid integration studies, and environmental assessments.\n\nThe Canadian Wind Turbine Database is also accessible at: https://app.geo.ca/en-ca/map-browser/record/79fdad93-9025-49ad-ba16-c26d718cc070",
           "## Preliminary Considerations Analysis of Offshore Wind Energy in Atlantic Canada\n\nThis dataset supports early-stage planning and strategic assessment of offshore renewable energy opportunities in Atlantic Canada and features key physical, human, and environmental considerations and constraints for offshore wind development, including wind resource potential, ecologically sensitive areas, existing ocean energy uses, and physical constraints. These layers, containing the various physical, human, and environmental considerations that define suitability, are accessible at: https://app.geo.ca/en-ca/map-browser/record/29fd13f3-e7d5-4291-8560-69d405a64a3f",
           "## Hydrokinetic Resource Mapping – Optical Satellite Imagery Analysis of Open Water Regions in Ice-Covered Canadian Rivers\n\nThis dataset maps open water regions in ice-covered rivers using satellite imagery to assess hydrokinetic energy potential. It identifies areas where flowing water remains accessible during winter conditions, which is critical for year-round energy generation. The layer supports feasibility studies for in-stream turbine deployment and cold-climate renewable energy research.\n\nThe complete dataset of open water regions in ice-covered Canadian rivers is accessible at: https://app.geo.ca/en-ca/map-browser/record/61b4e576-9f3a-49a1-9546-b29be14787a4",

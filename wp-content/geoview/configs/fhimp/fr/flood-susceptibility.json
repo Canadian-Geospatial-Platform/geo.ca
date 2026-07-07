@@ -3,8 +3,7 @@
     "interaction": "dynamic",
     "viewSettings": {
       "initialView": {
-        "layerIds": [
-        ]
+        "zoomAndCenter": [4.5, [-90, 62]]
       },
       "projection": 3978
     },
@@ -16,15 +15,109 @@
     "listOfGeoviewLayerConfig": [
       {
         "geoviewLayerType": "geoCore",
-        "geoviewLayerId": "df106e11-4cee-425d-bd38-7e51ac674128",
-        "geoviewLayerName": "Indice de vulnérabilité aux inondations",
-        "metadataAccessPath": "https://datacube.services.geo.ca/web/flood-susceptibility.xml",
+        "geoviewLayerId": "3202e0a0-0afb-4120-b102-b0c41f0fb9eb",
+        "geoviewLayerName": "Tendances et extrêmes - Cartographie de la susceptibilité aux inondations",
         "listOfLayerEntryConfig": [
           {
-            "layerId": "FS-national-2015-index",
-            "layerName": "Indice de vulnérabilité aux inondations"
+            "layerId": "fs-2000-2023-slope",
+            "layerName": "Pente de la tendance (FS 2000 à 2023)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-current",
+            "layerName": "Conditions actuelles (estimation du FS 2000 à 2023)",
+              "initialSettings": {
+                "states": {
+                   "visible": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-current-iqr",
+            "layerName": "FS actuel : Variabilité interannuelle (IQR)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-dry-extreme",
+            "layerName": "Composite des années sèches extrêmes (FS 2000 à 2023)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-wet-extreme",
+            "layerName": "Composite des années humides et extrêmes (FS 2000 à 2023)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-envelope-extremes",
+            "layerName": "Enveloppe de susceptibilité aux inondations : limites extrêmes (FS 2000 à 2023)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-trends-class",
+            "layerName": "Classification des tendances des bassins versants (FS 2000 à 2023)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
           }
         ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "ea1384df-bf4a-4743-97bb-870dc43f8d77",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "fs-historic-layer",
+            "layerName": "Cartes de susceptibilité aux inondations – Historique (modélisées à partir des observations historiques) – 30 m",
+              "initialSettings": {
+                "states": {
+                   "visible": false
+                 }
+             }
+          }
+       ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "c00f95a3-7bab-4d28-b9cc-b30f06b5afd2",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "fs-future-layer",
+            "layerName": "Cartes de susceptibilité aux inondations – Conditions climatiques futures (modélisées à partir des observations historiques) – 30 m",
+              "initialSettings": {
+                "states": {
+                   "visible": false
+                 }
+             }
+          }
+       ]
       }
     ]
   },
@@ -51,7 +144,8 @@
   "footerBar": {
     "tabs": {
       "core": [
-        "layers"
+        "layers",
+        "time-slider"
       ]
     }
   },

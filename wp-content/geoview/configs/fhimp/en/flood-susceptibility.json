@@ -3,8 +3,7 @@
     "interaction": "dynamic",
     "viewSettings": {
       "initialView": {
-        "layerIds": [
-        ]
+        "zoomAndCenter": [4.5, [-90, 62]]
       },
       "projection": 3978
     },
@@ -16,13 +15,109 @@
     "listOfGeoviewLayerConfig": [
       {
         "geoviewLayerType": "geoCore",
-        "geoviewLayerId": "df106e11-4cee-425d-bd38-7e51ac674128",
+        "geoviewLayerId": "3202e0a0-0afb-4120-b102-b0c41f0fb9eb",
+        "geoviewLayerName": "Trends and Extremes - Flood Susceptibility Mapping",
         "listOfLayerEntryConfig": [
           {
-            "layerId": "FS-national-2015-index",
-            "layerName": "Flood Susceptibility Index"
+            "layerId": "fs-2000-2023-slope",
+            "layerName": "Trend Slope (FS 2000 to 2023)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-current",
+            "layerName": "Present Day (FS 2000 to 2023 Estimate)",
+              "initialSettings": {
+                "states": {
+                   "visible": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-current-iqr",
+            "layerName": "Present-day FS: Interannual Variability (IQR)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-dry-extreme",
+            "layerName": "Dry-Extreme Composite (FS 2000 to 2023)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-wet-extreme",
+            "layerName": "Wet-Extreme Composite (FS 2000 to 2023)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-envelope-extremes",
+            "layerName": "Flood Susceptibility Envelope: Extreme Bounds (FS 2000 to 2023)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
+          },
+          {
+            "layerId": "fs-2000-2023-trends-class",
+            "layerName": "Watershed Trend Classification (FS 2000 to 2023)",
+              "initialSettings": {
+                "states": {
+                   "visible": false,
+                   "legendCollapsed": true
+                 }
+             }
           }
         ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "ea1384df-bf4a-4743-97bb-870dc43f8d77",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "fs-historic-layer",
+            "layerName": "Flood Susceptibility Maps – Historic (modelled based on historic observations) - 30 m",
+              "initialSettings": {
+                "states": {
+                   "visible": false
+                 }
+             }
+          }
+       ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "c00f95a3-7bab-4d28-b9cc-b30f06b5afd2",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "fs-future-layer",
+            "layerName": "Flood Susceptibility Maps - Future Climate Conditions (modelled based on historic observations) - 30 m",
+              "initialSettings": {
+                "states": {
+                   "visible": false
+                 }
+             }
+          }
+       ]
       }
     ]
   },
@@ -49,9 +144,10 @@
   "footerBar": {
     "tabs": {
       "core": [
-        "layers"
-      ]
-    }
-  },
+        "layers",
+        "time-slider"
+       ]
+     }
+    },
   "theme": "geo.ca"
 }

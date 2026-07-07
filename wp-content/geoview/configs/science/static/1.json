@@ -3,10 +3,7 @@
     "interaction": "static",
     "viewSettings": {
       "initialView": {
-        "layerIds": [
-          "airborne-radioactivity",
-          "station-location"
-        ]
+        "layerIds": []
       },
       "minZoom": 4,
       "projection": 3978
@@ -18,26 +15,8 @@
     },
     "listOfGeoviewLayerConfig": [
       {
-        "geoviewLayerId": "airborne-radioactivity",
-        "geoviewLayerName": "Airborne Radioactivity",
-        "geoviewLayerType": "esriDynamic",
-        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/HC/airborne_radioactivity_en/MapServer",
-        "listOfLayerEntryConfig": [
-          {
-            "layerId": "1"
-          }
-        ]
-      },
-      {
-        "geoviewLayerId": "station-location",
-        "geoviewLayerName": "Station location range",
-        "geoviewLayerType": "esriDynamic",
-        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/HC/airborne_radioactivity_en/MapServer",
-        "listOfLayerEntryConfig": [
-          {
-            "layerId": "2"
-          }
-        ]
+        "geoviewLayerId": "21b821cf-0f1c-40ee-8925-eab12d357668",
+        "geoviewLayerType": "geoCore"
       }
     ]
   },
