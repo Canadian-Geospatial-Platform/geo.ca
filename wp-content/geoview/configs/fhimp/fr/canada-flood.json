@@ -17,36 +17,87 @@
       {
         "geoviewLayerType": "geoCore",
         "geoviewLayerId": "a13a2575-5bda-4bfd-a9b1-5bd2dd583f09",
-        "geoviewLayerName": "Inventaire des Cartes de zones inondables du Canada",
-        "metadataAccessPath": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/canada_flood_map_inventory_fr/MapServer",
         "listOfLayerEntryConfig": [
           {
-            "layerId": "0"
-          },
-          {
-            "layerId": "1"
+            "layerId": "0",
+            "layerName": "Carte de zones inondables",
+            "source":{
+               "featureInfo":{
+                   "queryable": true,
+                   "nameField": "study_name",
+                   "outfields": [
+                     {
+                       "name": "OBJECTID",
+                       "alias": "OBJECTID",
+                       "summary": false
+                     },
+                     {
+                       "name": "description_fr",
+                       "alias": "Decription",
+                       "summary": false
+                     },
+                     {
+                       "name": "disclaimer_fr",
+                       "alias": "Avertissement",
+                       "summary": false
+                     },
+                     {
+                        "name": "province_or_territory_description_fr_1",
+                        "alias": "Province ou territoire"
+                     },
+                                        {
+                        "name": "study_name",
+                        "alias": "Nom de l'étude"
+                     },
+                     {
+                        "name": "study_date",
+                        "alias": "Date de l'étude"
+                     },
+                     {
+                       "name": "availability_status_fr_1",
+                       "alias": "Statut de disponibilité",
+                       "summary": false
+                     },
+                     {
+                        "name": "availability_status_description_fr_1",
+                        "alias": "Description du statut de disponibilité"
+                     },
+                     {
+                       "name": "study_status_fr",
+                       "alias": "Statut de l'étude",
+                       "summary": false
+                     },
+                     {
+                        "name": "study_status_description_fr",
+                        "alias": "Description du statut de l'étude"
+                     },
+                     {
+                        "name": "data_owner_fr",
+                        "alias": "Propriétaire des données"
+                     },
+                     {
+                        "name": "public_link",
+                        "alias":"Lien public"
+                     }
+                  ]
+                }
+             }
           }
         ]
       }
     ]
   },
   "components": [
-    "north-arrow",
-    "overview-map"
   ],
   "navBar": [
     "zoom",
-    "fullscreen",
-    "basemap-select",
     "location",
     "home"
   ],
   "appBar": {
     "tabs": {
       "core": [
-        "geolocator",
         "legend",
-        "export",
         "details"
       ]
     }
@@ -54,10 +105,11 @@
   "footerBar": {
     "tabs": {
       "core": [
-        "layers",
-        "data-table"
       ]
     }
+  },
+  "globalSettings": {
+      "hideCoordinateInfoSwitch": true
   },
   "theme": "geo.ca"
 }

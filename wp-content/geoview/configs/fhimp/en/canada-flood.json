@@ -19,32 +19,85 @@
         "geoviewLayerId": "a13a2575-5bda-4bfd-a9b1-5bd2dd583f09",
         "listOfLayerEntryConfig": [
           {
-            "layerId": "0"
-          },
-          {
-            "layerId": "1"
+            "layerId": "0",
+            "layerName": "Flood Map",
+            "source":{
+               "featureInfo":{
+                   "queryable": true,
+                   "nameField": "study_name",
+                   "outfields": [
+                     {
+                       "name": "OBJECTID",
+                       "alias": "OBJECTID",
+                       "summary": false
+                     },
+                     {
+                       "name": "description_en",
+                       "alias": "Decription",
+                       "summary": false
+                     },
+                     {
+                       "name": "disclaimer_en",
+                       "alias": "Disclaimer",
+                       "summary": false
+                     },
+                     {
+                        "name": "province_or_territory_description_en_1",
+                        "alias": "Province or Territory"
+                     },
+                                        {
+                        "name": "study_name",
+                        "alias": "Study Name"
+                     },
+                     {
+                        "name": "study_date",
+                        "alias": "Study Date"
+                     },
+                     {
+                       "name": "availability_status_en_1",
+                       "alias": "Availability Status",
+                       "summary": false
+                     },
+                     {
+                        "name": "availability_status_description_en_1",
+                        "alias": "Availability Status Description"
+                     },
+                     {
+                       "name": "study_status_en",
+                       "alias": "Study Status",
+                       "summary": false
+                     },
+                     {
+                        "name": "study_status_description_en",
+                        "alias": "Study Status Description"
+                     },
+                     {
+                        "name": "data_owner_en",
+                        "alias": "Data Owner"
+                     },
+                     {
+                        "name": "public_link",
+                        "alias":"Public Link"
+                     }
+                  ]
+                }
+             }
           }
         ]
       }
     ]
   },
   "components": [
-    "north-arrow",
-    "overview-map"
   ],
   "navBar": [
     "zoom",
-    "fullscreen",
-    "basemap-select",
     "location",
     "home"
   ],
   "appBar": {
     "tabs": {
       "core": [
-        "geolocator",
         "legend",
-        "export",
         "details"
       ]
     }
@@ -52,10 +105,11 @@
   "footerBar": {
     "tabs": {
       "core": [
-        "layers",
-        "data-table"
       ]
     }
+  },
+  "globalSettings": {
+      "hideCoordinateInfoSwitch": true
   },
   "theme": "geo.ca"
 }
