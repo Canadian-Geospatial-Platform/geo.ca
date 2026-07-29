@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<title>Redirecting...</title>
-		<meta http-equiv="refresh" content="0;url=https://dev.geo.ca/feed/">
+		<meta http-equiv="refresh" content="0;url=https://canadian-geospatial-platform.github.io/geo.ca/feed/">
 	</head>
 	<body>
 		<script type="text/javascript">
-			window.location = "https://dev.geo.ca/feed/";
+			window.location = "https://canadian-geospatial-platform.github.io/geo.ca/feed/";
 		</script>
 
-		<p>You are being redirected to <a href="https://dev.geo.ca/feed/">https://dev.geo.ca/feed/</a></p>
+		<p>You are being redirected to <a href="https://canadian-geospatial-platform.github.io/geo.ca/feed/">https://canadian-geospatial-platform.github.io/geo.ca/feed/</a></p>
 	</body>
 </html>
