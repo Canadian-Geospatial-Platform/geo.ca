@@ -1,0 +1,45 @@
+{
+    "type":"FeatureCollection",
+    "features":[{
+        "type":"Feature",
+        "geometry":{
+            "type":"Polygon",
+            "coordinates":[
+                [
+                    [-132.417107786952,57.6950542436825],
+                    [-131.60763402089225,57.7769502243818],
+                    [-130.7981602548325,57.8588462050811],
+                    [-129.98868648877274,57.9407421857804],
+                    [-129.179212722713,58.0226381664797],
+                    [-129.21620880299776,57.227611114644276],
+                    [-129.2532048832825,56.43258406280885],
+                    [-129.29020096356726,55.637557010973424],
+                    [-129.327197043852,54.842529959138],
+                    [-129.945179192472,55.413034816046896],
+                    [-130.563161341092,55.9835396729558],
+                    [-131.18114348971199,56.5540445298647],
+                    [-131.799125638332,57.1245493867736],
+                    [-132.417107786952,57.6950542436825]
+                    ]
+            ]
+        },
+        "properties":{
+            "Catégorie de contenu":"Collections de contenu",
+            "Titre":"Ressources à l’appui de l’évaluation des grands projets dans le nord-ouest de la Colombie-Britannique",
+            "Fournisseur":"Ressources naturelles Canada",
+            "Auteur":"Ressources naturelles Canada",
+            "Date de publication":"2025-11-17",
+            "Dernière mise à jour":"2026-07-23T11:04:13Z",
+            "Organisation contributrice":"Ressources naturelles Canada (RNCan)",
+            "Système contributeur":"Contenu régional du nord-ouest de la Colombie-Britannique",
+            "Licence":"<a href='https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada'>GC-DonnéesOuvertes</a>",
+            "Accès Public":"Accès ouvert",
+            "Province(s)":"BC",
+            "Lieu(s)":"Nord de la Colombie-Britannique, Triangle d'or, Colombie-Britannique, Canada (le), Amérique du Nord",
+            "Langue":"anglais, français",
+            "Site web":"<a href='https://catalogue.data.gov.bc.ca/dataset/bc-cumulative-effects-framework-human-disturbance-current'>BC Cumulative Effects Framework - Human Disturbance - Current (en anglais seulement)</a> <a href='https://nr-bcwat.bcwatertool.ca/'>BC Water Availability Tool (en anglais seulement)</a> <a href='https://www.canada.ca/fr/campagne/mineraux-critiques-au-canada/les-mineraux-critiques-une-occasion-pour-le-canada.html'>Les minéraux critiques du Canada</a> <a href='https://www.canada.ca/content/dam/nrcan-rncan/documents/critical-minerals-discussion-paper-fra-2.pdf'>Stratégie canadienne sur les minéraux critiques : Document de travail (PDF, 2.45 Mo)</a> <a href='https://donneesclimatiques.ca/?'>Donneesclimatiques.ca</a> <a href='https://www.canada.ca/fr/campagne/mineraux-critiques-au-canada.html'>Minéraux critiques au Canada</a> <a href='https://www.sciencedirect.com/science/article/pii/S016913682500023X#b0560'>Critical raw material potential of porphyry copper-gold deposits in the Golden Triangle, northwest British Columbia, Canada (en anglais seulement)</a> <a href='https://projects.eao.gov.bc.ca/projects'>Search Environmental Assessment Projects (en anglais seulement)</a> <a href='https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/environmental-assessments'>Environmental Assessments (en anglais seulement)</a> <a href='https://catalogue.data.gov.bc.ca/dataset/harvested-areas-of-bc-consolidated-cutblocks-#edc-pow>Harvest Areas of BC (Consolidated Cutblobks) (en anglais seulement)</a> <a href='https://experience.arcgis.com/experience/a974a9886d1241c8baaa2debac6d650e/page/Interactive-Map'>Human Disturbance Data Explorer (en anglais seulement)</a> <a href='https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/cumulative-effects/protocols/cef-aquatic-ecosystems-protocol-dec2020.pdf'>Interim Assessment Protocol for Aquatic Ecosystems in British Columbia (PDF, 5.84 Mo) (en anglais seulement)</a> <a href='https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/cumulative-effects/protocols/cef_forest_biodiversity_protocol_sept2020_final.pdf'>Interim Assessment Protocol for Forest Biodiversity in British Columbia (PDF, 3.6 Mo) (en anglais seulement)</a> <a href='https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/cumulative-effects/protocols/cef_grizzly_bear_protocol_oct2020_final.pdf'>Interim Assessment Protocol for Grizzly Bear in British Columbia (PDF, 4 Mo) (en anglais seulement)</a> <a href='https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/cumulative-effects/cef_assessment_protocol_moose_draft_v10.pdf'>Interim Assessment Protocol for Moose in British Columbia (PDF, 1.1 Mo) (en anglais seulement)</a> <a href='https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/cumulative-effects/interim_old_growth_protocol_v11_jan2018_final.pdf'>Interim Assessment Protocol for Old Growth Forest in British Columbia (PDF, 1 Mo) (en anglais seulement)</a> <a href='https://www2.gov.bc.ca/gov/content/industry/crown-land-water/land-use-planning/spatial-data'>Land Use Planning Spatial Data (en anglais seulement)</a> <a href='https://eccc-msc.github.io/open-data/msc-data/readme_fr/'>Données ouvertes du Service météorologique du Canada</a> <a href='https://www.uvic.ca/pcic/data-analysis-tools/data-portal/index.php'>UVic Data portals (en anglais seulement)</a> <a href='https://www.shorezone.org/downloadzone/'>ShoreZone (en anglais seulement)</a> <a href='https://experience.arcgis.com/experience/a70217226ed4441b90bb50bdf6f9f9bb/page/Home'>Skeena Region Cumulative Effects Explorer (en anglais seulement)</a> <a href='https://www.canada.ca/fr/campagne/mineraux-critiques-au-canada/la-strategie-canadienne-sur-les-mineraux-critiques.html'>Stratégie canadienne sur les minéraux critiques</a> <a href='http://waterportal.geoweb.bc-er.ca/#6/56.208/-126.721'>BC Water Tool (en anglais seulement)</a> <a href='https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-quality/water-quality-objectives'>Water Quality Objectives (en anglais seulement)</a>",
+            "Site web du PSDO":"https://osdp-psdo.canada.ca/dp/fr/recherche/metadonnees/NRCAN-BCGTR-1-8E77032C-5B1F-4C93-9D31-C164A8A6712F",
+            "Description":"Le Canada est particulièrement bien placé pour jouer un rôle de chef de file dans la transition mondiale vers une économie à faibles émissions de carbone grâce à des investissements stratégiques dans les minéraux critiques. Doté de ressources abondantes – notamment dans la région du Triangle d’or de la Colombie-Britannique, qui abrite 75 % des réserves connues de cuivre du pays – le Canada peut contribuer de manière déterminante à l’approvisionnement en matériaux essentiels aux technologies d’énergie propre, comme les panneaux solaires, les éoliennes et les infrastructures de recharge pour véhicules électriques. \n\nLe contenu de cette collection a été sélectionné afin de partager des renseignements importants sur cette région d’intérêt pour appuyer l’évaluation des grands projets, y compris dès la phase de planification initiale, ainsi que pour favoriser la consultation des peuples autochtones et la mobilisation du public. La collection comprend des données géospatiales, des publications scientifiques, des rapports et des outils portant sur de nombreux sujets pertinents pour le nord-ouest de la Colombie-Britannique, y compris la région du Triangle d’or. \n\nLes minéraux critiques sont essentiels aux technologies vertes et numériques, notamment les systèmes d’énergie propre, les véhicules électriques, les semi-conducteurs et les applications de défense. Le Canada s’emploie à tirer parti de sa richesse minérale – de l’exploration et de l’extraction à la transformation, la fabrication et le recyclage – afin d’arrimer le développement à la croissance économique à long terme, au leadership climatique, à la réconciliation avec les peuples autochtones et à la résilience des chaînes d’approvisionnement."
+        }
+    }]
+}

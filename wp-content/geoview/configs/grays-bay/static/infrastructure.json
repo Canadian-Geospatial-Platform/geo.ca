@@ -1,0 +1,52 @@
+{
+  "map": {
+    "interaction": "static",
+    "viewSettings": {
+      "projection": 3978,
+      "initialView": {
+        "zoomAndCenter": [
+          7,
+          [
+            -113.67,
+            65
+          ]
+        ]
+      }
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": true,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "e5ffd6e6-5424-dd64-39e5-ef2c7e4ddcbc"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "622a7f72-4a00-4f9e-b04f-af6551c77db3"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "3a1eb6ef-6054-4f9d-b1f6-c30322cd7abf"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "d3881c4c-650d-4070-bf9b-1e00aabf0a1d"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "a9f0b1c5-df3d-4aa4-8b03-2d9c860823da"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "8f387c74-a5d9-46ec-9aff-32bc8e0ff3b1"
+      }
+    ]
+  },
+   "components": [
+    "north-arrow"
+  ],
+  "theme": "geo.ca"
+}

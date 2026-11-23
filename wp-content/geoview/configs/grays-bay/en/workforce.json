@@ -1,0 +1,138 @@
+{
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "projection": 3978,
+      "initialView": {
+        "zoomAndCenter": [
+          7,
+          [
+            -113.67,
+            65
+          ]
+        ]
+      }
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": true,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "3d52693e-39d1-4e7f-b4fa-b72ccb605006",
+        "listOfLayerEntryConfig":[
+          {
+            "layerId":"0"
+          },
+          {
+            "layerId":"1",
+            "layerName":"CanEcumene Population Density"
+          },
+          {
+            "layerId":"2",
+            "initialSettings":{
+              "states":{
+                "visible":false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "ac2096a6-7b4a-464e-9e08-eca7873dd88c",
+        "geoviewLayerName":"Labour Force Distribution for Natural Resource Sectors in Canada (All Sectors)"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "fca4cd2a-ae3a-45e9-8294-70d324ce53c2"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "cfab1711-3566-4481-aebf-292ef56b216a"
+      }
+    ]
+  },
+  "components": [
+    "overview-map",
+    "north-arrow"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "home",
+    "measurement",
+    "drawer",
+    "basemap-select"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "aoi-panel",
+        "legend",
+        "details",
+        "export",
+        "about-panel"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "time-slider",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca",
+  "corePackagesConfig": [
+    {
+      "aoi-panel": {
+        "isOpen": false,
+        "aoiList": [
+          {
+            "imageUrl": "https://www.canada.ca/content/dam/pco-bcp/mpo-bgp/projects/indiv/grays-bay/MPO_GraysBay_Extra1.png",
+            "aoiTitle": "Grays Bay Road and Port",
+            "extent": [
+              -111.4,
+              67.5,
+              -110.7,
+              67.9
+            ]
+          }
+        ],
+        "version": "1.0"
+      }
+    },
+    {
+      "about-panel": {
+        "isOpen": true,
+        "mdContent": [
+          "## Grays Bay Road and Port\n\nA proposed all-season road to an Arctic deepwater port and airfield, with potential to support critical-mineral exports and northern connectivity.\n\n[Learn more about Grays Bay Road and Port](https://www.canada.ca/en/privy-council/major-projects-office/projects/national/grays-bay.html)"
+        ]
+      }
+    },
+    {
+      "drawer": {
+        "style": {
+          "fillColor": "rgba(0, 255, 255, 0.3)",
+          "strokeColor": "#0000ff",
+          "strokeWidth": 3
+        },
+        "activeGeom": "Polygon",
+        "geomTypes": [
+          "Point",
+          "Text",
+          "LineString",
+          "Polygon",
+          "Circle"
+        ],
+        "hideMeasurements": true
+      }
+    }
+  ]
+}

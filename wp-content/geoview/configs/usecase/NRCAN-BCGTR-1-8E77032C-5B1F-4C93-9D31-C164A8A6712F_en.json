@@ -1,0 +1,45 @@
+{
+    "type":"FeatureCollection",
+    "features":[{
+        "type":"Feature",
+        "geometry":{
+            "type":"Polygon",
+            "coordinates":[
+                [
+                    [-132.417107786952,57.6950542436825],
+                    [-131.60763402089225,57.7769502243818],
+                    [-130.7981602548325,57.8588462050811],
+                    [-129.98868648877274,57.9407421857804],
+                    [-129.179212722713,58.0226381664797],
+                    [-129.21620880299776,57.227611114644276],
+                    [-129.2532048832825,56.43258406280885],
+                    [-129.29020096356726,55.637557010973424],
+                    [-129.327197043852,54.842529959138],
+                    [-129.945179192472,55.413034816046896],
+                    [-130.563161341092,55.9835396729558],
+                    [-131.18114348971199,56.5540445298647],
+                    [-131.799125638332,57.1245493867736],
+                    [-132.417107786952,57.6950542436825]
+                ]
+            ]
+        },
+        "properties":{
+            "Content Category":"Content Collections",
+            "Title":"Resources to Support Assessment of Major Projects in Northwestern British Columbia",
+            "Publisher":"Natural Resources Canada",
+            "Author":"Natural Resources Canada",
+            "Published":"2025-11-17",
+            "Last Update":"2026-07-23T11:04:13Z",
+            "Contributor Organization":"Natural Resources Canada (NRCan)",
+            "Contributor System":"Northwest BC Regional Content",
+            "Licensed under":"<a href='https://open.canada.ca/en/open-government-licence-canada'>GC-OpenData</a>",
+            "Public Availability":"Open Access",
+            "Province(s)":"BC",
+            "Place(s)":"Northern British Columbia, Golden Triangle, British Columbia, Canada, North America",
+            "Languages":"English, French",
+            "Website":"<a href='https://catalogue.data.gov.bc.ca/dataset/bc-cumulative-effects-framework-human-disturbance-current'>BC Cumulative Effects Framework - Human Disturbance (Current)</a> <a href='https://nr-bcwat.bcwatertool.ca/'>BC Water Availability Tool</a> <a href='https://www.canada.ca/en/campaign/critical-minerals-in-canada/critical-minerals-an-opportunity-for-canada.html'>Canada's critical minerals</a> <a href='https://www.canada.ca/content/dam/nrcan-rncan/documents/critical-minerals-discussion-paper-eng-2.pdf'>Canada's Critical Minerals Strategy: Discussion Paper (PDF, 2.4 MB)</a> <a href='https://climatedata.ca/'>ClimateData.ca</a> <a href='https://www.canada.ca/en/campaign/critical-minerals-in-canada.html'>Critical Minerals in Canada</a> <a href='https://www.sciencedirect.com/science/article/pii/S016913682500023X#b0560'>Critical raw material potential of porphyry copper-gold deposits in the Golden Triangle, northwest British Columbia, Canada</a> <a href='https://projects.eao.gov.bc.ca/projects'>Search Environmental Assessment Projects</a> <a href='https://www2.gov.bc.ca/gov/content/environment/natural-resource-stewardship/environmental-assessments'>Environmental Assessments</a> <a href='https://catalogue.data.gov.bc.ca/dataset/harvested-areas-of-bc-consolidated-cutblocks-#edc-pow'>Harvested Areas of BC (Consolidated Cutblocks)</a> <a href='https://experience.arcgis.com/experience/a974a9886d1241c8baaa2debac6d650e/page/Interactive-Map'>Human Disturbance Data Explorer</a> <a href='https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/cumulative-effects/protocols/cef-aquatic-ecosystems-protocol-dec2020.pdf'>Interim Assessment Protocol for Aquatic Ecosystems in British Columbia (PDF, 5.8 MB)</a> <a href='https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/cumulative-effects/protocols/cef_forest_biodiversity_protocol_sept2020_final.pdf'>Interim Assessment Protocol for Forest Biodiversity in British Columbia (PDF, 3.6 MB)</a> <a href='https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/cumulative-effects/protocols/cef_grizzly_bear_protocol_oct2020_final.pdf'>Interim Assessment Protocol for Grizzly Bear in British Columbia (PDF, 4 MB) </a> <a href='https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/cumulative-effects/cef_assessment_protocol_moose_draft_v10.pdf'>Interim Assessment Protocol for Moose in British Columbia (PDF, 1.1 MB)</a> <a href='https://www2.gov.bc.ca/assets/gov/environment/natural-resource-stewardship/cumulative-effects/interim_old_growth_protocol_v11_jan2018_final.pdf'>Interim Assessment Protocol for Old Growth Forest in British Columbia(PDF, 1 MB)</a> <a href='https://www2.gov.bc.ca/gov/content/industry/crown-land-water/land-use-planning/spatial-data'>BC Land Use Planning Spatial Data</a> <a href='https://eccc-msc.github.io/open-data/msc-data/readme_en/'>Meteorological Service of Canada open data</a> <a href='https://www.uvic.ca/pcic/data-analysis-tools/data-portal/index.php'>UVic Data Portals</a> <a href='https://www.shorezone.org/downloadzone/'>ShoreZone</a> <a href='https://experience.arcgis.com/experience/a70217226ed4441b90bb50bdf6f9f9bb/page/Home'>Skeena Region Cumulative Effects Explorer</a> <a href='https://www.canada.ca/en/campaign/critical-minerals-in-canada/canadian-critical-minerals-strategy.html'>The Canadian Critical Minerals Strategy</a> <a href='http://waterportal.geoweb.bc-er.ca/#6/56.208/-126.721'>BC Water Tool</a> <a href='https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/water-quality/water-quality-objectives'>Water Quality Objectives</a>",
+            "OSDP Website":"https://osdp-psdo.canada.ca/dp/en/search/metadata/NRCAN-BCGTR-1-8E77032C-5B1F-4C93-9D31-C164A8A6712F",
+            "Description":"Canada is uniquely positioned to lead the global shift to a low-carbon economy through strategic investment in critical minerals. With abundant resources – notably in B.C.’s Golden Triangle region, home to 75% of Canada's known copper reserves – the country can play a key role in supplying essential materials for clean energy technologies like solar panels, wind turbines, and EV charging infrastructure.\n\nThe content in this collection has been selected to share important information about this region of interest to support assessment of major projects, including in the early planning phase and to support Indigenous consultation and public engagement. Content in this collection includes location-based data, scientific publications, reports and tools covering many topics that are relevant to Northern British Columbia, including the Golden Triangle region.\n\nCritical minerals are vital to both green and digital technologies, including clean energy systems, electric vehicles, semiconductors, and defense applications.  Canada is making efforts to leverage its mineral wealth – from exploration, and mining to processing, manufacturing, and recycling – to align development with long-term economic growth, climate leadership, Indigenous reconciliation, and supply chain resilience."
+        }
+    }]
+}

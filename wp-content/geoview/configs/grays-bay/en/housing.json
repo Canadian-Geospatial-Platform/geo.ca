@@ -1,0 +1,136 @@
+{
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "projection": 3978,
+      "initialView": {
+        "zoomAndCenter": [
+          7,
+          [
+            -113.67,
+            65
+          ]
+        ]
+      }
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": true,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "2bcf34b5-4e9a-431b-9e43-1eace6c873bd"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "b6567c5c-8339-4055-99fa-63f92114d9e4"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "522b07b9-78e2-4819-b736-ad9208eb1067"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "56578f58-a775-44ea-9cc5-9bf7c78410e6"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "461123f1-1370-4709-aeda-639783ee8455",
+        "listOfLayerEntryConfig": [
+          {
+            "layerId": "3"
+          },
+          {
+              "layerId": "4"
+          }
+        ]
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "e3439405-252a-437e-8c8a-1354496abaac"
+      }
+    ]
+  },
+  "components": [
+    "overview-map",
+    "north-arrow"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "home",
+    "measurement",
+    "drawer",
+    "basemap-select"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "aoi-panel",
+        "legend",
+        "details",
+        "export",
+        "about-panel"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "time-slider",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca",
+  "corePackagesConfig": [
+    {
+      "aoi-panel": {
+        "isOpen": false,
+        "aoiList": [
+          {
+            "imageUrl": "https://www.canada.ca/content/dam/pco-bcp/mpo-bgp/projects/indiv/grays-bay/MPO_GraysBay_Extra1.png",
+            "aoiTitle": "Grays Bay Road and Port",
+            "extent": [
+              -111.4,
+              67.5,
+              -110.7,
+              67.9
+            ]
+          }
+        ],
+        "version": "1.0"
+      }
+    },
+    {
+      "about-panel": {
+        "isOpen": true,
+        "mdContent": [
+          "## Grays Bay Road and Port\n\nA proposed all-season road to an Arctic deepwater port and airfield, with potential to support critical-mineral exports and northern connectivity.\n\n[Learn more about Grays Bay Road and Port](https://www.canada.ca/en/privy-council/major-projects-office/projects/national/grays-bay.html)"
+        ]
+      }
+    },
+    {
+      "drawer": {
+        "style": {
+          "fillColor": "rgba(0, 255, 255, 0.3)",
+          "strokeColor": "#0000ff",
+          "strokeWidth": 3
+        },
+        "activeGeom": "Polygon",
+        "geomTypes": [
+          "Point",
+          "Text",
+          "LineString",
+          "Polygon",
+          "Circle"
+        ],
+        "hideMeasurements": true
+      }
+    }
+  ]
+}

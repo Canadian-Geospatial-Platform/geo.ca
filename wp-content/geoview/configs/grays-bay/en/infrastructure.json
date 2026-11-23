@@ -1,0 +1,128 @@
+{
+  "map": {
+    "interaction": "dynamic",
+    "viewSettings": {
+      "projection": 3978,
+      "initialView": {
+        "zoomAndCenter": [
+          7,
+          [
+            -113.67,
+            65
+          ]
+        ]
+      }
+    },
+    "basemapOptions": {
+      "basemapId": "transport",
+      "shaded": true,
+      "labeled": true
+    },
+    "listOfGeoviewLayerConfig": [
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "e5ffd6e6-5424-dd64-39e5-ef2c7e4ddcbc"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "622a7f72-4a00-4f9e-b04f-af6551c77db3"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "3a1eb6ef-6054-4f9d-b1f6-c30322cd7abf"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "d3881c4c-650d-4070-bf9b-1e00aabf0a1d"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "a9f0b1c5-df3d-4aa4-8b03-2d9c860823da"
+      },
+      {
+        "geoviewLayerType": "geoCore",
+        "geoviewLayerId": "8f387c74-a5d9-46ec-9aff-32bc8e0ff3b1"
+      }
+    ]
+  },
+  "components": [
+    "overview-map",
+    "north-arrow"
+  ],
+  "navBar": [
+    "zoom",
+    "fullscreen",
+    "home",
+    "measurement",
+    "drawer",
+    "basemap-select"
+  ],
+  "appBar": {
+    "tabs": {
+      "core": [
+        "geolocator",
+        "aoi-panel",
+        "legend",
+        "details",
+        "export",
+        "about-panel"
+      ]
+    }
+  },
+  "footerBar": {
+    "tabs": {
+      "core": [
+        "layers",
+        "time-slider",
+        "data-table"
+      ]
+    }
+  },
+  "theme": "geo.ca",
+  "corePackagesConfig": [
+    {
+      "aoi-panel": {
+        "isOpen": false,
+        "aoiList": [
+          {
+            "imageUrl": "https://www.canada.ca/content/dam/pco-bcp/mpo-bgp/projects/indiv/grays-bay/MPO_GraysBay_Extra1.png",
+            "aoiTitle": "Grays Bay Road and Port",
+            "extent": [
+              -111.4,
+              67.5,
+              -110.7,
+              67.9
+            ]
+          }
+        ],
+        "version": "1.0"
+      }
+    },
+    {
+      "about-panel": {
+        "isOpen": true,
+        "mdContent": [
+          "## Grays Bay Road and Port\n\nA proposed all-season road to an Arctic deepwater port and airfield, with potential to support critical-mineral exports and northern connectivity.\n\n[Learn more about Grays Bay Road and Port](https://www.canada.ca/en/privy-council/major-projects-office/projects/national/grays-bay.html)"
+        ]
+      }
+    },
+    {
+      "drawer": {
+        "style": {
+          "fillColor": "rgba(0, 255, 255, 0.3)",
+          "strokeColor": "#0000ff",
+          "strokeWidth": 3
+        },
+        "activeGeom": "Polygon",
+        "geomTypes": [
+          "Point",
+          "Text",
+          "LineString",
+          "Polygon",
+          "Circle"
+        ],
+        "hideMeasurements": true
+      }
+    }
+  ]
+}
