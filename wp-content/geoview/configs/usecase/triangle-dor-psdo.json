@@ -73,7 +73,7 @@
                             }
                         },
                     "source":{
-                        "dataAccessPath":"https://wordpress.dev.geo.ca/wp-content/geoview/configs/usecase/NRCAN-BCGTR-1-8E77032C-5B1F-4C93-9D31-C164A8A6712F_fr.json"
+                        "dataAccessPath":"https://dev.geo.ca/wp-content/geoview/configs/usecase/NRCAN-BCGTR-1-8E77032C-5B1F-4C93-9D31-C164A8A6712F_fr.json"
                         }
                     }],
                     "metadataAccessPath":"/GeoJson/"
