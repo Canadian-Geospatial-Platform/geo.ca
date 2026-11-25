@@ -1315,13 +1315,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/map-gallery/</loc>
-		<lastmod>2026-06-09T13:23:08+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/12/urban-development-768x432.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/fr/galerie-de-cartes/</loc>
 		<lastmod>2026-06-09T13:24:40+00:00</lastmod>
 		<image:image>
@@ -1579,26 +1572,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/voir-la-situation-dans-son-ensemble-grace-a-la-plateforme-de-science-et-de-donnees-ouvertes/</loc>
-		<lastmod>2026-11-04T18:37:38+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2026/11/fig1-osdp-usecase-fr.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/fr/osdp-banner-2/</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://dev.geo.ca/initiatives/see-the-bigger-picture-with-the-open-science-and-data-platform/</loc>
-		<lastmod>2026-11-04T18:46:47+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/fig1-osdp-usecase-en/</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/04/osdp-banner.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/initiatives/</loc>
 		<lastmod>2026-11-05T14:29:53+00:00</lastmod>
 		<image:image>
@@ -1729,9 +1702,9 @@
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/fr/accueil/</loc>
-		<lastmod>2026-11-25T12:49:31+00:00</lastmod>
+		<lastmod>2026-11-25T14:17:45+00:00</lastmod>
 		<image:image>
-			<image:loc>https://dev.geo.ca/fr/usecase-osdp-bil-2/</image:loc>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2026/11/usecase-osdp-bil-768x432.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/GettyImages-1070725116-1800-768x432.jpg</image:loc>
@@ -1774,6 +1747,33 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2026/05/carte-commemorative-canada-thumb-fr-768x432-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/map-gallery/</loc>
+		<lastmod>2026-11-25T14:19:44+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/12/urban-development-768x432.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/initiatives/see-the-bigger-picture-with-the-open-science-and-data-platform/</loc>
+		<lastmod>2026-11-25T14:23:16+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2026/11/fig1-osdp-usecase-en.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/04/osdp-banner.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/voir-la-situation-dans-son-ensemble-grace-a-la-plateforme-de-science-et-de-donnees-ouvertes/</loc>
+		<lastmod>2026-11-25T14:26:44+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2026/11/fig1-osdp-usecase-fr.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/04/osdp-banner.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
