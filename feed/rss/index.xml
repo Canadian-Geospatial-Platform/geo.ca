@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<title>Redirecting...</title>
-		<meta http-equiv="refresh" content="0;url=https://stage.geo.ca/feed/">
+		<meta http-equiv="refresh" content="0;url=https://geo.ca/feed/">
 	</head>
 	<body>
 		<script type="text/javascript">
-			window.location = "https://stage.geo.ca/feed/";
+			window.location = "https://geo.ca/feed/";
 		</script>
 
-		<p>You are being redirected to <a href="https://stage.geo.ca/feed/">https://stage.geo.ca/feed/</a></p>
+		<p>You are being redirected to <a href="https://geo.ca/feed/">https://geo.ca/feed/</a></p>
 	</body>
 </html>
