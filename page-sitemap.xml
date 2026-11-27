@@ -1612,46 +1612,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://dev.geo.ca/fr/initiatives-fr/</loc>
-		<lastmod>2026-11-05T14:36:21+00:00</lastmod>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/pexels-james-wheeler-1571436-cr-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/GettyImages-1070725116-1800-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/09/charlesdeluvio-pjAH2Ax4uWk-unsplash-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/rutile-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2021-672-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/09/hermes-rivera-ahHn48-zKWo-unsplash-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/01/canada-land-cover.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/gene-dizon-X8X5EL8MfSA-unsplash-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/09/cover_img_aef_bw-768x432.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ben-den-engelsen-aY16vd7hNgk-unsplash-768x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://dev.geo.ca/fr/usecase-osdp-bil-2/</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://dev.geo.ca/home/</loc>
 		<lastmod>2026-11-20T18:37:53+00:00</lastmod>
 		<image:image>
@@ -1768,12 +1728,52 @@
 	</url>
 	<url>
 		<loc>https://dev.geo.ca/fr/initiatives-fr/voir-la-situation-dans-son-ensemble-grace-a-la-plateforme-de-science-et-de-donnees-ouvertes/</loc>
-		<lastmod>2026-11-25T14:26:44+00:00</lastmod>
+		<lastmod>2026-11-27T12:30:15+00:00</lastmod>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2026/11/fig1-osdp-usecase-fr.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/04/osdp-banner.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://dev.geo.ca/fr/initiatives-fr/</loc>
+		<lastmod>2026-11-27T18:52:55+00:00</lastmod>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2021/11/pexels-james-wheeler-1571436-cr-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/GettyImages-1070725116-1800-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/09/charlesdeluvio-pjAH2Ax4uWk-unsplash-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/rutile-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2024/01/2021-672-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/09/hermes-rivera-ahHn48-zKWo-unsplash-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/01/canada-land-cover.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2025/07/gene-dizon-X8X5EL8MfSA-unsplash-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/09/cover_img_aef_bw-768x432.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/Flood-hazard-example-Rideau_HogsBackToFalls-850-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2023/02/ben-den-engelsen-aY16vd7hNgk-unsplash-768x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://dev.geo.ca/wp-content/uploads/2026/11/usecase-osdp-bil-768x432.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
