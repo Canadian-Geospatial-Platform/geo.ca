@@ -2133,13 +2133,13 @@ a.elementor-responsive-switcher:hover {
 }
 
 .elementor-group-control-blur .elementor-slider {
-  background: url("https://dev.geo.ca/wp-content/plugins/elementor/assets/images/blur.png");
+  background: url("https://stage.geo.ca/wp-content/plugins/elementor/assets/images/blur.png");
   background-size: cover;
   background-position: center;
 }
 
 .elementor-group-control-contrast .elementor-slider {
-  background: url("https://dev.geo.ca/wp-content/plugins/elementor/assets/images/contrast.png");
+  background: url("https://stage.geo.ca/wp-content/plugins/elementor/assets/images/contrast.png");
   background-size: 100% 100%;
 }
 
